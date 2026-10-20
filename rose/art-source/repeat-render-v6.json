@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "blender": "4.2.0",
+  "renderer": {
+    "source_sha256": "84f88927fc433811c22959ac43b6e07c162f29c2f385bd309c597fa8ebdc08b0",
+    "blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+    "blender": "4.2.0",
+    "samples": 48,
+    "supersample": 1,
+    "mode": "saved-blend",
+    "threads": 4,
+    "texture_supersample": 2
+  },
+  "comparison": "Decoded RGBA pixels from two independent saved-source renders; native output and registration unchanged.",
+  "frames": [
+    {
+      "frame": "workshop_WN_TOWER/idle-0-00.png",
+      "identical_rgba": true,
+      "max_channel_delta": 0,
+      "original_sha256": "67b9a82ba118db8ac474743da032a4a7fc8a2ace49166fdee3cf2e958e89328c",
+      "repeat_sha256": "e0929c7e7849f005729f659556b77784c22998df89d6ffc0b05f3b106f026a10"
+    },
+    {
+      "frame": "workshop_CITY_CLOUD_S/idle-0-00.png",
+      "identical_rgba": true,
+      "max_channel_delta": 0,
+      "original_sha256": "60f7d33c114b1707ed03bbe3e0d165611146f983f948de8f7f0fccf4cb544b8a",
+      "repeat_sha256": "f3ceed019301eb855b046b09f3ea7eaca5b86ae028c6471967bb5b886b9a5d19"
+    }
+  ]
+}

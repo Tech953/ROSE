@@ -1,0 +1,156 @@
+{
+  "documents": [
+    {
+      "name": "AETHERGALE - THORNS.docx",
+      "characters": 7054,
+      "words": 900,
+      "parts": {
+        "word/document.xml": 72
+      },
+      "text_file": "AETHERGALE - THORNS.txt"
+    },
+    {
+      "name": "AquiSphere - THORNS.docx",
+      "characters": 8026,
+      "words": 1027,
+      "parts": {
+        "word/document.xml": 50
+      },
+      "text_file": "AquiSphere - THORNS.txt"
+    },
+    {
+      "name": "CITY_CLOUD_S - THORNS.docx",
+      "characters": 6108,
+      "words": 807,
+      "parts": {
+        "word/document.xml": 48
+      },
+      "text_file": "CITY_CLOUD_S - THORNS.txt"
+    },
+    {
+      "name": "ENACT_HILLS - THORNS.docx",
+      "characters": 7853,
+      "words": 976,
+      "parts": {
+        "word/document.xml": 77
+      },
+      "text_file": "ENACT_HILLS - THORNS.txt"
+    },
+    {
+      "name": "Mesas.D.S.CONV.docx",
+      "characters": 49523,
+      "words": 6359,
+      "parts": {
+        "word/document.xml": 486
+      },
+      "text_file": "Mesas.D.S.CONV.txt"
+    },
+    {
+      "name": "NULL_FIELD.OMNI - THORNS.docx",
+      "characters": 28316,
+      "words": 3580,
+      "parts": {
+        "word/document.xml": 219
+      },
+      "text_file": "NULL_FIELD.OMNI - THORNS.txt"
+    },
+    {
+      "name": "Snail Wood - THORNS.docx",
+      "characters": 5069,
+      "words": 681,
+      "parts": {
+        "word/document.xml": 72
+      },
+      "text_file": "Snail Wood - THORNS.txt"
+    },
+    {
+      "name": "The ArK - THORNS.docx",
+      "characters": 8170,
+      "words": 967,
+      "parts": {
+        "word/document.xml": 83
+      },
+      "text_file": "The ArK - THORNS.txt"
+    },
+    {
+      "name": "The Long Tar Location Guide and Plot Ideas.docx",
+      "characters": 4189,
+      "words": 674,
+      "parts": {
+        "word/document.xml": 149
+      },
+      "text_file": "The Long Tar Location Guide and Plot Ideas.txt"
+    },
+    {
+      "name": "Thorns Book Series.docx",
+      "characters": 2205,
+      "words": 371,
+      "parts": {
+        "word/document.xml": 85
+      },
+      "text_file": "Thorns Book Series.txt"
+    },
+    {
+      "name": "WN_TOWER Reference.docx",
+      "characters": 22336,
+      "words": 2983,
+      "parts": {
+        "word/document.xml": 159
+      },
+      "text_file": "WN_TOWER Reference.txt"
+    },
+    {
+      "name": "io_COMBI_oi - THORNS.docx",
+      "characters": 589,
+      "words": 78,
+      "parts": {
+        "word/document.xml": 2
+      },
+      "text_file": "io_COMBI_oi - THORNS.txt"
+    },
+    {
+      "name": "mollusk_crescent_MOONLAND - THORNS.docx",
+      "characters": 508,
+      "words": 65,
+      "parts": {
+        "word/document.xml": 2
+      },
+      "text_file": "mollusk_crescent_MOONLAND - THORNS.txt"
+    }
+  ],
+  "images": [
+    {
+      "name": "PROTOTYPE IMAGE v2/CODE FINAL.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS pt. 2.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CODE.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "total_words": 19468
+}

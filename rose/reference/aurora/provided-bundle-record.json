@@ -1,0 +1,43 @@
+{
+  "source": "particle-resonance-simulator-windows.zip",
+  "entries": {
+    "particle-resonance-simulator-windows/dist/public/favicon.png": {
+      "bytes": 1145,
+      "sha256": "b6acb73abb0b7e8e808d72c016e81d97860bc7e7e0eb4f06ff76ba1d16a5b04f"
+    },
+    "particle-resonance-simulator-windows/dist/public/assets/index-TZfFjIqi.css": {
+      "bytes": 84612,
+      "sha256": "5d534960b4bafd5c478d955eb61822a0296b17a9d9fa64908a970a79850af62d"
+    },
+    "particle-resonance-simulator-windows/dist/public/assets/index-DQgINxMN.js": {
+      "bytes": 608956,
+      "sha256": "5174b8f20d828f26ce5e92d21781646bb32a4f861f60e8945ba7fe4151d60183"
+    },
+    "particle-resonance-simulator-windows/dist/public/index.html": {
+      "bytes": 2579,
+      "sha256": "25fd090ff0363a23209eef29c6bf28569f94ebc30f5351554b30512fb353580f"
+    },
+    "particle-resonance-simulator-windows/dist/index.cjs": {
+      "bytes": 1213374,
+      "sha256": "ac5de40222c17898840eeab3b9f99c7f68a60641811bef67c727ac3b471f4e28"
+    },
+    "particle-resonance-simulator-windows/runtime/node.exe": {
+      "bytes": 69804184,
+      "sha256": "35b7c95a379beb606f5798ed83081690df13190077630b234163c6607aa4cc94"
+    },
+    "particle-resonance-simulator-windows/start.bat": {
+      "bytes": 954,
+      "sha256": "c3bb7dc482cef9a810ad366308e1312bc4bd69576bce4a73bd272630ed7299e6"
+    },
+    "particle-resonance-simulator-windows/README.txt": {
+      "bytes": 1297,
+      "sha256": "c74249ef4a43194e814e98cc05ffa9339d25f090cb37cfbef48bf28038df7a55"
+    }
+  },
+  "reviewed": [
+    "dist/index.cjs",
+    "dist/public/assets/index-DQgINxMN.js",
+    "README.txt"
+  ],
+  "executed": false
+}

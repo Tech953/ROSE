@@ -1,0 +1,155 @@
+{
+  "version": "0.13.0",
+  "date": "2026-10-03",
+  "python_tests": {
+    "passed": 321,
+    "seconds": 27.162,
+    "command": "python3 -m unittest discover -s tests -v",
+    "new_physics_application_cases": 34
+  },
+  "interface_checks": {
+    "passed": true,
+    "host": "real local HTTP and temporary SQLite",
+    "canvas": "native @napi-rs/canvas",
+    "dom": "modeled DOM; no full browser layout",
+    "commands": [
+      "node tests/ui-smoke.cjs",
+      "node tests/ui-smoke.cjs --particles"
+    ],
+    "run_details": [
+      "Full broad interface run passed general gameplay and the added physical workshop flow before the downstream timestep refinement.",
+      "Final focused interface run passed with the refined solver and final application guards.",
+      "A preview write spanned a host pulse in the intermediate focused run; the host correctly rejected its stale return intent. The harness now polls after preview encoding before resubmitting. No production revision guard was weakened."
+    ]
+  },
+  "benchmark": {
+    "status": "PASS",
+    "cases": 9,
+    "source": "physics-benchmark-v013.json",
+    "input_per_driven_case": 4.0,
+    "downstream_dt": 0.00390625,
+    "tolerance": 0.01,
+    "coarse_dt": 0.0078125,
+    "coarse_result": {
+      "application": "press",
+      "control": "loaded",
+      "input": 4.0,
+      "load": 0.40792021016283775,
+      "work": 0.23509546550522295,
+      "heat": 0.14254702077453832,
+      "energy": {
+        "status": "FAIL",
+        "residual": 0.00991617816485657,
+        "normalized_residual": 0.0012410605928509278,
+        "tolerance": 0.01,
+        "transfer": 0.40792021016283775,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "PASS",
+          "residual": -4.4839174595523446e-08,
+          "normalized_residual": 5.6048967930248605e-09,
+          "tolerance": 1e-06,
+          "stored": 0.799307802147577,
+          "input": 4.0,
+          "load": 0.40792021016283775,
+          "heat": 2.79277203252876,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "FAIL",
+          "residual": 0.009916223004031888,
+          "normalized_residual": 0.012304163390272335,
+          "tolerance": 0.01,
+          "stored": 0.020361500879044574,
+          "input": 0.40792021016283775,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.14254702077453832,
+          "work": 0.23509546550522295,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "MEASURED",
+        "peak": {
+          "lag_samples": -16,
+          "coefficient": 0.9753655120616079,
+          "overlap": 112,
+          "lag_time": -0.5
+        }
+      },
+      "duration": 40.0,
+      "receipts": 1280
+    },
+    "press_refinement": [
+      {
+        "dt": 0.0078125,
+        "normalized_residual": 0.012304163390272335,
+        "status": "FAIL"
+      },
+      {
+        "dt": 0.00390625,
+        "normalized_residual": 0.006221139853671367,
+        "status": "PASS"
+      },
+      {
+        "dt": 0.001953125,
+        "normalized_residual": 0.003120826082734757,
+        "status": "PASS"
+      }
+    ]
+  },
+  "code": {
+    "version": "0.13.0",
+    "python_ast": 115,
+    "javascript_syntax": 23,
+    "json_parse": 85,
+    "image_files": 542,
+    "decoded_image_frames": 556,
+    "html_unique_ids": 213,
+    "advertised_scripts": 12,
+    "measurement_elements_absent": true,
+    "unchanged_art_and_render_files_checked": 669,
+    "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+    "unchanged_vrex_functions": [
+      "_vector",
+      "_derivative",
+      "integrate",
+      "_apply",
+      "energy",
+      "audit",
+      "pump",
+      "stop",
+      "source_reason",
+      "reconcile",
+      "diagnostics"
+    ],
+    "unchanged_numeric_modules": [
+      "photonics.py",
+      "research.py"
+    ],
+    "physics_sources_sha256": {
+      "Game Physics Engine Development": "7c858d6072ca347152e64f8b0303b6a8913e459500fce003ad75109c6591feb0",
+      "Anatomy of a Physics Engine": "77b3c2b1c90e2ac18cd9123f10b6e0de74a7dde5061f00bb6329235a34655bb7"
+    }
+  },
+  "art": {
+    "rebake_performed": false,
+    "unchanged_files": 669
+  },
+  "limits": [
+    "full browser layout and assistive technology",
+    "Windows launch",
+    "audible audio playback",
+    "multiplayer LAN",
+    "live optional local model",
+    "human game balance",
+    "legacy Aurora replay",
+    "experimental DTC verification and physical-unit calibration",
+    "laboratory apparatus",
+    "planar primitive contacts rather than a full 3D mesh/fluid/fracture solver",
+    "bounded adaptive substeps rather than an all-speed CCD guarantee"
+  ]
+}

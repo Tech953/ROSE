@@ -1,0 +1,48 @@
+{
+  "engine_version": "0.17.1",
+  "date": "2026-10-16",
+  "python": {
+    "tests": 430,
+    "seconds": 56.41,
+    "result": "PASS",
+    "new_source_http_tests": 9
+  },
+  "reference_ui": {
+    "result": "PASS",
+    "scope": "Real HTTP + parsed semantic DOM; full browser layout not tested",
+    "checks": [
+      "No image preloads; original links and notes without JavaScript",
+      "Alias search, combined filtering, empty result and subject counts",
+      "Exactly one preview; original dimensions and SHA256",
+      "Close/reopen, stale different/same-card load events, error feedback and filter cleanup",
+      "No saved-world or character export mutation"
+    ]
+  },
+  "source_integrity": {
+    "uploaded_files": 93,
+    "unique_payloads": 80,
+    "duplicate_aliases": 13,
+    "invalid_files": 0,
+    "unique_original_bytes": 291034010,
+    "previous_pixel_matches": 4,
+    "all_decoded_pixel_hashes_verified": true
+  },
+  "http": {
+    "original_images": 80,
+    "registered_document_routes": 3,
+    "rejected_altered_paths": 6,
+    "exact_hashes_and_headers": true
+  },
+  "preservation": {
+    "baseline_members": 978,
+    "missing": 0,
+    "protected_art_and_kernels": 664,
+    "protected_unchanged": 664,
+    "geography_unchanged": true
+  },
+  "limitations": [
+    "Reference integration only; no new sprite bake or expanded traversable geography",
+    "Full browser layout and visual sign-off not run; Chromium binary unavailable",
+    "Original lore ZIP remains partial; independently supplied Designer is complete"
+  ]
+}

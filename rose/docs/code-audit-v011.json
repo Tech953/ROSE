@@ -1,0 +1,14 @@
+{
+  "version": "0.11.0",
+  "python_ast": 109,
+  "javascript_syntax": 23,
+  "json_parse": 73,
+  "unchanged_source_and_art_files_checked": 652,
+  "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+  "image_files": 541,
+  "decoded_image_frames": 555,
+  "html_unique_ids": 218,
+  "advertised_scripts": 12,
+  "proposal_pages_reviewed": 12,
+  "proposal_equations_indexed": 22
+}

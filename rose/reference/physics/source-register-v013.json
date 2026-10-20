@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "title": "Rose physics emulation systems update",
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "original_filename": "533fea2d-448c-4b7f-a878-6feff0cf1b16.pdf",
+      "path": "reference/physics/game-physics-engine-development.pdf",
+      "title": "Game Physics Engine Development",
+      "author": "Ian Millington",
+      "pages": 481,
+      "sha256": "7c858d6072ca347152e64f8b0303b6a8913e459500fce003ad75109c6591feb0",
+      "classification": "user-supplied implementation guide",
+      "review": "Complete text indexed; selected integration, force, spring, contact and planar rotation sections reviewed. Not a line-by-line review of all 481 pages."
+    },
+    {
+      "original_filename": "75355696-574e-4f46-8b58-8236be54e83c.pdf",
+      "path": "reference/physics/anatomy-of-a-physics-engine.pdf",
+      "title": "Anatomy of a Physics Engine",
+      "author": "Erwin Coumans",
+      "pages": 40,
+      "sha256": "77b3c2b1c90e2ac18cd9123f10b6e0de74a7dde5061f00bb6329235a34655bb7",
+      "classification": "user-supplied implementation guide",
+      "review": "Complete slide text reviewed; integration and contact diagrams rendered."
+    }
+  ],
+  "selected_textbook_pdf_pages": [
+    74,
+    75,
+    95,
+    104,
+    105,
+    107,
+    118,
+    127,
+    128,
+    130,
+    135,
+    136,
+    143,
+    169,
+    175,
+    220,
+    221
+  ],
+  "visually_reviewed_pdf_pages": {
+    "Game Physics Engine Development": [
+      130
+    ],
+    "Anatomy of a Physics Engine": [
+      15,
+      24
+    ]
+  },
+  "implementation_map": [
+    {
+      "concept": "Forces and spring registration",
+      "guide": "Millington chapters 3, 5, 6",
+      "implementation": "physics.py: body, spring, _forces, _damp"
+    },
+    {
+      "concept": "Planar orientation, torque and inertia",
+      "guide": "Millington chapters 9 and 10",
+      "implementation": "physics.py: rotate, kinetic, point_velocity, impulse"
+    },
+    {
+      "concept": "Contact impulses and penetration",
+      "guide": "Millington chapter 7; Coumans contact and constraint pipeline",
+      "implementation": "physics.py: contact, effective, resolve"
+    },
+    {
+      "concept": "Broadphase and bounded iterative solving",
+      "guide": "Coumans broadphase and iterative solver slides",
+      "implementation": "physics.py: broadphase, _step, advance"
+    },
+    {
+      "concept": "Finite load work and owned transfers",
+      "guide": "Retained VREX systems reference equations 12\u201320",
+      "implementation": "vrex.py: optional committed-step observer; machines.py: transfer, combined_audit"
+    },
+    {
+      "concept": "Relational lag comparisons",
+      "guide": "Extension of retained VREX identity and temporal comparisons",
+      "implementation": "physics.py: correlation; machines.py: sample, step",
+      "classification": "authored bounded measurement method, not a quoted new equation from either guide"
+    }
+  ],
+  "adaptations": [
+    "Planar rigid primitives are matched to local isometric machinery, separate from world-map travel and tactical hex authority.",
+    "VREX uses its retained RK4 core; the downstream mechanism uses symplectic Euler at 1/256 model time.",
+    "Body damping splits actual removed kinetic energy into terminal useful work and heat.",
+    "Mechanical tolerance is 1 percent; retained VREX tolerance is 1e-6.",
+    "Pump and press resource/work thresholds, efficiencies and fatigue rules are authored dimensionless game approximations."
+  ],
+  "limits": [
+    "No full 3D rigid-body solver, convex-mesh manifolds, exact continuous collision detection, fluid field, fracture or cloth implementation.",
+    "Adaptive displacement substeps reject over-budget motion before stepping; they are not an all-speed CCD guarantee.",
+    "No physical-unit, quantum or experimental calibration.",
+    "Cross-correlation reports association with explicit lag sign; it does not establish causality or energy generation."
+  ]
+}

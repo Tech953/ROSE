@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.2",
+  "baseline": "delivered Rose 0.13.1",
+  "python_ast": {
+    "status": "PASS",
+    "files": 115
+  },
+  "json": {
+    "status": "PASS",
+    "files": 93
+  },
+  "images": {
+    "status": "PASS",
+    "files": 551,
+    "decoded_frames": 565
+  },
+  "protected_art_authoring": {
+    "files": 669,
+    "byte_identical": 669,
+    "changed": []
+  },
+  "retained_modules_byte_identical": {
+    "physics.py": true,
+    "machines.py": true,
+    "vrex.py": true,
+    "photonics.py": true,
+    "research.py": true
+  },
+  "html": {
+    "unique_ids": 213,
+    "present_scripts": 13
+  },
+  "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+  "javascript_syntax": {
+    "status": "PASS",
+    "files": 26,
+    "final_modified_sources_rechecked": 3
+  }
+}

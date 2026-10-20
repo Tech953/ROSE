@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "engine_version": "0.15.0",
+  "date": "2026-10-04",
+  "python_tests": {
+    "status": "PASS",
+    "count": 391,
+    "seconds": 29.501,
+    "new_animation_cases": 19
+  },
+  "full_http_native_ui": {
+    "status": "PASS",
+    "backend": "modeled DOM + real HTTP + @napi-rs/canvas",
+    "includes": "General play, travel, companions, prepared banks, construction, materials, optics, hidden physics/VREX, assurance and motion."
+  },
+  "focused_animation_ui": {
+    "status": "PASS",
+    "command": "node tests/ui-smoke.cjs --animations",
+    "collapse_states": 64,
+    "mechanical_surfaces": 36
+  },
+  "fidelity": {
+    "status": "PROTOTYPE PASS",
+    "scope": "Committed prepared poses, solver-sampled hardware and visual settling with shared drawing/picking.",
+    "remaining": [
+      "new Blender motion bakes",
+      "rigid-body debris",
+      "articulated interiors",
+      "cloth/fluid animation",
+      "calibrated physical timing"
+    ]
+  },
+  "not_verified": [
+    "full browser layout",
+    "live pointer/touch hardware",
+    "Windows launch",
+    "audible playback",
+    "LAN sessions",
+    "human balance"
+  ],
+  "logs": [
+    "validation-python-v015.txt",
+    "validation-ui-v015.txt",
+    "validation-animation-ui-v015.txt"
+  ]
+}

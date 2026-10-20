@@ -1,0 +1,487 @@
+PART word/document.xml
+[001] Mesas_D.S.CONV
+[002] Established as a foothold of druid.sec intent and artistry, this mega-city’s skyline is visible from the ENACT_HILLS, through meta-meta-break, and plunge the southern region in neon lights during the falling darkness. Pilgrims, contract workers, merc tag affiliates, and corp-e associates alike utilize NODE.TRAIL system for access, acquiring clearance tags in specificity through checkpointENACT, the border guard affiliate. Specializing in bio-mods, seamLLurgists and metaLLurgists alike offer high fidelity service region by region, acquiring material and blueprints from major CORP-E institutions that define the city centrifuges. 
+[003] SOURCE_GESTATE.S - SGS
+[004] Representing gas.op, merchTINE, and enerwu, this CORP-E runs extraction services in vind-sec and within ArK.FOREST for energy drink and gas services. 
+[005] gas.op 
+[006] Running di.PLAT.particulate siphons through the neighboring seed_PROC environment, known as vind-sec, gas.op proposes accessibility and utility in their provision of fuel to caravan runners and joy-drivers running their cordlined mockups through and out of city limits. 
+[007] Store fronts feature neon red glare, lightPROKT< promote.banners, and courtesy roadlights that mark up the abandoned city sectors and mainstrick.CONVs alike with guiderail signaling. 
+[008] Running several standards of fuel production, specialty residing in UI enhancers, bio-mod integration for mockup progression, and nano-fuel injection create two worlds of presentation, legitimate business frontline, and independent street race contractor. 
+[009] Street races are considered aestheticENACT, legal protocol surrounding treatment of victors versus failures. Failures of aestheticENACT are treated as pariahs, caught by either checkpointENACT or render.NULL, and then exiled to the outskirts. Clearance tags are achievable for these pariahs, but reentry is contingent on contract alignment, most needing MERC TAG advocacy before provision is enabled.
+[010] merchTINE
+[011] A united front for sales, this chain convenience store provides trademark items from CORP-E associates across FOUR_CORNERS, utilizing fracTECH integration nodes to coordinate contractual manufacturing and shipment.
+[012] Iconography based in recording technology, centralized around a Wuturan, the dark stalker wulf, this storefront presentation uses attributed character appeal with accessible karaoke utility to advertise the seamless connection between their merchandise and social-enterprise provision.
+[013] The quality of merchandise provided suffers in high fidelity consistencies, regardless, many civs and contract workers shop here for affordability and access to ready-to-eat items. 
+[014] EXAMPLE MERCHANDISE MID QUALITY:
+[015] Canned Food
+[016] Pre-Made Food
+[017] Bottled and Canned Beverages
+[018] Bio-Mod Supplements
+[019] Basic Tool Kits
+[020] Basic Clothing 
+[021] enerwu
+[022] Understated in the mass-market, this under purchased, can-based energy drink brand offers Sap-Core competition on revitalization self-care economics. Flavored after various common place fruits and herbal blends, the oddly sufficient nutrient mesh provides necessary fuel for prospecting customers. 
+[023] Iconography presents as a Wuturan wielding a climbing spear, pulling themselves across the outside the can in demonstrative motions of athleticism and endurance.
+[024] While the benefits of using this product are noted, many contracts ban usage of enerwu energy drinks due to competition within field contracts between CORP-E entities. Regulated like a social faux pas as opposed to a mandatory policy, individuals who use this supplement have noted meta-break tendency towards accessing exclusive contracts in the Dustlands. 
+[025] MOCKTRAKT
+[026] Residing within the bellows of Mesas.D, MOCKTRAKT offers high fidelity and often exclusive mockup tech for usage by contractor, and independents. Often provided specs and optims by prospecting alytics, this manufacturer requires inkTECH signature for contract completion, the costly requirements of Mockup generation needing fractech integration and valiverify. 
+[027] MOCKTRAKT manufacturers cordlines that accept fuel from seed.nodes, AETHERshards, ennerENACT, and omni-break. Their main advertisement edge is “Liquidation to Reactivation”, a tagline aimed at encouraging potential high-quality sig.contracts. 
+[028] Piloting rimTECH that has lifespans in the infi-miles, framegens finalized through their manufacturing inspections, by percept, outlive their sig.contracts.
+[029] Sig.contractors sign with MOCKTRAKT in contract condis through separate imbuement businesses for insurant lifespan enhancements. Bio-mods are priority, but druid-sec and Sap-core supplements are also highly sought after.
+[030] MOCKTRAKT is unaffiliated with street racing, though contractors associated with these competitions network within cordline manufacturer consultations unofficially.
+[031] Framegen EXAMPLES:
+[032] MATAmin
+[033] Heavy Weight – Mid-Speed
+[034] metaLLurgy - AETHER
+[035] Contractor: mata.CH3
+[036] Manufacturer: MOCKTRAKT
+[037] 4A rimTECH
+[038] 0.PUI.1
+[039] Medium Weight – High-Speed
+[040] AETHER – crystallin<
+[041] Contractor: 01.10
+[042] Manufacturer: MOCKTRAKT
+[043] 2A rimTECh
+[044] 912.RONDI
+[045] Low-Heavy Weight – Speed Differential
+[046] seamLLurgy – AETHER
+[047] Contractor: 01.10
+[048] Manufacturer: MOCKTRAKT
+[049] Multi-A rimTECH
+[050] _SKULLRIDE_
+[051] Heavy Weight – High Speed
+[052] metaLLurgy – crystallin<
+[053] Contractor: muerte_DONa
+[054] Manufacturer: MOCKTRAKT
+[055] 4A rimTECH
+[056] OGG.node
+[057] Medium Weight – High Speed
+[058] Omni-meta – AETHER
+[059] Contractor: oggNODE.TECH
+[060] Manufacturer: MOCKTRAKT
+[061] 2A rimTECH
+[062] <<<cryillistics<<<
+[063] Paraded through MERCH.OS and independent store fronts, this crystallin.ballistics CORP-E provides contractor tool kits and generalized defensive utility to sig.contractors of any walk of life, even non-affiliated contractors or civs. Driven by a “sign and work” callphrase, this CORP-E also presents as ruthlessly efficient in their encap and extraction process. 
+[064] Violation of contract specificity results in immediate encap of all bio-mods, inkTECH, and other affiliated composites. De-resolution is final, and engrams captured in this manner will be placed in low-ranking processing contracts within fractech.
+[065] <<<cryillistics<<< offers high fidelity, mid fidelity, and baseline wirelets for discerning sig.contractors. Regardless of the offer, contract fidelity is priority, a process that evades word of mouth given the immediacy of rectification.
+[066] EXAMPLE WIRELETS:
+[067] Mod.S1 -> 3
+[068] Short - Long Range
+[069] AETHER.CONSTRUCT
+[070] Contractor: <<<cryillistics<<<
+[071] Manufacturer: MOD_TECH
+[072] Modes: Stun – Disarm – De-Resolution 
+[073] Contr>YU<RI
+[074] VERY SHORT RANGE
+[075] metaLLurgy
+[076] Contractor: <<<cryillistics<<<
+[077] Manufacturer: NewBeginnings.CO
+[078] Modes: Stun – Delete
+[079] mox.med.000
+[080] Medium Range
+[081] seamLLurgy
+[082] Contractor: <<<cryillistics<<<
+[083] Manufacturer: WN_TOWER
+[084] Modes: Disarm – Encap
+[085] ***VEN***
+[086] Long – Short Range
+[087] Crystallin<
+[088] Contractor: <<<cryillstics<<<
+[089] Manufacturer: <<<cryillistics<<<
+[090] Modes: Iso-ENCAP – De-Resolution – OMNI-ENCAP
+[091] aa.aaBALLIPLAT
+[092] Short Range
+[093] metaLLurgy
+[094] Contractor: <<<cryillistics<<<
+[095] Manufacturer: AquiCAP
+[096] Modes: fracTECH-PENE – Tracking – Delete
+[097] MAX-NODE v1 – v9
+[098] Comprehensive Range Options
+[099] fracTECH
+[100] Contractor: <<<cryillstics<<<
+[101] Manufacturer: fracTECH
+[102] Modes: Delete – Stun – Meta-Break 
+[103] OmniBURST
+[104] Infi-Particulate Deviation
+[105] seamLLurgy
+[106] Contractor: <<<cryillistics<<<
+[107] Manufacturer: data.RET.node
+[108] Modes: Nano-Sim – Track – ENCAP Variations
+[109] Loi_DOX.TAG Var.752
+[110] Homing Crystallin<
+[111] Crystallin< 
+[112] Contractor: <<<cryillistics<<<
+[113] Manufacturer: druid-sec
+[114] Modes: Disarm – Stun – netINT
+[115] LYNtech
+[116] Relying upon the namesake of its founder to popularize framegen manufacturing and cordline sig.contract acquisition. RimTECH remains outside of this CORP-Es specificity, a disparate caveat in their economic viability. Originally, the founder, Nailyn, had achieved contract successes through community outreach and provision of trans.sec services to fresh contractors. Over time, changes in direction surrounding contract quality in service provision, and Nailyn’s disappearance led to the lowering of contract viability. 
+[117] Nailyn, collaborative expert on framegen manufacturing, began her career as a Sap-Core associate within WN_DISTRICTS, running the streets as an advocate for health products. Born to base-contract family within the lower coat.tails, she spent much of her childhood picturing fidelity within wide eyes and open hands. Eager to provide necessary proficiency, her passion for accuracy and debilitating logic earned her stripes within advert.camps through districts citywide. When Sap-Core promoted her lifestream to high-fid, she contracted for immutix, then pilgriming in advert-status to Mesas. It was within this city that Nailyn utilized her contri-FID to acquire underspoken sig.contracts for trans-sec service lines, transforming the underdeveloped industry into a comprehensive contract-worker transport service. Her queries into independent contracts, while successful, led to her disappearance, the CORP-E conglomerate sustaining in self-perpetuating community affinity.
+[118] LYNtech specializes in community outreach, where associate tendencies have led to network connections to street racing contracts throughout Mesas. Outfitting vehicles lays a comprehensive cover for extensive contri-FID in vehicle trading, prize allocation, and independent service provision. Despite a veneer of loss, LYNtech plays through mandation protocol regarding contract losses, providing premium benefits for race winners.
+[119] While trans-sec service framegen remains CORP-E focus, retrofitted rimTECH and service provision enables their framegen to have application in indecontra.
+[120] Framegen EXAMPLES:
+[121] Marco.LI – LYNtech original
+[122] Low-Heavy Weight – Speed Differential
+[123] metaLLurgy
+[124] Contractor: LYNtech
+[125] Manufacturer: LYNtech
+[126] 8A rimTECH
+[127] 00.1_trin
+[128] Heavy Weight – Low Speed
+[129] seamLLurgy – AETHER
+[130] Contractor: 01:10
+[131] Manufacturer: LYNtech
+[132] 6A rimTECH
+[133] IO.ADMIN_EN
+[134] Heavy Weight – Armored – Low Speed 
+[135] Crystallin< - metaLLurgy – OMNI-META
+[136] Contractor: adminENACT
+[137] Manufacturer: LYNtech
+[138] 4A rimTECH
+[139] 7INT-Carriage
+[140] Low-Heavy Weight – High Speed
+[141] seamLLurgy – OMNI-META
+[142] Contractor: MOD_TECH
+[143] Manufacturer: LYNtech
+[144] 8A rimTECH
+[145] uni_eve.102
+[146] Low Weight – Low Speed
+[147] AETHER – seamLLurgy
+[148] Contractor: AquiSphere
+[149] Manufacturer: LYNtech
+[150] 10A rimTECH
+[151] **>><<**
+[152] Middle Weight – Middle Speed 
+[153] Crystallin< 
+[154] Contractor: <<<cryillistics<<<
+[155] Manufacturer: LYNtech
+[156] 4A rimTECH
+[157] secureENACT.NODE
+[158] Heavy Weight – High Speed – FLIGHT.EN
+[159] metaLLurgy – OMNIMETA
+[160] Contractor: WN_EDU
+[161] Manufacturer: LYNtech
+[162] 8A rimTECH
+[163] briNAN v1 – v4
+[164] Middle Weight – Variable Speed – RETROSP
+[165] metaLLurgy – lightPROKT< - adminENACT
+[166] Contractor: ENACT_HILLS
+[167] Manufacturer: LYNtech
+[168] 10A rimTECH
+[169] druidSPEC
+[170] Bio mods are an art form, and aestheticENACT mandates that off-net contracts maintain valiverify affinity. druidSPEC holds high fidelity standards within this stipulation, rendering condi and meta-confirm through contract violations, personnel-encap, and integrative dispel. Bio mod development is rendered as a technical pursuit, separate from bloodline differentials and CORP-E manifestations. Druid-sec, affinity derived directly from WN_TOWER, provides necessary cross-discipline awareness and proficiencies for the name “druid” to perpetuate across OMNI-NET sector.lines. Under fractech regulation, “druid” is a role, a job, not a CORP-E. The culture of skill transference aims to be seamless, in that regard.
+[171] Bio mods through druidSPEC, affiliates, are non-replacement based. Providing necessary technical supplementation to existing utility of form, contract-basis for sigs and precursor civs enables extensive advert coverage throughout Mesas and beyond. Precious little consequence originates from these types of bio-mods, and access to high fidelity needLLurgist prossers solidify druidSPEC reputation in sig-contractor acquisition. 
+[172] Developed within a combination of grow.op designation, manfacTECH centrifuges, and independent specialists, bio mod research maintains high fidelity within the skyline offices and the contriFID mercs of Mesas. Competitors proposition through adverts, advocating for performance where demonstrations are priority focus for druidSPEC. Often featured on mainline vid, tech.demos are observed by audiences in hundreds of thousands during lull periods. 
+[173] BIO-MOD EXAMPLES:
+[174] Bi-oP Inset
+[175] BONE INTERIOR
+[176] seamLLurgy - druidTECH
+[177] Contractor: WN_MED
+[178] Manufacturer: druidSPEC
+[179] Vita-Marrow AUGMENT
+[180] tendoEXO
+[181] TENDONS
+[182] druidTECH – Sap-Core
+[183] Contractor: Sap-Core
+[184] Manufacturer: druidSPEC
+[185] Ankle Tendon Durability and Performance Enhancement
+[186] MINDint
+[187] Pre-Frontal Cortex Outer Layer
+[188] druidTECH – fractech
+[189] Contractor: fractech
+[190] Manufacturer: druidSPEC
+[191] ChemiSIM Processing Depth-Fidelity & Duration AUGMENT
+[192] BARK.SKU
+[193] Multi-Layer Skin towards Exterior
+[194] needLLurgy – Harvet
+[195] Contractor: Harvet
+[196] Manufacturer: druidSPEC
+[197] Bio-Organic flor.faun_genSPEC augment for Skin Durability
+[198] AEORTA v3
+[199] Main Heart Muscle Contraction
+[200] WN_MED – Sap-Core
+[201] Contractor: WN_MED
+[202] Manufacturer: druidSPEC
+[203] Heart Function Bypass and Supplementation through Secondary Muscle.DEV
+[204] SUB-COGNIV-IO
+[205] Baseline Hind-Brain Neurological Cognition
+[206] WN_MED – KHO
+[207] Contractor: WN_MED
+[208] Manufacturer: druidSPEC
+[209] MMTX<-Inset Reinforces Brain Subroutines to Enable High Fidelity Function during Fight or Flight State
+[210] MO.ennerENACT
+[211] Forearms
+[212] MERC TAG – BLACK.DOT
+[213] Contractor: MERC TAG
+[214] Manufacturer: druidSPEC
+[215] Bio-Nano Bone Supplement to give Forearms Tensile Impact Force
+[216] Spectrils
+[217] Fingers
+[218] seamLLurgists – LifeString
+[219] Contractor: seamLLurgists
+[220] Manufacturer: druidSPEC
+[221] Meta-Spec string contrails that provide distance access to manuintegrative meta-break 
+[222] EUNIX CLOUD 
+[223] Skin Pores
+[224] data.RET.node stations – KHO
+[225] Contractor: ENACT_HILLS
+[226] Manufacturer: druidSPEC
+[227] Bio-Nano Infi-Particulate Cloud Expanse that lives in Cellular Structure – Provides Healing and Assimilation through Encap at User Neural-Command
+[228] PYRI-INT
+[229] Mid-Brain
+[230] Embrite – WN_EDU
+[231] Contractor: ENACT_HILLS
+[232] Manufacturer: druidSPEC
+[233] Integrative nano-relay mold that provides insta-coms to PYRI-INTELLIGENCE in ENACT_HILLS
+[234] neuralidad_INTERCOM
+[235] Fore-Brain
+[236] seamLLurgist – LYNtech
+[237] Contractor: LYNtech
+[238] Manufacturer: druidSPEC
+[239] interNODE and fractech omni-meta sensor.gen grown into central.fore-brain
+[240] mox_tai
+[241] Neurochem Spinal Cord CentriNODE
+[242] seamLLurgist – ENACT_HILLS
+[243] Contractor: WN_TOWER
+[244] Manufacturer: druidSPEC
+[245] chemSTIM that accelerates neurochemical reactions, enabling adrenal development and response time 
+[246] securi.LAT
+[247] Representing the combined representative security presentation for checkpointENACT and the border guard affiliate, this security provision CORP-E provides consistent manufacturing stance and production for contractors directed through city-complex. Maintaining affinity through controversy, this provision of defenseTECH suffers from visibility as a main holder of contract maintenance and fulfillment. Regardless of individual CORP-E encap protocol, standard enactment is perpetuated through defenseTECH integration, only concluded when CORP-E confirmation declares full-SIPHON.
+[248] EXAMPLE defenseTECH:
+[249] BalliSTUN
+[250] FreqEMIT
+[251] adminENACT – ENACT_HILLS
+[252] Contractor: WN_TOWER
+[253] Manufacturer: securi.LAT
+[254] Stun – Disrupt - Track
+[255] Encap
+[256] Full-SIPHON
+[257] interNODE – fractech
+[258] Contractor: ENACT_HILLS
+[259] Manufacturer: secure.LAT
+[260] Siphon – Encapsulate – Consolidate
+[261] Barra de Arma 
+[262] Omni-Meta ContriENACT
+[263] WN_EDU
+[264] Contractor: WN_TOWER
+[265] Manufacturer: secure.LAT
+[266] Mitigation of Omni-Break – Bio-Regulation
+[267] DOX.UI
+[268] intiOPTIC Disruptor 
+[269] KHO – PYRI – WN_TOWER
+[270] Contractor: WN_TOWER
+[271] Manufacturer: secure.LAT
+[272] Disrupt – Blind – Acquire Intel
+[273] Tele_***_OMNI
+[274] Intel Acquisition and Communicator
+[275] Druid-sec – AquiSphere
+[276] Contractor: WN_TOWER
+[277] Manufacturer: secure.LAT
+[278] Communication – Encryption
+[279] Immi-front
+[280] Close Range Disarm
+[281] WN_LAW – AquiSphere
+[282] Contractor: WN_LAW
+[283] Manufacturer: secure.LAT
+[284] Stun – Disarm – Immobilize
+[285] MAX_DEF
+[286] High Resistance Armor
+[287] WN_LAW – MERC TAG
+[288] Contractor: MERC TAG
+[289] Manufacturer: secure.LAT
+[290] Resistance – Deflection 
+[291] stimUP
+[292] Beverage Powder that Enhances Protocol Alignment
+[293] WN_LAW – black.dot
+[294] Contractor: black.dot
+[295] Manufacturer: secure.LAT
+[296] Healing – Response Time
+[297] DREADPLATE
+[298] NULL_Field enabled metaLLurgy handheld armament
+[299] black.dot – MERC TAG
+[300] Contractor: MERC TAG
+[301] Manufacturer: secure.LAT
+[302] NULL DIFFUSE enactment – Encap-Prep.State
+[303] NanoDUST
+[304] Node.DISRUPT and Physical Neuralization Nano-Powder
+[305] KHO – Pyri – CLOUD_CITY_S – ENACT_HILLS
+[306] Contractor: ENACT_HILLS
+[307] Manufacturer: secure.LAT
+[308] Disrupts and Neutralizes Biological and fractech integration 
+[309] KHO.DEV
+[310] KHO, the processing intelligence, does not have any visible impact on this pervasive CORP-E, residing solely in visible formats within CLOUD_CITY_S. Besides the name, this development group holds no connection to the entity, instead representing itself through intel generation and trademark regulation. Working through an intermediary between interTECH and fractech, node.dev defied confines of post-industrial CORP-E confrontation to provide necessary framework for regulation and mandation of economic competition. Mitigating and empowering legitimacy, this .DEV relies upon sig.contract from major holdings to further their viability. 
+[311] ICON IMAGE: Smiling SKULL with spiral encircling<
+[312] Does not have a central office, instead working through digiPRINT nodes that lightPROKT< associates for intel dissemination.
+[313] NOXEDU
+[314] Education has been a major player in city stability since the rise of WN, enticing competition in contract holders and CORP-E reps in equal measure. Education standards are derived from extensive integrated network nodes that stretch through the city complexes of FOUR_CORNERS, screened through processing intelligences within adminENACT centrifuges. 
+[315] MAIN DISCIPLINES:
+[316] fractMATH
+[317] Sciencia
+[318] adminENACT
+[319] metaLLurgy
+[320] AETHERARCANE.semblance
+[321] Bio-mod SPEC
+[322] contriFID.DEV
+[323] LYNtech.UNI
+[324] Founded and formed through the coalition of community members and CORP-E outreach associates, this platform of education was developed specifically to provide high fidelity learning opportunities for individuals originating from pilgrimages and economic empowerment functions throughout MESAS. This university specializes in framegen, though there are discipline applications in fuelTECH for workshop applications.
+[325] rimTECH
+[326] fuelTECH
+[327] framegen.CO
+[328] Multimodal.DEV
+[329] Crystallin<extract.ADN
+[330] Formed within the framework of the deepnest, a metaLLurgy structure that supports this megacity from beneath the basephalt, this university is known for extensive family-based gang systems that enable firmament of ideological control through contract basis, and bio-mod fidelity. 
+[331] FAMILY EXAMPLES:
+[332] MoniPILAR
+[333] Wrought through the extracts of Embrite, this family worked through metaLLurgy art forms directly with LYNtech during the initial development of the CORP-E. Fiercely territorial, the students who originate from this family reach leadership status and positions within the first year of entrance.
+[334] Desi.TRO
+[335] WN_TOWER plays many pilgrims and contract holders for fools during their meta-break power development, but this family defied that art form through integration of specific family members with ENACT_HILLS, remaining a power.node at the upper rings of MESAS. Operating a high-fidelity street racing competition through the undercity, this family uses intrinsic connections with securi.LAT to maintain power stance through their interactions with other families.
+[336] m0_0I
+[337] Originally conceived as an orphanage, this group of staffers and isolated children grew into a wirelet and crystallin< manufacturer and development artistry in the empty industrial zones that surround LYNtech. Using cryst.cali potentials and omni-meta-break fractech integration specializations, this family maintains a foothold in trans.sec control throughout the midline sectors.
+[338] LYNtech, despite their humble origins, has CORP-E presentation written into the c-BRICKwork that lays their foundation, at their very core. Functioning through an independent power-node system, derived by a singular admin.OS meta-break that is sponsored by the ENACT_HILLS, other institutions that attempt competition find themselves confronting contract protocol, as opposed to the UNIVERSITY itself.
+[339] MID.LINE_TRACK
+[340] Highway systems provide transportation to the multitudes of person and trans-sec vehicles that pass through and out of the MESAS. This specific highway.sys carves a path through the upper RUNIC-RING.line that defines the middle.CONV, enabling full transversal between manufac centers and various independent CORP-E business ops. Regardless of limitations, this highway has rail.line contact with other highway tracts throughout the city, and is used by civs to contract holders alike for contriFID development and completion. 
+[341] securi.LAT offers protection and ensures safe transversal throughout the highway.sys, where contract provision and intel dissemination have played strategic application in redirecting their attention for street racing. Attention redirected, but response to intensity of metal on metal bring attention back to the main.line, leading to multi-tier intervention and competition that result in exile and contriFID rectification. securi.LAT has been reported in realigning with patrols, and participating in these races. With aestheticENACT, these participants suffer consequence diffusal in the same vein as baseline racers. securi.LAT, provided their training fidelity, will recover their officers for full reintegration upon loss, albeit with appropriate limitations in portfolio and rep.
+[342] Physical pat.officers are supplemented by meta-kin rovers that will maintain headway on the side.rail to provide additional support during chaotic multi-faction confrontation and competition. These large, meta-corded four wheelers are piloted by fractech lightPROKT< nodes that are replicable and revisable. They do not participate in racing, acting as regulation for any aestheticENACT integration with full admin.OS permissions.
+[343] MID.LINE_TRACK VARIABLE EXAMPLES:
+[344] Runic way station indicator
+[345] realtime speed and velocity indicator
+[346] digiPRINT traffic coordinator
+[347] sap-core driveFUEL vending machines 
+[348] manifest.display drive coordinates
+[349] crystallin< forward icon.boosters
+[350] max.drive insurance sales stand
+[351] MOXX_TECH portable mech.OS
+[352] Prep.slot response coordinators 
+[353] General stance fuel.OPS
+[354] Inset.TRAX spikes
+[355] LYNtech encryption display 
+[356] Boost.operator complex 
+[357] neo.GREEN indicator node
+[358] fractech speed registry 
+[359] admin.OS alti-temporal pathway
+[360] emerg.EMT meta-break roadway
+[361] ennerENACT_causality omni-particulate vents
+[362] render.specific nodetech
+[363] runner_under.swing
+[364] aethertails and nests
+[365] mod.tech contrails
+[366] control.nexus station
+[367] gas.op side.pump
+[368] natura.tax waystation
+[369] HIGH_LAND.TRAX
+[370] Represented as an adminENACT node pathway and a high-fidelity runner.op, civs and non-contract holders that enter are thrown in net.encap and refused entry to all but the lower_rings. Provisions of image for the benefit of public good do not reflect the regulatory practices that are enacted for persistent trespassers, contract alignment with MERC TAG and black.dot rendering individuals contractNULL through adminENACT and admin.OS discretion. 
+[371] Vehicle traffic has limited scale in this area, instead, provisions of service and quality store.casc enable CORP-E and business application where only the ELITOS transverse. Instead of regulatory speed and spec protocols, specificity in appearance and tags, valiverifi markers, there are sap-core drink stations, digiPRINT record.nodes, and maintenance.mechs that provide req.contriFID service within that degree of contractual accountability. Affiliates have required uniforms, mono-black/white/blue jumpsuits and overalls, name tags, runic encryption, and maintain continuity as service workers within H.CORP-E businesses and ELITOS resid_s. 
+[372] This TRAX extends through the upper quads, encircling through vari.nodes and CORP-E officiated_posts. Outside of TRAX vicinity, guardrails, track.ways, and maintENACT octiworks. The framework builds like a spiderweb, a similar construct to Greatweb, offering transFIDELITY instead of data.
+[373] EXAMPLES OF HIGH_LAND.TRAX VARIABLES:
+[374] Sap-Core forma.STAT 
+[375] JUDI_CLOTHING_CONTRIFID
+[376] Dispersement.CO
+[377] Strix.conduit detectors
+[378] DEFENSENODE.ENACT
+[379] maintenPRIORcontriFID
+[380] alert.nodes
+[381] Merc Tag Affiliates Waystation
+[382] Track.line RACEDETECT
+[383] Officiate.comment_distro
+[384] Officer.node
+[385] Pat.enact_activation
+[386] Associate.guardrail
+[387] Track.way v1 MERC TAG
+[388] Track.way v2 RUNNER<STANCE<
+[389] Track.way v3 octi.civ
+[390] Expulsion.proct
+[391] Basic_contriFID.nodetech
+[392] Fractech score.detect
+[393] adminENACT_fractech.align
+[394] enneractENACT pathway.node
+[395] boost.delay_waystation
+[396] Crystallin< service.provision.node
+[397] Wirelet.USO
+[398] LYNtech outpost
+[399] instaPAINT.station
+[400] contriFID.hire
+[401] MESAS.waystation
+[402] Orbit.ENNERACT.TARGET
+[403] Mainstay.orbitstability.node
+[404] Repair.mech.prioriSTAT
+[405] Station.way_provisions
+[406] Manifest.outletstate
+[407] Station_DEGRADE<RED<GATE<
+[408] There is a CORP-E, HIGH.FID trackway that provides clear transversal to STAT.D, a series of compounds that exist in the east of the city. Shadowing the mak_dunes, carved apart by infi-particulate bio-nano clouds, this landscape maintains low civ and contract worker presence alike, instead populated by exiles and enactment.MERCS who regulate access to <RED<GATE. 
+[409] Unknown to all non-admins and OS personnel, these compounds originally founded MCI.CON, an extensive CORP-E that offered metaLLurgy specificity in powered magnets and geo.nodes. The facility has now since faded behind <RED<GATE<, inaccessible even through the HIGH.FID trackway.
+[410] This conglomerate mass of geo.fract buildings offers limited perspective from the outside, requiring access through ADMIN_ENACT historical archives to accurately track the progress of Stat.D, where clearance is disseminated through ENACT_HILLS administrative personnel.
+[411] STAT.D is composed of three main areas, each split into departments with associated personnel, framework maintained since the expansion of RED<GATE<. This framework, through data derived from ARCHIVE.NOX, details a network connected to LYLINE.net, HELIX.com, and Greatweb. Interconnected, yet separated by distance and NULL.SENSE. 
+[412] STAT.D AREAS:
+[413] Node.ACONNECTZON
+[414] Providing altruistic communication options through LYLINE conduit, the aetherCLIM, and beyond the meta.stance, this department formed an extensive nodeTECH representation through their actuation of ennerENACT, siphoning geo.data from fract.nodes in realtime. The basis for this development was centered on family members communicating across inaccessible distances, where traditional mail and word of mouth failed. Despite caravans, pilgrims, and trade routes with runners, messages were dispersed inaccurately, sometimes, not at all. 
+[415] Caravans, the precursor to NODE.A, provided deep runic synchronicity to LYLINE networks and alignment with ancestral bloodline. Through enactment of willpower and alti-particulate semblance, well before the concepts of alti-particulate semblance was discovered through nodeTECH, these caravans offered travel options to contract holders and civs alike, throughout the FOUR_CORNERS, and into the AETHER_CONVI and NULL_0 expanse.
+[416] Runners, a role that provided contract basis to personnel based upon fractech.node records, provided sigcontract fidelity to the VasLinds. Conjecture and slang aside, this contract holders maintain fidelity in group alignment, faction differentiation, and resource acclimation in addition to centrifuge of way stations. Runners, provided resources in the form of bio-mods, needLLurgist alignment, transnet and transec meta-passes, and seamLLurgist archvist data, enact willpower of contriFID with limited resistance. Runners, proficiency in scaling, transversing, and diving throughout the natural and unnatural monuments of these collective regions, are driven by MERC TAG code of conduct, by specificity. 
+[417] STRUCTURE OF NODE.A:
+[418] <Department Entrance>
+[419] Built with reinforced tier-S infi-particulate brick constructs, this geo.node architecture holds the entire framework of the building within meta-context, enabling firmament within meta-break, omni-break, and meta-meta-break. This necessity comes from expansive meta-development outside of the department and its research heads, LYLINE and Runes debilitating consistencies with their geo.node_access.
+[420] This specific gateway differentiates itself from the rest of the facility with INTERNODE connectivity, a first for the personnel. INTERNODE, as a provision and precursor to interTECH, offered advancements in LYLINE digiPRINTS and rune.OS acquisition. Through contract funding that eased past competition through this communication, preference for INTERNODE immediately took place, leading to extensive resource acclimation for resident archivists and integration specialists. 
+[421] The archival documents additionally hint to this gateway having connectivity to others of its kind, enabling transference of physical objects, including people, as opposed to only sound and visuals.
+[422] <Atrium A>
+[423] An incomplete archival, rendered null by unknown means, this building and department is reported to be a meeting area of socialization study and integration-based data analytics. Personnel are reported to utilize culinary tools, fractech nodes, and LYLINE meta-break access to create unique studies for usage with INTERNODE applications. The resulting data collection created projects within fractech contract realization, digiPRINT storage and data transfer, and infrastructure guidance through maps of format alignment.
+[424] <Atrium B>
+[425] Based around a LYLINE aether.node, this department specificity was derived from enacting aether.siphons, transferring this energy into power gems. Geo.nodes aside, developing a building that both channeled and imbued materials with this energy, no compromise of structural integrity of leakage of aetherenneract waveform. Composed of a mainhall, a lecture building, and a testing center built directly over an fully entrapped aether.node, integration specialists spent 20 sans developing a material.node_structure that maintained full absolutionixx semblance and percept regardless of the omni-meta-meta-infi-particulate.break that was enacted. 
+[426] Reports state that equipment developed within the testing center was derived from druid-sec metaLLurgy, an aestheticENACT of limited exposure. Druid-sec, a CORP-E that relies upon needLLurgists and bio-mod technology for contriFID flora_fauna enactment, does not have reported instances of contract basis within metaLLurgy. Specificity in these reports, implies contriFID enactment with admin.OS, transferring personnel from WN_TOWER or druid.TOI to develop these constructivist guidelines. The framework of the testing area has been observed to provide color-code transfer from surrounding ennerENACT and unknown_OBJECT structures, creating a consistency in RED<GATE< and these auxiliary constructs.
+[427] WN_TOWER materials have meta-meta-break within omni.potential, the reason why interfacing between fractech, on-board specialists, and LYLINE aether energy results in high-fidelity runicurves. Labeled by usage, these runicurves are transient and alti-particulate in nature, enabling storage, maintenance, and space formatting to happen within the confines of WN_ED and standard omni-meta tech. WN_TOWER numbers their runicurves off of the department, such as WN_ED. Runicurves developed within NODE.A have micro-specificity off of material access, loading zones, and personnel quarters. Given the experimental nature of this facility, little was reported of the long-term effects that runicurve occupation had on human form.
+[428] <ATRIUM C>
+[429] Lending thought into design concerning the aestheticENACT presentation of architecture and function, this department maintains a stance alignment with omni-meta connections and network deviations that ENACT_HILLS constructs ongoing framework around. Alti-temporal particulates research laid the foundation for ATLA.NET, a network.node system that has no reportable information available, even for ADMIN.OS functions. Outside of direct references, <ATRIUM C> keynotes several precursor phrases, namely ATLAN.OS, and ATLANODE that have observable infrastructural representation within this building set. This infrastructure is summarized in identifiable markings on the outside of the building, directing past visitors to an office and a data storage center. These two separate components to <ATRIUM C> are colored in shades that merge pallets with spectrum phenomenon within the RED<GATE<, though there are no other appearance of omni-meta convergence. These buildings are reported to be in disarray, distanced reporters observing collapsed roof tops, partially suspended in meta-meta-break grav.disrupt, in addition to the paved pathways showing clear indications of age beyond 100 sans of particulate-impact. The established hypothesis is that all buildings within NODE.A have extensive age impacts based upon ennerENACT alter-particulate dispersal. Particulate collapse from alternate temporal particulate interactions points to adjacent temporal particulate disruption, a process that enacts variable change in any material reaction.
+[430] Alternate temporal realities are qualified as omni-break conditions, though associations with omni-particulates are contingent on infi-particulate access. Without a clean indivisible particulate association, both definitions are rendered within a meta-meta-break, or even a percept given the correct divergence from omni-meta. Semblance, the final definition on conditional neural-chemical perception maintains contingency and agency as a biological perspective, though infi-particulate interactions with bio-nano particulates disrupt that priority, placing semblance above even percept within meta-break. Variable perspective, in line with ennerENACT, spontaneously creates alti-particulates, infi-particulate associations, and divergent temporal config_gen.
+[431] Config_gen originated as meta-meta-break given percept.regard from adminENACT personnel. Limitations to semblance within omni-meta-break directed config_gen for NULL_0 corrections, AquiSphere entrapment and siphon mitigated through RED.NODE<. Reports of particulate convergence rendered IMMUTIX and MMTX< enner_divergence, physically displacing personnel through instances of fractech generation in WN_TOWER and ENNERACT_HILLS. References to ATLAN.OS in these reports exist in both AquiSphere archives, and NULL_O config_gen specificity. Signature fidelity is reliant upon fractech and interNODE provision of datasync, a contriFID dependent interpretation. 
+[432] FRAC_GEN.NODE.B
+[433] Assigned specificity within NULL_O, and config.gen construction has reported instances within NODE.B, existing infrastructure manifesting as displaced alti-brick, ringrails that secure temporal.enact buildings in three quadrants, and the repeated icon of KHO. KHO_ICON appears as a smiling.SKULL with spiral encircling<, leading observers to detail frequency and location in contra-comparison to ALTAN and ALTI .PLRs. 
+[434] CONDA-1
+[435] Initially reported as a containment field-basis designed for inter.fractal alignment and siphon, this development outcropping presents MMTX< and lightPROKT< alignment with ennerENACT and adminENACT protocol, portraying the field.stance of CONDA-1 in a temporal-adjacent manner to observers outside of RED<GATE<. Neural de-synchronicity maintains priority fidelity for contract engagements with contained aetherarcane.nodes, where contriFID dependency renders any incompetency null. ContriFID specificity resides within all observer intentions, however, RED<GATE< bio-nano particulate clouds report to emerge from inside. 
+[436] NEURO_OPs render MMTX< and field.stance fidelity in ongoing semblance within RED<GATE< engagements. NEURO_OPs formed through regulative adminENACT protocols, empowered through ennerPROX< integrative nodeTECH, and modiOMNI bio-mods that enable omni.contriFID reporting structure. 
+[437] Reports of containment de-resolution from observed instances of personnel encap and absorption indicate that the structure maintains integrity through ennerENACT material generation that formats within adminENACT specificity. This alignment, comparable to reported ALTA.NET functionality, points to interNODE and fractech integration through meta-meta-break integration specialists. 
+[438] Containment field measures point to ennerAETHER and arcaneTECH presence, storage.nodes depicting extensive enner.NET confluence and limitation through proxy<. Outside of proxy<, visual reports state that keycard access through runeTECH, and sap-core vending machines are present outside of the building. Iconography also is observed to include graffiti, a measure of bright neon that has imbuement attributes with AETHERGALE, and with infi-particulate enactment from RED<GATE<. 
+[439] During periods of RED<GATE< encap of NanoClad, there have been instances of reported uniformed personnel entering and exiting this building, talking, and accessing the various vending machines. Sap-Core has declined to comment on their presence in this facility, and no contract records have been released to NEURO_OP integration personnel. These personnel have instances of runic depictions of various CORP-E iconography, black.dot specificity, and bio-mod integration.
+[440] CONDA-2
+[441] Adjacent to CONDA-1 stands a firma-plat, formed through observed metaLLurgy compounds appearing to have origins in the ENACT_HILLS and druid-sec, alignment of particulate format having ennerENACT and concePROKT< integrations. Centralizing reports on the entrance, which bridges between the buildings through a series of constructed metaLLurgy platforms, rendered in NULL_mat firmament.
+[442] CONDA-2 is reported by NEURO_OP to have variance in material presentation, MMTX< and percep-laden semblance generating a NULL-FIELD directly in lightPROKT< nodes within limited filter. NUERO_OP utilizes adminENACT diffusal filters to mitigate proxy<, where alti-temporal enactment enables further reporting siphon through this percept. Lens semblance data is immutable, to the extent that reports contain infi-particulate omni-meta percept on semblance-state outside of the immediate vicinity.
+[443] NEURO_OP, as opposed to CONDA-1 infiltration, utilizes MMTX< integration and MMTX>FRAC to pathway into RED<GATE< without penetrating the structure_immediate. This process is derived through ennerENACT phenomenon and geo.nodes located outside of ENACT_HILLS, generating a RED<GATE< orb that bends into the field, providing personnel access to semblance that renders outside of lens_enact. These reports are interpreted through PYRI_KHO.net.
+[444] PYRI_KHO.net REPORTS:
+[445] REPORT SCOUT UNIT 3.2: CONDA-2 initial report by NEURO_OP scout Unit 3.2 states that entrance observations registered definite MMTX< graffiti and generative alt-temporal particulate.nodes on the walls of the main building. Within initial integration attempts, RED<GATE< immediately de-resolutioned into omni-meta semblance, splitting into repe-construct images that flitting at nullspeed. MMTX< graffiti is registered as highlight green and pink in shapes and patterns that resembles racing stripes. 
+[446] REPORT SCOUT UNIT 3.3: CONDA-1 observations were made during offset integration proxy< during MMTX<FRAC initiation. This engagement resulted in extensive bio-feedback data regarding graffiti generation, where scouts reported that the graffiti appeared autonomously with lightPROKT<, leading to extensive visual.disruptions and sound_light percepts.
+[447] Sound_light percepts are reported to deviate from MMTX< disruption and programming, observed as maintained physiPROKT< engrams and flora_fauna. Observation is not consistent in presentation or implic.stance, instead enacting ennerENACT measurements that redirect criterion.cata into NULL_0. Still images render as pale blue spheres and shawls moving through identified distort_FIELD_NULL.
+[448] Distort_FIELD_NULL manifests as visual changes and auditory occurrences in NODE.VAR and within MMTX< lightPROKT< observation. Reports state that color or filter has no consistency, rendered through variance.instance percept integration. Personnel engaged with NEURO_OP and NEURO_OP agents observe this field encaping and extracting sequence_enact data, coupled with fractech and INTERNODE disconnect, limits detailed detection.patterns. Detection.patterns renders as vari.verifi to associated personnel, though black.dot and MERC TAG prevent registry to reporting networks. 
+[449] Vali-verifi remains a standard of requirement for all MERC TAG engaged personnel, including NEURO_OP. Vari-verifi through detection.instance renders all attempts null. Enactment personnel, NULL_OP, have engaged proxy< integration for mitigation, with 10ens of success. 
+[450] FRAC_GEN.NODE.C
+[451] Reported at the base of RED<GATE<, this variance.field has maintained vali.verifi from origin state, though alti-temporal particulates have rendered this location into a temporal-adjacent enactment of distort_null. NEURO_OP and NULL_OP do not approach vicinity, and encap_renders actively station within closest campsites. NULL_OP has 0ens success in proxy< integration, and MERC TAG initiates extensive bio-feedback distortion. Composed of two buildings and a fract.brick tower, mitigation of MMTX< originating from location is active through lightPROKT< object redirect.
+[452] TOWER_REDUX.fract
+[453] Appearing in the northeast of this location, manifesting as a narrow brick tower of distort_null variance material. Reports of material.variance observe distort_null expansion, proxy< limitation within 2ibs, and alti-temporal displacement on all origiparticulates. NEURO_OP established an outpost at 3ibs, providing reportable data and observation-based intel-siphon without risk of encap. 
+[454] TOWER_REDUX.fract has recorded instances of emitting initially perceived infi-particulates, where collection determined that bio-nano temporal.nodes described the phenomenon by observed field.variance temporal alignments. Biological rendering manifests as indivisible.enactment organelles that interact with MERC TAG and black.dot vali.verifi, and bio.essential functions simultaneously.
+[455] Bio.temp.nodes extracted from proximity dispersal provided observational data on organelles, composition rendered in format of EUNIX biomod. Organelles engage in meta-break with functionality and integration. Meta-break consists of distort_null instances during NEURO_OP engagement, lightPROKT< mitigation and dispel, and adminENACT conduit negation.
+[456] BUILD.4_OS
+[457] Demonstrating negation of all known MMTX<, lightPROKT<, and NEURO_OP mandated adminENACT integrations, this two-story administrative building has brick.comp that matches no reported materials. Brick.comp is UNKNOWN_MATERIAL, continuously engaging an OMNI-meta that nullifies and engages NULL_0 vari-verifi for structural specificities. Vari-verifi does not register with any MERC TAG or black.dot protocol mandates and generates mercPROKT< instances in direct proximity of RED<GATE<.
+[458] mercPROKT< projections are defense units that establish patrol.patt along RED<GATE<. Regardless of NEURO_OP and NULL_OP ib distance, defensive enactments within line of sight fire lightPROKT<.ballist and crystallin<.comp projectiles, de-resolutioning physical matter. These mercPROKT< do not limit parameters, seeking out all sight of line targets without change. NEURO_OP has utilized ennerENACT siphon to requisition materials, where RED<GATE< de-resolutions 90ens of identifiable UNKNOWN_OBJECT before calculation or analysis.render is complete.
+[459] Signs located outside building have briefly visible lettering, flashing bright orange during mercPROKT< engagements. These signs state:
+[460] RENDER.NOCT in EFFECT<<<
+[461] BRING ALL PERSONNEL TO NODE.A FOR FEATURE.PROCESSING
+[462] MERC TAG ANNULMENT IN EFFECT
+[463] FLORA_FAUNA PERCEPTS ARE RENDERED NULL – ESTABLISH CONSI.RENDZ
+[464] WANTED: NOCT.TELLI.324 – RENDERED or DE-RESOLUTION
+[465] BUILD.8_PROV
+[466] Visible in proximity to BUILD.4, this infrastructure is marked by barred.wind.ports and doorway construction consistent with secure.LAT, reported by various NEURO_OP’s to bear attributes to ongoing future development within MESAS. NEURO_OP, during brief observation periods, reported stacks of pale blue boxes within this construction, rendered with markings and symbols not discernable.
+[467] mercPROKT< personnel engage in patrol.patt surrounding BUILD.8, with safe observation periods limited to 20hu in period. Encap predates upon NEURO_OP and NULL_OP personnel that enter 2ibs of distance, though mercPROKT< observation intensifies distance.access, siphoning resolution into RED<GATE<. Unlike other RED<GATE< constructions, mercPROKT< entities are observed absorbing encap siphon following personnel loss. 
+[468] Absorbed personnel are measured at omni-deresolution, where even enneract-siphon countermeasures are ineffective. mercPROKT< siphons result in highlighted patrol.patt, in which equipment is reported to increase in range, and the entity develops clear lines of sight beyond initial observations.
+[469] LOW_LAND.DUST
+[470] All surface_area located underneath STATION_DEGRADE is considered DUSK_LAND, a seamless plateau of light.vari and UNKNOWN_CORP. Primarily composed of pilgrims and non-contract civs, NanoClad maintains percept fidelity within this underpass in measures of trade, non-contriFID territory contest, and AETHER-SIPHON access. Considered a “slum” state by technicality, all forms of living underneath STATION_DEGRADE are disconnected from fractech and interNODE. Patrol.reg of corpi.NET engagement squads scan these sectors for contriFID.despites, enacting siphon and encap of bio mods for failicontriFID retrograde. 
+[471] BLACK.HAT
+[472] Existing to the north, under STATION_DEGRADE, this extensive network of salvaged framegens, corp-e signposts and rebar, plat.stance covering, and LEID.lightPROKT< wireups provides a living arrangement for an extensive non-contriFID population, ranging between 500,000 and 750,000. 
+[473] Sporting one of the largest under_freeway marketplaces in the entirety of the LOWER_CORNERS, this extensive network of independent contractors, mechanicans, framegen enthusiasts, and enactment professionals maintains security through balli<turret.nodes that are planted throughout the borders of the square, bolted into the under.surface of the freeway.
+[474] Notable for the AI.processor that lays within the framegen authentication_system within BLACK.HAT, pilgrims enter this marketplace to observe and provide homage to the continuation of legitimacy>interUI that this entity manifests. 
+[475] Named UI.BIN.ZI, this AI.processor has UNKNOWN_OBJECT associations due to inconsistent architect and origins. 
+[476] This location has no consistent layout, the ball<turret.nodes remaining stationary whilst the gear.connect network moves outposts and shops day by day, hour by hour. During corpi.NET incursions, these layouts change within seconds. 
+[477] LOCATION EXAMPLES: 
+[478] Darmiths Buyin’ Lot
+[479] FRAMEGEN in ACTUAL.INNER
+[480] “Do you enjoy beverages? I enjoy beverages.” - TM
+[481] Ender_of_Joy EnactmentCO
+[482] Berry.node
+[483] CORP-E_TITLES
+[484] Mesas.D.S.CONV_TECHNICAL_TERMS
+[485] Mesas.D.S.CONV_SLANG
+[486] gennek

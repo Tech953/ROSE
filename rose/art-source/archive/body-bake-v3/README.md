@@ -1,0 +1,1 @@
+The archived scripts and art-source/body-bake-v3.blend identify the actual renderer recipe used for the 1,152 retained body frames. The current source differs only in scenery framing. See body-reuse-proof-v3.json for the unchanged body dependency comparison. Copy scripts into an isolated Rose tools folder to use their original ROOT layout.

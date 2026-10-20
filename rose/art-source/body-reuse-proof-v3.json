@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "original_body_source_sha256": "c3fda96e82d18867c30750f0516cc792439d212ec6b1d9a2d1edf7ae8600af8c",
+  "current_source_sha256": "edeb13c2bc5ea3ea2a8bee1c5be16a293711965f420f2a1cdf76229d85f67a21",
+  "comparison": "Mesh vertices/faces, transforms, modifiers, material nodes/links, pose curves, body camera, sampling, light, ambient, shadow floor and color management.",
+  "models": {
+    "traveler": {
+      "before": "6f9c5909b02929ad477498545ebc41118e3fd844ae883dc74c5a7a86c42b20c8",
+      "after": "6f9c5909b02929ad477498545ebc41118e3fd844ae883dc74c5a7a86c42b20c8"
+    },
+    "archivist": {
+      "before": "d6db80957677335cb4bf97cacb2a18f95bddf4d6159a9f6d05defe72e3a28e51",
+      "after": "d6db80957677335cb4bf97cacb2a18f95bddf4d6159a9f6d05defe72e3a28e51"
+    },
+    "artisan": {
+      "before": "027b789931d0434c2162f1f746f4c216984fbb2420a9e509e972f4b97ee62042",
+      "after": "027b789931d0434c2162f1f746f4c216984fbb2420a9e509e972f4b97ee62042"
+    },
+    "mediator": {
+      "before": "539fe7507ec4da4ac407ed163cb6ee5adcd80f58ffe0135d5f3b091bd7ea3f47",
+      "after": "539fe7507ec4da4ac407ed163cb6ee5adcd80f58ffe0135d5f3b091bd7ea3f47"
+    },
+    "metal_kin": {
+      "before": "5f2983a6377ae2390c856c18a46fd8c75a1cbbc2c0678f2097f2bb8a7734ee8a",
+      "after": "5f2983a6377ae2390c856c18a46fd8c75a1cbbc2c0678f2097f2bb8a7734ee8a"
+    },
+    "construct": {
+      "before": "a56537cb1b3d5fd0ea5dd9bacdd851606193704a4dc15f2eb04cfec13ef5933d",
+      "after": "a56537cb1b3d5fd0ea5dd9bacdd851606193704a4dc15f2eb04cfec13ef5933d"
+    }
+  },
+  "environment_fix": "Market wear moved from behind the counter onto the visible face and apron."
+}

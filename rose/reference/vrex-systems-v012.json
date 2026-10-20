@@ -1,0 +1,327 @@
+{
+  "schema": 1,
+  "id": "vrex-systems-v1",
+  "title": "VREX systems update",
+  "source": {
+    "filename": "VREX v3 systems reference.pdf",
+    "sha256": "7d7b774360ed65f995f46b9726e8ced8e8c333089aa8919bff7c72e8c7d4cd73",
+    "pages": 12,
+    "path": "reference/science/vrex-v3-systems-reference.pdf",
+    "route": "/vrex-reference.pdf",
+    "classification": "user-supplied systems reference"
+  },
+  "evidence_classes": [
+    "ESTABLISHED PHYSICS",
+    "SOURCED MATHEMATICS",
+    "MODEL-ADAPTED",
+    "MODEL-HYPOTHESIS",
+    "COMPUTATIONAL OBSERVATION",
+    "EXPERIMENTAL RESULT"
+  ],
+  "page_map": [
+    {
+      "pages": [
+        1
+      ],
+      "sections": [
+        "Cover and scientific status"
+      ],
+      "use": "Source equation and system provenance; see the equation implementation map."
+    },
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "sections": [
+        "1 Executive summary",
+        "2 Evidence boundary and v2 corrections",
+        "3 Legacy record opening"
+      ],
+      "use": "Source equation and system provenance; see the equation implementation map."
+    },
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "sections": [
+        "3 Legacy record",
+        "4 Unique states, dialogue loops, Apeirogon, positron reference and TCE"
+      ],
+      "use": "Source equation and system provenance; see the equation implementation map."
+    },
+    {
+      "pages": [
+        6,
+        7
+      ],
+      "sections": [
+        "5 Mathematical framework and energy ledger"
+      ],
+      "use": "Source equation and system provenance; see the equation implementation map."
+    },
+    {
+      "pages": [
+        8,
+        9
+      ],
+      "sections": [
+        "6 Aims and TCE-0 through TCE-5",
+        "7 Controls and convergence",
+        "8 Architecture opening"
+      ],
+      "use": "Source equation and system provenance; see the equation implementation map."
+    },
+    {
+      "pages": [
+        10
+      ],
+      "sections": [
+        "8 Architecture and provenance",
+        "9 Work plan and funding categories"
+      ],
+      "use": "Source equation and system provenance; see the equation implementation map."
+    },
+    {
+      "pages": [
+        11,
+        12
+      ],
+      "sections": [
+        "10 Decision gates",
+        "11 Research integrity",
+        "12 References",
+        "13 Source verification notes",
+        "Appendices A and B"
+      ],
+      "use": "Source equation and system provenance; see the equation implementation map."
+    }
+  ],
+  "equation_count": 22,
+  "legacy_record": {
+    "id": "LEGACY-TC-001",
+    "source_version": "Aurora v0.1.0",
+    "source_tick": 120,
+    "crystal_id": "crystal_0.5",
+    "reported_phase_coherence": 0.83,
+    "reported_phase_variance": 0.2103,
+    "reported_stability": 0.8262,
+    "reported_average_amplification": 0.658,
+    "rose_status": "NOT REPRODUCED",
+    "interpretation": "Archived Aurora detector values from the supplied source; not a reproduced Rose measurement."
+  },
+  "gates": [
+    {
+      "id": "A",
+      "label": "Collective order screening",
+      "required": "Collective subharmonic response, perturbation rigidity and numerical refinement."
+    },
+    {
+      "id": "B",
+      "label": "Blind relational regeneration",
+      "required": "Target-hidden recovery and invariant/topology comparison against randomized controls."
+    },
+    {
+      "id": "C",
+      "label": "TCE passive-load transduction",
+      "required": "Matched null controls, loaded cycle work and a closing modulation-energy ledger."
+    },
+    {
+      "id": "D",
+      "label": "Metered duration test",
+      "required": "Long-duration output matched to explicit drive, return, storage and loss terms."
+    },
+    {
+      "id": "E",
+      "label": "Laboratory validation",
+      "required": "Passed computational gates and a specified conventional-energy analog."
+    }
+  ],
+  "controls": [
+    "Matched null model",
+    "Declared finite stimulus channels",
+    "Intensive and total observables",
+    "dt, dt/2 and dt/4 convergence",
+    "Coupling-disabled comparison",
+    "Drive detuning and phase perturbation",
+    "Target-hidden regeneration",
+    "Separate positron representation comparator",
+    "Explicit return-channel ownership; no double-counting"
+  ],
+  "rose_adaptation": {
+    "implemented": [
+      "Source-bound finite RK4 oscillator and TCE solver",
+      "Directed local dialogue links and loop invariants",
+      "Target-hidden graph relaxation and bounded expansion",
+      "Paid input, passive load, modulation, bounded gain, owned return accounting",
+      "Retained particle-ID measurement joins and temporal comparison",
+      "Bounded force/frequency stimulus controls",
+      "Isolated null, convergence, detuning, seed, size and coupling controls",
+      "Saved measurements and read-only run export"
+    ],
+    "not_implemented": [
+      "Legacy Aurora replay",
+      "Quantum or QCD solver",
+      "Physical-unit calibration",
+      "Experimental DTC verification",
+      "Laboratory apparatus"
+    ]
+  },
+  "equations": [
+    {
+      "number": 1,
+      "page": 4,
+      "concept": "Legacy stability",
+      "source_class": "Archived candidate",
+      "rose_use": "Indexed source; no physical calibration or legacy replay"
+    },
+    {
+      "number": 2,
+      "page": 4,
+      "concept": "Irreducible state",
+      "source_class": "Hypothesis",
+      "rose_use": "Persistent uniquely addressed oscillator states with mapped particle IDs"
+    },
+    {
+      "number": 3,
+      "page": 4,
+      "concept": "Dialogue link",
+      "source_class": "Hypothesis",
+      "rose_use": "Directed local links with gain and phase"
+    },
+    {
+      "number": 4,
+      "page": 4,
+      "concept": "Loop invariant",
+      "source_class": "Hypothesis",
+      "rose_use": "Measured triangle gain/phase and gauge-control diagnostic"
+    },
+    {
+      "number": 5,
+      "page": 5,
+      "concept": "Apeirogon generation",
+      "source_class": "Hypothesis",
+      "rose_use": "Nearest-three local rule and bounded twenty-state expansion"
+    },
+    {
+      "number": 6,
+      "page": 5,
+      "concept": "Representation residual",
+      "source_class": "Comparator metric",
+      "rose_use": "RK4 versus second-order temporal offset comparison"
+    },
+    {
+      "number": 7,
+      "page": 6,
+      "concept": "Floquet periodicity",
+      "source_class": "Diagnostic",
+      "rose_use": "Continuous periodic drive with finite input"
+    },
+    {
+      "number": 8,
+      "page": 6,
+      "concept": "Subharmonic recurrence",
+      "source_class": "Diagnostic",
+      "rose_use": "Measured stroboscopic recurrence and subharmonic spectrum"
+    },
+    {
+      "number": 9,
+      "page": 6,
+      "concept": "Circular phase coherence",
+      "source_class": "Metric",
+      "rose_use": "Circular phase coherence of dynamic coordinates and velocities"
+    },
+    {
+      "number": 10,
+      "page": 6,
+      "concept": "Prethermal scaling",
+      "source_class": "Sourced schematic",
+      "rose_use": "Indexed source; no physical calibration or legacy replay"
+    },
+    {
+      "number": 11,
+      "page": 6,
+      "concept": "Duffing surrogate",
+      "source_class": "Model adaptation",
+      "rose_use": "Integrated nonlinear Duffing network"
+    },
+    {
+      "number": 12,
+      "page": 6,
+      "concept": "Tether potential",
+      "source_class": "Hypothesis",
+      "rose_use": "Positive modulated tether potential"
+    },
+    {
+      "number": 13,
+      "page": 6,
+      "concept": "Tether force",
+      "source_class": "Mechanics in hypothesis",
+      "rose_use": "Integrated conservative tether force"
+    },
+    {
+      "number": 14,
+      "page": 6,
+      "concept": "Passive load",
+      "source_class": "Passive model",
+      "rose_use": "Integrated nonnegative passive-load work"
+    },
+    {
+      "number": 15,
+      "page": 6,
+      "concept": "Interaction power",
+      "source_class": "Mechanics",
+      "rose_use": "Force-velocity power and signed tether work"
+    },
+    {
+      "number": 16,
+      "page": 6,
+      "concept": "Cycle work",
+      "source_class": "Mechanics in hypothesis",
+      "rose_use": "Static closed-cycle null diagnostic"
+    },
+    {
+      "number": 17,
+      "page": 7,
+      "concept": "Integrated power balance",
+      "source_class": "Accounting",
+      "rose_use": "Explicit integrated drive/modulation/controller/load/loss channels"
+    },
+    {
+      "number": 18,
+      "page": 7,
+      "concept": "Reuptake term",
+      "source_class": "Hypothesis accounting",
+      "rose_use": "Owned return channel with bounded reuptake"
+    },
+    {
+      "number": 19,
+      "page": 7,
+      "concept": "Energy residual",
+      "source_class": "Audit metric",
+      "rose_use": "Uncorrected optical and mechanical energy residuals"
+    },
+    {
+      "number": 20,
+      "page": 7,
+      "concept": "Normalized residual",
+      "source_class": "Audit metric",
+      "rose_use": "Normalized finite-ledger residuals"
+    },
+    {
+      "number": 21,
+      "page": 8,
+      "concept": "Blind regeneration score",
+      "source_class": "Metric",
+      "rose_use": "Reference-hidden recovery score with randomized control"
+    },
+    {
+      "number": 22,
+      "page": 10,
+      "concept": "Provenance pipeline",
+      "source_class": "Governance",
+      "rose_use": "Saved seed, version, source, field, operator and measurement provenance"
+    }
+  ]
+}

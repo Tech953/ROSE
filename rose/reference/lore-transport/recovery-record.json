@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "source_name": "LORE TRANSPORT.zip",
+  "source_bytes": 14544869,
+  "source_sha256": "94039dee4e569bb9731dfcbb4c6365af9c32b107e3e9ec4b06054fe6552af8d7",
+  "status": "PARTIAL RECOVERY",
+  "reason": "Archive ends inside an image payload; central directory is absent.",
+  "recovered": [
+    {
+      "name": "AETHERGALE - THORNS.docx",
+      "bytes": 20340,
+      "sha256": "0559339219e0cb1987f8e2ddf80a37870c123a41b0d887125e669ee04c81ce66",
+      "crc": "PASS"
+    },
+    {
+      "name": "AquiSphere - THORNS.docx",
+      "bytes": 20003,
+      "sha256": "b2649451fc3abc97efb4d5fa0599890c1bb1ba848a100c5dce2b9b25e429704b",
+      "crc": "PASS"
+    },
+    {
+      "name": "CITY_CLOUD_S - THORNS.docx",
+      "bytes": 18859,
+      "sha256": "46cf6c24aca14469efcd114586ecbb023b6e8f47539155868d84e12ec95c491e",
+      "crc": "PASS"
+    },
+    {
+      "name": "ENACT_HILLS - THORNS.docx",
+      "bytes": 21409,
+      "sha256": "9c5383f7052812aebcdc9f0d46cd24e1e5a273f6c20462e2bbea1d5c9384888e",
+      "crc": "PASS"
+    },
+    {
+      "name": "Snail Wood - THORNS.docx",
+      "bytes": 19782,
+      "sha256": "84eabe9ab02653baa31a1a16771a51d5f19a96e6f76cbd75c58da8e2b60c240e",
+      "crc": "PASS"
+    },
+    {
+      "name": "The ArK - THORNS.docx",
+      "bytes": 21286,
+      "sha256": "77785b07647d08d4052e2111c2c866844be85a35d005d9379266b572e1fbe660",
+      "crc": "PASS"
+    },
+    {
+      "name": "The Long Tar Location Guide and Plot Ideas.docx",
+      "bytes": 20159,
+      "sha256": "592c326af02104356e2529f1e862c26eed4fd91bb0735f04c5a5483d31e4d9e2",
+      "crc": "PASS"
+    },
+    {
+      "name": "Thorns Book Series.docx",
+      "bytes": 17884,
+      "sha256": "2d195238fb25fc52b79bc8210fe4d7e41885a9fe8c52f67db9a0d0c28194ee0a",
+      "crc": "PASS"
+    },
+    {
+      "name": "WN_TOWER Reference.docx",
+      "bytes": 30968,
+      "sha256": "1707b292087b5a39a22028bbf4c1c376620ef94e2cb5d602d80279c057d3db5d",
+      "crc": "PASS"
+    },
+    {
+      "name": "mollusk_crescent_MOONLAND - THORNS.docx",
+      "bytes": 15215,
+      "sha256": "98b2eff229bc904216d0925f49015431ebbb3453396cab8ec04fdca2d3254d31",
+      "crc": "PASS"
+    },
+    {
+      "name": "NULL_FIELD.OMNI - THORNS.docx",
+      "bytes": 34683,
+      "sha256": "c8f580dee496463f8aa8237eb97af983e48cd03ea1914610d41ef080267c5369",
+      "crc": "PASS"
+    },
+    {
+      "name": "Mesas.D.S.CONV.docx",
+      "bytes": 52077,
+      "sha256": "a158e43980f2a569d85091f9a9086f00e51e980b9b9c0f82ccf7756743ac27f4",
+      "crc": "PASS"
+    },
+    {
+      "name": "io_COMBI_oi - THORNS.docx",
+      "bytes": 15353,
+      "sha256": "08b17fd303a9a3f519b2f7bf1bf6d5030235f82fe237dcf3e3c9a733efbfe59d",
+      "crc": "PASS"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CODE FINAL.png",
+      "bytes": 2273995,
+      "sha256": "d7af00b2fb2f873a6b8ef5664ca5795e51ef9a98188966da6dc09604ee04d0bd",
+      "crc": "PASS"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CODE.png",
+      "bytes": 2686690,
+      "sha256": "41c6e8a85ce827c2d675d4411ed9ed422bd8893e3471dcbb63ff1b3b08aa371d",
+      "crc": "PASS"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS pt. 2.png",
+      "bytes": 2911353,
+      "sha256": "e989f4096313cc7b1d608b5c88be4d0c1a27f6e01af51317ae4f6e3d79b2e929",
+      "crc": "PASS"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS.png",
+      "bytes": 3074294,
+      "sha256": "d795053b323b4d88b92fe9dc8369845ea3480b9684d3fba7e5d881d8285a372f",
+      "crc": "PASS"
+    }
+  ],
+  "incomplete": [
+    {
+      "name": "PROTOTYPE IMAGE v2/Designer (2).png",
+      "expected_compressed_bytes": 3855807,
+      "available_bytes": 3422479
+    }
+  ],
+  "unknown_later_files": true
+}

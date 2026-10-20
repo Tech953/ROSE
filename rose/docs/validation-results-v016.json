@@ -1,0 +1,44 @@
+{
+  "engine_version": "0.16.0",
+  "validated_at": "2026-10-05T15:18:45.644205+00:00",
+  "status": "PASS",
+  "python": {
+    "tests": 404,
+    "seconds": 52.294,
+    "log": "docs/validation-python-v016.txt"
+  },
+  "focused": {
+    "tests": 13,
+    "seconds": 1.118,
+    "log": "docs/validation-biomes-v016.txt"
+  },
+  "foundation": {
+    "tests": 24,
+    "log": "docs/validation-foundation-v016.txt",
+    "status": "PASS"
+  },
+  "interface": {
+    "status": "PASS",
+    "log": "docs/validation-ui-v016.txt",
+    "mode": "live HTTP, DOM logic and native canvas; full browser layout not tested"
+  },
+  "sources": {
+    "documents": 13,
+    "images": 4,
+    "profiles": 11,
+    "facts": 58,
+    "products": 43,
+    "intake": "partial archive"
+  },
+  "http": {
+    "status": "PASS",
+    "positive_routes": 7,
+    "rejected_routes": 3,
+    "report": "docs/lore-transport-http-v016.json"
+  },
+  "limits": [
+    "Full browser layout, Windows launch, LAN sessions and human balance not verified.",
+    "Additional cities remain unplaced; reference dynamics and new sprite bakes are not implemented.",
+    "Original upload truncated inside Designer (2).png; later files are unavailable."
+  ]
+}

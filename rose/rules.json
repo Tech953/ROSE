@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "generation": {
+    "scene_radius": 6,
+    "obstacle_density": 12,
+    "infrastructure_density": 55,
+    "population": 8,
+    "starting_condition": 65,
+    "hostility": 20
+  },
+  "infrastructure": {
+    "cycle_ticks": 6,
+    "wear": 1,
+    "power_output": 5,
+    "storage_cap": 30,
+    "repair_dc": 12
+  },
+  "combat": {
+    "base_ap": 8,
+    "move_ap": 1,
+    "melee_ap": 3,
+    "ranged_ap": 4,
+    "guard_ap": 2,
+    "parley_ap": 3,
+    "enemy_ap": 6,
+    "trigger_distance": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "engine_version": "0.17.0",
+  "native_canvas": true,
+  "checks": [
+    "Native wet/dust color response; exact alpha, picking silhouette and fixed canopy boundaries; wind variation; bracing response; rigid exclusion; pause/held/resume; reduced motion; remote/void isolation; bounded caches.",
+    "Live HTTP snapshot supplies bounded surface views; object menu exposes surface care and blocks unavailable cleaning without spending."
+  ],
+  "status": "PASS"
+}

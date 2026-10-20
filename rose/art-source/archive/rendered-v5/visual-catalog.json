@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "profiles": {
+    "traveler": {"label": "Wayfarer", "description": "Lean field layers, a weathered face, swept gray hair, gaiters, a bedroll and a route staff."},
+    "archivist": {"label": "Archivist", "description": "A long slate coat, narrow shoulders, close cropped hair, a brow lens and a strapped document case."},
+    "artisan": {"label": "Artisan", "description": "A broad work jacket, a bearded face, leather apron, reinforced boots and a repair harness."},
+    "mediator": {"label": "Mediator", "description": "A burgundy mantle, shaved head, layered cloth, wrapped forearms and provision satchels."},
+    "metal_kin": {"label": "Metal-kin field body", "description": "A segmented humanoid chassis, ceramic faceplate, exposed joints, utility apron and a restrained seam light."}
+  },
+  "role_defaults": {"NanoClad Scout": "traveler", "Fractech Archivist": "archivist", "Needlurgist": "archivist", "Metal-kin Artisan": "artisan", "Seam Mediator": "mediator", "Light Reader": "mediator"},
+  "regions": ["WN_TOWER", "CITY_CLOUD_S", "ENACT_HILLS", "AETHERGALE"],
+  "structures": ["power", "water", "garden", "shelter", "workshop", "exchange", "relay"],
+  "tones": ["field", "cool patina", "warm dust"],
+  "terrain_surfaces": ["field", "path"],
+  "scope": "Five modeled body families with three palette treatments each. Personal biographies remain authoritative; free text does not synthesize a new mesh. Architecture has four regional models per function and two rendered condition states."
+}

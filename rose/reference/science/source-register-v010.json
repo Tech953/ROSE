@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "version": "0.10.0",
+  "scope": "Rose game adaptation of all ten new references. Complete files extracted or parsed for indexing; source use is grounded in the explicitly listed reviewed sections. Supplied source files are unchanged.",
+  "files": [
+    {
+      "filename": "Time Crystal Commentary.pdf",
+      "kind": "secondary commentary",
+      "size_bytes": 348557,
+      "sha256": "cd31e9a0a16f3b442bfdb9837100c9f653d95374394ee496e2bf6f5af888334b",
+      "used_by": [
+        "temporal-response"
+      ],
+      "adaptation": "Early ground-state/no-input claims conflict with its own driven-system section. Use temporal motifs with external input; do not use its energy-storage proposals as engineering validation.",
+      "page_count": 8,
+      "text_indexed_pages": 8,
+      "pages_without_extracted_text": [],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visually_reviewed_pdf_pages": []
+    },
+    {
+      "filename": "Dynamical_Casimir_Effect_.pdf",
+      "kind": "masters thesis",
+      "size_bytes": 1077260,
+      "sha256": "565c0e2d3013bc12ed01ea976dcdebe90e8f631d91049df0ddaab30a8b1b9550",
+      "used_by": [
+        "driven-light",
+        "temporal-response"
+      ],
+      "adaptation": "One-dimensional moving-boundary models and stated approximation limits inform a powered boundary-modulation game mode. No Casimir-force or quantum-field equations are ported.",
+      "page_count": 87,
+      "text_indexed_pages": 87,
+      "pages_without_extracted_text": [],
+      "reviewed_pdf_pages": [
+        5,
+        7,
+        8,
+        36,
+        52,
+        53,
+        64,
+        65,
+        73,
+        74
+      ],
+      "visually_reviewed_pdf_pages": [
+        64,
+        65,
+        73
+      ]
+    },
+    {
+      "filename": "Molecular Lasers.pdf",
+      "kind": "1974 Cornell technical report",
+      "size_bytes": 5100751,
+      "sha256": "006a8d402bce18cd2a990490df1cc16b9863bc11820a9856648462e8dd8d7350",
+      "used_by": [
+        "spectral-materials"
+      ],
+      "adaptation": "Collision-dependent vibrational deactivation informs authored damping and line width. OCR is noisy; no measured rate constants are copied into gameplay.",
+      "page_count": 31,
+      "text_indexed_pages": 31,
+      "pages_without_extracted_text": [
+        4,
+        23,
+        25,
+        28,
+        30
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30
+      ],
+      "visually_reviewed_pdf_pages": [
+        3,
+        4,
+        12,
+        14,
+        23,
+        25,
+        28,
+        30
+      ]
+    },
+    {
+      "filename": "Molecular_and_laser_spectroscopy_6249695618748137365.pdf",
+      "kind": "2018 edited spectroscopy textbook",
+      "size_bytes": 14079500,
+      "sha256": "a0c678e80ac2ba7a1bca0c1d33f191b83a1a169eb96292258bedcea67ce4d55d",
+      "used_by": [
+        "spectral-materials"
+      ],
+      "adaptation": "Focused review of near-IR material spectra, overlapping bands, water and sensing sections. Full text indexed for coverage, not a line-by-line audit of every chapter. Synthetic bands do not identify real chemicals.",
+      "page_count": 364,
+      "text_indexed_pages": 364,
+      "pages_without_extracted_text": [
+        1,
+        364
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        4,
+        5,
+        8,
+        14,
+        16,
+        29,
+        30,
+        31,
+        37,
+        44,
+        62
+      ],
+      "visually_reviewed_pdf_pages": [
+        29,
+        37,
+        62
+      ]
+    },
+    {
+      "filename": "Unit-4_LASER_Physics_P-6.pdf",
+      "kind": "college laser-physics teaching notes",
+      "size_bytes": 612282,
+      "sha256": "a5027a118f36c89272428db5381080e9491e8f0a31e4d6c6037c42527bfc7d58",
+      "used_by": [
+        "driven-light"
+      ],
+      "adaptation": "Pumping, gain medium, metastable population and cavity motifs. Rose uses a threshold on an optical reservoir rather than a quantum population-rate solver.",
+      "page_count": 13,
+      "text_indexed_pages": 13,
+      "pages_without_extracted_text": [],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "visually_reviewed_pdf_pages": [
+        9,
+        10,
+        13
+      ]
+    },
+    {
+      "filename": "Dynamical_Casimir_Effect_.csv",
+      "kind": "text export of supplied thesis",
+      "size_bytes": 95378,
+      "sha256": "ef0bf35ef45d8b90a346beaee64b8e491b951848af481ed52ac86d1b5fd3f48a",
+      "used_by": [
+        "driven-light",
+        "temporal-response"
+      ],
+      "adaptation": "Crosschecked title and conclusions with the PDF. Ragged text rows and broken equations are not experimental data or additional evidence.",
+      "parsed_records": 4969,
+      "column_counts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "numeric_dataset": false
+    },
+    {
+      "filename": "Lossless Energy Transfer Commentary.csv",
+      "kind": "2007 IEEE paper text export",
+      "size_bytes": 54216,
+      "sha256": "e8c0340f61fff2ff0f7b785f34fbe67e2f67a2b26913d066c5a23cec9075b84a",
+      "used_by": [
+        "energy-controller"
+      ],
+      "adaptation": "Haddad et al., DOI 10.1109/TAC.2007.904452. Hybrid controllers dissipate plant energy. A bounded controller reset and energy ledger are game adaptations, not the paper's general stability or entropy proof.",
+      "parsed_records": 1613,
+      "column_counts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "numeric_dataset": false,
+      "reviewed_csv_rows": [
+        [
+          1,
+          180
+        ],
+        [
+          210,
+          260
+        ],
+        [
+          1380,
+          1438
+        ]
+      ]
+    },
+    {
+      "filename": "Time Crystal Commentary.csv",
+      "kind": "text export of supplied commentary",
+      "size_bytes": 21557,
+      "sha256": "857c74ddea56b6bca53da1c120d3ec9c73b932ba274fc3d523c6e36385471275",
+      "used_by": [
+        "temporal-response"
+      ],
+      "adaptation": "Duplicate of the supplied eight-page commentary. Count once as evidence; the CSV does not demonstrate perpetual motion.",
+      "parsed_records": 333,
+      "column_counts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "numeric_dataset": false
+    },
+    {
+      "filename": "Time Crystal Overview - Copy.csv",
+      "kind": "2023 Reviews of Modern Physics article text export",
+      "size_bytes": 211420,
+      "sha256": "c5b6c684d6629e57ff549ff9d66561547c78ffc6268db93ad8812ea219c395e6",
+      "used_by": [
+        "temporal-response"
+      ],
+      "adaptation": "Zaletel et al., DOI 10.1103/RevModPhys.95.031001. Reviewed sections I-II and V opening: rigidity, interactions, ergodicity, driving and noise. Programmed period doubling in Rose does not meet a phase-of-matter proof.",
+      "parsed_records": 3956,
+      "column_counts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "numeric_dataset": false,
+      "reviewed_csv_rows": [
+        [
+          1,
+          110
+        ],
+        [
+          220,
+          335
+        ],
+        [
+          411,
+          505
+        ],
+        [
+          1940,
+          2000
+        ]
+      ]
+    },
+    {
+      "filename": "Resonance Light Projection Fractal.jpg",
+      "kind": "user-supplied visual reference",
+      "size_bytes": 9833,
+      "sha256": "6c9810f100f168693a9bbfd45a004fdb0d53d78867e3d16506544cfec6a13a96",
+      "used_by": [
+        "faceted-projection"
+      ],
+      "adaptation": "146 by 121 pixels. Cyan/blue facets with organic folds inform the instrument palette and block shading. It supplies no quantitative optical measurements or recoverable high-resolution geometry.",
+      "width": 146,
+      "height": 121,
+      "in_game_path": "/resonance-reference.jpg"
+    }
+  ],
+  "primary_verification": [
+    {
+      "title": "Observation of the Dynamical Casimir Effect in a Superconducting Circuit",
+      "authors": "C. M. Wilson et al.",
+      "url": "https://arxiv.org/abs/1105.4714",
+      "journal": "Nature 479, 376-379 (2011)",
+      "finding": "Measured circuit boundary modulation and two-mode squeezing; no spontaneous unpowered game energy source is inferred."
+    },
+    {
+      "title": "Observation of a Discrete Time Crystal",
+      "authors": "J. Zhang et al.",
+      "url": "https://arxiv.org/abs/1609.08684",
+      "finding": "An interacting trapped-ion chain under a periodic Hamiltonian exhibits a robust subharmonic response."
+    },
+    {
+      "title": "Absence of Quantum Time Crystals",
+      "authors": "H. Watanabe and M. Oshikawa",
+      "url": "https://arxiv.org/abs/1410.2143",
+      "finding": "Equilibrium/ground-state no-go theorem under its stated not-too-long-range Hamiltonian assumptions; not a blanket prohibition on driven time crystals."
+    }
+  ],
+  "implementation": {
+    "units": "abstract optical game units; no Hz, joules, kelvin or wavelength conversion",
+    "energy_budget_scope": "Optical reservoir only. Existing Aurora-derived particle force and kinetic metrics are separate heuristic quantities.",
+    "implemented": [
+      "paid optical pump",
+      "finite reservoir and ledger",
+      "material spectral response",
+      "programmed alternating echo",
+      "powered boundary modulation",
+      "thermal/offline/manual quench",
+      "condition-gated workshop spill",
+      "bounded habitat coupling",
+      "registered resident resonance topic"
+    ],
+    "not_implemented": [
+      "quantum field theory",
+      "real molecular identification",
+      "quantum population solver",
+      "robust many-body time crystal",
+      "lossless energy generator",
+      "photographic reconstruction from the small JPEG"
+    ]
+  }
+}

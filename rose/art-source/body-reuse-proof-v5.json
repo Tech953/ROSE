@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "original_body_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+  "current_source_sha256": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+  "original_renderer_sha256": "27cfbd6b9b230defd789585455d9530cbace2cf4784b2d19cff9b18f0f77e6ed",
+  "fingerprint_tool_sha256": "b86df4800b0f373e2df3febe6a1763b3db3c70c32522e228def990734da3d3b5",
+  "comparison": "Meshes, faces, transforms, parents, modifiers, material nodes and links, pose curves, body camera, sampling, all studio lights including area fill, ambient, shadow floor and color management.",
+  "models": {
+    "traveler": {
+      "before": "f5e1876e415f07473390ca009401669cc45765d40b5c8c1cf402e7475efa3fd6",
+      "after": "f5e1876e415f07473390ca009401669cc45765d40b5c8c1cf402e7475efa3fd6"
+    },
+    "archivist": {
+      "before": "6194b4f0156730f2d10022e0c6c1acee87c8f45c401fe2b547d367a8dfe0cc8c",
+      "after": "6194b4f0156730f2d10022e0c6c1acee87c8f45c401fe2b547d367a8dfe0cc8c"
+    },
+    "artisan": {
+      "before": "e29b4c5f408c951bb6895c579f5bf5cfb8a1d7ebbc7f582a2acaf64eaa6d6520",
+      "after": "e29b4c5f408c951bb6895c579f5bf5cfb8a1d7ebbc7f582a2acaf64eaa6d6520"
+    },
+    "mediator": {
+      "before": "1643f19ae6c039dd3e4c0ff19146dbac3992769c90b5670456dd3a682802d75e",
+      "after": "1643f19ae6c039dd3e4c0ff19146dbac3992769c90b5670456dd3a682802d75e"
+    },
+    "metal_kin": {
+      "before": "f8c5b1b401a5563f0609dd90198f2d1a5c22a50bda229fd12f36a3f236546efd",
+      "after": "f8c5b1b401a5563f0609dd90198f2d1a5c22a50bda229fd12f36a3f236546efd"
+    },
+    "construct": {
+      "before": "a2dcf394e86dd1f08d3fc77714452ccd6043aac6e9e46f24e7866a9baadafe26",
+      "after": "a2dcf394e86dd1f08d3fc77714452ccd6043aac6e9e46f24e7866a9baadafe26"
+    }
+  }
+}

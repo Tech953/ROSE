@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "version": "0.10.0",
+  "sources": [
+    "Visible Rose/Thorns/Stem task history",
+    "Provided DOCX texts and original map photographs",
+    "Larger 01-10154.jpg and scale clarifications",
+    "Provided October 3 voice-discussion transcript",
+    "Uploaded Aurora DEVELOPER.md and compiled Windows bundle",
+    "reference/science/source-register-v010.json: supplied optics and temporal-response references, with coverage and evidence boundaries"
+  ],
+  "interpretation": "Authorial world rules and developing hypotheses are recorded separately from implemented mechanics. Spoken spellings remain tentative where noted.",
+  "records": [
+    {
+      "id": "series",
+      "text": "Rose is the third game after Thorns and Stem. It reuses their survival, dialogue, characterization and contract foundation without inventing an ending for either prior game.",
+      "status": "implemented foundation"
+    },
+    {
+      "id": "presentation",
+      "text": "Original pre-rendered 3D-to-2D assets, a fixed dimetric view, six local hex directions, AP combat, contextual Look/Use/Item/Skill actions and a CRT presentation. Overworld journeys select any accessible land point and enter local fields explicitly.",
+      "status": "implemented"
+    },
+    {
+      "id": "spectrum",
+      "text": "Druid/natural, nano and cyber-neon form one artistic continuum. Regional signatory lighting follows authored motifs rather than applying one universal neon palette.",
+      "status": "implemented regional art"
+    },
+    {
+      "id": "ecology",
+      "text": "Environmental change includes weather, degradation, growth, decay and construction. Character preparation, skill, situation and faction standing influence the work.",
+      "status": "implemented bounded simulation"
+    },
+    {
+      "id": "scale",
+      "text": "Africa is the closest approximate size comparison. The perceived environment is compared with square planetary coverage; monuments defy comprehension. No exact dimensions or kilometer conversion are fixed.",
+      "status": "author-confirmed framing"
+    },
+    {
+      "id": "substrate",
+      "text": "A perceived continent is a coalescence of interacting indivisible info-particles, with complex geometric instances and fractal influence. Unknown forces are part of the setting.",
+      "status": "author-confirmed lore; abstract particle foundation implemented"
+    },
+    {
+      "id": "continuity",
+      "text": "Every registered info-particle retains identity through movement, form change, degradation and transfer. A field inspector can isolate and export its current state for fractal study.",
+      "status": "implemented for materialized objects"
+    },
+    {
+      "id": "void",
+      "text": "void_null is tangible and traversable, not an inaccessible visual backdrop. Interacts and apogean geometric constructs can present unfamiliar properties. Perception and preparedness determine what a traveler can resolve.",
+      "status": "implemented branching text expedition; geometric fiction recorded"
+    },
+    {
+      "id": "apogean",
+      "text": "Apogean denotes a prospect/perspective of an infinite geometric construct. A local reading is measurable within its moment even when the entire construct cannot be perceived.",
+      "status": "author-confirmed conceptual framing"
+    },
+    {
+      "id": "enact",
+      "text": "Upper-left ENACT_HILLS is an administrative region. Its network, light projection and memetic advertisements influence the wider environment. The collective behind this office lacks ordinary public visibility.",
+      "status": "author-confirmed lore; dialogue implemented"
+    },
+    {
+      "id": "cusp",
+      "text": "Beyond ENACT, a cusp resembles a waterfall off the world edge into geometric iterations. Administrative operations siphon interacts for energy/material generation. The reasons and administrator generation remain developing lore.",
+      "status": "developing author hypothesis; geography not assigned"
+    },
+    {
+      "id": "red",
+      "text": "RED>GATE> is a lower-right field, possibly a trail of arcane energy through particulate layers. Shell-like constructs may connect to an arcane mollusk aesthetic associated with Snowl Wood; their origin is a hypothesis.",
+      "status": "region confirmed; mechanism developing"
+    },
+    {
+      "id": "mezzes",
+      "text": "The southern MEZZ/Mezzes metropolis has a north and south, and a perceived endless interior reminiscent of labyrinth/backroom spaces. Civilian, contract and Pilgrim lives continue through and beneath freeways. A southern page is still forthcoming.",
+      "status": "author-confirmed direction; expansion not mapped"
+    },
+    {
+      "id": "life-string",
+      "text": "Life-String .co provides deliberately designed protection for expeditions into void_null. Administrators contract for extraction of obtains, interacts and fractals. Protective equipment is connected to the setting's life-string account of a person.",
+      "status": "author-confirmed lore; scoped expedition preparation adapted"
+    },
+    {
+      "id": "immunix",
+      "text": "Immunix is a luminous blue preparation associated with extracted Darkwood materials. A recorded dose helps hold stance, semblance and perception through each newly encountered interact; finite supplies limit an expedition's preparation.",
+      "status": "author-confirmed lore; finite outward-interact supplies implemented"
+    },
+    {
+      "id": "absolutix",
+      "text": "Absolutix is a provisional spoken name for a refined consolidation/solidifier preparation that counters repeated administrative percept overlays. This is protection from influence, not a verified engine permission or automatic credential.",
+      "status": "provisional name; full mechanic reserved"
+    },
+    {
+      "id": "endcaps",
+      "text": "Company-made bronze-like metal orbs can consolidate a person's biomods, arcane ink, fractal tendencies and consciousness as an engram/save state. Contract enforcement and AI/unit uploads are described uses.",
+      "status": "author-confirmed lore; capture/upload mechanic reserved"
+    },
+    {
+      "id": "druid",
+      "text": "Natural cultures and environments participate in reciprocal flows of life, energy and expansion. Druid-punk is a useful part of the spectrum, and not the exclusive definition of this world.",
+      "status": "author-confirmed aesthetic; regional descriptions retained"
+    },
+    {
+      "id": "institutions",
+      "text": "Corporations provide housing, provisions, equipment access and contracts while exerting social expectations. They are not universally evil. Pilgrims bridge contract society and subsistence life.",
+      "status": "author-confirmed lore; existing faction/contract framework"
+    },
+    {
+      "id": "economy",
+      "text": "Resource access often depends on contracts, reputation and regulated extraction. Physical goods have changed significance under meta-break and meta-finger technology; prior trade balances are prototype rules, not an assertion of canonical money economics.",
+      "status": "author-confirmed direction; comprehensive economy redesign reserved"
+    },
+    {
+      "id": "meta-fingers",
+      "text": "Regulated Meta-Fingers connect neurological function to a projection/extraction field. Injury stories and protective advertising contribute to corporate authority. Sampling transfers a real retained particle, and does not create free material.",
+      "status": "author-confirmed lore; particle transfer and existing mod gates implemented"
+    },
+    {
+      "id": "signatories",
+      "text": "KHO and Pyry are signatory intelligences associated with network oversight. Pyry is connected to ENACT and city readouts, functioning in an OS-like role rather than as a public office with universal visible access.",
+      "status": "author-confirmed lore; dialogue implemented"
+    },
+    {
+      "id": "fractech",
+      "text": "Fractech information pillars provide contracts, weather and directions across a distributed network, rather than one central public office. Signatory intelligences exercise layered oversight.",
+      "status": "author-confirmed lore; dialogue and existing pillars retained"
+    },
+    {
+      "id": "great-web",
+      "text": "The Great Web coalesces beneath WN_TOWER, extends far underground and across the perceived continent, and has connections beyond ordinary Fractech scope. Corporate connections and unknown branches remain.",
+      "status": "author-confirmed lore; dialogue implemented"
+    },
+    {
+      "id": "aqua-sphere",
+      "text": "Aqua-sphere is antiquated military technology associated with liquids, water/metal relations and changing material properties under meta-break. Its link to the Great Web is described; exact mechanisms and access remain unspecified.",
+      "status": "author-confirmed lore; full mechanic reserved"
+    },
+    {
+      "id": "eunix",
+      "text": "EUNIX is a pervasive bio-nano cloud/biomod associated with skin pores, healing, data collection and preservation. UNIX, newnix and other spoken variants are retained as aliases rather than separate new species.",
+      "status": "author-confirmed lore; particle form tracked, full physiology reserved"
+    },
+    {
+      "id": "strain",
+      "text": "Perceptual strain is derived from interaction and preparation, not a hard fictional edge of reality. Tools and faction access can make changes legible. The current engine has finite storage and numerical precision.",
+      "status": "implemented strain/preparation; physical hardware limit recorded"
+    },
+    {
+      "id": "aurora",
+      "text": "The supplied Aurora program is a resonance simulator with abstract units, object properties, compatibility, pair forces, RAS, emergent formations and fractal visualization. Its compiled source differs from some guide equations; the adapter documents the differences.",
+      "status": "source-audited adaptation"
+    },
+    {
+      "id": "research",
+      "text": "The author reports a time-crystal result and a prior scientific proposal/review. The supplied package contains simulation labels and heuristics; no experimental data or peer-review document has been supplied in this turn.",
+      "status": "author report retained; no experimental verification claimed"
+    },
+    {
+      "id": "autonomy",
+      "text": "Up to two companion NPCs keep descriptions, lore, personal items, stats, attitude, reputation, work cycles, skill checks and bounded survival needs. Their decisions and refusal stay registered.",
+      "status": "implemented existing foundation; construction support added"
+    },
+    {
+      "id": "open-prompt",
+      "text": "Text intentions and optional local model prose support rich descriptions. The server owns validated state and consequences; an optional narrator does not grant powers, objects, credentials or completed actions.",
+      "status": "implemented bounded parser/model adapter"
+    },
+    {
+      "id": "engram-json-capacity",
+      "text": "The earlier request to raise .json Engram upload capacity informs a larger Rose particle-import envelope: 192 KiB on the host and a 180,000-byte file limit. Ordinary requests retain 64 KiB. Endcap engram capture/upload remains future work; this release does not modify the separate Engram application.",
+      "status": "Rose particle JSON threshold increased; separate Engram/Endcap work retained"
+    },
+    {
+      "id": "driven-light",
+      "text": "Light projection belongs to a maintained rig and a paid reservoir. Tuning can favor jade canopy tones, amber hearth light, cyan faceted projections, rose signals or violet field contours; the recorded output diminishes as the reservoir empties.",
+      "status": "implemented abstract optical game mechanic"
+    },
+    {
+      "id": "temporal-response",
+      "text": "A programmed alternating response repeats at twice its four-cycle reference interval. A fluctuating boundary redistributes stored optical energy. These instruments provide temporal motifs for Rose; the game reading does not establish a quantum time crystal or a vacuum energy source.",
+      "status": "implemented programmed response; scientific analogy bounded"
+    },
+    {
+      "id": "spectral-materials",
+      "text": "An individual particle retains its own resonance frequency. Spectral response changes with those frequencies, local moisture and registered degradation. Useful light depends on actual material and field conditions.",
+      "status": "implemented authored line-response model"
+    },
+    {
+      "id": "energy-controller",
+      "text": "The optical ledger records public input, retained energy, emitted energy and heat. An overheated or disabled workshop quenches its optical reservoir; a trained traveler can request a manual quench. The controller dissipates stored energy without refunding public power.",
+      "status": "implemented finite optical ledger and controller"
+    },
+    {
+      "id": "faceted-projection",
+      "text": "The supplied resonance projection image suggests blue facets joined to organic folds. Its cyan vocabulary informs the live instrument projection alongside the existing regional spectrum.",
+      "status": "implemented instrument motif; small reference accessible"
+    }
+  ],
+  "aliases": {
+    "Pyry": [
+      "PYRI",
+      "Pyry"
+    ],
+    "EUNIX": [
+      "UNIX",
+      "newnix",
+      "E-U-N-I-X"
+    ],
+    "RED>GATE>": [
+      "red<gate<"
+    ],
+    "PLATEAU<SCARLET<": [
+      "scarlet>plateau>"
+    ],
+    "Mezzes": [
+      "MEZZ",
+      "M-E-Z-Z",
+      "mesas (voice transcription)"
+    ],
+    "Absolutix": [
+      "provisional voice transcription"
+    ],
+    "Snowl Wood": [
+      "spoken spelling; confirmation pending"
+    ]
+  }
+}

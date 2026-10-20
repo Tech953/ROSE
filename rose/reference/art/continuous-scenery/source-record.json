@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.2",
+  "references": [
+    {
+      "uploaded_name": "i-took-this-screenshot-a-long-time-ago-when-playing-fallout-v0-OBmAfkpEVqXPk9_EgsVtHunKpHl5u2cq0C7qXPBXm3k.webp",
+      "retained_file": "cavern-reference.webp",
+      "library_file_id": "libfile_26f3fa42ce2481918cfc7be79cf81085",
+      "sha256": "635e867a6fe6eafebd7a703455ad7e91fd21eb32b935959b2749c892efdf2ecb",
+      "use": "Visual reference only; no screenshot pixels become game textures or sprites."
+    },
+    {
+      "uploaded_name": "images.jpg",
+      "retained_file": "interior-reference.jpg",
+      "library_file_id": "libfile_60cddd10f3dc8191821463d90b59e5c3",
+      "sha256": "c38d96226ba46cdc22ab9c660e70a3342d8a42f4864a6dd22fc5c514689c0c23",
+      "use": "Visual reference only; no screenshot pixels become game textures or sprites."
+    },
+    {
+      "uploaded_name": "images(1).jpg",
+      "retained_file": "settlement-reference.jpg",
+      "library_file_id": "libfile_f0e386f359b8819189f59c721734d518",
+      "sha256": "09412b29e85c891e349f41756cd546828c5a587abffae20f88e5a285531726e1",
+      "use": "Visual reference only; no screenshot pixels become game textures or sprites."
+    },
+    {
+      "uploaded_name": "images(2).jpg",
+      "retained_file": "salvage-reference.jpg",
+      "library_file_id": "libfile_cb94110f37948191b3e1601b32d6b959",
+      "sha256": "081df991f9021424b1f0870ab527d8ab1b55125697962d370e161d3e7064262f",
+      "use": "Visual reference only; no screenshot pixels become game textures or sprites."
+    },
+    {
+      "uploaded_name": "images(3).jpg",
+      "retained_file": "sculpted-ghoul-dialogue-reference.jpg",
+      "library_file_id": "libfile_33fb6dae11588191a95a2847ddd7d32e",
+      "sha256": "9139dad66871f7580a2e1c9f230a3b4922a442d5780afd74a84e5658318af512",
+      "use": "Visual reference for original portrait production and CRT dialogue staging; no screenshot pixels become game assets."
+    },
+    {
+      "uploaded_name": "images(4).jpg",
+      "retained_file": "sculpted-resident-dialogue-reference.jpg",
+      "library_file_id": "libfile_167f69bc18ec8191bf84f094ec8ab47e",
+      "sha256": "5991cc5230fdc3b8761a60396a23fc662cdfec5ab3502e0143bbec0159fdcb6f",
+      "use": "Visual reference for original portrait production and CRT dialogue staging; no screenshot pixels become game assets."
+    },
+    {
+      "uploaded_name": "images(5).jpg",
+      "retained_file": "sculpted-official-dialogue-reference.jpg",
+      "library_file_id": "libfile_5618b608c7d08191b14db7d03cefff2e",
+      "sha256": "c3d01da4c46f4001b961421d25cf52b8bed99d8b988f7bb05c77fc5bcbe4f1cc",
+      "use": "Visual reference for original portrait production and CRT dialogue staging; no screenshot pixels become game assets."
+    }
+  ]
+}

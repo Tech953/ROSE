@@ -1,0 +1,19 @@
+{
+  "baseline_members": 978,
+  "missing": [],
+  "changed": [
+    "rose/CHANGELOG.md",
+    "rose/README.md",
+    "rose/biomes.py",
+    "rose/docs/LORE-TRANSPORT-INTEGRATION.md",
+    "rose/docs/QUALITY-AND-ASSURANCE-AUDIT.md",
+    "rose/docs/VALIDATION.md",
+    "rose/engine.py",
+    "rose/server.py",
+    "rose/static/index.html",
+    "rose/static/lore-transport.html"
+  ],
+  "protected_members": 664,
+  "protected_unchanged": 664,
+  "geography_unchanged": true
+}

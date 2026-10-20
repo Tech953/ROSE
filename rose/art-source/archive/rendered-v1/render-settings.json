@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "seed": 417,
+  "camera": {
+    "type": "ORTHO",
+    "ground_compression": 0.52,
+    "azimuth_degrees": -45,
+    "distance": 12,
+    "character": {
+      "size": [
+        128,
+        128
+      ],
+      "ortho_scale": 3.7142857142857144,
+      "target_height": 0.92
+    },
+    "environment": {
+      "size": [
+        128,
+        160
+      ],
+      "ortho_scale": 5.0,
+      "target_height": 0.85
+    }
+  },
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 24,
+    "supersample": 2,
+    "threads": 4,
+    "seed": 417
+  },
+  "light": {
+    "sun_energy": 3.1,
+    "sun_angle_degrees": 1.5,
+    "ambient_strength": 0.28,
+    "position_in_screen_basis": [
+      -3,
+      4,
+      7
+    ]
+  },
+  "palette": {
+    "entries": 256,
+    "transparent_index": 0,
+    "rgb_dither": "FLOYDSTEINBERG",
+    "alpha_dither": "BAYER_4X4"
+  },
+  "facings": [
+    "E",
+    "NE",
+    "NW",
+    "W",
+    "SW",
+    "SE"
+  ],
+  "animations": {
+    "idle": {
+      "frames": 4,
+      "frame_ms": 320,
+      "loop": true
+    },
+    "walk": {
+      "frames": 8,
+      "frame_ms": 90,
+      "loop": true
+    },
+    "attack": {
+      "frames": 6,
+      "frame_ms": 145,
+      "loop": false
+    },
+    "guard": {
+      "frames": 2,
+      "frame_ms": 320,
+      "loop": true
+    },
+    "work": {
+      "frames": 4,
+      "frame_ms": 180,
+      "loop": true
+    },
+    "talk": {
+      "frames": 4,
+      "frame_ms": 240,
+      "loop": true
+    },
+    "hit": {
+      "frames": 3,
+      "frame_ms": 180,
+      "loop": false
+    },
+    "down": {
+      "frames": 1,
+      "frame_ms": 1000,
+      "loop": true
+    }
+  }
+}

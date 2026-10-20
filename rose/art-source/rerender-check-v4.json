@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "scope": "Four sampled repeat renders from the final fidelity-v4 editable source compared with the complete fresh bake across all RGBA channels. Blender 4.2.0 Cycles CPU, 48 samples, three render threads; native body/scenery and 2x ground rendering. This is not a second full bake.",
+  "repeat_render_identity": {
+    "source_sha256": "27cfbd6b9b230defd789585455d9530cbace2cf4784b2d19cff9b18f0f77e6ed",
+    "blend_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+    "blender": "4.2.0",
+    "samples": 48,
+    "supersample": 1,
+    "mode": "saved-blend",
+    "threads": 3,
+    "texture_supersample": 2
+  },
+  "results": [
+    {
+      "frame": "traveler/idle-4-00.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "different_pixels": 0,
+      "different_channels": 0,
+      "maximum_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "changed_alpha_pixels": 0,
+      "baked_model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "baked_png_sha256": "720f0e768f2f8015dfea1451363eb0b623316c7ad1c1b09532257f25b8c8ea42",
+      "repeat_png_sha256": "afe10e6cd77a9f5508feb167057e3e72405c0f8fda61ee162151e04a3afb9dcf"
+    },
+    {
+      "frame": "metal_kin/idle-4-00.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "different_pixels": 86,
+      "different_channels": 100,
+      "maximum_channel_difference": 2,
+      "mean_channel_difference": 0.0006917317708333334,
+      "changed_alpha_pixels": 16,
+      "baked_model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "baked_png_sha256": "9c6ba086c5b7460c4ab159c2affb1140960b86020091a7894f9102e070383582",
+      "repeat_png_sha256": "320798bbe8fa84159fab048ab5464965368ad60fdf67f17dc8f05cabd5ef10e3"
+    },
+    {
+      "frame": "workshop_ENACT_HILLS/idle-0-00.png",
+      "dimensions": [
+        288,
+        336
+      ],
+      "different_pixels": 0,
+      "different_channels": 0,
+      "maximum_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "changed_alpha_pixels": 0,
+      "baked_model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "baked_png_sha256": "06a84bd62901504e4b6ff55970f3dc718f71c22d190ae04d516226624ad4fe13",
+      "repeat_png_sha256": "8ba93dd452c07ac7aac2d7a754abb234ac1fb65d278ac0ce9333342a92101e05"
+    },
+    {
+      "frame": "ground_WN_TOWER/idle-0-00.png",
+      "dimensions": [
+        384,
+        480
+      ],
+      "different_pixels": 0,
+      "different_channels": 0,
+      "maximum_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "changed_alpha_pixels": 0,
+      "baked_model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "baked_png_sha256": "a27ccbdbda43d1b4b520978d2e46d0beb081960d2f6c22d1bfef4ae423e71ee3",
+      "repeat_png_sha256": "a2d03de7bf4eaee53e79e054857139e481a67e86cfa49576ac17deae1b1211ee"
+    }
+  ]
+}

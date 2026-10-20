@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "license": "Original Rose prototype vectors; no Fallout assets are included.",
+  "projection": {"hex": "pointy axial", "vertical_scale": 0.52, "directions": 6},
+  "assets": {
+    "player": {"kind": "vector", "prefab": "traveler"},
+    "companion": {"kind": "vector", "prefab": "traveler"},
+    "npc": {"kind": "vector", "prefab": "traveler"},
+    "threat": {"kind": "vector", "prefab": "construct"},
+    "power": {"kind": "vector", "prefab": "wind_collector"},
+    "water": {"kind": "vector", "prefab": "cistern"},
+    "garden": {"kind": "vector", "prefab": "cultivation_frame"},
+    "shelter": {"kind": "vector", "prefab": "refuge"},
+    "workshop": {"kind": "vector", "prefab": "workshop"},
+    "exchange": {"kind": "vector", "prefab": "exchange"},
+    "relay": {"kind": "vector", "prefab": "relay"},
+    "rock": {"kind": "vector", "prefab": "stone"}
+  },
+  "animations": {
+    "idle": {"frames": 4, "frame_ms": 360, "loop": true},
+    "walk": {"frames": 6, "frame_ms": 95, "loop": true},
+    "attack": {"frames": 3, "frame_ms": 150, "loop": false},
+    "guard": {"frames": 1, "frame_ms": 300, "loop": true},
+    "work": {"frames": 4, "frame_ms": 180, "loop": true},
+    "talk": {"frames": 2, "frame_ms": 320, "loop": true},
+    "hit": {"frames": 2, "frame_ms": 180, "loop": false},
+    "down": {"frames": 1, "frame_ms": 1000, "loop": true}
+  },
+  "replacement": {
+    "kind": "sprite",
+    "image": "/art/traveler.png",
+    "scale": 1,
+    "anchor": [24, 64],
+    "frames": [[0, 0, 48, 72], [48, 0, 48, 72]],
+    "clips": {"idle": [0], "walk": [0, 1], "attack": [1], "guard": [0], "work": [0, 1], "talk": [0, 1], "hit": [1], "down": [1]},
+    "note": "This is a format example, not an installed image. Put a PNG/WebP in static/art and replace an assets entry to enable it. Six-direction clips may use walk_0 through walk_5, etc."
+  }
+}

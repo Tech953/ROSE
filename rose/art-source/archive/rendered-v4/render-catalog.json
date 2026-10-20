@@ -1,0 +1,5783 @@
+{
+  "schema": 1,
+  "settings": {
+    "schema": 1,
+    "seed": 417,
+    "camera": {
+      "type": "ORTHO",
+      "ground_compression": 0.52,
+      "azimuth_degrees": -45,
+      "distance": 12,
+      "character": {
+        "size": [
+          192,
+          192
+        ],
+        "ortho_scale": 3.7142857142857144,
+        "target_height": 0.92,
+        "runtime_scale": 0.6666666666666666
+      },
+      "environment": {
+        "size": [
+          288,
+          336
+        ],
+        "ortho_scale": 7.0,
+        "target_height": 0.85,
+        "runtime_scale": 0.6666666666666666
+      },
+      "texture": {
+        "size": [
+          192,
+          240
+        ],
+        "ortho_scale": 5.0,
+        "target_height": 0.85,
+        "runtime_scale": 0.6666666666666666
+      }
+    },
+    "render": {
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 48,
+      "supersample": 1,
+      "threads": 4,
+      "seed": 417,
+      "native_antialiasing": "Cycles jittered ray samples; denoised at the higher native sprite resolution",
+      "texture_supersample": 2
+    },
+    "light": {
+      "sun_energy": 2.65,
+      "sun_angle_degrees": 4.0,
+      "ambient_strength": 0.42,
+      "position_in_screen_basis": [
+        -3,
+        4,
+        7
+      ],
+      "ambient_color": [
+        0.48,
+        0.455,
+        0.4
+      ],
+      "fill_energy": 38,
+      "fill_size": 5.0,
+      "fill_position_in_screen_basis": [
+        4,
+        -2,
+        6
+      ]
+    },
+    "palette": {
+      "entries": 256,
+      "transparent_index": 0,
+      "rgb_dither": "FLOYDSTEINBERG",
+      "alpha_dither": "BAYER_4X4",
+      "shadow_alpha_levels": 16
+    },
+    "facings": [
+      "E",
+      "NE",
+      "NW",
+      "W",
+      "SW",
+      "SE"
+    ],
+    "animations": {
+      "idle": {
+        "frames": 4,
+        "frame_ms": 320,
+        "loop": true
+      },
+      "walk": {
+        "frames": 8,
+        "frame_ms": 90,
+        "loop": true
+      },
+      "attack": {
+        "frames": 6,
+        "frame_ms": 145,
+        "loop": false
+      },
+      "guard": {
+        "frames": 2,
+        "frame_ms": 320,
+        "loop": true
+      },
+      "work": {
+        "frames": 4,
+        "frame_ms": 180,
+        "loop": true
+      },
+      "talk": {
+        "frames": 4,
+        "frame_ms": 240,
+        "loop": true
+      },
+      "hit": {
+        "frames": 3,
+        "frame_ms": 180,
+        "loop": false
+      },
+      "down": {
+        "frames": 1,
+        "frame_ms": 1000,
+        "loop": true
+      }
+    },
+    "art_direction": "fidelity-v4 / continuous anatomy, tailored fabric, physical surfaces and smoother shadow grading",
+    "materials": {
+      "grain_scale": 34,
+      "weather_scale": 2.1,
+      "weather_strength": 0.24,
+      "bump_strength": 0.16,
+      "bump_distance": 0.007,
+      "surfaces": {
+        "metal": {
+          "color": [
+            0.19,
+            0.21,
+            0.185
+          ],
+          "metal": 0.46,
+          "roughness": 0.53,
+          "grain": 0.13
+        },
+        "brass": {
+          "color": [
+            0.36,
+            0.27,
+            0.14
+          ],
+          "metal": 0.52,
+          "roughness": 0.57,
+          "grain": 0.13
+        },
+        "cloth": {
+          "color": [
+            0.235,
+            0.205,
+            0.145
+          ],
+          "roughness": 0.92,
+          "grain": 0.13
+        },
+        "trousers": {
+          "color": [
+            0.11,
+            0.125,
+            0.11
+          ],
+          "roughness": 0.91,
+          "grain": 0.13
+        },
+        "leather": {
+          "color": [
+            0.16,
+            0.105,
+            0.066
+          ],
+          "roughness": 0.72,
+          "grain": 0.13
+        },
+        "canvas": {
+          "color": [
+            0.36,
+            0.31,
+            0.225
+          ],
+          "roughness": 0.94,
+          "grain": 0.13
+        },
+        "wood": {
+          "color": [
+            0.215,
+            0.14,
+            0.075
+          ],
+          "roughness": 0.93,
+          "grain": 0.13
+        },
+        "concrete": {
+          "color": [
+            0.215,
+            0.205,
+            0.175
+          ],
+          "roughness": 0.95,
+          "grain": 0.13
+        },
+        "skin": {
+          "color": [
+            0.43,
+            0.285,
+            0.185
+          ],
+          "roughness": 0.66,
+          "grain": 0.035
+        },
+        "dark": {
+          "color": [
+            0.025,
+            0.033,
+            0.027
+          ],
+          "metal": 0.12,
+          "roughness": 0.87,
+          "grain": 0.12
+        },
+        "leaf": {
+          "color": [
+            0.19,
+            0.255,
+            0.105
+          ],
+          "roughness": 0.9,
+          "grain": 0.13
+        },
+        "soil": {
+          "color": [
+            0.1,
+            0.07,
+            0.038
+          ],
+          "roughness": 0.98,
+          "grain": 0.13
+        },
+        "stone": {
+          "color": [
+            0.275,
+            0.27,
+            0.215
+          ],
+          "roughness": 0.96,
+          "grain": 0.13
+        },
+        "cyan": {
+          "color": [
+            0.18,
+            0.49,
+            0.385
+          ],
+          "roughness": 0.77,
+          "glow": 0.32,
+          "grain": 0.12
+        },
+        "rose": {
+          "color": [
+            0.38,
+            0.13,
+            0.17
+          ],
+          "roughness": 0.86,
+          "glow": 0.08,
+          "grain": 0.12
+        },
+        "ground_jade": {
+          "color": [
+            0.165,
+            0.18,
+            0.125
+          ],
+          "roughness": 0.97,
+          "grain": 0.13
+        },
+        "ground_city": {
+          "color": [
+            0.155,
+            0.145,
+            0.125
+          ],
+          "roughness": 0.98,
+          "grain": 0.13
+        },
+        "ground_hills": {
+          "color": [
+            0.235,
+            0.195,
+            0.125
+          ],
+          "roughness": 0.98,
+          "grain": 0.13
+        },
+        "ground_aether": {
+          "color": [
+            0.17,
+            0.175,
+            0.16
+          ],
+          "roughness": 0.96,
+          "grain": 0.13
+        },
+        "olive_coat": {
+          "color": [
+            0.25,
+            0.3,
+            0.185
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "slate_coat": {
+          "color": [
+            0.195,
+            0.25,
+            0.27
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "ochre_coat": {
+          "color": [
+            0.39,
+            0.27,
+            0.13
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "burgundy_coat": {
+          "color": [
+            0.295,
+            0.145,
+            0.15
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "skin_light": {
+          "color": [
+            0.59,
+            0.395,
+            0.285
+          ],
+          "roughness": 0.66,
+          "grain": 0.035
+        },
+        "skin_deep": {
+          "color": [
+            0.265,
+            0.15,
+            0.1
+          ],
+          "roughness": 0.66,
+          "grain": 0.035
+        },
+        "hair": {
+          "color": [
+            0.065,
+            0.043,
+            0.027
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "hair_gray": {
+          "color": [
+            0.24,
+            0.23,
+            0.195
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "plaster": {
+          "color": [
+            0.41,
+            0.37,
+            0.27
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "moss": {
+          "color": [
+            0.13,
+            0.185,
+            0.065
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "rust": {
+          "color": [
+            0.295,
+            0.115,
+            0.05
+          ],
+          "roughness": 0.88,
+          "grain": 0.13
+        },
+        "skin_lip": {
+          "color": [
+            0.3,
+            0.115,
+            0.09
+          ],
+          "roughness": 0.7,
+          "grain": 0.035
+        },
+        "skin_shadow": {
+          "color": [
+            0.29,
+            0.2,
+            0.145
+          ],
+          "roughness": 0.72,
+          "grain": 0.025
+        },
+        "ivory": {
+          "color": [
+            0.64,
+            0.56,
+            0.42
+          ],
+          "roughness": 0.73,
+          "grain": 0.07
+        }
+      }
+    }
+  },
+  "provenance": "Original 3D meshes rendered in Blender Cycles, then downsampled and palette-indexed.",
+  "render": {
+    "source_sha256": "1ffba10d8a92bcd94e23e368845e78c33148e95023500ea7a60cb6123af9a28b",
+    "blender": "4.2.0",
+    "samples": 48,
+    "supersample": 1
+  },
+  "projection": {
+    "hex": "pointy axial",
+    "vertical_scale": 0.52,
+    "directions": 6,
+    "elevation_degrees": 31.332251497594267,
+    "camera_azimuth_degrees": -45,
+    "facing_yaw_degrees": [
+      135,
+      195,
+      255,
+      315,
+      15,
+      75
+    ]
+  },
+  "animations": {
+    "idle": {
+      "frames": 4,
+      "frame_ms": 320,
+      "loop": true
+    },
+    "walk": {
+      "frames": 8,
+      "frame_ms": 90,
+      "loop": true
+    },
+    "attack": {
+      "frames": 6,
+      "frame_ms": 145,
+      "loop": false
+    },
+    "guard": {
+      "frames": 2,
+      "frame_ms": 320,
+      "loop": true
+    },
+    "work": {
+      "frames": 4,
+      "frame_ms": 180,
+      "loop": true
+    },
+    "talk": {
+      "frames": 4,
+      "frame_ms": 240,
+      "loop": true
+    },
+    "hit": {
+      "frames": 3,
+      "frame_ms": 180,
+      "loop": false
+    },
+    "down": {
+      "frames": 1,
+      "frame_ms": 1000,
+      "loop": true
+    }
+  },
+  "visual_catalog": {
+    "schema": 1,
+    "profiles": {
+      "traveler": {
+        "label": "Wayfarer",
+        "description": "Lean field layers, a weathered face, swept gray hair, gaiters, a bedroll and a route staff."
+      },
+      "archivist": {
+        "label": "Archivist",
+        "description": "A long slate coat, narrow shoulders, close cropped hair, a brow lens and a strapped document case."
+      },
+      "artisan": {
+        "label": "Artisan",
+        "description": "A broad work jacket, a bearded face, leather apron, reinforced boots and a repair harness."
+      },
+      "mediator": {
+        "label": "Mediator",
+        "description": "A burgundy mantle, shaved head, layered cloth, wrapped forearms and provision satchels."
+      },
+      "metal_kin": {
+        "label": "Metal-kin field body",
+        "description": "A segmented humanoid chassis, ceramic faceplate, exposed joints, utility apron and a restrained seam light."
+      }
+    },
+    "role_defaults": {
+      "NanoClad Scout": "traveler",
+      "Fractech Archivist": "archivist",
+      "Needlurgist": "archivist",
+      "Metal-kin Artisan": "artisan",
+      "Seam Mediator": "mediator",
+      "Light Reader": "mediator"
+    },
+    "regions": [
+      "WN_TOWER",
+      "CITY_CLOUD_S",
+      "ENACT_HILLS",
+      "AETHERGALE"
+    ],
+    "structures": [
+      "power",
+      "water",
+      "garden",
+      "shelter",
+      "workshop",
+      "exchange",
+      "relay"
+    ],
+    "tones": [
+      "field",
+      "cool patina",
+      "warm dust"
+    ],
+    "scope": "Five modeled body families with three palette treatments each. Personal biographies remain authoritative; free text does not synthesize a new mesh. Architecture has four regional models per function and two rendered condition states."
+  },
+  "models": {
+    "traveler": {
+      "size": [
+        192,
+        192
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "frames": [
+        "traveler/idle-0-00.png",
+        "traveler/idle-0-01.png",
+        "traveler/idle-0-02.png",
+        "traveler/idle-0-03.png",
+        "traveler/walk-0-00.png",
+        "traveler/walk-0-01.png",
+        "traveler/walk-0-02.png",
+        "traveler/walk-0-03.png",
+        "traveler/walk-0-04.png",
+        "traveler/walk-0-05.png",
+        "traveler/walk-0-06.png",
+        "traveler/walk-0-07.png",
+        "traveler/attack-0-00.png",
+        "traveler/attack-0-01.png",
+        "traveler/attack-0-02.png",
+        "traveler/attack-0-03.png",
+        "traveler/attack-0-04.png",
+        "traveler/attack-0-05.png",
+        "traveler/guard-0-00.png",
+        "traveler/guard-0-01.png",
+        "traveler/work-0-00.png",
+        "traveler/work-0-01.png",
+        "traveler/work-0-02.png",
+        "traveler/work-0-03.png",
+        "traveler/talk-0-00.png",
+        "traveler/talk-0-01.png",
+        "traveler/talk-0-02.png",
+        "traveler/talk-0-03.png",
+        "traveler/hit-0-00.png",
+        "traveler/hit-0-01.png",
+        "traveler/hit-0-02.png",
+        "traveler/down-0-00.png",
+        "traveler/idle-1-00.png",
+        "traveler/idle-1-01.png",
+        "traveler/idle-1-02.png",
+        "traveler/idle-1-03.png",
+        "traveler/walk-1-00.png",
+        "traveler/walk-1-01.png",
+        "traveler/walk-1-02.png",
+        "traveler/walk-1-03.png",
+        "traveler/walk-1-04.png",
+        "traveler/walk-1-05.png",
+        "traveler/walk-1-06.png",
+        "traveler/walk-1-07.png",
+        "traveler/attack-1-00.png",
+        "traveler/attack-1-01.png",
+        "traveler/attack-1-02.png",
+        "traveler/attack-1-03.png",
+        "traveler/attack-1-04.png",
+        "traveler/attack-1-05.png",
+        "traveler/guard-1-00.png",
+        "traveler/guard-1-01.png",
+        "traveler/work-1-00.png",
+        "traveler/work-1-01.png",
+        "traveler/work-1-02.png",
+        "traveler/work-1-03.png",
+        "traveler/talk-1-00.png",
+        "traveler/talk-1-01.png",
+        "traveler/talk-1-02.png",
+        "traveler/talk-1-03.png",
+        "traveler/hit-1-00.png",
+        "traveler/hit-1-01.png",
+        "traveler/hit-1-02.png",
+        "traveler/down-1-00.png",
+        "traveler/idle-2-00.png",
+        "traveler/idle-2-01.png",
+        "traveler/idle-2-02.png",
+        "traveler/idle-2-03.png",
+        "traveler/walk-2-00.png",
+        "traveler/walk-2-01.png",
+        "traveler/walk-2-02.png",
+        "traveler/walk-2-03.png",
+        "traveler/walk-2-04.png",
+        "traveler/walk-2-05.png",
+        "traveler/walk-2-06.png",
+        "traveler/walk-2-07.png",
+        "traveler/attack-2-00.png",
+        "traveler/attack-2-01.png",
+        "traveler/attack-2-02.png",
+        "traveler/attack-2-03.png",
+        "traveler/attack-2-04.png",
+        "traveler/attack-2-05.png",
+        "traveler/guard-2-00.png",
+        "traveler/guard-2-01.png",
+        "traveler/work-2-00.png",
+        "traveler/work-2-01.png",
+        "traveler/work-2-02.png",
+        "traveler/work-2-03.png",
+        "traveler/talk-2-00.png",
+        "traveler/talk-2-01.png",
+        "traveler/talk-2-02.png",
+        "traveler/talk-2-03.png",
+        "traveler/hit-2-00.png",
+        "traveler/hit-2-01.png",
+        "traveler/hit-2-02.png",
+        "traveler/down-2-00.png",
+        "traveler/idle-3-00.png",
+        "traveler/idle-3-01.png",
+        "traveler/idle-3-02.png",
+        "traveler/idle-3-03.png",
+        "traveler/walk-3-00.png",
+        "traveler/walk-3-01.png",
+        "traveler/walk-3-02.png",
+        "traveler/walk-3-03.png",
+        "traveler/walk-3-04.png",
+        "traveler/walk-3-05.png",
+        "traveler/walk-3-06.png",
+        "traveler/walk-3-07.png",
+        "traveler/attack-3-00.png",
+        "traveler/attack-3-01.png",
+        "traveler/attack-3-02.png",
+        "traveler/attack-3-03.png",
+        "traveler/attack-3-04.png",
+        "traveler/attack-3-05.png",
+        "traveler/guard-3-00.png",
+        "traveler/guard-3-01.png",
+        "traveler/work-3-00.png",
+        "traveler/work-3-01.png",
+        "traveler/work-3-02.png",
+        "traveler/work-3-03.png",
+        "traveler/talk-3-00.png",
+        "traveler/talk-3-01.png",
+        "traveler/talk-3-02.png",
+        "traveler/talk-3-03.png",
+        "traveler/hit-3-00.png",
+        "traveler/hit-3-01.png",
+        "traveler/hit-3-02.png",
+        "traveler/down-3-00.png",
+        "traveler/idle-4-00.png",
+        "traveler/idle-4-01.png",
+        "traveler/idle-4-02.png",
+        "traveler/idle-4-03.png",
+        "traveler/walk-4-00.png",
+        "traveler/walk-4-01.png",
+        "traveler/walk-4-02.png",
+        "traveler/walk-4-03.png",
+        "traveler/walk-4-04.png",
+        "traveler/walk-4-05.png",
+        "traveler/walk-4-06.png",
+        "traveler/walk-4-07.png",
+        "traveler/attack-4-00.png",
+        "traveler/attack-4-01.png",
+        "traveler/attack-4-02.png",
+        "traveler/attack-4-03.png",
+        "traveler/attack-4-04.png",
+        "traveler/attack-4-05.png",
+        "traveler/guard-4-00.png",
+        "traveler/guard-4-01.png",
+        "traveler/work-4-00.png",
+        "traveler/work-4-01.png",
+        "traveler/work-4-02.png",
+        "traveler/work-4-03.png",
+        "traveler/talk-4-00.png",
+        "traveler/talk-4-01.png",
+        "traveler/talk-4-02.png",
+        "traveler/talk-4-03.png",
+        "traveler/hit-4-00.png",
+        "traveler/hit-4-01.png",
+        "traveler/hit-4-02.png",
+        "traveler/down-4-00.png",
+        "traveler/idle-5-00.png",
+        "traveler/idle-5-01.png",
+        "traveler/idle-5-02.png",
+        "traveler/idle-5-03.png",
+        "traveler/walk-5-00.png",
+        "traveler/walk-5-01.png",
+        "traveler/walk-5-02.png",
+        "traveler/walk-5-03.png",
+        "traveler/walk-5-04.png",
+        "traveler/walk-5-05.png",
+        "traveler/walk-5-06.png",
+        "traveler/walk-5-07.png",
+        "traveler/attack-5-00.png",
+        "traveler/attack-5-01.png",
+        "traveler/attack-5-02.png",
+        "traveler/attack-5-03.png",
+        "traveler/attack-5-04.png",
+        "traveler/attack-5-05.png",
+        "traveler/guard-5-00.png",
+        "traveler/guard-5-01.png",
+        "traveler/work-5-00.png",
+        "traveler/work-5-01.png",
+        "traveler/work-5-02.png",
+        "traveler/work-5-03.png",
+        "traveler/talk-5-00.png",
+        "traveler/talk-5-01.png",
+        "traveler/talk-5-02.png",
+        "traveler/talk-5-03.png",
+        "traveler/hit-5-00.png",
+        "traveler/hit-5-01.png",
+        "traveler/hit-5-02.png",
+        "traveler/down-5-00.png"
+      ],
+      "timeline_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "camera_kind": "character",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "archivist": {
+      "size": [
+        192,
+        192
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "frames": [
+        "archivist/idle-0-00.png",
+        "archivist/idle-0-01.png",
+        "archivist/idle-0-02.png",
+        "archivist/idle-0-03.png",
+        "archivist/walk-0-00.png",
+        "archivist/walk-0-01.png",
+        "archivist/walk-0-02.png",
+        "archivist/walk-0-03.png",
+        "archivist/walk-0-04.png",
+        "archivist/walk-0-05.png",
+        "archivist/walk-0-06.png",
+        "archivist/walk-0-07.png",
+        "archivist/attack-0-00.png",
+        "archivist/attack-0-01.png",
+        "archivist/attack-0-02.png",
+        "archivist/attack-0-03.png",
+        "archivist/attack-0-04.png",
+        "archivist/attack-0-05.png",
+        "archivist/guard-0-00.png",
+        "archivist/guard-0-01.png",
+        "archivist/work-0-00.png",
+        "archivist/work-0-01.png",
+        "archivist/work-0-02.png",
+        "archivist/work-0-03.png",
+        "archivist/talk-0-00.png",
+        "archivist/talk-0-01.png",
+        "archivist/talk-0-02.png",
+        "archivist/talk-0-03.png",
+        "archivist/hit-0-00.png",
+        "archivist/hit-0-01.png",
+        "archivist/hit-0-02.png",
+        "archivist/down-0-00.png",
+        "archivist/idle-1-00.png",
+        "archivist/idle-1-01.png",
+        "archivist/idle-1-02.png",
+        "archivist/idle-1-03.png",
+        "archivist/walk-1-00.png",
+        "archivist/walk-1-01.png",
+        "archivist/walk-1-02.png",
+        "archivist/walk-1-03.png",
+        "archivist/walk-1-04.png",
+        "archivist/walk-1-05.png",
+        "archivist/walk-1-06.png",
+        "archivist/walk-1-07.png",
+        "archivist/attack-1-00.png",
+        "archivist/attack-1-01.png",
+        "archivist/attack-1-02.png",
+        "archivist/attack-1-03.png",
+        "archivist/attack-1-04.png",
+        "archivist/attack-1-05.png",
+        "archivist/guard-1-00.png",
+        "archivist/guard-1-01.png",
+        "archivist/work-1-00.png",
+        "archivist/work-1-01.png",
+        "archivist/work-1-02.png",
+        "archivist/work-1-03.png",
+        "archivist/talk-1-00.png",
+        "archivist/talk-1-01.png",
+        "archivist/talk-1-02.png",
+        "archivist/talk-1-03.png",
+        "archivist/hit-1-00.png",
+        "archivist/hit-1-01.png",
+        "archivist/hit-1-02.png",
+        "archivist/down-1-00.png",
+        "archivist/idle-2-00.png",
+        "archivist/idle-2-01.png",
+        "archivist/idle-2-02.png",
+        "archivist/idle-2-03.png",
+        "archivist/walk-2-00.png",
+        "archivist/walk-2-01.png",
+        "archivist/walk-2-02.png",
+        "archivist/walk-2-03.png",
+        "archivist/walk-2-04.png",
+        "archivist/walk-2-05.png",
+        "archivist/walk-2-06.png",
+        "archivist/walk-2-07.png",
+        "archivist/attack-2-00.png",
+        "archivist/attack-2-01.png",
+        "archivist/attack-2-02.png",
+        "archivist/attack-2-03.png",
+        "archivist/attack-2-04.png",
+        "archivist/attack-2-05.png",
+        "archivist/guard-2-00.png",
+        "archivist/guard-2-01.png",
+        "archivist/work-2-00.png",
+        "archivist/work-2-01.png",
+        "archivist/work-2-02.png",
+        "archivist/work-2-03.png",
+        "archivist/talk-2-00.png",
+        "archivist/talk-2-01.png",
+        "archivist/talk-2-02.png",
+        "archivist/talk-2-03.png",
+        "archivist/hit-2-00.png",
+        "archivist/hit-2-01.png",
+        "archivist/hit-2-02.png",
+        "archivist/down-2-00.png",
+        "archivist/idle-3-00.png",
+        "archivist/idle-3-01.png",
+        "archivist/idle-3-02.png",
+        "archivist/idle-3-03.png",
+        "archivist/walk-3-00.png",
+        "archivist/walk-3-01.png",
+        "archivist/walk-3-02.png",
+        "archivist/walk-3-03.png",
+        "archivist/walk-3-04.png",
+        "archivist/walk-3-05.png",
+        "archivist/walk-3-06.png",
+        "archivist/walk-3-07.png",
+        "archivist/attack-3-00.png",
+        "archivist/attack-3-01.png",
+        "archivist/attack-3-02.png",
+        "archivist/attack-3-03.png",
+        "archivist/attack-3-04.png",
+        "archivist/attack-3-05.png",
+        "archivist/guard-3-00.png",
+        "archivist/guard-3-01.png",
+        "archivist/work-3-00.png",
+        "archivist/work-3-01.png",
+        "archivist/work-3-02.png",
+        "archivist/work-3-03.png",
+        "archivist/talk-3-00.png",
+        "archivist/talk-3-01.png",
+        "archivist/talk-3-02.png",
+        "archivist/talk-3-03.png",
+        "archivist/hit-3-00.png",
+        "archivist/hit-3-01.png",
+        "archivist/hit-3-02.png",
+        "archivist/down-3-00.png",
+        "archivist/idle-4-00.png",
+        "archivist/idle-4-01.png",
+        "archivist/idle-4-02.png",
+        "archivist/idle-4-03.png",
+        "archivist/walk-4-00.png",
+        "archivist/walk-4-01.png",
+        "archivist/walk-4-02.png",
+        "archivist/walk-4-03.png",
+        "archivist/walk-4-04.png",
+        "archivist/walk-4-05.png",
+        "archivist/walk-4-06.png",
+        "archivist/walk-4-07.png",
+        "archivist/attack-4-00.png",
+        "archivist/attack-4-01.png",
+        "archivist/attack-4-02.png",
+        "archivist/attack-4-03.png",
+        "archivist/attack-4-04.png",
+        "archivist/attack-4-05.png",
+        "archivist/guard-4-00.png",
+        "archivist/guard-4-01.png",
+        "archivist/work-4-00.png",
+        "archivist/work-4-01.png",
+        "archivist/work-4-02.png",
+        "archivist/work-4-03.png",
+        "archivist/talk-4-00.png",
+        "archivist/talk-4-01.png",
+        "archivist/talk-4-02.png",
+        "archivist/talk-4-03.png",
+        "archivist/hit-4-00.png",
+        "archivist/hit-4-01.png",
+        "archivist/hit-4-02.png",
+        "archivist/down-4-00.png",
+        "archivist/idle-5-00.png",
+        "archivist/idle-5-01.png",
+        "archivist/idle-5-02.png",
+        "archivist/idle-5-03.png",
+        "archivist/walk-5-00.png",
+        "archivist/walk-5-01.png",
+        "archivist/walk-5-02.png",
+        "archivist/walk-5-03.png",
+        "archivist/walk-5-04.png",
+        "archivist/walk-5-05.png",
+        "archivist/walk-5-06.png",
+        "archivist/walk-5-07.png",
+        "archivist/attack-5-00.png",
+        "archivist/attack-5-01.png",
+        "archivist/attack-5-02.png",
+        "archivist/attack-5-03.png",
+        "archivist/attack-5-04.png",
+        "archivist/attack-5-05.png",
+        "archivist/guard-5-00.png",
+        "archivist/guard-5-01.png",
+        "archivist/work-5-00.png",
+        "archivist/work-5-01.png",
+        "archivist/work-5-02.png",
+        "archivist/work-5-03.png",
+        "archivist/talk-5-00.png",
+        "archivist/talk-5-01.png",
+        "archivist/talk-5-02.png",
+        "archivist/talk-5-03.png",
+        "archivist/hit-5-00.png",
+        "archivist/hit-5-01.png",
+        "archivist/hit-5-02.png",
+        "archivist/down-5-00.png"
+      ],
+      "timeline_frames": [
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "camera_kind": "character",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "artisan": {
+      "size": [
+        192,
+        192
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "frames": [
+        "artisan/idle-0-00.png",
+        "artisan/idle-0-01.png",
+        "artisan/idle-0-02.png",
+        "artisan/idle-0-03.png",
+        "artisan/walk-0-00.png",
+        "artisan/walk-0-01.png",
+        "artisan/walk-0-02.png",
+        "artisan/walk-0-03.png",
+        "artisan/walk-0-04.png",
+        "artisan/walk-0-05.png",
+        "artisan/walk-0-06.png",
+        "artisan/walk-0-07.png",
+        "artisan/attack-0-00.png",
+        "artisan/attack-0-01.png",
+        "artisan/attack-0-02.png",
+        "artisan/attack-0-03.png",
+        "artisan/attack-0-04.png",
+        "artisan/attack-0-05.png",
+        "artisan/guard-0-00.png",
+        "artisan/guard-0-01.png",
+        "artisan/work-0-00.png",
+        "artisan/work-0-01.png",
+        "artisan/work-0-02.png",
+        "artisan/work-0-03.png",
+        "artisan/talk-0-00.png",
+        "artisan/talk-0-01.png",
+        "artisan/talk-0-02.png",
+        "artisan/talk-0-03.png",
+        "artisan/hit-0-00.png",
+        "artisan/hit-0-01.png",
+        "artisan/hit-0-02.png",
+        "artisan/down-0-00.png",
+        "artisan/idle-1-00.png",
+        "artisan/idle-1-01.png",
+        "artisan/idle-1-02.png",
+        "artisan/idle-1-03.png",
+        "artisan/walk-1-00.png",
+        "artisan/walk-1-01.png",
+        "artisan/walk-1-02.png",
+        "artisan/walk-1-03.png",
+        "artisan/walk-1-04.png",
+        "artisan/walk-1-05.png",
+        "artisan/walk-1-06.png",
+        "artisan/walk-1-07.png",
+        "artisan/attack-1-00.png",
+        "artisan/attack-1-01.png",
+        "artisan/attack-1-02.png",
+        "artisan/attack-1-03.png",
+        "artisan/attack-1-04.png",
+        "artisan/attack-1-05.png",
+        "artisan/guard-1-00.png",
+        "artisan/guard-1-01.png",
+        "artisan/work-1-00.png",
+        "artisan/work-1-01.png",
+        "artisan/work-1-02.png",
+        "artisan/work-1-03.png",
+        "artisan/talk-1-00.png",
+        "artisan/talk-1-01.png",
+        "artisan/talk-1-02.png",
+        "artisan/talk-1-03.png",
+        "artisan/hit-1-00.png",
+        "artisan/hit-1-01.png",
+        "artisan/hit-1-02.png",
+        "artisan/down-1-00.png",
+        "artisan/idle-2-00.png",
+        "artisan/idle-2-01.png",
+        "artisan/idle-2-02.png",
+        "artisan/idle-2-03.png",
+        "artisan/walk-2-00.png",
+        "artisan/walk-2-01.png",
+        "artisan/walk-2-02.png",
+        "artisan/walk-2-03.png",
+        "artisan/walk-2-04.png",
+        "artisan/walk-2-05.png",
+        "artisan/walk-2-06.png",
+        "artisan/walk-2-07.png",
+        "artisan/attack-2-00.png",
+        "artisan/attack-2-01.png",
+        "artisan/attack-2-02.png",
+        "artisan/attack-2-03.png",
+        "artisan/attack-2-04.png",
+        "artisan/attack-2-05.png",
+        "artisan/guard-2-00.png",
+        "artisan/guard-2-01.png",
+        "artisan/work-2-00.png",
+        "artisan/work-2-01.png",
+        "artisan/work-2-02.png",
+        "artisan/work-2-03.png",
+        "artisan/talk-2-00.png",
+        "artisan/talk-2-01.png",
+        "artisan/talk-2-02.png",
+        "artisan/talk-2-03.png",
+        "artisan/hit-2-00.png",
+        "artisan/hit-2-01.png",
+        "artisan/hit-2-02.png",
+        "artisan/down-2-00.png",
+        "artisan/idle-3-00.png",
+        "artisan/idle-3-01.png",
+        "artisan/idle-3-02.png",
+        "artisan/idle-3-03.png",
+        "artisan/walk-3-00.png",
+        "artisan/walk-3-01.png",
+        "artisan/walk-3-02.png",
+        "artisan/walk-3-03.png",
+        "artisan/walk-3-04.png",
+        "artisan/walk-3-05.png",
+        "artisan/walk-3-06.png",
+        "artisan/walk-3-07.png",
+        "artisan/attack-3-00.png",
+        "artisan/attack-3-01.png",
+        "artisan/attack-3-02.png",
+        "artisan/attack-3-03.png",
+        "artisan/attack-3-04.png",
+        "artisan/attack-3-05.png",
+        "artisan/guard-3-00.png",
+        "artisan/guard-3-01.png",
+        "artisan/work-3-00.png",
+        "artisan/work-3-01.png",
+        "artisan/work-3-02.png",
+        "artisan/work-3-03.png",
+        "artisan/talk-3-00.png",
+        "artisan/talk-3-01.png",
+        "artisan/talk-3-02.png",
+        "artisan/talk-3-03.png",
+        "artisan/hit-3-00.png",
+        "artisan/hit-3-01.png",
+        "artisan/hit-3-02.png",
+        "artisan/down-3-00.png",
+        "artisan/idle-4-00.png",
+        "artisan/idle-4-01.png",
+        "artisan/idle-4-02.png",
+        "artisan/idle-4-03.png",
+        "artisan/walk-4-00.png",
+        "artisan/walk-4-01.png",
+        "artisan/walk-4-02.png",
+        "artisan/walk-4-03.png",
+        "artisan/walk-4-04.png",
+        "artisan/walk-4-05.png",
+        "artisan/walk-4-06.png",
+        "artisan/walk-4-07.png",
+        "artisan/attack-4-00.png",
+        "artisan/attack-4-01.png",
+        "artisan/attack-4-02.png",
+        "artisan/attack-4-03.png",
+        "artisan/attack-4-04.png",
+        "artisan/attack-4-05.png",
+        "artisan/guard-4-00.png",
+        "artisan/guard-4-01.png",
+        "artisan/work-4-00.png",
+        "artisan/work-4-01.png",
+        "artisan/work-4-02.png",
+        "artisan/work-4-03.png",
+        "artisan/talk-4-00.png",
+        "artisan/talk-4-01.png",
+        "artisan/talk-4-02.png",
+        "artisan/talk-4-03.png",
+        "artisan/hit-4-00.png",
+        "artisan/hit-4-01.png",
+        "artisan/hit-4-02.png",
+        "artisan/down-4-00.png",
+        "artisan/idle-5-00.png",
+        "artisan/idle-5-01.png",
+        "artisan/idle-5-02.png",
+        "artisan/idle-5-03.png",
+        "artisan/walk-5-00.png",
+        "artisan/walk-5-01.png",
+        "artisan/walk-5-02.png",
+        "artisan/walk-5-03.png",
+        "artisan/walk-5-04.png",
+        "artisan/walk-5-05.png",
+        "artisan/walk-5-06.png",
+        "artisan/walk-5-07.png",
+        "artisan/attack-5-00.png",
+        "artisan/attack-5-01.png",
+        "artisan/attack-5-02.png",
+        "artisan/attack-5-03.png",
+        "artisan/attack-5-04.png",
+        "artisan/attack-5-05.png",
+        "artisan/guard-5-00.png",
+        "artisan/guard-5-01.png",
+        "artisan/work-5-00.png",
+        "artisan/work-5-01.png",
+        "artisan/work-5-02.png",
+        "artisan/work-5-03.png",
+        "artisan/talk-5-00.png",
+        "artisan/talk-5-01.png",
+        "artisan/talk-5-02.png",
+        "artisan/talk-5-03.png",
+        "artisan/hit-5-00.png",
+        "artisan/hit-5-01.png",
+        "artisan/hit-5-02.png",
+        "artisan/down-5-00.png"
+      ],
+      "timeline_frames": [
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "camera_kind": "character",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "mediator": {
+      "size": [
+        192,
+        192
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "frames": [
+        "mediator/idle-0-00.png",
+        "mediator/idle-0-01.png",
+        "mediator/idle-0-02.png",
+        "mediator/idle-0-03.png",
+        "mediator/walk-0-00.png",
+        "mediator/walk-0-01.png",
+        "mediator/walk-0-02.png",
+        "mediator/walk-0-03.png",
+        "mediator/walk-0-04.png",
+        "mediator/walk-0-05.png",
+        "mediator/walk-0-06.png",
+        "mediator/walk-0-07.png",
+        "mediator/attack-0-00.png",
+        "mediator/attack-0-01.png",
+        "mediator/attack-0-02.png",
+        "mediator/attack-0-03.png",
+        "mediator/attack-0-04.png",
+        "mediator/attack-0-05.png",
+        "mediator/guard-0-00.png",
+        "mediator/guard-0-01.png",
+        "mediator/work-0-00.png",
+        "mediator/work-0-01.png",
+        "mediator/work-0-02.png",
+        "mediator/work-0-03.png",
+        "mediator/talk-0-00.png",
+        "mediator/talk-0-01.png",
+        "mediator/talk-0-02.png",
+        "mediator/talk-0-03.png",
+        "mediator/hit-0-00.png",
+        "mediator/hit-0-01.png",
+        "mediator/hit-0-02.png",
+        "mediator/down-0-00.png",
+        "mediator/idle-1-00.png",
+        "mediator/idle-1-01.png",
+        "mediator/idle-1-02.png",
+        "mediator/idle-1-03.png",
+        "mediator/walk-1-00.png",
+        "mediator/walk-1-01.png",
+        "mediator/walk-1-02.png",
+        "mediator/walk-1-03.png",
+        "mediator/walk-1-04.png",
+        "mediator/walk-1-05.png",
+        "mediator/walk-1-06.png",
+        "mediator/walk-1-07.png",
+        "mediator/attack-1-00.png",
+        "mediator/attack-1-01.png",
+        "mediator/attack-1-02.png",
+        "mediator/attack-1-03.png",
+        "mediator/attack-1-04.png",
+        "mediator/attack-1-05.png",
+        "mediator/guard-1-00.png",
+        "mediator/guard-1-01.png",
+        "mediator/work-1-00.png",
+        "mediator/work-1-01.png",
+        "mediator/work-1-02.png",
+        "mediator/work-1-03.png",
+        "mediator/talk-1-00.png",
+        "mediator/talk-1-01.png",
+        "mediator/talk-1-02.png",
+        "mediator/talk-1-03.png",
+        "mediator/hit-1-00.png",
+        "mediator/hit-1-01.png",
+        "mediator/hit-1-02.png",
+        "mediator/down-1-00.png",
+        "mediator/idle-2-00.png",
+        "mediator/idle-2-01.png",
+        "mediator/idle-2-02.png",
+        "mediator/idle-2-03.png",
+        "mediator/walk-2-00.png",
+        "mediator/walk-2-01.png",
+        "mediator/walk-2-02.png",
+        "mediator/walk-2-03.png",
+        "mediator/walk-2-04.png",
+        "mediator/walk-2-05.png",
+        "mediator/walk-2-06.png",
+        "mediator/walk-2-07.png",
+        "mediator/attack-2-00.png",
+        "mediator/attack-2-01.png",
+        "mediator/attack-2-02.png",
+        "mediator/attack-2-03.png",
+        "mediator/attack-2-04.png",
+        "mediator/attack-2-05.png",
+        "mediator/guard-2-00.png",
+        "mediator/guard-2-01.png",
+        "mediator/work-2-00.png",
+        "mediator/work-2-01.png",
+        "mediator/work-2-02.png",
+        "mediator/work-2-03.png",
+        "mediator/talk-2-00.png",
+        "mediator/talk-2-01.png",
+        "mediator/talk-2-02.png",
+        "mediator/talk-2-03.png",
+        "mediator/hit-2-00.png",
+        "mediator/hit-2-01.png",
+        "mediator/hit-2-02.png",
+        "mediator/down-2-00.png",
+        "mediator/idle-3-00.png",
+        "mediator/idle-3-01.png",
+        "mediator/idle-3-02.png",
+        "mediator/idle-3-03.png",
+        "mediator/walk-3-00.png",
+        "mediator/walk-3-01.png",
+        "mediator/walk-3-02.png",
+        "mediator/walk-3-03.png",
+        "mediator/walk-3-04.png",
+        "mediator/walk-3-05.png",
+        "mediator/walk-3-06.png",
+        "mediator/walk-3-07.png",
+        "mediator/attack-3-00.png",
+        "mediator/attack-3-01.png",
+        "mediator/attack-3-02.png",
+        "mediator/attack-3-03.png",
+        "mediator/attack-3-04.png",
+        "mediator/attack-3-05.png",
+        "mediator/guard-3-00.png",
+        "mediator/guard-3-01.png",
+        "mediator/work-3-00.png",
+        "mediator/work-3-01.png",
+        "mediator/work-3-02.png",
+        "mediator/work-3-03.png",
+        "mediator/talk-3-00.png",
+        "mediator/talk-3-01.png",
+        "mediator/talk-3-02.png",
+        "mediator/talk-3-03.png",
+        "mediator/hit-3-00.png",
+        "mediator/hit-3-01.png",
+        "mediator/hit-3-02.png",
+        "mediator/down-3-00.png",
+        "mediator/idle-4-00.png",
+        "mediator/idle-4-01.png",
+        "mediator/idle-4-02.png",
+        "mediator/idle-4-03.png",
+        "mediator/walk-4-00.png",
+        "mediator/walk-4-01.png",
+        "mediator/walk-4-02.png",
+        "mediator/walk-4-03.png",
+        "mediator/walk-4-04.png",
+        "mediator/walk-4-05.png",
+        "mediator/walk-4-06.png",
+        "mediator/walk-4-07.png",
+        "mediator/attack-4-00.png",
+        "mediator/attack-4-01.png",
+        "mediator/attack-4-02.png",
+        "mediator/attack-4-03.png",
+        "mediator/attack-4-04.png",
+        "mediator/attack-4-05.png",
+        "mediator/guard-4-00.png",
+        "mediator/guard-4-01.png",
+        "mediator/work-4-00.png",
+        "mediator/work-4-01.png",
+        "mediator/work-4-02.png",
+        "mediator/work-4-03.png",
+        "mediator/talk-4-00.png",
+        "mediator/talk-4-01.png",
+        "mediator/talk-4-02.png",
+        "mediator/talk-4-03.png",
+        "mediator/hit-4-00.png",
+        "mediator/hit-4-01.png",
+        "mediator/hit-4-02.png",
+        "mediator/down-4-00.png",
+        "mediator/idle-5-00.png",
+        "mediator/idle-5-01.png",
+        "mediator/idle-5-02.png",
+        "mediator/idle-5-03.png",
+        "mediator/walk-5-00.png",
+        "mediator/walk-5-01.png",
+        "mediator/walk-5-02.png",
+        "mediator/walk-5-03.png",
+        "mediator/walk-5-04.png",
+        "mediator/walk-5-05.png",
+        "mediator/walk-5-06.png",
+        "mediator/walk-5-07.png",
+        "mediator/attack-5-00.png",
+        "mediator/attack-5-01.png",
+        "mediator/attack-5-02.png",
+        "mediator/attack-5-03.png",
+        "mediator/attack-5-04.png",
+        "mediator/attack-5-05.png",
+        "mediator/guard-5-00.png",
+        "mediator/guard-5-01.png",
+        "mediator/work-5-00.png",
+        "mediator/work-5-01.png",
+        "mediator/work-5-02.png",
+        "mediator/work-5-03.png",
+        "mediator/talk-5-00.png",
+        "mediator/talk-5-01.png",
+        "mediator/talk-5-02.png",
+        "mediator/talk-5-03.png",
+        "mediator/hit-5-00.png",
+        "mediator/hit-5-01.png",
+        "mediator/hit-5-02.png",
+        "mediator/down-5-00.png"
+      ],
+      "timeline_frames": [
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "camera_kind": "character",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "metal_kin": {
+      "size": [
+        192,
+        192
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "frames": [
+        "metal_kin/idle-0-00.png",
+        "metal_kin/idle-0-01.png",
+        "metal_kin/idle-0-02.png",
+        "metal_kin/idle-0-03.png",
+        "metal_kin/walk-0-00.png",
+        "metal_kin/walk-0-01.png",
+        "metal_kin/walk-0-02.png",
+        "metal_kin/walk-0-03.png",
+        "metal_kin/walk-0-04.png",
+        "metal_kin/walk-0-05.png",
+        "metal_kin/walk-0-06.png",
+        "metal_kin/walk-0-07.png",
+        "metal_kin/attack-0-00.png",
+        "metal_kin/attack-0-01.png",
+        "metal_kin/attack-0-02.png",
+        "metal_kin/attack-0-03.png",
+        "metal_kin/attack-0-04.png",
+        "metal_kin/attack-0-05.png",
+        "metal_kin/guard-0-00.png",
+        "metal_kin/guard-0-01.png",
+        "metal_kin/work-0-00.png",
+        "metal_kin/work-0-01.png",
+        "metal_kin/work-0-02.png",
+        "metal_kin/work-0-03.png",
+        "metal_kin/talk-0-00.png",
+        "metal_kin/talk-0-01.png",
+        "metal_kin/talk-0-02.png",
+        "metal_kin/talk-0-03.png",
+        "metal_kin/hit-0-00.png",
+        "metal_kin/hit-0-01.png",
+        "metal_kin/hit-0-02.png",
+        "metal_kin/down-0-00.png",
+        "metal_kin/idle-1-00.png",
+        "metal_kin/idle-1-01.png",
+        "metal_kin/idle-1-02.png",
+        "metal_kin/idle-1-03.png",
+        "metal_kin/walk-1-00.png",
+        "metal_kin/walk-1-01.png",
+        "metal_kin/walk-1-02.png",
+        "metal_kin/walk-1-03.png",
+        "metal_kin/walk-1-04.png",
+        "metal_kin/walk-1-05.png",
+        "metal_kin/walk-1-06.png",
+        "metal_kin/walk-1-07.png",
+        "metal_kin/attack-1-00.png",
+        "metal_kin/attack-1-01.png",
+        "metal_kin/attack-1-02.png",
+        "metal_kin/attack-1-03.png",
+        "metal_kin/attack-1-04.png",
+        "metal_kin/attack-1-05.png",
+        "metal_kin/guard-1-00.png",
+        "metal_kin/guard-1-01.png",
+        "metal_kin/work-1-00.png",
+        "metal_kin/work-1-01.png",
+        "metal_kin/work-1-02.png",
+        "metal_kin/work-1-03.png",
+        "metal_kin/talk-1-00.png",
+        "metal_kin/talk-1-01.png",
+        "metal_kin/talk-1-02.png",
+        "metal_kin/talk-1-03.png",
+        "metal_kin/hit-1-00.png",
+        "metal_kin/hit-1-01.png",
+        "metal_kin/hit-1-02.png",
+        "metal_kin/down-1-00.png",
+        "metal_kin/idle-2-00.png",
+        "metal_kin/idle-2-01.png",
+        "metal_kin/idle-2-02.png",
+        "metal_kin/idle-2-03.png",
+        "metal_kin/walk-2-00.png",
+        "metal_kin/walk-2-01.png",
+        "metal_kin/walk-2-02.png",
+        "metal_kin/walk-2-03.png",
+        "metal_kin/walk-2-04.png",
+        "metal_kin/walk-2-05.png",
+        "metal_kin/walk-2-06.png",
+        "metal_kin/walk-2-07.png",
+        "metal_kin/attack-2-00.png",
+        "metal_kin/attack-2-01.png",
+        "metal_kin/attack-2-02.png",
+        "metal_kin/attack-2-03.png",
+        "metal_kin/attack-2-04.png",
+        "metal_kin/attack-2-05.png",
+        "metal_kin/guard-2-00.png",
+        "metal_kin/guard-2-01.png",
+        "metal_kin/work-2-00.png",
+        "metal_kin/work-2-01.png",
+        "metal_kin/work-2-02.png",
+        "metal_kin/work-2-03.png",
+        "metal_kin/talk-2-00.png",
+        "metal_kin/talk-2-01.png",
+        "metal_kin/talk-2-02.png",
+        "metal_kin/talk-2-03.png",
+        "metal_kin/hit-2-00.png",
+        "metal_kin/hit-2-01.png",
+        "metal_kin/hit-2-02.png",
+        "metal_kin/down-2-00.png",
+        "metal_kin/idle-3-00.png",
+        "metal_kin/idle-3-01.png",
+        "metal_kin/idle-3-02.png",
+        "metal_kin/idle-3-03.png",
+        "metal_kin/walk-3-00.png",
+        "metal_kin/walk-3-01.png",
+        "metal_kin/walk-3-02.png",
+        "metal_kin/walk-3-03.png",
+        "metal_kin/walk-3-04.png",
+        "metal_kin/walk-3-05.png",
+        "metal_kin/walk-3-06.png",
+        "metal_kin/walk-3-07.png",
+        "metal_kin/attack-3-00.png",
+        "metal_kin/attack-3-01.png",
+        "metal_kin/attack-3-02.png",
+        "metal_kin/attack-3-03.png",
+        "metal_kin/attack-3-04.png",
+        "metal_kin/attack-3-05.png",
+        "metal_kin/guard-3-00.png",
+        "metal_kin/guard-3-01.png",
+        "metal_kin/work-3-00.png",
+        "metal_kin/work-3-01.png",
+        "metal_kin/work-3-02.png",
+        "metal_kin/work-3-03.png",
+        "metal_kin/talk-3-00.png",
+        "metal_kin/talk-3-01.png",
+        "metal_kin/talk-3-02.png",
+        "metal_kin/talk-3-03.png",
+        "metal_kin/hit-3-00.png",
+        "metal_kin/hit-3-01.png",
+        "metal_kin/hit-3-02.png",
+        "metal_kin/down-3-00.png",
+        "metal_kin/idle-4-00.png",
+        "metal_kin/idle-4-01.png",
+        "metal_kin/idle-4-02.png",
+        "metal_kin/idle-4-03.png",
+        "metal_kin/walk-4-00.png",
+        "metal_kin/walk-4-01.png",
+        "metal_kin/walk-4-02.png",
+        "metal_kin/walk-4-03.png",
+        "metal_kin/walk-4-04.png",
+        "metal_kin/walk-4-05.png",
+        "metal_kin/walk-4-06.png",
+        "metal_kin/walk-4-07.png",
+        "metal_kin/attack-4-00.png",
+        "metal_kin/attack-4-01.png",
+        "metal_kin/attack-4-02.png",
+        "metal_kin/attack-4-03.png",
+        "metal_kin/attack-4-04.png",
+        "metal_kin/attack-4-05.png",
+        "metal_kin/guard-4-00.png",
+        "metal_kin/guard-4-01.png",
+        "metal_kin/work-4-00.png",
+        "metal_kin/work-4-01.png",
+        "metal_kin/work-4-02.png",
+        "metal_kin/work-4-03.png",
+        "metal_kin/talk-4-00.png",
+        "metal_kin/talk-4-01.png",
+        "metal_kin/talk-4-02.png",
+        "metal_kin/talk-4-03.png",
+        "metal_kin/hit-4-00.png",
+        "metal_kin/hit-4-01.png",
+        "metal_kin/hit-4-02.png",
+        "metal_kin/down-4-00.png",
+        "metal_kin/idle-5-00.png",
+        "metal_kin/idle-5-01.png",
+        "metal_kin/idle-5-02.png",
+        "metal_kin/idle-5-03.png",
+        "metal_kin/walk-5-00.png",
+        "metal_kin/walk-5-01.png",
+        "metal_kin/walk-5-02.png",
+        "metal_kin/walk-5-03.png",
+        "metal_kin/walk-5-04.png",
+        "metal_kin/walk-5-05.png",
+        "metal_kin/walk-5-06.png",
+        "metal_kin/walk-5-07.png",
+        "metal_kin/attack-5-00.png",
+        "metal_kin/attack-5-01.png",
+        "metal_kin/attack-5-02.png",
+        "metal_kin/attack-5-03.png",
+        "metal_kin/attack-5-04.png",
+        "metal_kin/attack-5-05.png",
+        "metal_kin/guard-5-00.png",
+        "metal_kin/guard-5-01.png",
+        "metal_kin/work-5-00.png",
+        "metal_kin/work-5-01.png",
+        "metal_kin/work-5-02.png",
+        "metal_kin/work-5-03.png",
+        "metal_kin/talk-5-00.png",
+        "metal_kin/talk-5-01.png",
+        "metal_kin/talk-5-02.png",
+        "metal_kin/talk-5-03.png",
+        "metal_kin/hit-5-00.png",
+        "metal_kin/hit-5-01.png",
+        "metal_kin/hit-5-02.png",
+        "metal_kin/down-5-00.png"
+      ],
+      "timeline_frames": [
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917,
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "camera_kind": "character",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "construct": {
+      "size": [
+        192,
+        192
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "frames": [
+        "construct/idle-0-00.png",
+        "construct/idle-0-01.png",
+        "construct/idle-0-02.png",
+        "construct/idle-0-03.png",
+        "construct/walk-0-00.png",
+        "construct/walk-0-01.png",
+        "construct/walk-0-02.png",
+        "construct/walk-0-03.png",
+        "construct/walk-0-04.png",
+        "construct/walk-0-05.png",
+        "construct/walk-0-06.png",
+        "construct/walk-0-07.png",
+        "construct/attack-0-00.png",
+        "construct/attack-0-01.png",
+        "construct/attack-0-02.png",
+        "construct/attack-0-03.png",
+        "construct/attack-0-04.png",
+        "construct/attack-0-05.png",
+        "construct/guard-0-00.png",
+        "construct/guard-0-01.png",
+        "construct/work-0-00.png",
+        "construct/work-0-01.png",
+        "construct/work-0-02.png",
+        "construct/work-0-03.png",
+        "construct/talk-0-00.png",
+        "construct/talk-0-01.png",
+        "construct/talk-0-02.png",
+        "construct/talk-0-03.png",
+        "construct/hit-0-00.png",
+        "construct/hit-0-01.png",
+        "construct/hit-0-02.png",
+        "construct/down-0-00.png",
+        "construct/idle-1-00.png",
+        "construct/idle-1-01.png",
+        "construct/idle-1-02.png",
+        "construct/idle-1-03.png",
+        "construct/walk-1-00.png",
+        "construct/walk-1-01.png",
+        "construct/walk-1-02.png",
+        "construct/walk-1-03.png",
+        "construct/walk-1-04.png",
+        "construct/walk-1-05.png",
+        "construct/walk-1-06.png",
+        "construct/walk-1-07.png",
+        "construct/attack-1-00.png",
+        "construct/attack-1-01.png",
+        "construct/attack-1-02.png",
+        "construct/attack-1-03.png",
+        "construct/attack-1-04.png",
+        "construct/attack-1-05.png",
+        "construct/guard-1-00.png",
+        "construct/guard-1-01.png",
+        "construct/work-1-00.png",
+        "construct/work-1-01.png",
+        "construct/work-1-02.png",
+        "construct/work-1-03.png",
+        "construct/talk-1-00.png",
+        "construct/talk-1-01.png",
+        "construct/talk-1-02.png",
+        "construct/talk-1-03.png",
+        "construct/hit-1-00.png",
+        "construct/hit-1-01.png",
+        "construct/hit-1-02.png",
+        "construct/down-1-00.png",
+        "construct/idle-2-00.png",
+        "construct/idle-2-01.png",
+        "construct/idle-2-02.png",
+        "construct/idle-2-03.png",
+        "construct/walk-2-00.png",
+        "construct/walk-2-01.png",
+        "construct/walk-2-02.png",
+        "construct/walk-2-03.png",
+        "construct/walk-2-04.png",
+        "construct/walk-2-05.png",
+        "construct/walk-2-06.png",
+        "construct/walk-2-07.png",
+        "construct/attack-2-00.png",
+        "construct/attack-2-01.png",
+        "construct/attack-2-02.png",
+        "construct/attack-2-03.png",
+        "construct/attack-2-04.png",
+        "construct/attack-2-05.png",
+        "construct/guard-2-00.png",
+        "construct/guard-2-01.png",
+        "construct/work-2-00.png",
+        "construct/work-2-01.png",
+        "construct/work-2-02.png",
+        "construct/work-2-03.png",
+        "construct/talk-2-00.png",
+        "construct/talk-2-01.png",
+        "construct/talk-2-02.png",
+        "construct/talk-2-03.png",
+        "construct/hit-2-00.png",
+        "construct/hit-2-01.png",
+        "construct/hit-2-02.png",
+        "construct/down-2-00.png",
+        "construct/idle-3-00.png",
+        "construct/idle-3-01.png",
+        "construct/idle-3-02.png",
+        "construct/idle-3-03.png",
+        "construct/walk-3-00.png",
+        "construct/walk-3-01.png",
+        "construct/walk-3-02.png",
+        "construct/walk-3-03.png",
+        "construct/walk-3-04.png",
+        "construct/walk-3-05.png",
+        "construct/walk-3-06.png",
+        "construct/walk-3-07.png",
+        "construct/attack-3-00.png",
+        "construct/attack-3-01.png",
+        "construct/attack-3-02.png",
+        "construct/attack-3-03.png",
+        "construct/attack-3-04.png",
+        "construct/attack-3-05.png",
+        "construct/guard-3-00.png",
+        "construct/guard-3-01.png",
+        "construct/work-3-00.png",
+        "construct/work-3-01.png",
+        "construct/work-3-02.png",
+        "construct/work-3-03.png",
+        "construct/talk-3-00.png",
+        "construct/talk-3-01.png",
+        "construct/talk-3-02.png",
+        "construct/talk-3-03.png",
+        "construct/hit-3-00.png",
+        "construct/hit-3-01.png",
+        "construct/hit-3-02.png",
+        "construct/down-3-00.png",
+        "construct/idle-4-00.png",
+        "construct/idle-4-01.png",
+        "construct/idle-4-02.png",
+        "construct/idle-4-03.png",
+        "construct/walk-4-00.png",
+        "construct/walk-4-01.png",
+        "construct/walk-4-02.png",
+        "construct/walk-4-03.png",
+        "construct/walk-4-04.png",
+        "construct/walk-4-05.png",
+        "construct/walk-4-06.png",
+        "construct/walk-4-07.png",
+        "construct/attack-4-00.png",
+        "construct/attack-4-01.png",
+        "construct/attack-4-02.png",
+        "construct/attack-4-03.png",
+        "construct/attack-4-04.png",
+        "construct/attack-4-05.png",
+        "construct/guard-4-00.png",
+        "construct/guard-4-01.png",
+        "construct/work-4-00.png",
+        "construct/work-4-01.png",
+        "construct/work-4-02.png",
+        "construct/work-4-03.png",
+        "construct/talk-4-00.png",
+        "construct/talk-4-01.png",
+        "construct/talk-4-02.png",
+        "construct/talk-4-03.png",
+        "construct/hit-4-00.png",
+        "construct/hit-4-01.png",
+        "construct/hit-4-02.png",
+        "construct/down-4-00.png",
+        "construct/idle-5-00.png",
+        "construct/idle-5-01.png",
+        "construct/idle-5-02.png",
+        "construct/idle-5-03.png",
+        "construct/walk-5-00.png",
+        "construct/walk-5-01.png",
+        "construct/walk-5-02.png",
+        "construct/walk-5-03.png",
+        "construct/walk-5-04.png",
+        "construct/walk-5-05.png",
+        "construct/walk-5-06.png",
+        "construct/walk-5-07.png",
+        "construct/attack-5-00.png",
+        "construct/attack-5-01.png",
+        "construct/attack-5-02.png",
+        "construct/attack-5-03.png",
+        "construct/attack-5-04.png",
+        "construct/attack-5-05.png",
+        "construct/guard-5-00.png",
+        "construct/guard-5-01.png",
+        "construct/work-5-00.png",
+        "construct/work-5-01.png",
+        "construct/work-5-02.png",
+        "construct/work-5-03.png",
+        "construct/talk-5-00.png",
+        "construct/talk-5-01.png",
+        "construct/talk-5-02.png",
+        "construct/talk-5-03.png",
+        "construct/hit-5-00.png",
+        "construct/hit-5-01.png",
+        "construct/hit-5-02.png",
+        "construct/down-5-00.png"
+      ],
+      "timeline_frames": [
+        961,
+        962,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996,
+        997,
+        998,
+        999,
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046,
+        1047,
+        1048,
+        1049,
+        1050,
+        1051,
+        1052,
+        1053,
+        1054,
+        1055,
+        1056,
+        1057,
+        1058,
+        1059,
+        1060,
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066,
+        1067,
+        1068,
+        1069,
+        1070,
+        1071,
+        1072,
+        1073,
+        1074,
+        1075,
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1087,
+        1088,
+        1089,
+        1090,
+        1091,
+        1092,
+        1093,
+        1094,
+        1095,
+        1096,
+        1097,
+        1098,
+        1099,
+        1100,
+        1101,
+        1102,
+        1103,
+        1104,
+        1105,
+        1106,
+        1107,
+        1108,
+        1109,
+        1110,
+        1111,
+        1112,
+        1113,
+        1114,
+        1115,
+        1116,
+        1117,
+        1118,
+        1119,
+        1120,
+        1121,
+        1122,
+        1123,
+        1124,
+        1125,
+        1126,
+        1127,
+        1128,
+        1129,
+        1130,
+        1131,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136,
+        1137,
+        1138,
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145,
+        1146,
+        1147,
+        1148,
+        1149,
+        1150,
+        1151,
+        1152
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "camera_kind": "character",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "power_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "power_WN_TOWER/idle-0-00.png",
+        "power_WN_TOWER/idle-0-01.png",
+        "power_WN_TOWER/idle-0-02.png",
+        "power_WN_TOWER/idle-0-03.png",
+        "power_WN_TOWER/worn-0-00.png",
+        "power_WN_TOWER/worn-0-01.png",
+        "power_WN_TOWER/worn-0-02.png",
+        "power_WN_TOWER/worn-0-03.png"
+      ],
+      "timeline_frames": [
+        1153,
+        1154,
+        1155,
+        1156,
+        1157,
+        1158,
+        1159,
+        1160
+      ],
+      "clips": {
+        "idle": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "worn": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "water_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "water_WN_TOWER/idle-0-00.png",
+        "water_WN_TOWER/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1161,
+        1162
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "garden_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "garden_WN_TOWER/idle-0-00.png",
+        "garden_WN_TOWER/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1163,
+        1164
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "shelter_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "shelter_WN_TOWER/idle-0-00.png",
+        "shelter_WN_TOWER/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1165,
+        1166
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "workshop_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "workshop_WN_TOWER/idle-0-00.png",
+        "workshop_WN_TOWER/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1167,
+        1168
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "exchange_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "exchange_WN_TOWER/idle-0-00.png",
+        "exchange_WN_TOWER/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1169,
+        1170
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "relay_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "relay_WN_TOWER/idle-0-00.png",
+        "relay_WN_TOWER/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1171,
+        1172
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "power_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "power_CITY_CLOUD_S/idle-0-00.png",
+        "power_CITY_CLOUD_S/idle-0-01.png",
+        "power_CITY_CLOUD_S/idle-0-02.png",
+        "power_CITY_CLOUD_S/idle-0-03.png",
+        "power_CITY_CLOUD_S/worn-0-00.png",
+        "power_CITY_CLOUD_S/worn-0-01.png",
+        "power_CITY_CLOUD_S/worn-0-02.png",
+        "power_CITY_CLOUD_S/worn-0-03.png"
+      ],
+      "timeline_frames": [
+        1173,
+        1174,
+        1175,
+        1176,
+        1177,
+        1178,
+        1179,
+        1180
+      ],
+      "clips": {
+        "idle": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "worn": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "water_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "water_CITY_CLOUD_S/idle-0-00.png",
+        "water_CITY_CLOUD_S/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1181,
+        1182
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "garden_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "garden_CITY_CLOUD_S/idle-0-00.png",
+        "garden_CITY_CLOUD_S/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1183,
+        1184
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "shelter_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "shelter_CITY_CLOUD_S/idle-0-00.png",
+        "shelter_CITY_CLOUD_S/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1185,
+        1186
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "workshop_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "workshop_CITY_CLOUD_S/idle-0-00.png",
+        "workshop_CITY_CLOUD_S/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1187,
+        1188
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "exchange_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "exchange_CITY_CLOUD_S/idle-0-00.png",
+        "exchange_CITY_CLOUD_S/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1189,
+        1190
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "relay_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "relay_CITY_CLOUD_S/idle-0-00.png",
+        "relay_CITY_CLOUD_S/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1191,
+        1192
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "power_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "power_ENACT_HILLS/idle-0-00.png",
+        "power_ENACT_HILLS/idle-0-01.png",
+        "power_ENACT_HILLS/idle-0-02.png",
+        "power_ENACT_HILLS/idle-0-03.png",
+        "power_ENACT_HILLS/worn-0-00.png",
+        "power_ENACT_HILLS/worn-0-01.png",
+        "power_ENACT_HILLS/worn-0-02.png",
+        "power_ENACT_HILLS/worn-0-03.png"
+      ],
+      "timeline_frames": [
+        1193,
+        1194,
+        1195,
+        1196,
+        1197,
+        1198,
+        1199,
+        1200
+      ],
+      "clips": {
+        "idle": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "worn": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "water_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "water_ENACT_HILLS/idle-0-00.png",
+        "water_ENACT_HILLS/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1201,
+        1202
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "garden_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "garden_ENACT_HILLS/idle-0-00.png",
+        "garden_ENACT_HILLS/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1203,
+        1204
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "shelter_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "shelter_ENACT_HILLS/idle-0-00.png",
+        "shelter_ENACT_HILLS/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1205,
+        1206
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "workshop_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "workshop_ENACT_HILLS/idle-0-00.png",
+        "workshop_ENACT_HILLS/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1207,
+        1208
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "exchange_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "exchange_ENACT_HILLS/idle-0-00.png",
+        "exchange_ENACT_HILLS/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1209,
+        1210
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "relay_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "relay_ENACT_HILLS/idle-0-00.png",
+        "relay_ENACT_HILLS/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1211,
+        1212
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "power_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "power_AETHERGALE/idle-0-00.png",
+        "power_AETHERGALE/idle-0-01.png",
+        "power_AETHERGALE/idle-0-02.png",
+        "power_AETHERGALE/idle-0-03.png",
+        "power_AETHERGALE/worn-0-00.png",
+        "power_AETHERGALE/worn-0-01.png",
+        "power_AETHERGALE/worn-0-02.png",
+        "power_AETHERGALE/worn-0-03.png"
+      ],
+      "timeline_frames": [
+        1213,
+        1214,
+        1215,
+        1216,
+        1217,
+        1218,
+        1219,
+        1220
+      ],
+      "clips": {
+        "idle": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "worn": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "water_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "water_AETHERGALE/idle-0-00.png",
+        "water_AETHERGALE/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1221,
+        1222
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "garden_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "garden_AETHERGALE/idle-0-00.png",
+        "garden_AETHERGALE/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1223,
+        1224
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "shelter_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "shelter_AETHERGALE/idle-0-00.png",
+        "shelter_AETHERGALE/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1225,
+        1226
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "workshop_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "workshop_AETHERGALE/idle-0-00.png",
+        "workshop_AETHERGALE/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1227,
+        1228
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "exchange_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "exchange_AETHERGALE/idle-0-00.png",
+        "exchange_AETHERGALE/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1229,
+        1230
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "relay_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "relay_AETHERGALE/idle-0-00.png",
+        "relay_AETHERGALE/worn-0-00.png"
+      ],
+      "timeline_frames": [
+        1231,
+        1232
+      ],
+      "clips": {
+        "idle": [
+          0
+        ],
+        "worn": [
+          1
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "rock_WN_TOWER": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "rock_WN_TOWER/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1233
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "rock_CITY_CLOUD_S": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "rock_CITY_CLOUD_S/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1234
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "rock_ENACT_HILLS": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "rock_ENACT_HILLS/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1235
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "rock_AETHERGALE": {
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "frames": [
+        "rock_AETHERGALE/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1236
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "environment",
+      "kind": "sprite",
+      "supersample": 1
+    },
+    "ground_WN_TOWER": {
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "frames": [
+        "ground_WN_TOWER/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1237
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "texture",
+      "kind": "texture",
+      "supersample": 2
+    },
+    "ground_CITY_CLOUD_S": {
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "frames": [
+        "ground_CITY_CLOUD_S/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1238
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "texture",
+      "kind": "texture",
+      "supersample": 2
+    },
+    "ground_ENACT_HILLS": {
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "frames": [
+        "ground_ENACT_HILLS/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1239
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "texture",
+      "kind": "texture",
+      "supersample": 2
+    },
+    "ground_AETHERGALE": {
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "frames": [
+        "ground_AETHERGALE/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        1240
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "camera_kind": "texture",
+      "kind": "texture",
+      "supersample": 2
+    }
+  }
+}

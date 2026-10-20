@@ -1,0 +1,1820 @@
+{
+  "schema": 1,
+  "settings": {
+    "schema": 1,
+    "seed": 417,
+    "camera": {
+      "type": "ORTHO",
+      "ground_compression": 0.52,
+      "azimuth_degrees": -45,
+      "distance": 12,
+      "character": {
+        "size": [
+          128,
+          128
+        ],
+        "ortho_scale": 3.7142857142857144,
+        "target_height": 0.92
+      },
+      "environment": {
+        "size": [
+          128,
+          160
+        ],
+        "ortho_scale": 5.0,
+        "target_height": 0.85
+      }
+    },
+    "render": {
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 24,
+      "supersample": 2,
+      "threads": 4,
+      "seed": 417
+    },
+    "light": {
+      "sun_energy": 3.1,
+      "sun_angle_degrees": 1.5,
+      "ambient_strength": 0.28,
+      "position_in_screen_basis": [
+        -3,
+        4,
+        7
+      ]
+    },
+    "palette": {
+      "entries": 256,
+      "transparent_index": 0,
+      "rgb_dither": "FLOYDSTEINBERG",
+      "alpha_dither": "BAYER_4X4"
+    },
+    "facings": [
+      "E",
+      "NE",
+      "NW",
+      "W",
+      "SW",
+      "SE"
+    ],
+    "animations": {
+      "idle": {
+        "frames": 4,
+        "frame_ms": 320,
+        "loop": true
+      },
+      "walk": {
+        "frames": 8,
+        "frame_ms": 90,
+        "loop": true
+      },
+      "attack": {
+        "frames": 6,
+        "frame_ms": 145,
+        "loop": false
+      },
+      "guard": {
+        "frames": 2,
+        "frame_ms": 320,
+        "loop": true
+      },
+      "work": {
+        "frames": 4,
+        "frame_ms": 180,
+        "loop": true
+      },
+      "talk": {
+        "frames": 4,
+        "frame_ms": 240,
+        "loop": true
+      },
+      "hit": {
+        "frames": 3,
+        "frame_ms": 180,
+        "loop": false
+      },
+      "down": {
+        "frames": 1,
+        "frame_ms": 1000,
+        "loop": true
+      }
+    }
+  },
+  "provenance": "Original 3D meshes rendered in Blender Cycles, then downsampled and palette-indexed.",
+  "render": {
+    "source_sha256": "173b259bea6d7460bcb2589ba9994ec8e63577ca667e45ad6e1e0100c6a89d4d",
+    "blender": "4.2.0",
+    "samples": 24,
+    "supersample": 2
+  },
+  "projection": {
+    "hex": "pointy axial",
+    "vertical_scale": 0.52,
+    "directions": 6,
+    "elevation_degrees": 31.332251497594267,
+    "camera_azimuth_degrees": -45,
+    "facing_yaw_degrees": [
+      135,
+      195,
+      255,
+      315,
+      15,
+      75
+    ]
+  },
+  "animations": {
+    "idle": {
+      "frames": 4,
+      "frame_ms": 320,
+      "loop": true
+    },
+    "walk": {
+      "frames": 8,
+      "frame_ms": 90,
+      "loop": true
+    },
+    "attack": {
+      "frames": 6,
+      "frame_ms": 145,
+      "loop": false
+    },
+    "guard": {
+      "frames": 2,
+      "frame_ms": 320,
+      "loop": true
+    },
+    "work": {
+      "frames": 4,
+      "frame_ms": 180,
+      "loop": true
+    },
+    "talk": {
+      "frames": 4,
+      "frame_ms": 240,
+      "loop": true
+    },
+    "hit": {
+      "frames": 3,
+      "frame_ms": 180,
+      "loop": false
+    },
+    "down": {
+      "frames": 1,
+      "frame_ms": 1000,
+      "loop": true
+    }
+  },
+  "models": {
+    "traveler": {
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        64.000038,
+        91.08099
+      ],
+      "frames": [
+        "traveler/idle-0-00.png",
+        "traveler/idle-0-01.png",
+        "traveler/idle-0-02.png",
+        "traveler/idle-0-03.png",
+        "traveler/walk-0-00.png",
+        "traveler/walk-0-01.png",
+        "traveler/walk-0-02.png",
+        "traveler/walk-0-03.png",
+        "traveler/walk-0-04.png",
+        "traveler/walk-0-05.png",
+        "traveler/walk-0-06.png",
+        "traveler/walk-0-07.png",
+        "traveler/attack-0-00.png",
+        "traveler/attack-0-01.png",
+        "traveler/attack-0-02.png",
+        "traveler/attack-0-03.png",
+        "traveler/attack-0-04.png",
+        "traveler/attack-0-05.png",
+        "traveler/guard-0-00.png",
+        "traveler/guard-0-01.png",
+        "traveler/work-0-00.png",
+        "traveler/work-0-01.png",
+        "traveler/work-0-02.png",
+        "traveler/work-0-03.png",
+        "traveler/talk-0-00.png",
+        "traveler/talk-0-01.png",
+        "traveler/talk-0-02.png",
+        "traveler/talk-0-03.png",
+        "traveler/hit-0-00.png",
+        "traveler/hit-0-01.png",
+        "traveler/hit-0-02.png",
+        "traveler/down-0-00.png",
+        "traveler/idle-1-00.png",
+        "traveler/idle-1-01.png",
+        "traveler/idle-1-02.png",
+        "traveler/idle-1-03.png",
+        "traveler/walk-1-00.png",
+        "traveler/walk-1-01.png",
+        "traveler/walk-1-02.png",
+        "traveler/walk-1-03.png",
+        "traveler/walk-1-04.png",
+        "traveler/walk-1-05.png",
+        "traveler/walk-1-06.png",
+        "traveler/walk-1-07.png",
+        "traveler/attack-1-00.png",
+        "traveler/attack-1-01.png",
+        "traveler/attack-1-02.png",
+        "traveler/attack-1-03.png",
+        "traveler/attack-1-04.png",
+        "traveler/attack-1-05.png",
+        "traveler/guard-1-00.png",
+        "traveler/guard-1-01.png",
+        "traveler/work-1-00.png",
+        "traveler/work-1-01.png",
+        "traveler/work-1-02.png",
+        "traveler/work-1-03.png",
+        "traveler/talk-1-00.png",
+        "traveler/talk-1-01.png",
+        "traveler/talk-1-02.png",
+        "traveler/talk-1-03.png",
+        "traveler/hit-1-00.png",
+        "traveler/hit-1-01.png",
+        "traveler/hit-1-02.png",
+        "traveler/down-1-00.png",
+        "traveler/idle-2-00.png",
+        "traveler/idle-2-01.png",
+        "traveler/idle-2-02.png",
+        "traveler/idle-2-03.png",
+        "traveler/walk-2-00.png",
+        "traveler/walk-2-01.png",
+        "traveler/walk-2-02.png",
+        "traveler/walk-2-03.png",
+        "traveler/walk-2-04.png",
+        "traveler/walk-2-05.png",
+        "traveler/walk-2-06.png",
+        "traveler/walk-2-07.png",
+        "traveler/attack-2-00.png",
+        "traveler/attack-2-01.png",
+        "traveler/attack-2-02.png",
+        "traveler/attack-2-03.png",
+        "traveler/attack-2-04.png",
+        "traveler/attack-2-05.png",
+        "traveler/guard-2-00.png",
+        "traveler/guard-2-01.png",
+        "traveler/work-2-00.png",
+        "traveler/work-2-01.png",
+        "traveler/work-2-02.png",
+        "traveler/work-2-03.png",
+        "traveler/talk-2-00.png",
+        "traveler/talk-2-01.png",
+        "traveler/talk-2-02.png",
+        "traveler/talk-2-03.png",
+        "traveler/hit-2-00.png",
+        "traveler/hit-2-01.png",
+        "traveler/hit-2-02.png",
+        "traveler/down-2-00.png",
+        "traveler/idle-3-00.png",
+        "traveler/idle-3-01.png",
+        "traveler/idle-3-02.png",
+        "traveler/idle-3-03.png",
+        "traveler/walk-3-00.png",
+        "traveler/walk-3-01.png",
+        "traveler/walk-3-02.png",
+        "traveler/walk-3-03.png",
+        "traveler/walk-3-04.png",
+        "traveler/walk-3-05.png",
+        "traveler/walk-3-06.png",
+        "traveler/walk-3-07.png",
+        "traveler/attack-3-00.png",
+        "traveler/attack-3-01.png",
+        "traveler/attack-3-02.png",
+        "traveler/attack-3-03.png",
+        "traveler/attack-3-04.png",
+        "traveler/attack-3-05.png",
+        "traveler/guard-3-00.png",
+        "traveler/guard-3-01.png",
+        "traveler/work-3-00.png",
+        "traveler/work-3-01.png",
+        "traveler/work-3-02.png",
+        "traveler/work-3-03.png",
+        "traveler/talk-3-00.png",
+        "traveler/talk-3-01.png",
+        "traveler/talk-3-02.png",
+        "traveler/talk-3-03.png",
+        "traveler/hit-3-00.png",
+        "traveler/hit-3-01.png",
+        "traveler/hit-3-02.png",
+        "traveler/down-3-00.png",
+        "traveler/idle-4-00.png",
+        "traveler/idle-4-01.png",
+        "traveler/idle-4-02.png",
+        "traveler/idle-4-03.png",
+        "traveler/walk-4-00.png",
+        "traveler/walk-4-01.png",
+        "traveler/walk-4-02.png",
+        "traveler/walk-4-03.png",
+        "traveler/walk-4-04.png",
+        "traveler/walk-4-05.png",
+        "traveler/walk-4-06.png",
+        "traveler/walk-4-07.png",
+        "traveler/attack-4-00.png",
+        "traveler/attack-4-01.png",
+        "traveler/attack-4-02.png",
+        "traveler/attack-4-03.png",
+        "traveler/attack-4-04.png",
+        "traveler/attack-4-05.png",
+        "traveler/guard-4-00.png",
+        "traveler/guard-4-01.png",
+        "traveler/work-4-00.png",
+        "traveler/work-4-01.png",
+        "traveler/work-4-02.png",
+        "traveler/work-4-03.png",
+        "traveler/talk-4-00.png",
+        "traveler/talk-4-01.png",
+        "traveler/talk-4-02.png",
+        "traveler/talk-4-03.png",
+        "traveler/hit-4-00.png",
+        "traveler/hit-4-01.png",
+        "traveler/hit-4-02.png",
+        "traveler/down-4-00.png",
+        "traveler/idle-5-00.png",
+        "traveler/idle-5-01.png",
+        "traveler/idle-5-02.png",
+        "traveler/idle-5-03.png",
+        "traveler/walk-5-00.png",
+        "traveler/walk-5-01.png",
+        "traveler/walk-5-02.png",
+        "traveler/walk-5-03.png",
+        "traveler/walk-5-04.png",
+        "traveler/walk-5-05.png",
+        "traveler/walk-5-06.png",
+        "traveler/walk-5-07.png",
+        "traveler/attack-5-00.png",
+        "traveler/attack-5-01.png",
+        "traveler/attack-5-02.png",
+        "traveler/attack-5-03.png",
+        "traveler/attack-5-04.png",
+        "traveler/attack-5-05.png",
+        "traveler/guard-5-00.png",
+        "traveler/guard-5-01.png",
+        "traveler/work-5-00.png",
+        "traveler/work-5-01.png",
+        "traveler/work-5-02.png",
+        "traveler/work-5-03.png",
+        "traveler/talk-5-00.png",
+        "traveler/talk-5-01.png",
+        "traveler/talk-5-02.png",
+        "traveler/talk-5-03.png",
+        "traveler/hit-5-00.png",
+        "traveler/hit-5-01.png",
+        "traveler/hit-5-02.png",
+        "traveler/down-5-00.png"
+      ],
+      "timeline_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "kind": "sprite"
+    },
+    "construct": {
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        64.000038,
+        91.08099
+      ],
+      "frames": [
+        "construct/idle-0-00.png",
+        "construct/idle-0-01.png",
+        "construct/idle-0-02.png",
+        "construct/idle-0-03.png",
+        "construct/walk-0-00.png",
+        "construct/walk-0-01.png",
+        "construct/walk-0-02.png",
+        "construct/walk-0-03.png",
+        "construct/walk-0-04.png",
+        "construct/walk-0-05.png",
+        "construct/walk-0-06.png",
+        "construct/walk-0-07.png",
+        "construct/attack-0-00.png",
+        "construct/attack-0-01.png",
+        "construct/attack-0-02.png",
+        "construct/attack-0-03.png",
+        "construct/attack-0-04.png",
+        "construct/attack-0-05.png",
+        "construct/guard-0-00.png",
+        "construct/guard-0-01.png",
+        "construct/work-0-00.png",
+        "construct/work-0-01.png",
+        "construct/work-0-02.png",
+        "construct/work-0-03.png",
+        "construct/talk-0-00.png",
+        "construct/talk-0-01.png",
+        "construct/talk-0-02.png",
+        "construct/talk-0-03.png",
+        "construct/hit-0-00.png",
+        "construct/hit-0-01.png",
+        "construct/hit-0-02.png",
+        "construct/down-0-00.png",
+        "construct/idle-1-00.png",
+        "construct/idle-1-01.png",
+        "construct/idle-1-02.png",
+        "construct/idle-1-03.png",
+        "construct/walk-1-00.png",
+        "construct/walk-1-01.png",
+        "construct/walk-1-02.png",
+        "construct/walk-1-03.png",
+        "construct/walk-1-04.png",
+        "construct/walk-1-05.png",
+        "construct/walk-1-06.png",
+        "construct/walk-1-07.png",
+        "construct/attack-1-00.png",
+        "construct/attack-1-01.png",
+        "construct/attack-1-02.png",
+        "construct/attack-1-03.png",
+        "construct/attack-1-04.png",
+        "construct/attack-1-05.png",
+        "construct/guard-1-00.png",
+        "construct/guard-1-01.png",
+        "construct/work-1-00.png",
+        "construct/work-1-01.png",
+        "construct/work-1-02.png",
+        "construct/work-1-03.png",
+        "construct/talk-1-00.png",
+        "construct/talk-1-01.png",
+        "construct/talk-1-02.png",
+        "construct/talk-1-03.png",
+        "construct/hit-1-00.png",
+        "construct/hit-1-01.png",
+        "construct/hit-1-02.png",
+        "construct/down-1-00.png",
+        "construct/idle-2-00.png",
+        "construct/idle-2-01.png",
+        "construct/idle-2-02.png",
+        "construct/idle-2-03.png",
+        "construct/walk-2-00.png",
+        "construct/walk-2-01.png",
+        "construct/walk-2-02.png",
+        "construct/walk-2-03.png",
+        "construct/walk-2-04.png",
+        "construct/walk-2-05.png",
+        "construct/walk-2-06.png",
+        "construct/walk-2-07.png",
+        "construct/attack-2-00.png",
+        "construct/attack-2-01.png",
+        "construct/attack-2-02.png",
+        "construct/attack-2-03.png",
+        "construct/attack-2-04.png",
+        "construct/attack-2-05.png",
+        "construct/guard-2-00.png",
+        "construct/guard-2-01.png",
+        "construct/work-2-00.png",
+        "construct/work-2-01.png",
+        "construct/work-2-02.png",
+        "construct/work-2-03.png",
+        "construct/talk-2-00.png",
+        "construct/talk-2-01.png",
+        "construct/talk-2-02.png",
+        "construct/talk-2-03.png",
+        "construct/hit-2-00.png",
+        "construct/hit-2-01.png",
+        "construct/hit-2-02.png",
+        "construct/down-2-00.png",
+        "construct/idle-3-00.png",
+        "construct/idle-3-01.png",
+        "construct/idle-3-02.png",
+        "construct/idle-3-03.png",
+        "construct/walk-3-00.png",
+        "construct/walk-3-01.png",
+        "construct/walk-3-02.png",
+        "construct/walk-3-03.png",
+        "construct/walk-3-04.png",
+        "construct/walk-3-05.png",
+        "construct/walk-3-06.png",
+        "construct/walk-3-07.png",
+        "construct/attack-3-00.png",
+        "construct/attack-3-01.png",
+        "construct/attack-3-02.png",
+        "construct/attack-3-03.png",
+        "construct/attack-3-04.png",
+        "construct/attack-3-05.png",
+        "construct/guard-3-00.png",
+        "construct/guard-3-01.png",
+        "construct/work-3-00.png",
+        "construct/work-3-01.png",
+        "construct/work-3-02.png",
+        "construct/work-3-03.png",
+        "construct/talk-3-00.png",
+        "construct/talk-3-01.png",
+        "construct/talk-3-02.png",
+        "construct/talk-3-03.png",
+        "construct/hit-3-00.png",
+        "construct/hit-3-01.png",
+        "construct/hit-3-02.png",
+        "construct/down-3-00.png",
+        "construct/idle-4-00.png",
+        "construct/idle-4-01.png",
+        "construct/idle-4-02.png",
+        "construct/idle-4-03.png",
+        "construct/walk-4-00.png",
+        "construct/walk-4-01.png",
+        "construct/walk-4-02.png",
+        "construct/walk-4-03.png",
+        "construct/walk-4-04.png",
+        "construct/walk-4-05.png",
+        "construct/walk-4-06.png",
+        "construct/walk-4-07.png",
+        "construct/attack-4-00.png",
+        "construct/attack-4-01.png",
+        "construct/attack-4-02.png",
+        "construct/attack-4-03.png",
+        "construct/attack-4-04.png",
+        "construct/attack-4-05.png",
+        "construct/guard-4-00.png",
+        "construct/guard-4-01.png",
+        "construct/work-4-00.png",
+        "construct/work-4-01.png",
+        "construct/work-4-02.png",
+        "construct/work-4-03.png",
+        "construct/talk-4-00.png",
+        "construct/talk-4-01.png",
+        "construct/talk-4-02.png",
+        "construct/talk-4-03.png",
+        "construct/hit-4-00.png",
+        "construct/hit-4-01.png",
+        "construct/hit-4-02.png",
+        "construct/down-4-00.png",
+        "construct/idle-5-00.png",
+        "construct/idle-5-01.png",
+        "construct/idle-5-02.png",
+        "construct/idle-5-03.png",
+        "construct/walk-5-00.png",
+        "construct/walk-5-01.png",
+        "construct/walk-5-02.png",
+        "construct/walk-5-03.png",
+        "construct/walk-5-04.png",
+        "construct/walk-5-05.png",
+        "construct/walk-5-06.png",
+        "construct/walk-5-07.png",
+        "construct/attack-5-00.png",
+        "construct/attack-5-01.png",
+        "construct/attack-5-02.png",
+        "construct/attack-5-03.png",
+        "construct/attack-5-04.png",
+        "construct/attack-5-05.png",
+        "construct/guard-5-00.png",
+        "construct/guard-5-01.png",
+        "construct/work-5-00.png",
+        "construct/work-5-01.png",
+        "construct/work-5-02.png",
+        "construct/work-5-03.png",
+        "construct/talk-5-00.png",
+        "construct/talk-5-01.png",
+        "construct/talk-5-02.png",
+        "construct/talk-5-03.png",
+        "construct/hit-5-00.png",
+        "construct/hit-5-01.png",
+        "construct/hit-5-02.png",
+        "construct/down-5-00.png"
+      ],
+      "timeline_frames": [
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384
+      ],
+      "clips": {
+        "idle_0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walk_0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "attack_0": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "guard_0": [
+          18,
+          19
+        ],
+        "work_0": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "talk_0": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "hit_0": [
+          28,
+          29,
+          30
+        ],
+        "down_0": [
+          31
+        ],
+        "idle_1": [
+          32,
+          33,
+          34,
+          35
+        ],
+        "walk_1": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "attack_1": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "guard_1": [
+          50,
+          51
+        ],
+        "work_1": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "talk_1": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "hit_1": [
+          60,
+          61,
+          62
+        ],
+        "down_1": [
+          63
+        ],
+        "idle_2": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "walk_2": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "attack_2": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "guard_2": [
+          82,
+          83
+        ],
+        "work_2": [
+          84,
+          85,
+          86,
+          87
+        ],
+        "talk_2": [
+          88,
+          89,
+          90,
+          91
+        ],
+        "hit_2": [
+          92,
+          93,
+          94
+        ],
+        "down_2": [
+          95
+        ],
+        "idle_3": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "walk_3": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "attack_3": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "guard_3": [
+          114,
+          115
+        ],
+        "work_3": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "talk_3": [
+          120,
+          121,
+          122,
+          123
+        ],
+        "hit_3": [
+          124,
+          125,
+          126
+        ],
+        "down_3": [
+          127
+        ],
+        "idle_4": [
+          128,
+          129,
+          130,
+          131
+        ],
+        "walk_4": [
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "attack_4": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "guard_4": [
+          146,
+          147
+        ],
+        "work_4": [
+          148,
+          149,
+          150,
+          151
+        ],
+        "talk_4": [
+          152,
+          153,
+          154,
+          155
+        ],
+        "hit_4": [
+          156,
+          157,
+          158
+        ],
+        "down_4": [
+          159
+        ],
+        "idle_5": [
+          160,
+          161,
+          162,
+          163
+        ],
+        "walk_5": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "attack_5": [
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "guard_5": [
+          178,
+          179
+        ],
+        "work_5": [
+          180,
+          181,
+          182,
+          183
+        ],
+        "talk_5": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "hit_5": [
+          188,
+          189,
+          190
+        ],
+        "down_5": [
+          191
+        ]
+      },
+      "kind": "sprite"
+    },
+    "power": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "power/idle-0-00.png",
+        "power/idle-0-01.png",
+        "power/idle-0-02.png",
+        "power/idle-0-03.png"
+      ],
+      "timeline_frames": [
+        385,
+        386,
+        387,
+        388
+      ],
+      "clips": {
+        "idle": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "kind": "sprite"
+    },
+    "water": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "water/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        389
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "sprite"
+    },
+    "garden": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "garden/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        390
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "sprite"
+    },
+    "shelter": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "shelter/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        391
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "sprite"
+    },
+    "workshop": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "workshop/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        392
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "sprite"
+    },
+    "exchange": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "exchange/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        393
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "sprite"
+    },
+    "relay": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "relay/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        394
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "sprite"
+    },
+    "rock": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "rock/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        395
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "sprite"
+    },
+    "ground_WN_TOWER": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "ground_WN_TOWER/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        396
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "texture"
+    },
+    "ground_CITY_CLOUD_S": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "ground_CITY_CLOUD_S/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        397
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "texture"
+    },
+    "ground_ENACT_HILLS": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "ground_ENACT_HILLS/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        398
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "texture"
+    },
+    "ground_AETHERGALE": {
+      "size": [
+        128,
+        160
+      ],
+      "anchor": [
+        64.000031,
+        103.233294
+      ],
+      "frames": [
+        "ground_AETHERGALE/idle-0-00.png"
+      ],
+      "timeline_frames": [
+        399
+      ],
+      "clips": {
+        "idle": [
+          0
+        ]
+      },
+      "kind": "texture"
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "id": "vrex-v3-proposal",
+  "title": "VREX v3 research protocol",
+  "source": {
+    "filename": "VREX_v3_Grant_Proposal.pdf",
+    "sha256": "7d7b774360ed65f995f46b9726e8ced8e8c333089aa8919bff7c72e8c7d4cd73",
+    "pages": 12,
+    "path": "reference/science/vrex-v3-grant-proposal.pdf",
+    "route": "/vrex-proposal.pdf",
+    "classification": "user-supplied research proposal"
+  },
+  "evidence_classes": [
+    "ESTABLISHED PHYSICS",
+    "SOURCED MATHEMATICS",
+    "MODEL-ADAPTED",
+    "MODEL-HYPOTHESIS",
+    "COMPUTATIONAL OBSERVATION",
+    "EXPERIMENTAL RESULT"
+  ],
+  "page_map": [
+    {
+      "pages": [
+        1
+      ],
+      "sections": [
+        "Cover and scientific status"
+      ],
+      "use": "Proposal identity and explicit hypothesis status."
+    },
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "sections": [
+        "1 Executive summary",
+        "2 Evidence boundary and v2 corrections",
+        "3 Legacy record opening"
+      ],
+      "use": "Research aims, evidence classes and corrected scope; no detector promotion."
+    },
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "sections": [
+        "3 Legacy record",
+        "4 Unique states, dialogue loops, Apeirogon, positron reference and TCE"
+      ],
+      "use": "Archived candidate and relational/tether lore; new physical models remain unimplemented."
+    },
+    {
+      "pages": [
+        6,
+        7
+      ],
+      "sections": [
+        "5 Mathematical framework and energy ledger"
+      ],
+      "use": "Equation provenance and a scoped normalized game-ledger residual; no passive-load work or reuptake model is inferred."
+    },
+    {
+      "pages": [
+        8,
+        9
+      ],
+      "sections": [
+        "6 Aims and TCE-0 through TCE-5",
+        "7 Controls and convergence",
+        "8 Architecture opening"
+      ],
+      "use": "Not-run gates, null controls, declared inputs, numerical refinement and target-leakage boundaries."
+    },
+    {
+      "pages": [
+        10
+      ],
+      "sections": [
+        "8 Architecture and provenance",
+        "9 Work plan and funding categories"
+      ],
+      "use": "Seed/version/source/units/run identity in the audit archive; the proposed month schedule and funding categories remain documentary."
+    },
+    {
+      "pages": [
+        11,
+        12
+      ],
+      "sections": [
+        "10 Decision gates",
+        "11 Research integrity",
+        "12 References",
+        "13 Source verification notes",
+        "Appendices A and B"
+      ],
+      "use": "Gate labels, negative results, provenance matrix and proposal classification; publisher-verification claims are attributed to the supplied document."
+    }
+  ],
+  "equation_count": 22,
+  "legacy_record": {
+    "id": "LEGACY-TC-001",
+    "source_version": "Aurora v0.1.0",
+    "source_tick": 120,
+    "crystal_id": "crystal_0.5",
+    "reported_phase_coherence": 0.83,
+    "reported_phase_variance": 0.2103,
+    "reported_stability": 0.8262,
+    "reported_average_amplification": 0.658,
+    "rose_status": "NOT REPRODUCED",
+    "interpretation": "Archived detector candidate reported by the proposal; not a Rose measurement or a confirmed DTC."
+  },
+  "gates": [
+    {
+      "id": "A",
+      "label": "DTC verification",
+      "required": "Collective subharmonic response, perturbation rigidity and numerical refinement."
+    },
+    {
+      "id": "B",
+      "label": "Blind relational regeneration",
+      "required": "Target-hidden recovery and invariant/topology comparison against randomized controls."
+    },
+    {
+      "id": "C",
+      "label": "TCE passive-load transduction",
+      "required": "Matched null controls, loaded cycle work and a closing modulation-energy ledger."
+    },
+    {
+      "id": "D",
+      "label": "Sustained operation",
+      "required": "Long-duration output matched to explicit drive, return, storage and loss terms."
+    },
+    {
+      "id": "E",
+      "label": "Laboratory translation",
+      "required": "Passed computational gates and a specified conventional-energy analog."
+    }
+  ],
+  "controls": [
+    "Matched null model",
+    "Declared finite stimulus channels",
+    "Intensive and total observables",
+    "dt, dt/2 and dt/4 convergence",
+    "Coupling-disabled comparison",
+    "Drive detuning and phase perturbation",
+    "Target-hidden regeneration",
+    "Separate positron representation comparator",
+    "Explicit return-channel ownership; no double-counting"
+  ],
+  "work_packages": [
+    {
+      "id": "WP1",
+      "months": "1-3",
+      "task": "Model audit and legacy regression"
+    },
+    {
+      "id": "WP2",
+      "months": "2-6",
+      "task": "Dialogue/Apeirogon tests"
+    },
+    {
+      "id": "WP3",
+      "months": "5-9",
+      "task": "TCE transduction"
+    },
+    {
+      "id": "WP4",
+      "months": "8-11",
+      "task": "Cross-model validation"
+    },
+    {
+      "id": "WP5",
+      "months": "10-12",
+      "task": "Conditional translation package"
+    }
+  ],
+  "rose_adaptation": {
+    "implemented": [
+      "Source-bound workshop audit record",
+      "Finite optical ledger residual",
+      "Seed, field, source, actor, engine-version and unit provenance",
+      "Bounded persistent journal and read-only JSON export",
+      "Not-run proposal gates and legacy status",
+      "Registered resonance dialogue"
+    ],
+    "not_implemented": [
+      "Legacy Aurora replay",
+      "Modern DTC verification",
+      "Dialogue-link/orbit simulation",
+      "Blind regeneration",
+      "Duffing/TCE solver",
+      "Passive-load work",
+      "Reuptake channel",
+      "Positron/QCD dynamics",
+      "Timestep convergence suite for these proposed systems",
+      "Laboratory bridge",
+      "Grant funding or hardware build"
+    ]
+  },
+  "equations": [
+    {
+      "number": 1,
+      "page": 4,
+      "concept": "Legacy stability",
+      "source_class": "Archived candidate",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 2,
+      "page": 4,
+      "concept": "Irreducible state",
+      "source_class": "Hypothesis",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 3,
+      "page": 4,
+      "concept": "Dialogue link",
+      "source_class": "Hypothesis",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 4,
+      "page": 4,
+      "concept": "Loop invariant",
+      "source_class": "Hypothesis",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 5,
+      "page": 5,
+      "concept": "Apeirogon generation",
+      "source_class": "Hypothesis",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 6,
+      "page": 5,
+      "concept": "Representation residual",
+      "source_class": "Comparator metric",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 7,
+      "page": 6,
+      "concept": "Floquet periodicity",
+      "source_class": "Diagnostic",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 8,
+      "page": 6,
+      "concept": "Subharmonic recurrence",
+      "source_class": "Diagnostic",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 9,
+      "page": 6,
+      "concept": "Circular phase coherence",
+      "source_class": "Metric",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 10,
+      "page": 6,
+      "concept": "Prethermal scaling",
+      "source_class": "Sourced schematic",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 11,
+      "page": 6,
+      "concept": "Duffing surrogate",
+      "source_class": "Model adaptation",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 12,
+      "page": 6,
+      "concept": "Tether potential",
+      "source_class": "Hypothesis",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 13,
+      "page": 6,
+      "concept": "Tether force",
+      "source_class": "Mechanics in hypothesis",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 14,
+      "page": 6,
+      "concept": "Passive load",
+      "source_class": "Passive model",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 15,
+      "page": 6,
+      "concept": "Interaction power",
+      "source_class": "Mechanics",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 16,
+      "page": 6,
+      "concept": "Cycle work",
+      "source_class": "Mechanics in hypothesis",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 17,
+      "page": 7,
+      "concept": "Integrated power balance",
+      "source_class": "Accounting",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 18,
+      "page": 7,
+      "concept": "Reuptake term",
+      "source_class": "Hypothesis accounting",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 19,
+      "page": 7,
+      "concept": "Energy residual",
+      "source_class": "Audit metric",
+      "rose_use": "Adapted to the finite optical game ledger; no mechanical load/reservoir/reuptake solver"
+    },
+    {
+      "number": 20,
+      "page": 7,
+      "concept": "Normalized residual",
+      "source_class": "Audit metric",
+      "rose_use": "Adapted to the finite optical game ledger; no mechanical load/reservoir/reuptake solver"
+    },
+    {
+      "number": 21,
+      "page": 8,
+      "concept": "Blind regeneration score",
+      "source_class": "Metric",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    },
+    {
+      "number": 22,
+      "page": 10,
+      "concept": "Provenance pipeline",
+      "source_class": "Governance",
+      "rose_use": "Indexed reference and lore; no new equation solver"
+    }
+  ]
+}

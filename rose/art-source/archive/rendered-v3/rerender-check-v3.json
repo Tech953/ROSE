@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "scope": "Four final saved-source repeat renders compared across all RGBA bytes with the shipped individual-v3 raw bake, Blender 4.2.0 Cycles CPU / 24 samples / 2x. Body frames come from the archived exact source; the dependency proof verifies their unchanged rendering data in the current source.",
+  "repeat_render_identity": {
+    "source_sha256": "661ffbb286bf98cec3ddc7a4acdccdfa5106a4d8b5f803d9440db1e797c3ad63",
+    "blend_sha256": "edeb13c2bc5ea3ea2a8bee1c5be16a293711965f420f2a1cdf76229d85f67a21",
+    "blender": "4.2.0",
+    "samples": 24,
+    "supersample": 2,
+    "mode": "saved-blend"
+  },
+  "body_reuse_proof_sha256": "2abad70b7460e68bb6625b4622b442818ae87502fc685c7e42431875e5e3a717",
+  "results": [
+    {
+      "frame": "traveler/idle-4-00.png",
+      "dimensions": [
+        256,
+        256
+      ],
+      "different_pixels": 0,
+      "different_channels": 0,
+      "maximum_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "changed_alpha_pixels": 0,
+      "baked_model_source_sha256": "c3fda96e82d18867c30750f0516cc792439d212ec6b1d9a2d1edf7ae8600af8c",
+      "baked_png_sha256": "9fe731b24d4354f6d972f03643ed9009f42e8cac99733dc111536a625ddb34f3",
+      "repeat_png_sha256": "efd5f04ac71113a795fd20cb5e8d850ff05a94095a6f4e1605ca3f83ccd447c4"
+    },
+    {
+      "frame": "metal_kin/idle-4-00.png",
+      "dimensions": [
+        256,
+        256
+      ],
+      "different_pixels": 0,
+      "different_channels": 0,
+      "maximum_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "changed_alpha_pixels": 0,
+      "baked_model_source_sha256": "c3fda96e82d18867c30750f0516cc792439d212ec6b1d9a2d1edf7ae8600af8c",
+      "baked_png_sha256": "293c0f9abeef89fb479e54182af504037a4133d7868ede4e859c5d9109166741",
+      "repeat_png_sha256": "19ed28e31b755b7d864a312a4c8595fa64e2a38ac15e278281d3e6bd57090c09"
+    },
+    {
+      "frame": "workshop_ENACT_HILLS/idle-0-00.png",
+      "dimensions": [
+        384,
+        448
+      ],
+      "different_pixels": 0,
+      "different_channels": 0,
+      "maximum_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "changed_alpha_pixels": 0,
+      "baked_model_source_sha256": "edeb13c2bc5ea3ea2a8bee1c5be16a293711965f420f2a1cdf76229d85f67a21",
+      "baked_png_sha256": "725a9acb0eb99b0699b48378a5e87dc9162a5f2b1b7922468b964b7fc47dd543",
+      "repeat_png_sha256": "f5b30bab22881664a370b1dad0e9e7a5d247f7d6991696c68a16e2c360489895"
+    },
+    {
+      "frame": "ground_WN_TOWER/idle-0-00.png",
+      "dimensions": [
+        256,
+        320
+      ],
+      "different_pixels": 0,
+      "different_channels": 0,
+      "maximum_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "changed_alpha_pixels": 0,
+      "baked_model_source_sha256": "edeb13c2bc5ea3ea2a8bee1c5be16a293711965f420f2a1cdf76229d85f67a21",
+      "baked_png_sha256": "66c849bab2676cb878e7e276fbfa7965c759fb50203cd6ed45b0491c1c5bb83e",
+      "repeat_png_sha256": "6c0283bb9bc30d1942e369d96f668d4e9eb0252b53ae0d78bb11bc0c738fb1a5"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "engine_version": "0.18.0",
+  "scope": "Real HTTP, modeled semantic DOM and native canvas; full interactive browser layout not run",
+  "materials": [
+    {
+      "material": "wood",
+      "changed_opaque_pixels": 11871,
+      "soft_shadow_pixels": 25184,
+      "preserved_colored_practicals": 0
+    },
+    {
+      "material": "metal",
+      "changed_opaque_pixels": 11872,
+      "soft_shadow_pixels": 25184,
+      "preserved_colored_practicals": 0
+    },
+    {
+      "material": "stone",
+      "changed_opaque_pixels": 11872,
+      "soft_shadow_pixels": 25184,
+      "preserved_colored_practicals": 0
+    },
+    {
+      "material": "crystal",
+      "changed_opaque_pixels": 11872,
+      "soft_shadow_pixels": 25184,
+      "preserved_colored_practicals": 0
+    },
+    {
+      "material": "fabric",
+      "changed_opaque_pixels": 11872,
+      "soft_shadow_pixels": 25184,
+      "preserved_colored_practicals": 0
+    },
+    {
+      "material": "polymer",
+      "changed_opaque_pixels": 11862,
+      "soft_shadow_pixels": 25184,
+      "preserved_colored_practicals": 0
+    }
+  ],
+  "regions": [
+    {
+      "region": "WN_TOWER",
+      "matched_picks": 127,
+      "matched_paths": 127,
+      "visible_difference": true
+    },
+    {
+      "region": "ENACT_HILLS",
+      "matched_picks": 127,
+      "matched_paths": 127,
+      "visible_difference": true
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "matched_picks": 127,
+      "matched_paths": 127,
+      "visible_difference": true
+    },
+    {
+      "region": "AETHERGALE",
+      "matched_picks": 127,
+      "matched_paths": 127,
+      "visible_difference": true
+    }
+  ],
+  "cache_limit": 48,
+  "alpha_exact": true,
+  "soft_shadow_rgb_exact": true,
+  "actor_project_remote_void_unplaced_and_archive_exclusions": true,
+  "simulation_unchanged": true,
+  "local_comparison_control": true,
+  "nonblank_export_verified": true,
+  "exact_comparison_http_bytes": true,
+  "new_model_bakes": false
+}

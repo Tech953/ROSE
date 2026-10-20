@@ -1,0 +1,34 @@
+{
+  "version": "0.13.0",
+  "python_ast": 115,
+  "javascript_syntax": 23,
+  "json_parse": 85,
+  "image_files": 542,
+  "decoded_image_frames": 556,
+  "html_unique_ids": 213,
+  "advertised_scripts": 12,
+  "measurement_elements_absent": true,
+  "unchanged_art_and_render_files_checked": 669,
+  "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+  "unchanged_vrex_functions": [
+    "_vector",
+    "_derivative",
+    "integrate",
+    "_apply",
+    "energy",
+    "audit",
+    "pump",
+    "stop",
+    "source_reason",
+    "reconcile",
+    "diagnostics"
+  ],
+  "unchanged_numeric_modules": [
+    "photonics.py",
+    "research.py"
+  ],
+  "physics_sources_sha256": {
+    "Game Physics Engine Development": "7c858d6072ca347152e64f8b0303b6a8913e459500fce003ad75109c6591feb0",
+    "Anatomy of a Physics Engine": "77b3c2b1c90e2ac18cd9123f10b6e0de74a7dde5061f00bb6329235a34655bb7"
+  }
+}

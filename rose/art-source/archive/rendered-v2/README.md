@@ -1,0 +1,1 @@
+Rose 0.5 grounded source archive. The v2 atlas PNGs remain under static/art. Restore these three scripts and five source files in an isolated project copy to rebuild; do not overwrite the active v3 source. The v2 manifest is retained here for comparison.

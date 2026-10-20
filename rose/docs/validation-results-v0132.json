@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.2",
+  "date": "2026-10-03",
+  "python_tests": {
+    "status": "PASS",
+    "count": 330,
+    "seconds": 26.68
+  },
+  "full_http_native_ui": {
+    "status": "PASS",
+    "backend": "modeled DOM + real HTTP + @napi-rs/canvas",
+    "includes": "General gameplay, all four art banks, ecology/construction, optics, hidden VREX/physics and assurance flows."
+  },
+  "focused_native_lighting": {
+    "status": "PASS",
+    "checks": [
+      "blocked/reopened ground receiver",
+      "additive actor spectrum",
+      "unchanged alpha and shadows",
+      "64-frame and 32-mask bounds",
+      "baked fallback"
+    ]
+  },
+  "continuous_scenery": {
+    "status": "PASS",
+    "regions": [
+      "WN_TOWER",
+      "CITY_CLOUD_S"
+    ],
+    "unchanged_picks_per_region": 127,
+    "unchanged_navigation_paths_per_region": 113,
+    "unchanged_host_state": true,
+    "reference_images": 7,
+    "preview": "Rose-continuous-terrain-comparison.png",
+    "renderer_record": "renderer-audit-v0132.json"
+  },
+  "fidelity": {
+    "status": "PARTIAL PASS",
+    "remaining": [
+      "rich biome and salvage assets",
+      "individual character likenesses",
+      "interiors and organic cliffs",
+      "sculptural portrait performances"
+    ]
+  },
+  "not_verified": [
+    "full browser layout",
+    "Windows launch",
+    "audible playback",
+    "LAN sessions",
+    "human balance"
+  ],
+  "final_native_terrain": {
+    "status": "PASS",
+    "command": "node tests/ui-smoke.cjs --terrain",
+    "scaled_path_render_checks": [
+      5,
+      6,
+      9
+    ],
+    "includes": "All light/display/asset controls and matched prior/current scenes."
+  },
+  "logs": [
+    "validation-python-v0132.txt",
+    "validation-ui-v0132.txt",
+    "validation-terrain-v0132.txt"
+  ]
+}

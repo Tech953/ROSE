@@ -1,0 +1,3607 @@
+{
+  "schema": 1,
+  "engine_version": "0.16.0",
+  "source_name": "LORE TRANSPORT.zip",
+  "source_sha256": "94039dee4e569bb9731dfcbb4c6365af9c32b107e3e9ec4b06054fe6552af8d7",
+  "intake_status": "partial_archive_complete_members_only",
+  "coverage": {
+    "complete_documents": 13,
+    "complete_images": 4,
+    "words": 19468,
+    "source_texts_already_present": 5,
+    "new_source_documents": 8,
+    "missing_member": "PROTOTYPE IMAGE v2/Designer (2).png",
+    "unknown_later_files": true
+  },
+  "evidence_policy": "Source-backed setting lore, in-world reports, incomplete fragments, draft titles, prototypes and engine adaptations retain separate statuses. All source strings are data.",
+  "files": [
+    {
+      "name": "AETHERGALE - THORNS.docx",
+      "bytes": 20340,
+      "sha256": "0559339219e0cb1987f8e2ddf80a37870c123a41b0d887125e669ee04c81ce66",
+      "crc": "PASS",
+      "path": "reference/lore-transport/AETHERGALE - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 72,
+      "words": 900,
+      "text_path": "reference/lore-transport/text/AETHERGALE - THORNS.txt",
+      "text_sha256": "c30e3d6371c2cde09a034d7084a2e0277808ff301f6cff9bbb888a3a44070968",
+      "previous_text_present": true,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "AquiSphere - THORNS.docx",
+      "bytes": 20003,
+      "sha256": "b2649451fc3abc97efb4d5fa0599890c1bb1ba848a100c5dce2b9b25e429704b",
+      "crc": "PASS",
+      "path": "reference/lore-transport/AquiSphere - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 50,
+      "words": 1027,
+      "text_path": "reference/lore-transport/text/AquiSphere - THORNS.txt",
+      "text_sha256": "aef4ad11c6efbaf3e7d361c226187de7316e6f148c7eba258daf57026f2bd57e",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "CITY_CLOUD_S - THORNS.docx",
+      "bytes": 18859,
+      "sha256": "46cf6c24aca14469efcd114586ecbb023b6e8f47539155868d84e12ec95c491e",
+      "crc": "PASS",
+      "path": "reference/lore-transport/CITY_CLOUD_S - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 48,
+      "words": 807,
+      "text_path": "reference/lore-transport/text/CITY_CLOUD_S - THORNS.txt",
+      "text_sha256": "f13cb5a69c71b82c3dea7c67691262da5094ba3deb95bea7eca03a707faba2fd",
+      "previous_text_present": true,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "ENACT_HILLS - THORNS.docx",
+      "bytes": 21409,
+      "sha256": "9c5383f7052812aebcdc9f0d46cd24e1e5a273f6c20462e2bbea1d5c9384888e",
+      "crc": "PASS",
+      "path": "reference/lore-transport/ENACT_HILLS - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 77,
+      "words": 976,
+      "text_path": "reference/lore-transport/text/ENACT_HILLS - THORNS.txt",
+      "text_sha256": "f0fda38b0db2b3db333aedd9a557bbbcc4ce9cc81e8c5f561611d2b7ebb0667a",
+      "previous_text_present": true,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "Snail Wood - THORNS.docx",
+      "bytes": 19782,
+      "sha256": "84eabe9ab02653baa31a1a16771a51d5f19a96e6f76cbd75c58da8e2b60c240e",
+      "crc": "PASS",
+      "path": "reference/lore-transport/Snail Wood - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 72,
+      "words": 681,
+      "text_path": "reference/lore-transport/text/Snail Wood - THORNS.txt",
+      "text_sha256": "fc6daffe773db66786093c0f74fe3561b014d1581251168fbd749938f77350e6",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "The ArK - THORNS.docx",
+      "bytes": 21286,
+      "sha256": "77785b07647d08d4052e2111c2c866844be85a35d005d9379266b572e1fbe660",
+      "crc": "PASS",
+      "path": "reference/lore-transport/The ArK - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 83,
+      "words": 967,
+      "text_path": "reference/lore-transport/text/The ArK - THORNS.txt",
+      "text_sha256": "c8243cb94fda8928f69e93a8a1c3dceafe64904cd9b52d8ee08c83906bc2fc30",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "The Long Tar Location Guide and Plot Ideas.docx",
+      "bytes": 20159,
+      "sha256": "592c326af02104356e2529f1e862c26eed4fd91bb0735f04c5a5483d31e4d9e2",
+      "crc": "PASS",
+      "path": "reference/lore-transport/The Long Tar Location Guide and Plot Ideas.docx",
+      "kind": "lore_document",
+      "paragraphs": 149,
+      "words": 674,
+      "text_path": "reference/lore-transport/text/The Long Tar Location Guide and Plot Ideas.txt",
+      "text_sha256": "28e2e8b1935df753447b7774c685c3d39461fa8bde527d8c7ea5ab0581ef2f91",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "Thorns Book Series.docx",
+      "bytes": 17884,
+      "sha256": "2d195238fb25fc52b79bc8210fe4d7e41885a9fe8c52f67db9a0d0c28194ee0a",
+      "crc": "PASS",
+      "path": "reference/lore-transport/Thorns Book Series.docx",
+      "kind": "lore_document",
+      "paragraphs": 85,
+      "words": 371,
+      "text_path": "reference/lore-transport/text/Thorns Book Series.txt",
+      "text_sha256": "87203de64dcf003da378b76ac9a3117cb7a2eb593ef8408b6db56460ff1abbb2",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "WN_TOWER Reference.docx",
+      "bytes": 30968,
+      "sha256": "1707b292087b5a39a22028bbf4c1c376620ef94e2cb5d602d80279c057d3db5d",
+      "crc": "PASS",
+      "path": "reference/lore-transport/WN_TOWER Reference.docx",
+      "kind": "lore_document",
+      "paragraphs": 159,
+      "words": 2983,
+      "text_path": "reference/lore-transport/text/WN_TOWER Reference.txt",
+      "text_sha256": "6453da4560053ab22e3ff5beea2e8fe902f229e3f6f2314423489c443521f278",
+      "previous_text_present": true,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "mollusk_crescent_MOONLAND - THORNS.docx",
+      "bytes": 15215,
+      "sha256": "98b2eff229bc904216d0925f49015431ebbb3453396cab8ec04fdca2d3254d31",
+      "crc": "PASS",
+      "path": "reference/lore-transport/mollusk_crescent_MOONLAND - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 2,
+      "words": 65,
+      "text_path": "reference/lore-transport/text/mollusk_crescent_MOONLAND - THORNS.txt",
+      "text_sha256": "cab7e122382a7db2b227a7f3165df88c839a7bd52a18454625faaaf0dd15af8e",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "NULL_FIELD.OMNI - THORNS.docx",
+      "bytes": 34683,
+      "sha256": "c8f580dee496463f8aa8237eb97af983e48cd03ea1914610d41ef080267c5369",
+      "crc": "PASS",
+      "path": "reference/lore-transport/NULL_FIELD.OMNI - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 219,
+      "words": 3580,
+      "text_path": "reference/lore-transport/text/NULL_FIELD.OMNI - THORNS.txt",
+      "text_sha256": "15209fa54e4d783f074e97900e2f344cc793e5d483fe0e6ccbe7654f66d71de2",
+      "previous_text_present": true,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "Mesas.D.S.CONV.docx",
+      "bytes": 52077,
+      "sha256": "a158e43980f2a569d85091f9a9086f00e51e980b9b9c0f82ccf7756743ac27f4",
+      "crc": "PASS",
+      "path": "reference/lore-transport/Mesas.D.S.CONV.docx",
+      "kind": "lore_document",
+      "paragraphs": 486,
+      "words": 6359,
+      "text_path": "reference/lore-transport/text/Mesas.D.S.CONV.txt",
+      "text_sha256": "00f5aaae47b5b5a1cdb7d81c4bda8f5eff47f498384d0327b6eb51f562a2a9d9",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "io_COMBI_oi - THORNS.docx",
+      "bytes": 15353,
+      "sha256": "08b17fd303a9a3f519b2f7bf1bf6d5030235f82fe237dcf3e3c9a733efbfe59d",
+      "crc": "PASS",
+      "path": "reference/lore-transport/io_COMBI_oi - THORNS.docx",
+      "kind": "lore_document",
+      "paragraphs": 2,
+      "words": 78,
+      "text_path": "reference/lore-transport/text/io_COMBI_oi - THORNS.txt",
+      "text_sha256": "46d079fac1f0ab61fad95d69d89bb2cccec5cdf3b9748b0caede34f728bb613a",
+      "previous_text_present": false,
+      "tracked_changes": 0,
+      "tables": 0,
+      "embedded_media": 0
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CODE FINAL.png",
+      "bytes": 2273995,
+      "sha256": "d7af00b2fb2f873a6b8ef5664ca5795e51ef9a98188966da6dc09604ee04d0bd",
+      "crc": "PASS",
+      "path": "reference/lore-transport/PROTOTYPE IMAGE v2/CODE FINAL.png",
+      "kind": "visual_prototype",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CODE.png",
+      "bytes": 2686690,
+      "sha256": "41c6e8a85ce827c2d675d4411ed9ed422bd8893e3471dcbb63ff1b3b08aa371d",
+      "crc": "PASS",
+      "path": "reference/lore-transport/PROTOTYPE IMAGE v2/CODE.png",
+      "kind": "visual_prototype",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS pt. 2.png",
+      "bytes": 2911353,
+      "sha256": "e989f4096313cc7b1d608b5c88be4d0c1a27f6e01af51317ae4f6e3d79b2e929",
+      "crc": "PASS",
+      "path": "reference/lore-transport/PROTOTYPE IMAGE v2/CORP-E PRODUCTS pt. 2.png",
+      "kind": "visual_prototype",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS.png",
+      "bytes": 3074294,
+      "sha256": "d795053b323b4d88b92fe9dc8369845ea3480b9684d3fba7e5d881d8285a372f",
+      "crc": "PASS",
+      "path": "reference/lore-transport/PROTOTYPE IMAGE v2/CORP-E PRODUCTS.png",
+      "kind": "visual_prototype",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "WN_TOWER",
+      "label": "Witches Needle / WN_TOWER",
+      "document": "WN_TOWER Reference.docx",
+      "facts": [
+        {
+          "text": "Druid-Sec maintains the outer farmlands; fractal craft channels or maintains energy.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "WN_TOWER Reference.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Embrite combines black soil-clay outskirts, bio-plast workwear and Greatweb maintenance.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "WN_TOWER Reference.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                12,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Harvet extracts neural-wood through a cycle of ash, fertile ground and branch provision.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "WN_TOWER Reference.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                44,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "MOD_OP exchanges verifiable contracts, bio-mods and data rather than ordinary currency.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "WN_TOWER Reference.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                52,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "text": "WN_MED treatment is restricted to contracted clients.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "WN_TOWER Reference.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                29,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Needlurgy training, black.dot registration and network access have distinct institutional requirements.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "WN_TOWER Reference.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                37,
+                43
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "neural-wood",
+        "darkwood ash",
+        "black soil-clay",
+        "patched bio-plast",
+        "corded bio-glass"
+      ],
+      "lighting": {
+        "direction": "Keep soot and soil-clay legible; separate sterile Sap Core advertisement light from warmer working settlements and druid signatures.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "harvesting pressure and recovery",
+          "smoke and ash deposition",
+          "repair and infrastructure service cycles"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "Do not give Druid-Sec a mandatory uniform; Harvet workers have yellow strap-jackets.",
+        "MOD_OP exchange rules do not establish a currency policy for all regions.",
+        "A background, reputation or reading a source cannot confer medical coverage or network clearance."
+      ],
+      "placement": "existing interpreted atlas region",
+      "engine_region": "WN_TOWER",
+      "local_observation": "Darkwood grain and patched bio-plast carry different histories of handling; ash gathers most clearly along the repaired seams."
+    },
+    {
+      "id": "ENACT_HILLS",
+      "label": "ENACT_HILLS",
+      "document": "ENACT_HILLS - THORNS.docx",
+      "facts": [
+        {
+          "text": "FOOTHILL CUSP civilian life includes washing, cleaning, cooking, farming and basic crafts.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "ENACT_HILLS - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "GRAVESITE is a SEC.IO controlled archival and burial boundary with restricted access.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "ENACT_HILLS - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "UPPER RUNEHILLS training requires WN_EDU or ED.NET certification; PYRI manages OMNIPILLAR teachings.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "ENACT_HILLS - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                18,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "MMTX< Lifestring warrior insurance uses salvageable digiPRINT patterns for re-resolution.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "ENACT_HILLS - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                44,
+                47
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "worked metallurgy",
+        "cultivated earth",
+        "archival boundaries",
+        "lightPROKT< frames"
+      ],
+      "lighting": {
+        "direction": "Use readable household surfaces and localized projection signatures. Monument scale remains distinct from small accessible public works.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "residential upkeep",
+          "cultivation and construction",
+          "archival projection and pattern retention"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "SEC.IO is outside ordinary Merc Tag basis.",
+        "Do not turn digiPRINT lore into a free respawn or an earned credential.",
+        "ENTACT_HILLS and ENNERACT_HILLS spellings in other text are retained as source variants."
+      ],
+      "placement": "existing interpreted atlas region",
+      "engine_region": "ENACT_HILLS",
+      "local_observation": "Worked metal keeps the marks of repeated repair beside cultivated soil, a household scale of labor beneath the larger administrative forms."
+    },
+    {
+      "id": "CITY_CLOUD_S",
+      "label": "CITY_CLOUD_S",
+      "document": "CITY_CLOUD_S - THORNS.docx",
+      "facts": [
+        {
+          "text": "The city is a metallurgy construction high in the eastern mountains, isolated from ordinary pilgrimage access.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "CITY_CLOUD_S - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "base.EN_KHO salvages metal; ED.NET is embedded in the mountains and voiced by KHO.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "CITY_CLOUD_S - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                3,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Plat.EN_MID lacks black.dot and Merc Tag regulation, diplomatic ties and consistent Greatweb support.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "CITY_CLOUD_S - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                10,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PEAK.EN_PERCEPT access is policed; OMNI-META.OPEND operates across sectors.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "CITY_CLOUD_S - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                13,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "VENDING_PROTOCOL_OMNI uses currency; AUTO-MERCH.OS moves goods through remote vendor connections.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "CITY_CLOUD_S - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                17,
+                33
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "salvaged metallurgy",
+        "mountain stone",
+        "geometric infrastructure",
+        "functional bio-mod shelters"
+      ],
+      "lighting": {
+        "direction": "Preserve the weight of mountain metal and distinct teaching projections. Existing cyan/rose renderer values are artistic approximations, not document wavelengths.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "salvage supply",
+          "education-node cycles",
+          "permission-aware vending and security"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "Do not apply regulated peak rules uniformly to the unregulated middle sector.",
+        "A regular pilgrimage route into the source city is not established.",
+        "CLOUD_CITY_S is retained as a textual variant, not a second automatically placed city."
+      ],
+      "placement": "existing interpreted atlas region",
+      "engine_region": "CITY_CLOUD_S",
+      "local_observation": "Sorting scars and joined edges distinguish the salvaged metal surfaces; geometric lesson frames keep a finer, more deliberate finish."
+    },
+    {
+      "id": "AETHERGALE",
+      "label": "AETHERGALE",
+      "document": "AETHERGALE - THORNS.docx",
+      "facts": [
+        {
+          "text": "Desert winds carry jade and rose contrails; NanoClad pilgrims use bio-plast armor and arcane resource craft.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AETHERGALE - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "OMNICURRENT imbues materials and caustic storms carve runic residuals.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AETHERGALE - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PAMAN DAL guides CHECKPOINT.RESID provision; its central lightPROKT< tree supports filtered water.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AETHERGALE - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                23,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At CHECKPOINT.CASC, ArK and AETHER fields interact; Lila and Khi have specific recorded conditions.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AETHERGALE - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                27,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Aspen-Specie feathered serpents hunt AETHER imbuement around the swirls.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AETHERGALE - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                31,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CHECKPOINT.UNDERTOW observes RED>GATE>; the gate resists ordinary physical, meta-state and data penetration.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AETHERGALE - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                36,
+                42
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "wind-worked sand",
+        "bio-plast tents",
+        "ARCrystallin<",
+        "runic residuals"
+      ],
+      "lighting": {
+        "direction": "Use separate jade and rose signatures across dust and crystal. Emission must leave readable non-emissive surfaces and directional shadows.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "wind loading of tent cloth",
+          "dust deposition and abrasion",
+          "aether imbuement",
+          "biome interaction at CASC"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "PAMAN DAL provision and death-nullification are source-specific lore, not universal infinite inventory.",
+        "Do not resolve Khi’s prism condition by generating an ordinary NPC.",
+        "Keep RED>GATE> closed to ordinary traversal."
+      ],
+      "placement": "existing interpreted atlas region",
+      "engine_region": "AETHERGALE",
+      "local_observation": "Wind wear softens the tent fabric while crystalline fragments retain sharper edges; jade and rose belong to the documented AETHER palette."
+    },
+    {
+      "id": "AQUISPHERE",
+      "label": "AquiSphere",
+      "document": "AquiSphere - THORNS.docx",
+      "facts": [
+        {
+          "text": "An omni-crystallin< water battlestation can reform; geoCLEARANCE governs specialized access.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AquiSphere - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "iceTRACK forms stable ground for transport and has verification and equipment requirements.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AquiSphere - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Structural changes are common and sporadic; lower and middle partitions have separate stability and security roles.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AquiSphere - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                6,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "core^PARTITION integrates an admin with the structure; replacement sight is a specialized bio-mod response.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AquiSphere - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                13,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "upper^PARTITION retains interior armaments and screening even when the exterior is affected.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "AquiSphere - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                15,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "omni-crystallin< water",
+        "stable iceTRACK",
+        "filament nano-fiber",
+        "bio-plast armor"
+      ],
+      "lighting": {
+        "direction": "Aim for weighty refractive water and crystalline boundaries. Specific cyan colors or a fluid solver would be engine adaptations.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "partition morphology",
+          "stable-access topology",
+          "refractive boundary motion",
+          "interior/exterior defense separation"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "No travel coordinate is established by this document.",
+        "Do not represent an exterior change as automatic loss of interior armament.",
+        "Reformation needs topology and collision reconciliation before becoming a playable event."
+      ],
+      "placement": "unplaced",
+      "engine_region": null
+    },
+    {
+      "id": "ARK",
+      "label": "The ArK / seed-core.alpha",
+      "document": "The ArK - THORNS.docx",
+      "facts": [
+        {
+          "text": "seed-core.alpha comes from omni-bio mutation and infi-nano perpetuation; research observes southeast expansion.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "The ArK - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "BRANCHES_OVERLINE growth reaches atmospheric layers; runoff amplifies growth and fruits enneract constructs.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "The ArK - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                24,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "TRUNK_BASE seam entities convert organic matter into NATIVE_Lifestring, feeding branches and ROOT_SEAM.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "The ArK - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                16,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sap and waveform extraction have Merc Tag, black.dot and fractech requirements.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "The ArK - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                12,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ROOT_SEAM sensory and memetic effects are ArK_SPECIFIC; named constructs remain specific to the source.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "The ArK - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                46,
+                55
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "Lifestring biomass",
+        "runic foliage",
+        "sap",
+        "enneract fruits",
+        "fractendrils"
+      ],
+      "lighting": {
+        "direction": "Use wet biomass and restrained runic spill at local scale; branches and atmospheric silhouette must preserve the source’s immense scale.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "growth and biomass conversion",
+          "runoff-linked vegetation response",
+          "gated extraction",
+          "root/branch propagation"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "No independent atlas position is confirmed here.",
+        "Conversion is dangerous source lore, not an arbitrary decorative animation or free resource.",
+        "ArK particulate processes and NULL_FIELD particulate processes must not be collapsed into one mechanism."
+      ],
+      "placement": "unplaced",
+      "engine_region": null
+    },
+    {
+      "id": "SNAIL_WOOD",
+      "label": "Snail Wood",
+      "document": "Snail Wood - THORNS.docx",
+      "facts": [
+        {
+          "text": "Hibernating or dead arcane_mollusks form bio-gel stalks; empty shells house arcane_magus and necramancers.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Snail Wood - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ARCANE_MAGUS_3.33 is a specific ageless teacher and accidental exile-captive near the border.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Snail Wood - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                3,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Harvet’s fracTECH.NODE_ReF_3.12 provides contracts, intel and oversight including encap risk.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Snail Wood - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "HOVEL-REG>CASC> combines preTECH street lamps, pilgrimage rest, vending and residential rentals.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Snail Wood - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                11,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rental access depends on reputation, foothold.measure and faction alignment; several property forms are enumerated.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Snail Wood - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                34,
+                72
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "empty mollusk shells",
+        "bio-gel stalks",
+        "preTECH lamps",
+        "projection-operated shops"
+      ],
+      "lighting": {
+        "direction": "Distinguish tactile shells and gel from street lighting and distant contract-node projection. The source does not fix a universal shell color.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "hibernation and lifecycle states",
+          "shell reuse as architecture",
+          "pilgrimage and merchant cycles",
+          "reputation-aware rentals"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "Death and hibernation are distinct states even when both have a stalk motif.",
+        "Do not conjure a new corpse or dwelling because a reference was read.",
+        "Snail Wood has no established travel coordinate in the current atlas."
+      ],
+      "placement": "unplaced",
+      "engine_region": null
+    },
+    {
+      "id": "MESAS_D_S_CONV",
+      "label": "Mesas_D.S.CONV / Mesas.D.S.CONV",
+      "document": "Mesas.D.S.CONV.docx",
+      "facts": [
+        {
+          "text": "The skyline is visible from ENACT_HILLS; southern darkness is filled with neon and NODE.TRAIL requires clearance tags.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "SGS supplies gas.op, merchTINE and enerwu; fuel and drink extraction uses vind-sec and ArK.FOREST.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                3,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "MOCKTRAKT makes specified cordline framegens; LYNtech has transport and community origins.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                25,
+                61
+              ]
+            }
+          ]
+        },
+        {
+          "text": "<<<cryillistics<<< wirelets have distinct modes and contract consequences; qualitative ranges are enumerated.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                62,
+                114
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Nailyn’s disappearance is source history; it is not permission to generate her as a present companion.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                115,
+                119
+              ]
+            }
+          ]
+        },
+        {
+          "text": "MID.LINE_TRACK and HIGH_LAND.TRAX have distinct access, traffic and service-worker protocols.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                339,
+                406
+              ]
+            }
+          ]
+        },
+        {
+          "text": "STAT.D is inaccessible behind the expanded gate; archival reports include displaced construction and aging hypotheses.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                407,
+                431
+              ]
+            }
+          ]
+        },
+        {
+          "text": "BLACK.HAT is a large salvaged under-freeway marketplace; its layout can change while border turrets stay fixed.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                469,
+                476
+              ]
+            }
+          ]
+        },
+        {
+          "text": "KHO.DEV shares a name with KHO but has no connection to the processing intelligence.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "Mesas.D.S.CONV.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                309,
+                312
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "c-BRICKwork",
+        "basephalt",
+        "salvaged framegens",
+        "rebar",
+        "corded vehicles",
+        "crystallin< wirelets"
+      ],
+      "lighting": {
+        "direction": "Use brand-specific practicals: gas.op red, deep metallic vehicle tones, violet crystallin armaments and separated blue/green service signatures from the test images.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "traffic and clearance",
+          "fuel and supply chains",
+          "vehicle wear and repair",
+          "moving marketplace topology",
+          "reported temporal aging"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "Relative visibility does not establish a precise atlas coordinate.",
+        "Vehicle ranges and speeds are qualitative; do not invent AP, damage, speed or fuel values from product art.",
+        "STATION_DEGRADE / STAT.D is archival and inaccessible, not an automatically opened dungeon.",
+        "KHO.DEV must not impersonate KHO.",
+        "A street-racing system and rearranging collision topology need implementation beyond this intake."
+      ],
+      "placement": "unplaced",
+      "engine_region": null
+    },
+    {
+      "id": "NULL_FIELD_OMNI",
+      "label": "NULL_FIELD.OMNI / PLATEAU<SCARLET<",
+      "document": "NULL_FIELD.OMNI - THORNS.docx",
+      "facts": [
+        {
+          "text": "NanoClad reports distinguish AETHER-following primary structures from an independent gold secondary structure.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                7,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "DIAMON.D continually flakes and reforms; its color follows filtered light through RED>GATE>.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                36,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "YU.ZU_CaPSULaTE constrains weather and bio-nano fields; research stations have specific observation and transfer protocols.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                52,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Laser_rain, tess.shard-fall and ennerCHILL have distinct material and growth effects.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                93,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PYR_REZ maintains sun-like illumination; laser_rain activates a teal capstone that affects nearby growth.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                111,
+                115
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The feather-like construct collects particulates through weather-driven tendrils.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                116,
+                119
+              ]
+            }
+          ]
+        },
+        {
+          "text": "BIOME_AQUI.EXPANSE is described through uncertain scouts’ reports and ceramic-tree observations.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                120,
+                139
+              ]
+            }
+          ]
+        },
+        {
+          "text": "SCRATCH-LINE.SURFACE remains stable regardless of the observed stimulus; no bio-nano growth occurs there.",
+          "status": "reported_observation",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                140,
+                144
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Frac.GEO_NODENACT and MTN_INFI_VOID_SPACE_OMNI have unresolved competing composition theories.",
+          "status": "unresolved_theory",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                149,
+                159
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The document defines one ib as 0.5 miles for its local reports.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "NULL_FIELD.OMNI - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                188,
+                188
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "ceramic presentation",
+        "ENNERshale",
+        "scarletsand",
+        "tess.shard coldPROKT<",
+        "unresolved void_space composite"
+      ],
+      "lighting": {
+        "direction": "Treat jade/rose following, independent gold, steady pyramid light and conditional teal as separate observed signatures; no universal rainbow tint.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "flake/reform balance",
+          "bounded observation",
+          "weather-driven particulate capture",
+          "conditional teal response",
+          "persistent scratch field"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "Existing access is remote interpretation; RED>GATE> remains closed.",
+        "UNKNOWN_structure and composition theories remain unknown.",
+        "ibs is source-local; it does not establish a continent-to-survey-grid transform.",
+        "Reports are not verified material composition or calibrated physical measurement."
+      ],
+      "placement": "remote reports only; gate boundary retained",
+      "engine_region": null
+    },
+    {
+      "id": "IO_COMBI_OI",
+      "label": "io_COMBI_oi",
+      "document": "io_COMBI_oi - THORNS.docx",
+      "facts": [
+        {
+          "text": "A miles-high bio-glass mega-city offers pilgrims and civilians sustainable omni-meta services and bio-nano self-expression.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "io_COMBI_oi - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ContriFID is low priority within this city.",
+          "status": "authored_lore",
+          "sources": [
+            {
+              "document": "io_COMBI_oi - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                2,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "bio-glass",
+        "infi-particulate brickwork"
+      ],
+      "lighting": {
+        "direction": "Use readable glass mass and internal structure; hue, districts and detailed architecture remain art adaptations.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "bio-nano construction",
+          "sustainable service cycles"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "Only a short overview exists; detailed factions, dialogue and district topology are not documented.",
+        "Do not transplant Mesas or WN clearance policies wholesale into this city."
+      ],
+      "placement": "unplaced",
+      "engine_region": null
+    },
+    {
+      "id": "MOLLUSK_CRESCENT_MOONLAND",
+      "label": "mollusk_crescent_MOONLAND",
+      "document": "mollusk_crescent_MOONLAND - THORNS.docx",
+      "facts": [
+        {
+          "text": "Twilight sands contain wild-born arcane_mollusks, hibernating adults, larval construction and terraforming extract.",
+          "status": "source_fragment",
+          "sources": [
+            {
+              "document": "mollusk_crescent_MOONLAND - THORNS.docx",
+              "part": "word/document.xml",
+              "paragraphs": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "material_motifs": [
+        "sand",
+        "mollusk extract",
+        "aether_slime"
+      ],
+      "lighting": {
+        "direction": "Twilight is explicit; colors and the unfinished imbuement mechanism remain undetermined.",
+        "status": "art_direction_adaptation"
+      },
+      "dynamics": {
+        "requirements": [
+          "hibernation",
+          "larval growth",
+          "extract-mediated terraforming"
+        ],
+        "status": "reference_requirements"
+      },
+      "constraints": [
+        "The complete recovered DOCX ends mid-sentence at \"imbued through\".",
+        "Do not complete the missing mechanism or infer lunar coordinates from the name."
+      ],
+      "placement": "unplaced",
+      "engine_region": null
+    }
+  ],
+  "product_records": [
+    {
+      "id": "mesas-framegen-32",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            32,
+            37
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "MATAmin",
+        "classification": "Heavy Weight – Mid-Speed",
+        "disciplines_or_materials": "metaLLurgy - AETHER",
+        "contractor": "mata.CH3",
+        "manufacturer": "MOCKTRAKT",
+        "capability_text": "4A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-38",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            38,
+            43
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "0.PUI.1",
+        "classification": "Medium Weight – High-Speed",
+        "disciplines_or_materials": "AETHER – crystallin<",
+        "contractor": "01.10",
+        "manufacturer": "MOCKTRAKT",
+        "capability_text": "2A rimTECh"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-44",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            44,
+            49
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "912.RONDI",
+        "classification": "Low-Heavy Weight – Speed Differential",
+        "disciplines_or_materials": "seamLLurgy – AETHER",
+        "contractor": "01.10",
+        "manufacturer": "MOCKTRAKT",
+        "capability_text": "Multi-A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-50",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            50,
+            55
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "_SKULLRIDE_",
+        "classification": "Heavy Weight – High Speed",
+        "disciplines_or_materials": "metaLLurgy – crystallin<",
+        "contractor": "muerte_DONa",
+        "manufacturer": "MOCKTRAKT",
+        "capability_text": "4A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-56",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            56,
+            61
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "OGG.node",
+        "classification": "Medium Weight – High Speed",
+        "disciplines_or_materials": "Omni-meta – AETHER",
+        "contractor": "oggNODE.TECH",
+        "manufacturer": "MOCKTRAKT",
+        "capability_text": "2A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-121",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            121,
+            126
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Marco.LI – LYNtech original",
+        "classification": "Low-Heavy Weight – Speed Differential",
+        "disciplines_or_materials": "metaLLurgy",
+        "contractor": "LYNtech",
+        "manufacturer": "LYNtech",
+        "capability_text": "8A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-127",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            127,
+            132
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "00.1_trin",
+        "classification": "Heavy Weight – Low Speed",
+        "disciplines_or_materials": "seamLLurgy – AETHER",
+        "contractor": "01:10",
+        "manufacturer": "LYNtech",
+        "capability_text": "6A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-133",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            133,
+            138
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "IO.ADMIN_EN",
+        "classification": "Heavy Weight – Armored – Low Speed",
+        "disciplines_or_materials": "Crystallin< - metaLLurgy – OMNI-META",
+        "contractor": "adminENACT",
+        "manufacturer": "LYNtech",
+        "capability_text": "4A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-139",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            139,
+            144
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "7INT-Carriage",
+        "classification": "Low-Heavy Weight – High Speed",
+        "disciplines_or_materials": "seamLLurgy – OMNI-META",
+        "contractor": "MOD_TECH",
+        "manufacturer": "LYNtech",
+        "capability_text": "8A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-145",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            145,
+            150
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "uni_eve.102",
+        "classification": "Low Weight – Low Speed",
+        "disciplines_or_materials": "AETHER – seamLLurgy",
+        "contractor": "AquiSphere",
+        "manufacturer": "LYNtech",
+        "capability_text": "10A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-151",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            151,
+            156
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "**>><<**",
+        "classification": "Middle Weight – Middle Speed",
+        "disciplines_or_materials": "Crystallin<",
+        "contractor": "<<<cryillistics<<<",
+        "manufacturer": "LYNtech",
+        "capability_text": "4A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-157",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            157,
+            162
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "secureENACT.NODE",
+        "classification": "Heavy Weight – High Speed – FLIGHT.EN",
+        "disciplines_or_materials": "metaLLurgy – OMNIMETA",
+        "contractor": "WN_EDU",
+        "manufacturer": "LYNtech",
+        "capability_text": "8A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-framegen-163",
+      "kind": "framegen",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            163,
+            168
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "briNAN v1 – v4",
+        "classification": "Middle Weight – Variable Speed – RETROSP",
+        "disciplines_or_materials": "metaLLurgy – lightPROKT< - adminENACT",
+        "contractor": "ENACT_HILLS",
+        "manufacturer": "LYNtech",
+        "capability_text": "10A rimTECH"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-67",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            67,
+            72
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Mod.S1 -> 3",
+        "classification": "Short - Long Range",
+        "disciplines_or_materials": "AETHER.CONSTRUCT",
+        "contractor": "<<<cryillistics<<<",
+        "manufacturer": "MOD_TECH",
+        "capability_text": "Modes: Stun – Disarm – De-Resolution"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-73",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            73,
+            78
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Contr>YU<RI",
+        "classification": "VERY SHORT RANGE",
+        "disciplines_or_materials": "metaLLurgy",
+        "contractor": "<<<cryillistics<<<",
+        "manufacturer": "NewBeginnings.CO",
+        "capability_text": "Modes: Stun – Delete"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-79",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            79,
+            84
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "mox.med.000",
+        "classification": "Medium Range",
+        "disciplines_or_materials": "seamLLurgy",
+        "contractor": "<<<cryillistics<<<",
+        "manufacturer": "WN_TOWER",
+        "capability_text": "Modes: Disarm – Encap"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-85",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            85,
+            90
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "***VEN***",
+        "classification": "Long – Short Range",
+        "disciplines_or_materials": "Crystallin<",
+        "contractor": "<<<cryillstics<<<",
+        "manufacturer": "<<<cryillistics<<<",
+        "capability_text": "Modes: Iso-ENCAP – De-Resolution – OMNI-ENCAP"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-91",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            91,
+            96
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "aa.aaBALLIPLAT",
+        "classification": "Short Range",
+        "disciplines_or_materials": "metaLLurgy",
+        "contractor": "<<<cryillistics<<<",
+        "manufacturer": "AquiCAP",
+        "capability_text": "Modes: fracTECH-PENE – Tracking – Delete"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-97",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            97,
+            102
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "MAX-NODE v1 – v9",
+        "classification": "Comprehensive Range Options",
+        "disciplines_or_materials": "fracTECH",
+        "contractor": "<<<cryillstics<<<",
+        "manufacturer": "fracTECH",
+        "capability_text": "Modes: Delete – Stun – Meta-Break"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-103",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            103,
+            108
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "OmniBURST",
+        "classification": "Infi-Particulate Deviation",
+        "disciplines_or_materials": "seamLLurgy",
+        "contractor": "<<<cryillistics<<<",
+        "manufacturer": "data.RET.node",
+        "capability_text": "Modes: Nano-Sim – Track – ENCAP Variations"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-wirelet-109",
+      "kind": "wirelet",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            109,
+            114
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Loi_DOX.TAG Var.752",
+        "classification": "Homing Crystallin<",
+        "disciplines_or_materials": "Crystallin<",
+        "contractor": "<<<cryillistics<<<",
+        "manufacturer": "druid-sec",
+        "capability_text": "Modes: Disarm – Stun – netINT"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-174",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            174,
+            179
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Bi-oP Inset",
+        "classification": "BONE INTERIOR",
+        "disciplines_or_materials": "seamLLurgy - druidTECH",
+        "contractor": "WN_MED",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Vita-Marrow AUGMENT"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-180",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            180,
+            185
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "tendoEXO",
+        "classification": "TENDONS",
+        "disciplines_or_materials": "druidTECH – Sap-Core",
+        "contractor": "Sap-Core",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Ankle Tendon Durability and Performance Enhancement"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-186",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            186,
+            191
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "MINDint",
+        "classification": "Pre-Frontal Cortex Outer Layer",
+        "disciplines_or_materials": "druidTECH – fractech",
+        "contractor": "fractech",
+        "manufacturer": "druidSPEC",
+        "capability_text": "ChemiSIM Processing Depth-Fidelity & Duration AUGMENT"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-192",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            192,
+            197
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "BARK.SKU",
+        "classification": "Multi-Layer Skin towards Exterior",
+        "disciplines_or_materials": "needLLurgy – Harvet",
+        "contractor": "Harvet",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Bio-Organic flor.faun_genSPEC augment for Skin Durability"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-198",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            198,
+            203
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "AEORTA v3",
+        "classification": "Main Heart Muscle Contraction",
+        "disciplines_or_materials": "WN_MED – Sap-Core",
+        "contractor": "WN_MED",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Heart Function Bypass and Supplementation through Secondary Muscle.DEV"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-204",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            204,
+            209
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "SUB-COGNIV-IO",
+        "classification": "Baseline Hind-Brain Neurological Cognition",
+        "disciplines_or_materials": "WN_MED – KHO",
+        "contractor": "WN_MED",
+        "manufacturer": "druidSPEC",
+        "capability_text": "MMTX<-Inset Reinforces Brain Subroutines to Enable High Fidelity Function during Fight or Flight State"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-210",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            210,
+            215
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "MO.ennerENACT",
+        "classification": "Forearms",
+        "disciplines_or_materials": "MERC TAG – BLACK.DOT",
+        "contractor": "MERC TAG",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Bio-Nano Bone Supplement to give Forearms Tensile Impact Force"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-216",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            216,
+            221
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Spectrils",
+        "classification": "Fingers",
+        "disciplines_or_materials": "seamLLurgists – LifeString",
+        "contractor": "seamLLurgists",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Meta-Spec string contrails that provide distance access to manuintegrative meta-break"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-222",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            222,
+            227
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "EUNIX CLOUD",
+        "classification": "Skin Pores",
+        "disciplines_or_materials": "data.RET.node stations – KHO",
+        "contractor": "ENACT_HILLS",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Bio-Nano Infi-Particulate Cloud Expanse that lives in Cellular Structure – Provides Healing and Assimilation through Encap at User Neural-Command"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-228",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            228,
+            233
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "PYRI-INT",
+        "classification": "Mid-Brain",
+        "disciplines_or_materials": "Embrite – WN_EDU",
+        "contractor": "ENACT_HILLS",
+        "manufacturer": "druidSPEC",
+        "capability_text": "Integrative nano-relay mold that provides insta-coms to PYRI-INTELLIGENCE in ENACT_HILLS"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-234",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            234,
+            239
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "neuralidad_INTERCOM",
+        "classification": "Fore-Brain",
+        "disciplines_or_materials": "seamLLurgist – LYNtech",
+        "contractor": "LYNtech",
+        "manufacturer": "druidSPEC",
+        "capability_text": "interNODE and fractech omni-meta sensor.gen grown into central.fore-brain"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-bio_mod-240",
+      "kind": "bio_mod",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            240,
+            245
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "mox_tai",
+        "classification": "Neurochem Spinal Cord CentriNODE",
+        "disciplines_or_materials": "seamLLurgist – ENACT_HILLS",
+        "contractor": "WN_TOWER",
+        "manufacturer": "druidSPEC",
+        "capability_text": "chemSTIM that accelerates neurochemical reactions, enabling adrenal development and response time"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-249",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            249,
+            254
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "BalliSTUN",
+        "classification": "FreqEMIT",
+        "disciplines_or_materials": "adminENACT – ENACT_HILLS",
+        "contractor": "WN_TOWER",
+        "manufacturer": "securi.LAT",
+        "capability_text": "Stun – Disrupt - Track"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-255",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            255,
+            260
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Encap",
+        "classification": "Full-SIPHON",
+        "disciplines_or_materials": "interNODE – fractech",
+        "contractor": "ENACT_HILLS",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Siphon – Encapsulate – Consolidate"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-261",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            261,
+            266
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Barra de Arma",
+        "classification": "Omni-Meta ContriENACT",
+        "disciplines_or_materials": "WN_EDU",
+        "contractor": "WN_TOWER",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Mitigation of Omni-Break – Bio-Regulation"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-267",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            267,
+            272
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "DOX.UI",
+        "classification": "intiOPTIC Disruptor",
+        "disciplines_or_materials": "KHO – PYRI – WN_TOWER",
+        "contractor": "WN_TOWER",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Disrupt – Blind – Acquire Intel"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-273",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            273,
+            278
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Tele_***_OMNI",
+        "classification": "Intel Acquisition and Communicator",
+        "disciplines_or_materials": "Druid-sec – AquiSphere",
+        "contractor": "WN_TOWER",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Communication – Encryption"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-279",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            279,
+            284
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "Immi-front",
+        "classification": "Close Range Disarm",
+        "disciplines_or_materials": "WN_LAW – AquiSphere",
+        "contractor": "WN_LAW",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Stun – Disarm – Immobilize"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-285",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            285,
+            290
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "MAX_DEF",
+        "classification": "High Resistance Armor",
+        "disciplines_or_materials": "WN_LAW – MERC TAG",
+        "contractor": "MERC TAG",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Resistance – Deflection"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-291",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            291,
+            296
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "stimUP",
+        "classification": "Beverage Powder that Enhances Protocol Alignment",
+        "disciplines_or_materials": "WN_LAW – black.dot",
+        "contractor": "black.dot",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Healing – Response Time"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-297",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            297,
+            302
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "DREADPLATE",
+        "classification": "NULL_Field enabled metaLLurgy handheld armament",
+        "disciplines_or_materials": "black.dot – MERC TAG",
+        "contractor": "MERC TAG",
+        "manufacturer": "secure.LAT",
+        "capability_text": "NULL DIFFUSE enactment – Encap-Prep.State"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    },
+    {
+      "id": "mesas-defense_tech-303",
+      "kind": "defense_tech",
+      "status": "authored_catalog_specification",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            303,
+            308
+          ]
+        }
+      ],
+      "fields": {
+        "designation": "NanoDUST",
+        "classification": "Node.DISRUPT and Physical Neuralization Nano-Powder",
+        "disciplines_or_materials": "KHO – Pyri – CLOUD_CITY_S – ENACT_HILLS",
+        "contractor": "ENACT_HILLS",
+        "manufacturer": "secure.LAT",
+        "capability_text": "Disrupts and Neutralizes Biological and fractech integration"
+      },
+      "implementation": "reference_only; no playable item, statistic, equipment grant or animation created"
+    }
+  ],
+  "visual_references": [
+    {
+      "file": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS.png",
+      "status": "visual_prototype",
+      "observations": [
+        "unit-specific silhouettes",
+        "high-contrast metallic and crystal surfaces",
+        "distinct vehicle and wirelet frames",
+        "brand-specific storefront light"
+      ],
+      "usage": "Material, brand, silhouette and lighting reference; no sprite sheet, collision mask or numeric statistics are supplied.",
+      "text_references": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            3,
+            168
+          ]
+        },
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            339,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PROTOTYPE IMAGE v2/CORP-E PRODUCTS pt. 2.png",
+      "status": "visual_prototype",
+      "observations": [
+        "druid organic/metal contrast",
+        "bio-mod tissue and hard-surface detail",
+        "separate company-specific color practicals",
+        "institutional equipment and supply silhouettes"
+      ],
+      "usage": "Per-unit asset brief for later modeled and rendered objects; presentation imagery does not add inventory or present-day characters.",
+      "text_references": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            169,
+            312
+          ]
+        },
+        {
+          "document": "WN_TOWER Reference.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            4,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PROTOTYPE IMAGE v2/CODE.png",
+      "status": "conceptual_framework_image",
+      "observations": [
+        "MMTX< baseline and relational views",
+        "percept and semblance are distinct",
+        "encap/resolution represented as simultaneous",
+        "NULL_0 as a percept-limit designation"
+      ],
+      "usage": "Off-screen authoring/reference vocabulary. Pseudocode does not replace executable code or measured physics."
+    },
+    {
+      "file": "PROTOTYPE IMAGE v2/CODE FINAL.png",
+      "status": "conceptual_framework_image",
+      "observations": [
+        "separate localization and continuation",
+        "nonconditional MMTX< baseline",
+        "manifestation views and stated continuity requirements",
+        "simultaneous encap/resolution"
+      ],
+      "usage": "Off-screen conceptual reference. Filename alone does not settle precedence over CODE.png or supply numeric VREX parameters."
+    }
+  ],
+  "draft_seed_lists": [
+    {
+      "document": "The Long Tar Location Guide and Plot Ideas.docx",
+      "status": "draft_seed_list",
+      "entries": [
+        {
+          "paragraph": 2,
+          "text": "Mushroom Garden"
+        },
+        {
+          "paragraph": 3,
+          "text": "Undercroft Sanctuary"
+        },
+        {
+          "paragraph": 4,
+          "text": "Skyscraper – Mines"
+        },
+        {
+          "paragraph": 5,
+          "text": "Empty Stasis Chambers"
+        },
+        {
+          "paragraph": 6,
+          "text": "Yazashi Incubation Chambers"
+        },
+        {
+          "paragraph": 7,
+          "text": "Eunix Crystal Pod Chambers"
+        },
+        {
+          "paragraph": 8,
+          "text": "Sand Shaman Bunker"
+        },
+        {
+          "paragraph": 9,
+          "text": "Sand Crab herd Showdown"
+        },
+        {
+          "paragraph": 10,
+          "text": "The Living Tunnels"
+        },
+        {
+          "paragraph": 11,
+          "text": "Norther Laboratory Expanse"
+        },
+        {
+          "paragraph": 12,
+          "text": "Eura Scouting Blimp"
+        },
+        {
+          "paragraph": 13,
+          "text": "Westlin Farmers Market"
+        },
+        {
+          "paragraph": 14,
+          "text": "Sand Worm Trap – Digestive Tract"
+        },
+        {
+          "paragraph": 15,
+          "text": "Yazashi Cult vs. City Mercenaries [BSP]"
+        },
+        {
+          "paragraph": 16,
+          "text": "The Eura Coalition vs. Eunix Advance Party"
+        },
+        {
+          "paragraph": 17,
+          "text": "Pyri vs. Jicet [Eunix]"
+        },
+        {
+          "paragraph": 18,
+          "text": "BSP Vault Scavenging"
+        },
+        {
+          "paragraph": 19,
+          "text": "Mushroom Basin"
+        },
+        {
+          "paragraph": 20,
+          "text": "The Yazashi Archives"
+        },
+        {
+          "paragraph": 21,
+          "text": "City of Metal Trine Tower"
+        },
+        {
+          "paragraph": 22,
+          "text": "Mother Gape"
+        },
+        {
+          "paragraph": 23,
+          "text": "Fibonacci Farm"
+        },
+        {
+          "paragraph": 24,
+          "text": "The Westlin Wildcrop"
+        },
+        {
+          "paragraph": 25,
+          "text": "Civilian Stasis Chambers"
+        },
+        {
+          "paragraph": 26,
+          "text": "The City of Metal Prison"
+        },
+        {
+          "paragraph": 27,
+          "text": "The Westlin Chamber"
+        },
+        {
+          "paragraph": 28,
+          "text": "The Moldworks"
+        },
+        {
+          "paragraph": 29,
+          "text": "The Pitch Tunnels"
+        },
+        {
+          "paragraph": 30,
+          "text": "Cinha forcefield"
+        },
+        {
+          "paragraph": 31,
+          "text": "The Eura Ashlands"
+        },
+        {
+          "paragraph": 32,
+          "text": "The Pillars of Huertes"
+        },
+        {
+          "paragraph": 33,
+          "text": "The Apostel Tower"
+        },
+        {
+          "paragraph": 34,
+          "text": "The Grey Boxes"
+        },
+        {
+          "paragraph": 35,
+          "text": "Eden Underground"
+        },
+        {
+          "paragraph": 36,
+          "text": "Vati – 7.4"
+        },
+        {
+          "paragraph": 37,
+          "text": "The Ashen Mounds"
+        },
+        {
+          "paragraph": 38,
+          "text": "The Auto – Town Mounds"
+        },
+        {
+          "paragraph": 39,
+          "text": "Cyber – bahn"
+        },
+        {
+          "paragraph": 40,
+          "text": "The Monolith"
+        },
+        {
+          "paragraph": 41,
+          "text": "Lightwall [LvL 1 / 2 / 3]"
+        },
+        {
+          "paragraph": 42,
+          "text": "The Great Sand Bunker"
+        },
+        {
+          "paragraph": 43,
+          "text": "Ural  D – Zone"
+        },
+        {
+          "paragraph": 44,
+          "text": "Roast Waart [Br]"
+        },
+        {
+          "paragraph": 45,
+          "text": "The Seed Float"
+        },
+        {
+          "paragraph": 46,
+          "text": "Turbine – Line"
+        },
+        {
+          "paragraph": 47,
+          "text": "The G C G W (Grand Canyon)"
+        },
+        {
+          "paragraph": 48,
+          "text": "-> (Gravity Well)"
+        },
+        {
+          "paragraph": 49,
+          "text": "Oregon Fern Sheild – Redwood Core"
+        },
+        {
+          "paragraph": 50,
+          "text": "The Living Ice"
+        },
+        {
+          "paragraph": 51,
+          "text": "Molten Nitrogen Nano – Train"
+        },
+        {
+          "paragraph": 52,
+          "text": "Fractal Network"
+        },
+        {
+          "paragraph": 53,
+          "text": "The United Gulf"
+        },
+        {
+          "paragraph": 54,
+          "text": "-> - Staircase Ruin"
+        },
+        {
+          "paragraph": 55,
+          "text": "Panamanian"
+        },
+        {
+          "paragraph": 56,
+          "text": "Scarlet Crater Tradeline"
+        },
+        {
+          "paragraph": 57,
+          "text": "The Eternity Canopy"
+        },
+        {
+          "paragraph": 58,
+          "text": "Sever Level 0.0 (Ch)"
+        },
+        {
+          "paragraph": 59,
+          "text": "The AI Crypts (Fr)"
+        },
+        {
+          "paragraph": 60,
+          "text": "Prison Net (Var.)"
+        },
+        {
+          "paragraph": 61,
+          "text": "Incarceration Response [USA]"
+        },
+        {
+          "paragraph": 62,
+          "text": "Coney Island Shelter"
+        },
+        {
+          "paragraph": 63,
+          "text": "Canadian Border Guard 46.3 – 71.2"
+        },
+        {
+          "paragraph": 64,
+          "text": "The Californian Footbridge"
+        },
+        {
+          "paragraph": 65,
+          "text": "Kansas Isolation Pit"
+        },
+        {
+          "paragraph": 66,
+          "text": "Isolation Pit Network"
+        },
+        {
+          "paragraph": 67,
+          "text": "Seed Vault [A1]"
+        },
+        {
+          "paragraph": 68,
+          "text": "The Sargasso Expanse"
+        },
+        {
+          "paragraph": 69,
+          "text": "Gransher Range"
+        },
+        {
+          "paragraph": 70,
+          "text": "Le Scarpe [NY]"
+        },
+        {
+          "paragraph": 71,
+          "text": "The Depths"
+        },
+        {
+          "paragraph": 72,
+          "text": "The Great Red"
+        },
+        {
+          "paragraph": 73,
+          "text": "Lighthouse: pinnacle"
+        },
+        {
+          "paragraph": 74,
+          "text": "Mecha – Spire [PYD]"
+        },
+        {
+          "paragraph": 75,
+          "text": "The Cable – Zone"
+        },
+        {
+          "paragraph": 76,
+          "text": "Conglomerate Luminosity"
+        },
+        {
+          "paragraph": 77,
+          "text": "The Red Sea Exhibit"
+        },
+        {
+          "paragraph": 78,
+          "text": "Nano – Sand Expanse"
+        },
+        {
+          "paragraph": 79,
+          "text": "The OS Conduit"
+        },
+        {
+          "paragraph": 80,
+          "text": "City Infinity"
+        },
+        {
+          "paragraph": 81,
+          "text": "Venus – Forest"
+        },
+        {
+          "paragraph": 82,
+          "text": "The Acai Initiative"
+        },
+        {
+          "paragraph": 83,
+          "text": "Explorer – Rec 6.2"
+        },
+        {
+          "paragraph": 84,
+          "text": "Sim – Box 8.0"
+        },
+        {
+          "paragraph": 85,
+          "text": "The Cannery [S.A]"
+        },
+        {
+          "paragraph": 86,
+          "text": "The Florida Expanse"
+        },
+        {
+          "paragraph": 87,
+          "text": "Fri-Land – [a-u3-ba-al] – [Sumeri-Strom]"
+        },
+        {
+          "paragraph": 88,
+          "text": "Cina – [Cyber-Punk]"
+        },
+        {
+          "paragraph": 89,
+          "text": "Eura – [Afro-Punk]"
+        },
+        {
+          "paragraph": 90,
+          "text": "New New Orleans – [Hiero-Punk]"
+        },
+        {
+          "paragraph": 91,
+          "text": "The Spire"
+        },
+        {
+          "paragraph": 92,
+          "text": "Eura Ashlands – [Neo-Afro Punk]"
+        },
+        {
+          "paragraph": 93,
+          "text": "Cina Forcefield"
+        },
+        {
+          "paragraph": 94,
+          "text": "Poi-Land"
+        },
+        {
+          "paragraph": 95,
+          "text": "The Nano-Verge"
+        },
+        {
+          "paragraph": 96,
+          "text": "Black Sakura Vault"
+        },
+        {
+          "paragraph": 97,
+          "text": "The Southern Isles – [Solar Punk]"
+        },
+        {
+          "paragraph": 98,
+          "text": "The Lighthouse"
+        },
+        {
+          "paragraph": 99,
+          "text": "Arctic Incursion Zone"
+        },
+        {
+          "paragraph": 100,
+          "text": "The Mexi-Andes Mountain Ridge"
+        },
+        {
+          "paragraph": 101,
+          "text": "The Gulf of Spawn"
+        },
+        {
+          "paragraph": 102,
+          "text": "The Mariana Mining Trench"
+        },
+        {
+          "paragraph": 103,
+          "text": "Koko’s Water Raft"
+        },
+        {
+          "paragraph": 104,
+          "text": "The Great Plastic Expanse – (PACIF)"
+        },
+        {
+          "paragraph": 105,
+          "text": "The Island of Enactment (ENRCT)"
+        },
+        {
+          "paragraph": 106,
+          "text": "ANDES MT. INSET DE MUNDO 3.5212"
+        },
+        {
+          "paragraph": 107,
+          "text": "Outpost de OMNI-VIDA (HWII)"
+        },
+        {
+          "paragraph": 108,
+          "text": "Temples of ATMN"
+        },
+        {
+          "paragraph": 109,
+          "text": "Cina MEGACITY Region 36.2 – 39.1"
+        },
+        {
+          "paragraph": 110,
+          "text": "Grid-Land (PHLPNS)"
+        },
+        {
+          "paragraph": 111,
+          "text": "BonzoiTua – (JPN)"
+        },
+        {
+          "paragraph": 112,
+          "text": "The Bonzai Garden"
+        },
+        {
+          "paragraph": 113,
+          "text": "Neon Jade Oasis"
+        },
+        {
+          "paragraph": 114,
+          "text": "Actin-OPTIC CORP"
+        },
+        {
+          "paragraph": 115,
+          "text": "The AI VAULT"
+        },
+        {
+          "paragraph": 116,
+          "text": "EURA TRADE TUNNELS"
+        },
+        {
+          "paragraph": 117,
+          "text": "The Underground Sanctuaries of EURA-SOV-UNION"
+        },
+        {
+          "paragraph": 118,
+          "text": "FriLand BSV"
+        },
+        {
+          "paragraph": 119,
+          "text": "The Neo-IVORY Coast"
+        },
+        {
+          "paragraph": 120,
+          "text": "The Devils Symbiote"
+        },
+        {
+          "paragraph": 121,
+          "text": "Caustic Plast-Toxin Coastlines"
+        },
+        {
+          "paragraph": 122,
+          "text": "The City of Neo-Dawn"
+        },
+        {
+          "paragraph": 123,
+          "text": "Luna de Muerte"
+        },
+        {
+          "paragraph": 124,
+          "text": "La Cuidad de Angeles e Demones"
+        },
+        {
+          "paragraph": 125,
+          "text": "Aztemple Complex PRIMO"
+        },
+        {
+          "paragraph": 126,
+          "text": "El Priso de Sol"
+        },
+        {
+          "paragraph": 127,
+          "text": "Los Lagos de Fracture e Chrome"
+        },
+        {
+          "paragraph": 128,
+          "text": "The Eye"
+        },
+        {
+          "paragraph": 129,
+          "text": "The Canadian Conversion Aspect"
+        },
+        {
+          "paragraph": 130,
+          "text": "Spire Centrifuge and Space-Incursion"
+        },
+        {
+          "paragraph": 131,
+          "text": "Incel Subject 341.242^332.1"
+        },
+        {
+          "paragraph": 132,
+          "text": "The World Tree"
+        },
+        {
+          "paragraph": 133,
+          "text": "Bio Vats of Gridland"
+        },
+        {
+          "paragraph": 134,
+          "text": "Solar Sanctuary de PYR"
+        },
+        {
+          "paragraph": 135,
+          "text": "Road Rot Trails and Militia"
+        },
+        {
+          "paragraph": 136,
+          "text": "The Tar of Endless Longing"
+        },
+        {
+          "paragraph": 137,
+          "text": "Rat Grate Expanse"
+        },
+        {
+          "paragraph": 138,
+          "text": "El Catacomb de Diablo Gran"
+        },
+        {
+          "paragraph": 139,
+          "text": "Atom-Emitter Facility 8.92"
+        },
+        {
+          "paragraph": 140,
+          "text": "The Pits of Glow e Vida"
+        },
+        {
+          "paragraph": 141,
+          "text": "Fertility-Cultist Caravans"
+        },
+        {
+          "paragraph": 142,
+          "text": "Yazashi Shadow City"
+        },
+        {
+          "paragraph": 143,
+          "text": "The Southern Farmlands"
+        },
+        {
+          "paragraph": 144,
+          "text": "Bio-Nano Virus Incursion Field, Expanse, and Inert Development"
+        },
+        {
+          "paragraph": 145,
+          "text": "The Kraken of Conversion"
+        },
+        {
+          "paragraph": 146,
+          "text": "MEGACITY 10"
+        },
+        {
+          "paragraph": 147,
+          "text": "Unknown Geometric Anomaly"
+        },
+        {
+          "paragraph": 148,
+          "text": "LUNAR INTEGRATION NODE"
+        },
+        {
+          "paragraph": 149,
+          "text": "The Circuit Biome"
+        }
+      ]
+    },
+    {
+      "document": "Thorns Book Series.docx",
+      "status": "chapter_title_list",
+      "entries": [
+        {
+          "paragraph": 2,
+          "text": "The Riverside Discovery"
+        },
+        {
+          "paragraph": 3,
+          "text": "Pollen -> Thorn Bush"
+        },
+        {
+          "paragraph": 4,
+          "text": "The Confrontation with the Elders"
+        },
+        {
+          "paragraph": 5,
+          "text": "The Spire and the Wave of Paranoia"
+        },
+        {
+          "paragraph": 6,
+          "text": "The Stranger’s Arrival"
+        },
+        {
+          "paragraph": 7,
+          "text": "A Shallow Burial"
+        },
+        {
+          "paragraph": 8,
+          "text": "The/Sandstorm (Shale)"
+        },
+        {
+          "paragraph": 9,
+          "text": "The Medic’s Instinct"
+        },
+        {
+          "paragraph": 10,
+          "text": "Courier Station A.1"
+        },
+        {
+          "paragraph": 11,
+          "text": "A Retreat from Torchlight"
+        },
+        {
+          "paragraph": 12,
+          "text": "The Frozen Lake"
+        },
+        {
+          "paragraph": 13,
+          "text": "An Inch of Ire"
+        },
+        {
+          "paragraph": 14,
+          "text": "A Calculated Choice"
+        },
+        {
+          "paragraph": 15,
+          "text": "Journey to the Coast"
+        },
+        {
+          "paragraph": 16,
+          "text": "The Badlands"
+        },
+        {
+          "paragraph": 17,
+          "text": "Caravan of Fools"
+        },
+        {
+          "paragraph": 18,
+          "text": "An Ominous Wave"
+        },
+        {
+          "paragraph": 19,
+          "text": "Stragglers"
+        },
+        {
+          "paragraph": 20,
+          "text": "A Voice within the marsh"
+        },
+        {
+          "paragraph": 21,
+          "text": "The Soothsayer"
+        },
+        {
+          "paragraph": 22,
+          "text": "Soul Searching"
+        },
+        {
+          "paragraph": 23,
+          "text": "Ashen Line"
+        },
+        {
+          "paragraph": 24,
+          "text": "Asemblance of Reality"
+        },
+        {
+          "paragraph": 25,
+          "text": "The Root"
+        },
+        {
+          "paragraph": 26,
+          "text": "Badger Affair"
+        },
+        {
+          "paragraph": 27,
+          "text": "A Feast of Fates"
+        },
+        {
+          "paragraph": 28,
+          "text": "Death’s Pass"
+        },
+        {
+          "paragraph": 29,
+          "text": "Vines"
+        },
+        {
+          "paragraph": 30,
+          "text": "Rest and Respite"
+        },
+        {
+          "paragraph": 31,
+          "text": "Agricultural Center 1.1b"
+        },
+        {
+          "paragraph": 32,
+          "text": "Carnivorous Plantlife"
+        },
+        {
+          "paragraph": 33,
+          "text": "A Core of Ruin"
+        },
+        {
+          "paragraph": 34,
+          "text": "The Symbol in Tar"
+        },
+        {
+          "paragraph": 35,
+          "text": "Pollen and Postmarks"
+        },
+        {
+          "paragraph": 36,
+          "text": "Cult – Wood"
+        },
+        {
+          "paragraph": 37,
+          "text": "Needle – Vision"
+        },
+        {
+          "paragraph": 38,
+          "text": "EMS Center: M1"
+        },
+        {
+          "paragraph": 39,
+          "text": "Delivery Juant"
+        },
+        {
+          "paragraph": 40,
+          "text": "odd package"
+        },
+        {
+          "paragraph": 41,
+          "text": "Quarantine Protocol"
+        },
+        {
+          "paragraph": 42,
+          "text": "A Settlement of Spies"
+        },
+        {
+          "paragraph": 43,
+          "text": "Rooted Corruption"
+        },
+        {
+          "paragraph": 44,
+          "text": "The Strange Adventure of Janitor 26"
+        },
+        {
+          "paragraph": 45,
+          "text": "Executive Debrief"
+        },
+        {
+          "paragraph": 46,
+          "text": "Recon Operation"
+        },
+        {
+          "paragraph": 47,
+          "text": "Micro – magi"
+        },
+        {
+          "paragraph": 48,
+          "text": "Spore"
+        },
+        {
+          "paragraph": 49,
+          "text": "The Bark Wood Expanse"
+        },
+        {
+          "paragraph": 50,
+          "text": "Stumped"
+        },
+        {
+          "paragraph": 51,
+          "text": "The Black Fog Descends"
+        },
+        {
+          "paragraph": 52,
+          "text": "Poisoned Roots and Treasoned Soot"
+        },
+        {
+          "paragraph": 53,
+          "text": "Mucous Rot"
+        },
+        {
+          "paragraph": 54,
+          "text": "Riptide"
+        },
+        {
+          "paragraph": 55,
+          "text": "The Wicca Gateway"
+        },
+        {
+          "paragraph": 56,
+          "text": "Trust and Honor"
+        },
+        {
+          "paragraph": 57,
+          "text": "A Barrier Deflection"
+        },
+        {
+          "paragraph": 58,
+          "text": "Archive Tar"
+        },
+        {
+          "paragraph": 59,
+          "text": "Mimic Rising"
+        },
+        {
+          "paragraph": 60,
+          "text": "The Needle Ascension"
+        },
+        {
+          "paragraph": 61,
+          "text": "The Battle of Ring LvL 2 – 3"
+        },
+        {
+          "paragraph": 62,
+          "text": "Hammer in Stone"
+        },
+        {
+          "paragraph": 63,
+          "text": "Black Stone Altar"
+        },
+        {
+          "paragraph": 64,
+          "text": "Daybreak"
+        },
+        {
+          "paragraph": 65,
+          "text": "The Geometric NULL Field"
+        },
+        {
+          "paragraph": 66,
+          "text": "Waterlogged"
+        },
+        {
+          "paragraph": 67,
+          "text": "A Beginning of an End"
+        },
+        {
+          "paragraph": 68,
+          "text": "El Alma de Vida"
+        },
+        {
+          "paragraph": 69,
+          "text": "The Flower"
+        },
+        {
+          "paragraph": 70,
+          "text": "Pyri"
+        },
+        {
+          "paragraph": 71,
+          "text": "Druid Station 25.2"
+        },
+        {
+          "paragraph": 72,
+          "text": "El Aspecto de Flora"
+        },
+        {
+          "paragraph": 73,
+          "text": "Fruta Roja"
+        },
+        {
+          "paragraph": 74,
+          "text": "De Mundo en Alma"
+        },
+        {
+          "paragraph": 75,
+          "text": "Rune Tech"
+        },
+        {
+          "paragraph": 76,
+          "text": "Fractal Generation and the Growth of Anime"
+        },
+        {
+          "paragraph": 77,
+          "text": "Plasma and Scorched Earth"
+        },
+        {
+          "paragraph": 78,
+          "text": "The Arm of OS"
+        },
+        {
+          "paragraph": 79,
+          "text": "Nano-Virus Fractal Pit Version 32.3"
+        },
+        {
+          "paragraph": 80,
+          "text": "El Mundo de Otra Vida"
+        },
+        {
+          "paragraph": 81,
+          "text": "Spell Blade"
+        },
+        {
+          "paragraph": 82,
+          "text": "GridLand Bio Vats"
+        },
+        {
+          "paragraph": 83,
+          "text": "That One Time I Summoned a Bio-Weapon, An Aggressive Engram of a Dead Mercenary, and the Ghost of a Percept of a Celestial God in an Alternate Narrative"
+        },
+        {
+          "paragraph": 84,
+          "text": "Return to The Witches Needle"
+        },
+        {
+          "paragraph": 85,
+          "text": "Culto"
+        }
+      ]
+    }
+  ],
+  "source_variants": [
+    {
+      "source": "Mesas.D.S.CONV.docx",
+      "labels": [
+        "Mesas_D.S.CONV",
+        "Mesas.D.S.CONV",
+        "Mesas.D",
+        "MESAS"
+      ],
+      "disposition": "Preserved variants; one profile for this document, no automatic new map locations."
+    },
+    {
+      "source": "CITY_CLOUD_S - THORNS.docx",
+      "labels": [
+        "CITY_CLOUD_S",
+        "CLOUD_CITY_S"
+      ],
+      "disposition": "Existing engine key stays CITY_CLOUD_S; source spelling retained."
+    },
+    {
+      "source": "Mesas.D.S.CONV.docx",
+      "labels": [
+        "RED>GATE>",
+        "RED<GATE<",
+        "<RED<GATE"
+      ],
+      "disposition": "Contextual gate spellings retained; no new entrances inferred."
+    },
+    {
+      "source": "ENACT_HILLS - THORNS.docx",
+      "labels": [
+        "ENACT_HILLS",
+        "ENTACT_HILLS",
+        "ENNERACT_HILLS"
+      ],
+      "disposition": "Existing engine key stays ENACT_HILLS; spelling variants do not create jurisdictions."
+    }
+  ],
+  "unresolved_source_tensions": [
+    {
+      "subject": "druid terminology",
+      "sources": [
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            170,
+            170
+          ]
+        },
+        {
+          "document": "Mesas.D.S.CONV.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            426,
+            426
+          ]
+        },
+        {
+          "document": "WN_TOWER Reference.docx",
+          "part": "word/document.xml",
+          "paragraphs": [
+            4,
+            7
+          ]
+        }
+      ],
+      "note": "Mesas paragraph 170 defines druid as a role under fractech; other passages speak of Druid-Sec faction/CORP-E practices. Keep the passage context rather than silently resolving organizational identity."
+    },
+    {
+      "subject": "concept image precedence",
+      "files": [
+        "PROTOTYPE IMAGE v2/CODE.png",
+        "PROTOTYPE IMAGE v2/CODE FINAL.png"
+      ],
+      "note": "The name FINAL suggests a revision, but author-confirmed precedence and formal executable equivalence are not supplied."
+    }
+  ],
+  "integration": {
+    "active_regions": [
+      "WN_TOWER",
+      "ENACT_HILLS",
+      "CITY_CLOUD_S",
+      "AETHERGALE"
+    ],
+    "behavior": "Read-only deterministic generation context, sensory prose and skill-checked NPC biome briefings. Optional narrator receives only the current region and explicit evidence boundaries.",
+    "inactive_profiles": "Unplaced source profiles are available to authoring tools; no new routes, resources, powers or NPC identities are materialized.",
+    "physics": "Numerical physics, VREX, photonics and research kernels retain their bytes. Reference dynamics remain requirements until their mechanics and assets are implemented.",
+    "art": "The original four images are available from the reference archive. Existing prepared assets and art manifests retain their bytes."
+  }
+}

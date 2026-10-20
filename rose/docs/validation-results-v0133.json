@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.3",
+  "date": "2026-10-04",
+  "python_tests": {
+    "status": "PASS",
+    "count": 335,
+    "seconds": 27.481
+  },
+  "full_http_native_ui": {
+    "status": "PASS",
+    "backend": "modeled DOM + real HTTP + @napi-rs/canvas",
+    "includes": "General gameplay, four art banks, ecology/construction, optics, hidden VREX/physics, assurance and monolith integration."
+  },
+  "final_focused_monolith": {
+    "status": "PASS",
+    "geometry_tests": 5,
+    "geometry_seconds": 0.156,
+    "command": "node tests/ui-smoke.cjs --monoliths",
+    "regions": [
+      "WN_TOWER",
+      "CITY_CLOUD_S",
+      "ENACT_HILLS",
+      "AETHERGALE"
+    ],
+    "navigation_comparison": {
+      "status": "PASS",
+      "cases": [
+        {
+          "region": "WN_TOWER",
+          "paths_compared": 113,
+          "unchanged": true
+        },
+        {
+          "region": "CITY_CLOUD_S",
+          "paths_compared": 113,
+          "unchanged": true
+        }
+      ]
+    },
+    "receipt": "monolith-scale-audit-v0133.json"
+  },
+  "fidelity": {
+    "status": "PARTIAL PASS",
+    "scope": "Solid monolith proportions and integrated prototype assets; new cores use an original software 3D rasterizer, not a new Blender/Cycles bake.",
+    "remaining": [
+      "bespoke sculpted materials",
+      "richer biome dressing",
+      "individual character likenesses",
+      "interiors",
+      "talking portraits"
+    ]
+  },
+  "not_verified": [
+    "full browser layout",
+    "Windows launch",
+    "audible playback",
+    "LAN sessions",
+    "human balance"
+  ],
+  "logs": [
+    "validation-python-v0133.txt",
+    "validation-ui-v0133.txt",
+    "validation-monolith-python-v0133.txt",
+    "validation-monolith-ui-v0133.txt"
+  ]
+}

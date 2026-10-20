@@ -1,0 +1,183 @@
+{
+  "version": "0.12.0",
+  "date": "2026-10-03",
+  "python_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 285,
+    "new_vrex_cases": 29,
+    "seconds": 21.656
+  },
+  "interface_checks": {
+    "commands": [
+      "node tests/ui-smoke.cjs",
+      "node tests/ui-smoke.cjs --particles"
+    ],
+    "passed": true,
+    "host": "real local HTTP and temporary SQLite",
+    "canvas": "native @napi-rs/canvas",
+    "dom": "modeled DOM; no full browser layout"
+  },
+  "code": {
+    "version": "0.12.0",
+    "python_ast": 111,
+    "javascript_syntax": 23,
+    "json_parse": 77,
+    "unchanged_art_and_render_files_checked": 668,
+    "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+    "image_files": 542,
+    "decoded_image_frames": 556,
+    "html_unique_ids": 234,
+    "advertised_scripts": 12,
+    "systems_reference_sha256": "7d7b774360ed65f995f46b9726e8ced8e8c333089aa8919bff7c72e8c7d4cd73",
+    "reference_pages_reviewed": 12,
+    "reference_equations_indexed": 22
+  },
+  "art": {
+    "unchanged_prior_package_files": 668,
+    "blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+    "rebake_performed": false
+  },
+  "measured_example": {
+    "configuration": {
+      "omega": 1,
+      "drive_omega": 1.9,
+      "alpha": 0.15,
+      "damping": 0.04,
+      "force": 0.42,
+      "coupling": 0.12,
+      "tether_coupling": 0.6,
+      "tether_damping": 0.03
+    },
+    "live_energy": {
+      "status": "PASS",
+      "residual": -3.913381202425015e-09,
+      "normalized_residual": 1.9566905973828907e-09,
+      "tolerance": 1e-06,
+      "stored": 0.7781972028030781,
+      "input": 1,
+      "load": 2.4108244993503976e-05,
+      "heat": 0.22177869286530957,
+      "units": "VREX game units"
+    },
+    "convergence": {
+      "status": "PASS",
+      "steps": [
+        {
+          "dt": 0.125,
+          "audit": {
+            "status": "FAIL",
+            "residual": 1.2234662301491284e-05,
+            "normalized_residual": 1.5865232116512474e-06,
+            "tolerance": 1e-06,
+            "stored": 1.9865451725802603,
+            "input": 3.855815541246199,
+            "load": 0.045169089047135846,
+            "heat": 1.8240890449565015,
+            "units": "VREX game units"
+          },
+          "load": 0.045169089047135846,
+          "modulation": 0.015626546857125573,
+          "controller": 0
+        },
+        {
+          "dt": 0.0625,
+          "audit": {
+            "status": "PASS",
+            "residual": -2.468672972710806e-07,
+            "normalized_residual": 3.201847192970557e-08,
+            "tolerance": 1e-06,
+            "stored": 1.9861867670739848,
+            "input": 3.855076062166797,
+            "load": 0.04517280204862004,
+            "heat": 1.8237167399114895,
+            "units": "VREX game units"
+          },
+          "load": 0.04517280204862004,
+          "modulation": 0.015627268949305065,
+          "controller": 0
+        },
+        {
+          "dt": 0.03125,
+          "audit": {
+            "status": "PASS",
+            "residual": -4.7209231635036986e-08,
+            "normalized_residual": 6.1233564589411466e-09,
+            "tolerance": 1e-06,
+            "stored": 1.9860735528039708,
+            "input": 3.854849187900727,
+            "load": 0.04517302631656787,
+            "heat": 1.82360265598942,
+            "units": "VREX game units"
+          },
+          "load": 0.04517302631656787,
+          "modulation": 0.015628515076683034,
+          "controller": 0
+        }
+      ],
+      "coarse_difference": 1.3749080780080065e-05,
+      "fine_difference": 8.191185666987241e-07,
+      "refinement_ratio": 16.785214402729846
+    },
+    "topology": {
+      "status": "PASS",
+      "perturbation_fraction": 0.4,
+      "reference_visible_to_dynamics": false,
+      "before": 0.4252966389992021,
+      "after": 5.126297246195197e-05,
+      "recovery_score": 0.9998794653713171,
+      "random_control_distance": 0.8638124267247673,
+      "gauge_error": 8.881784197001252e-16,
+      "loop_count": 13
+    },
+    "passive_load": {
+      "status": "PASS",
+      "static_cycle_work": 0,
+      "passive_work": 0.04517302631656787,
+      "returned": 2.9366129180147658,
+      "reuptake": 1.4683064590073829,
+      "energy": {
+        "status": "PASS",
+        "residual": -4.7209231635036986e-08,
+        "normalized_residual": 6.1233564589411466e-09,
+        "tolerance": 1e-06,
+        "stored": 1.9860735528039708,
+        "input": 3.854849187900727,
+        "load": 0.04517302631656787,
+        "heat": 1.82360265598942,
+        "units": "VREX game units"
+      },
+      "gain_controller_work": 0.7483525977284193,
+      "gain_energy": {
+        "status": "PASS",
+        "residual": 8.774809190370547e-08,
+        "normalized_residual": 9.68353801824146e-09,
+        "tolerance": 1e-06,
+        "stored": 2.3504417172001495,
+        "input": 4.530786815114035,
+        "load": 0.05756781633315465,
+        "heat": 2.122777193832639,
+        "units": "VREX game units"
+      }
+    },
+    "temporal": {
+      "status": "MEASURED",
+      "residual": 2.094946306000258e-05,
+      "offset": 0.03125,
+      "scope": "RK4 forward positions versus second-order temporal prediction; no temporal force"
+    },
+    "collective_order": "NOT DETECTED",
+    "metered_duration": "PASS",
+    "laboratory": "NOT RUN"
+  },
+  "limits": [
+    "full browser layout and assistive technology",
+    "Windows launch",
+    "audible audio playback",
+    "multiplayer LAN",
+    "live optional local model",
+    "human game balance",
+    "legacy Aurora replay",
+    "experimental DTC verification and physical-unit calibration",
+    "laboratory apparatus"
+  ]
+}

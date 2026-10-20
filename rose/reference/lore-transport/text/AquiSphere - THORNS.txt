@@ -1,0 +1,51 @@
+PART word/document.xml
+[001] AquiSphere 
+[002] Originally utilized as a battlestation transport, this formless gathering of water is composed of omni-crystallin< construction, enabling reformation and endless morphology. Crystallin< practices of high fidelity define the economics, where access is contingent on geoCLEARANCE, obtained through specialized certification. 
+[003] iceTRACK
+[004] Conceived as emergency access, this pathway shapes the water formations at the base into stable ground for caravan, pilgrimage, and Merc Tag transport. 
+[005] Interfacing requires black.dot verification, where admin.OS access requires specialized footwear to avoid fractech collapse. Trapped within a fractech node means encap exposure, extraction, and reverification of mods through internal leadership.
+[006] lower^PARTITION
+[007] Structural changes within the Aquisphere are common, and sporadic. Any base structural association, close to iceTRACK, is considered lower^PARTITION. Composed of Merc Tag crystallin< contractors, wielders of omni-meta regulative oversight, and offices of format integrity, the lower^PARTITION relies upon security and stability to maintain cyclical fractech alignment. Without this verification process, transfer between WN_TOWER and AquiSphere would be stopgated and limited, resulting in contract fulfillment rendered NULL.
+[008] Specific business and contract holders have free meta-space accessibility when provided clearance to operate within the Aquisphere. Regardless of the tier of practice, access to these outposts is deigned contingent on admin.clearance, and black.dot verification. 
+[009] All businesses and corp-e functions within Aquisphere hold specificity in bio-mod, Needlurgy, and seamLLurgy dealings. This specificity demands contract basis, and Merc Tag verification.
+[010] middle^PARTITION
+[011] The core of Aquisphere holds meta-break and omni-meta infi-particle semblance and percept in equal measure. Outside, the middle^PARTITION is composed of security functionality within meta-break policing, individuals contracted through Merc Tag and admin.clearance to enact high level execution, extraction, and verification. All tactics, all bio-mods, and any intentions are enabled, pardoning acts of discretion for efficacy of contract fulfillment.
+[012] Fractech verification remains one of the highest levels of integrative regulation within this PARTITION. Without firmament of integrity, the Aquisphere holds no stability within the core functionality, the temporal adjacent particles maintaining percept cycling due to contract fulfillment. 
+[013] core^PARTITION
+[014] Percept integrity remains only a small component to the infi-particle, omni-meta network exchanges manifesting within the battlestation. Stemming from seedNODE semblance in synchronicity to omni-meta particulates, this enneract integrates as meta-break to the admin.OS, enabling full transversal and PARTITION manipulation. This process blinds the user, but enables full visual fidelity and integrity through the crystallin< lens of the AquiSphere. Bio-mod specialists developed specificity to provide replacement sight to the resident admin post-integration.
+[015] upper^PARTITION
+[016] Above all lays priority action and engagement for defensive and offensive capabilities of the battlestation, manifested as fratech nodes and ballistic outcroppings. Despite the uniform surface appearance, fractech nodes enable instantaneous materialization of armaments from within omni-meta, though centralization of the AquiSphere was formalized after meta-breaks involving abominations and advents. 
+[017] The highest point of the AquiSphere is designated admin.OS territory, despite the meta-space changes that are freely enacted. Utilizing black.dot and Merc Tag verification, all authorized parties are screened routinely by the crystallin< structure, preventing any outside access. While the outside of the structure has played victim to meta-break, the interior has regulative processes through fractech and infi-particle percept, connected to core functionality. This means that interior defenses and armaments retain full functionality.
+[018] CORP-E OUTPOSTS
+[019] Fractech.ADMIN
+[020] Fully automated and featuring an extensive processing cycle, this infi-particle run outpost has accessibility through an omni-PILLAR of interface and integration. Primary offering of infi-particle bio-mods, and Merc Tag verification. 
+[021] Spidre.ALMA
+[022] Connected through network node that is attributed directly to the structure of the Greatweb, these navigation artists scour the fractect node.net for any indication of economic viability. Acquisition of contracts remains a priority, but extraction of encap materials on whim from systems leadership maintains their specificity of command, a practice rendered immutable by their infi-particle connection to Greatweb.ALMA, an extensive verification protocol enacted through WN_TOWER Merc Tag holders.
+[023] Armed with light-projection webLINES, these entities have severe guidelines to limit cross-faction or corp-e contract violation. Entities made prey by contract holders are extracted, emulated, and executed without retaliation or reaction, an instantaneous rendering of meta-state attributed to their performance.
+[024] Merc.Tag_UNION
+[025] Associated with WN_TOWER as a uniting ideal, all mercenaries verified have fully rendered execution methodology and immutability of intention. There are limited protocols that counter these contracts, and cross-organization interactions play victim to admin.OS interpretation as result. Contract holders will acquire high fidelity fractech integration mods, ballistics specificity, or even resistance-markers that design encounters for resulting contract execution. 
+[026] Light projections utilized for communication and contractual fidelity transmit information directly through WN_TOWER, though frac.net, though all interactions require proxy oversight with integration attempts by outside anTags. 
+[027] AquiSphere.REZ
+[028] Maintenance of corp-e structure renders any intentions contrary to AquiSphere functionality victim to admin.OS execution protocol, with high fidelity discretion. Without safeguards, these mercenaries are contracted to provide immediacy in protection orders, encap extraction, and infiltration of fractech nodes. 
+[029] Dressed in mono-black, covered in filament-based nano-fiber, and protected by variety-discretion bio-plast resistances, these individuals are Merc Tag verified, though not required to have black.dot certification. Their bio-mod access, as a result, is both unknown and exacting in implementation.
+[030] druid_SEC_TRIAD
+[031] Neutrality as a trademark, performance fidelity and bio-mod specificity enable Merc Tag enabled druids to have full integration capability and collaborative fidelity with AquiSphere.REZ, resulting in fractech NODE synchronicity. Despite a lack of Greatweb access, engagement patterns have remained consistent between WN_TOWER’s druid coalition and AquiSphere’s outpost.
+[032] Bio-mod evolution and development have been adapted through specificity, concerning crystallin< implementation and fractech omni-meta convergence methodology. While specificity regarding biological mutation does not reside within the AquiSphere, trade cycles provide integral experience to enable contract trading to include cutting edge bio-mod access for resident and traveling mercenaries.
+[033] Sap-CORE EXT.X
+[034] A relatively small outpost within the AquiSphere, this trading corp-e station utilizes subtlety in advertisement and fidelity in product maintenance to engage stance in positioning. 
+[035] Products are similar to WN_TOWER access, though specificity within crystallin< application is of permanence. 
+[036] Aquisphere_Slang
+[037] Cryst<
+[038] renderben
+[039] intspec
+[040] execon
+[041] CONDI
+[042] contri
+[043] contrabasis
+[044] AquiSphere_Technical_Terms
+[045] frac.net
+[046] webLINES
+[047] omniPILLAR
+[048] PARTITION
+[049] seedNODE
+[050] geoCLEARANCE

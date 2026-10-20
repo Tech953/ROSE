@@ -1,0 +1,27 @@
+{
+  "engine_version": "0.18.0",
+  "baseline_members": 1073,
+  "missing": [],
+  "changed": [
+    "rose/CHANGELOG.md",
+    "rose/README.md",
+    "rose/biomes.py",
+    "rose/docs/QUALITY-AND-ASSURANCE-AUDIT.md",
+    "rose/docs/VALIDATION.md",
+    "rose/engine.py",
+    "rose/server.py",
+    "rose/static/index.html",
+    "rose/static/scene.js",
+    "rose/static/visual-references.css",
+    "rose/static/visual-references.html",
+    "rose/tests/ui-assurance.cjs",
+    "rose/tests/ui-reference-archive.cjs",
+    "rose/tests/ui-smoke.cjs"
+  ],
+  "protected_members": 664,
+  "protected_unchanged": 664,
+  "visual_originals_unchanged": 80,
+  "geography_unchanged": true,
+  "python_syntax_files": 133,
+  "javascript_syntax_files": 39
+}

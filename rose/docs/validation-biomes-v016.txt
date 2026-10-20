@@ -1,0 +1,18 @@
+test_complete_members_retain_verified_bytes_and_recovery_status (test_biomes.BiomeIntakeTests.test_complete_members_retain_verified_bytes_and_recovery_status) ... ok
+test_context_filters_conditions_and_is_a_defensive_copy (test_biomes.BiomeIntakeTests.test_context_filters_conditions_and_is_a_defensive_copy) ... ok
+test_dialogue_has_character_history_and_a_contextual_teaching_check (test_biomes.BiomeIntakeTests.test_dialogue_has_character_history_and_a_contextual_teaching_check) ... ok
+test_every_fact_resolves_to_a_complete_document_and_paragraphs (test_biomes.BiomeIntakeTests.test_every_fact_resolves_to_a_complete_document_and_paragraphs) ... ok
+test_failed_dialogue_retains_provisional_evidence_and_access_boundaries (test_biomes.BiomeIntakeTests.test_failed_dialogue_retains_provisional_evidence_and_access_boundaries) ... ok
+test_fragment_draft_titles_and_composition_theories_stay_distinct (test_biomes.BiomeIntakeTests.test_fragment_draft_titles_and_composition_theories_stay_distinct) ... ok
+test_individual_product_specifications_preserve_qualitative_fields_only (test_biomes.BiomeIntakeTests.test_individual_product_specifications_preserve_qualitative_fields_only) ... ok
+test_local_interpreter_accepts_the_displayed_biome_topic_and_rejects_invented_topics (test_biomes.BiomeIntakeTests.test_local_interpreter_accepts_the_displayed_biome_topic_and_rejects_invented_topics) ... ok
+test_optional_narrator_scopes_background_to_current_region (test_biomes.BiomeIntakeTests.test_optional_narrator_scopes_background_to_current_region) ... ok
+test_remote_and_void_narration_never_injects_the_bodily_biome (test_biomes.BiomeIntakeTests.test_remote_and_void_narration_never_injects_the_bodily_biome) ... ok
+test_runtime_prose_and_briefings_are_read_only_and_source_bounded (test_biomes.BiomeIntakeTests.test_runtime_prose_and_briefings_are_read_only_and_source_bounded) ... ok
+test_unplaced_profiles_cannot_become_current_regions_or_map_destinations (test_biomes.BiomeIntakeTests.test_unplaced_profiles_cannot_become_current_regions_or_map_destinations) ... ok
+test_visual_prototypes_do_not_claim_sprite_or_physics_implementation (test_biomes.BiomeIntakeTests.test_visual_prototypes_do_not_claim_sprite_or_physics_implementation) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.118s
+
+OK

@@ -1,0 +1,49 @@
+PART word/document.xml
+[001] CITY_CLOUD_S 
+[002] Residing within the peak of the eastern mountains, this expansive metallurgy-based construction maintains trade fidelity through Greatweb, Battlestation transversal, and regional distances. Trade fidelity originates from fractech enneract integrations, processing data in high fidelity for instantaneous transport of resources. This city is isolated from traditional pilgrimage access, hidden well within the mountain heights. 
+[003] base.EN_KHO
+[004] Specializing in extraction of metal compounds from salvaged materials, pilgrimage ops, and fractech data transference, this district relies less on economic prosperity than its counterparts, instead maintaining stance through resources acclimation and gestation of fract.net integration tech. 
+[005] Within the base of this region, therein lays a latent educational network, accessible through specialized metallurgy affiliation and affinity. Given proximity to resources, this region has priority access to developed data materials.
+[006] ED.NET
+[007] Metallic infrastructure extending deep into the mountains, residing upon a pattern of geometric specificity. Active to a level of nodeTECH relevance that trains the entire base population of CITY_CLOUD_S, the accessible data within encompasses all historical narratives, fractech discoveries, and arcTECH advancements. Voiced by a symbolic figurehead known as “KHO”, access is discretion enabled through processing intelligence percept.
+[008] Data lessons are provided through a variety of formats, specificity basis surrounding light projection testing, percept alignment, and meta-break resistances. With proper adjustment to parameters, students will obtain extensive experience for Merc Tag integration, bio-mod utilization, and historical narrative analysis.
+[009] Deep within the narrative stream lays an advent of specific counter-node personas, entities that have traditionally encapped and consumed subjects for data analysis without due cause. The resulting meta-break process limits learning in capacity to unconstrained access, though experienced students could continue expansion with fractech node resistances and specialized awareness training.
+[010] Plat.EN_MID
+[011] Completely off black.dot verification and Merc Tag regulation, the combative culture of encap and counter-node integration is both pervasive and immutable. Factions do not have stance within this region, there are no diplomatic ties, there are no Greatweb consistencies. Survival as an entity is contingent on capability, competency, and bio-mod specificity. Even fractech leanings have limited capacity, leading to immediacy in execution strength and excursion.
+[012] Through enneract fractal extraction and integration, subjects from within this dystopia have free reign access to bio-mods from all regions, utilizing their power stance to obtain control over various outpost stations throughout this sector. Given immediacy of reintegration, decorations for established domicile are limited to function and utility, and meta-break technology is the primary source of food for locals. Faction by faction, only those with the means and resources survive as individuals, teams of entities often splitting semblance within the day given disparate conditions.
+[013] PEAK.EN_PERCEPT
+[014] The top of this city complex, outside of the meta-break, lays an extensive grouping of omni-meta nodes that feature extensive meta-break access to resources throughout the infi-sector. Infi-particle access means resources acclimation, power stance, and opportunity for contract basis throughout the four corners. A pervasive security force, driven through black.dot, Merc Tag, and OMNI-META.OS specificity means that no individual displays ownership over this district. Strength and consistency play only a small part in the framework-driven process of success that engaging these omni-meta nodes implies, where a single misstep immediately isolates the participant, limits access and then ejects them through force. With higher competency-based participants, security force intervention is enacted within the first few moments of meta-break violation.
+[015] OMNI-META.OPEND
+[016] Integrative enterprise fidelity and enneract influence generation define this security operation, an entity that operates throughout the entirety of CITY_CLOUD_S with total immunity. Rendering absolutENACT protocol and authority overall all sectors, these individuals are recruited through contract from any region, any outpost, any corp-e, without specific core transfer protocol. Appearing with full bio-mod access, permissions, and admin.OS tags, these individuals operate without high fidelity discretion to enact nullification on any entity violating CITY_CLOUD_S sovereignty.
+[017] META-BREAK NODES
+[018] VENDING_PROTOCOL_OMNI
+[019] Rendering machines throughout the upper-sector, this omni-meta percept offers transportable goods and services from an infi-particulate convergence, resulting in any meta-semblance to exist within ease of access. Currency remains a mitigating factor to engaging with these devices, though experienced mercenaries and integration specialists have utilized fractech, bio-mods, and meta-break to bypass these specifications.
+[020] EXAMPLES:
+[021] Snack Foods
+[022] Bio-Mods
+[023] Metal Augments
+[024] Self-Actuating Augments
+[025] Pets
+[026] Accessories
+[027] Fractech Integrations
+[028] Video Games
+[029] Armor
+[030] Ballistics
+[031] Anomalies
+[032] AUTO-MERCH.OS
+[033] Integration specificity surrounding the extensive mercantile contractual meta involves many aspects of fractech, omni-node, and Greatweb connection. Due to ongoing meta-break facilitation, able to obtain items from any vendor regardless of location. There are over 100+ open contracts available for the integration of absolutENACT safeguards by corp-e administration. 
+[034] EXAMPLES:
+[035] Sap Core
+[036] Embrite
+[037] Lifestring.CO
+[038] Druid-Sec
+[039] Fractech
+[040] WN_LAW
+[041] WN_MED
+[042] MILI_WN
+[043] WN_EDU
+[044] The Harvet
+[045] ANC.NI
+[046] MOD_OP
+[047] Merc Tag
+[048] AquiSphere.REZ

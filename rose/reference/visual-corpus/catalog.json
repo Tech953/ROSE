@@ -1,0 +1,3781 @@
+{
+  "schema": 1,
+  "engine_version": "0.17.1",
+  "source": "User-supplied PNG attachments, 16 October 2026",
+  "coverage": {
+    "uploaded_files": 93,
+    "unique_payloads": 80,
+    "duplicate_aliases": 13,
+    "invalid_files": 0,
+    "unique_original_bytes": 291034010,
+    "previous_pixel_matches": 4
+  },
+  "policy": "Reviewed visual guidance supplies material, lighting, silhouette and scale references, not live observations, final topology, sprite assets, permissions or calibrated measurements. Unlabeled studies remain unassigned; source concepts stay off screen.",
+  "original_aliases": [
+    {
+      "filename": "CODE (1)(1).png",
+      "sha256": "00ca3a34ee9a2b7c6ed83e588fff2192c2c60923a4245d172a78dfd3da4acc05",
+      "pixel_sha256": "479bec42b2f1246a5a3dd4095d0b9194d4504699f4d0a61a4fe710760186e837",
+      "bytes": 3047847,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CODE FINAL (1)(1).png",
+      "sha256": "d80309d1a6d7df7b7a983b8e12d83985f9e91f4b7703ced46aadc38c863e0b34",
+      "pixel_sha256": "0b91eb64d8e1f76aa2bcf86c3b90d29c357f7d747e9df7b2e01bd775aa4a5c9c",
+      "bytes": 2577572,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CODE FINAL AI EDIT (1)(1).png",
+      "sha256": "3ff56e19dc27b939cc9cf42e3203307f21bb27ad5926e221590d63a06331a73b",
+      "pixel_sha256": "c6a46205635e5279aa5fa8156987c2f79c79cafc332fbed2031e260486542da9",
+      "bytes": 2453445,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CODE FINAL AI EDIT(1).png",
+      "sha256": "3ff56e19dc27b939cc9cf42e3203307f21bb27ad5926e221590d63a06331a73b",
+      "pixel_sha256": "c6a46205635e5279aa5fa8156987c2f79c79cafc332fbed2031e260486542da9",
+      "bytes": 2453445,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CODE FINAL(1).png",
+      "sha256": "d80309d1a6d7df7b7a983b8e12d83985f9e91f4b7703ced46aadc38c863e0b34",
+      "pixel_sha256": "0b91eb64d8e1f76aa2bcf86c3b90d29c357f7d747e9df7b2e01bd775aa4a5c9c",
+      "bytes": 2577572,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CODE(1).png",
+      "sha256": "00ca3a34ee9a2b7c6ed83e588fff2192c2c60923a4245d172a78dfd3da4acc05",
+      "pixel_sha256": "479bec42b2f1246a5a3dd4095d0b9194d4504699f4d0a61a4fe710760186e837",
+      "bytes": 3047847,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CORP-E PRODUCTS (1).png",
+      "sha256": "724de71ec1952c89df5e5ae04d9d71c747e4557f6ca36725000787579e6775ae",
+      "pixel_sha256": "7d818d2c1cad561ea17c7e3644c0548586de9bedac37374982a05900681350a2",
+      "bytes": 3476154,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CORP-E PRODUCTS pt. 2 (1)(1).png",
+      "sha256": "d732a6ac3490197347433df65f22ace77baa1594ac2cfc715f3a8a961d485a5e",
+      "pixel_sha256": "c46d1d3557fdb95ddc97268d8740a273c884474fdebc38dcd92c2a62f6b6e8e4",
+      "bytes": 3293911,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CORP-E PRODUCTS pt. 2(1).png",
+      "sha256": "d732a6ac3490197347433df65f22ace77baa1594ac2cfc715f3a8a961d485a5e",
+      "pixel_sha256": "c46d1d3557fdb95ddc97268d8740a273c884474fdebc38dcd92c2a62f6b6e8e4",
+      "bytes": 3293911,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "CORP-E PRODUCTS(1).png",
+      "sha256": "724de71ec1952c89df5e5ae04d9d71c747e4557f6ca36725000787579e6775ae",
+      "pixel_sha256": "7d818d2c1cad561ea17c7e3644c0548586de9bedac37374982a05900681350a2",
+      "bytes": 3476154,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Designer (2) (1)(1).png",
+      "sha256": "2393d8d0b49d9ac9e15047282816f560af9a27b0757ff768d9bd60e108ed742d",
+      "pixel_sha256": "aa253e0d970289b4f1f90be6ebb13cc28fe22880a75291c6f91dd4de7e1abad7",
+      "bytes": 4229879,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "Designer (2)(1).png",
+      "sha256": "2393d8d0b49d9ac9e15047282816f560af9a27b0757ff768d9bd60e108ed742d",
+      "pixel_sha256": "aa253e0d970289b4f1f90be6ebb13cc28fe22880a75291c6f91dd4de7e1abad7",
+      "bytes": 4229879,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "IMAGE 18 (1)(1).png",
+      "sha256": "979ce3ee319bd3a79e6934c5dddc5163a10487711af679683cb93effb39801d7",
+      "pixel_sha256": "c7c4f4c228476e7383a1f2589e64ce09b8f24b31c2fddb28b85e1ba222337e17",
+      "bytes": 4086876,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "IMAGE 18(1).png",
+      "sha256": "979ce3ee319bd3a79e6934c5dddc5163a10487711af679683cb93effb39801d7",
+      "pixel_sha256": "c7c4f4c228476e7383a1f2589e64ce09b8f24b31c2fddb28b85e1ba222337e17",
+      "bytes": 4086876,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "IMAGE TEST 50(1).png",
+      "sha256": "76901a4977c97b72c2bd5cd9c7e8520d850bc52945d17997f66e18e8616b11b5",
+      "pixel_sha256": "0100ff95a81a6d01852255a4dd85d3ee52999eff2524531b76d6e38052d39b50",
+      "bytes": 4057724,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "IMAGE TEST 51(1).png",
+      "sha256": "4c23b2eaa228d75f08e9943c5373ded39c29c71290a920fae3855788c341e502",
+      "pixel_sha256": "e595c03e0b772290f2cc16cacf378259b959eff05c490ead91242a7d6b8da35a",
+      "bytes": 3587447,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Image Test 2 (1)(1).png",
+      "sha256": "38b21188e70deb190878e4335a652432774501eb951e0b738c2ea1ed49a5cbae",
+      "pixel_sha256": "f23d36da9f7e547867bb9aa6283c468df68adbd631dfff2ddbc5ca7fc581cf39",
+      "bytes": 3860318,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Image Test 2(1).png",
+      "sha256": "38b21188e70deb190878e4335a652432774501eb951e0b738c2ea1ed49a5cbae",
+      "pixel_sha256": "f23d36da9f7e547867bb9aa6283c468df68adbd631dfff2ddbc5ca7fc581cf39",
+      "bytes": 3860318,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Image Test 3 (1)(1).png",
+      "sha256": "815fcd0be954973e18d93b38e30c15d6323270aaf81ef3610f1c4c95f13c6ed5",
+      "pixel_sha256": "f0ba5ad412fdde2839e9d31daff43b4c8457a414d68003cd85a6b6f3cbf08d18",
+      "bytes": 3754901,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Image Test 3(1).png",
+      "sha256": "815fcd0be954973e18d93b38e30c15d6323270aaf81ef3610f1c4c95f13c6ed5",
+      "pixel_sha256": "f0ba5ad412fdde2839e9d31daff43b4c8457a414d68003cd85a6b6f3cbf08d18",
+      "bytes": 3754901,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "MMTX 2(2).png",
+      "sha256": "fdd132d57632842c6c8cec4c92e523e7709bf72b5fdd2f2217a1d0c3d77dbd6c",
+      "pixel_sha256": "e9a1ecacab211a478fc0d6137669910e38a096bdaa03792e6c60101ade8ffd41",
+      "bytes": 3232327,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "MMTX(1).png",
+      "sha256": "730a6e216080312f5be5096bddde9da180dd177823d70d1e6e9d877057258abd",
+      "pixel_sha256": "7a5e77e360fceaedd81c2a640c3b65a340d3cd0a3881d75febc0c892faf5e3dc",
+      "bytes": 3336531,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Mesas.D.S.CONV.png",
+      "sha256": "54b24a8884604ef927837f64431647f6c8c0adbfd2211bbb03b41913d7fec68a",
+      "pixel_sha256": "a25db5cf02b0e1990bfe058644e49983bbc165bcf0566ed1957ec51579034542",
+      "bytes": 3981767,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "PRODUCT TEST IAMGE(1).png",
+      "sha256": "05f60eb9437a847ec2df0026583018922c902bec012d9931797d38458e7eba81",
+      "pixel_sha256": "50c832495fe96a3ed0796d1eefe51a8f69da2b35b174b4201f757718b1131cbb",
+      "bytes": 3874990,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST 10(1).png",
+      "sha256": "524163370d1a09df0961c29855f19513e29e5669379792c864818baa5375aadf",
+      "pixel_sha256": "5c0897ea165a8ffd8e6c013cae14df4e1a11340128bf0b0b5b9bf74de5b8937c",
+      "bytes": 3943268,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST 12(1).png",
+      "sha256": "96b0d2627c021aa0ff985669d5119dd0bb9e926ea9a97320ab9902459dc5424b",
+      "pixel_sha256": "5b19bdfa91ebfeca89c47c61ec9fdf868bce8b272938afb5d8924cbc3e81492a",
+      "bytes": 3878988,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 14(1).png",
+      "sha256": "284b265b3fd8d7e9e3801613ad74dabbfdc0597d3864db0b055635732e627bb1",
+      "pixel_sha256": "f7fd222c46128ae755aa4d4fa98bf9c776b8d87c7812f8430e8b916a362cb46e",
+      "bytes": 3851199,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 15(1).png",
+      "sha256": "d0ad6322d7620c58fba3c0ca8bf158c0dac803ca0516e9d0398e53456941bf50",
+      "pixel_sha256": "154fced1b162e596bf6b29709a53bbb9f77c9cbce23cb9034bf25aff252cdde9",
+      "bytes": 3927231,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 16(1).png",
+      "sha256": "7abfece0914d92a9817e7bde520206b1b90df958ef85fcd9d20cd00a137389d3",
+      "pixel_sha256": "613d4b08effc86a4e9759d45faeb444d0015284740dd06d4e2bbb8ccb2cbae00",
+      "bytes": 3716339,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 17(1).png",
+      "sha256": "640de1d9c547bffe83494cd1bcfbe0b2e17bd3cedc1a6e92026646143bf5c1a3",
+      "pixel_sha256": "53a59931ea499c18581391691060bf138d5ab36b3f868573513791ff7eee734a",
+      "bytes": 3582370,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 19(1).png",
+      "sha256": "5e29f14b5fc53dd18b7a3527d3dba8d03b777df21fc7d2c2714e767750922a97",
+      "pixel_sha256": "28385844bde02af936aeab3f73d07a510914fd9f375f603f85d79046d845f114",
+      "bytes": 3838081,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 20(1).png",
+      "sha256": "e8289fc811037d212c49aad2ecfe4e0ea1901d1667ba820d67f042b71a9ffe7a",
+      "pixel_sha256": "7843d5298850079f4de8f5cd89abe447022db356ec7759bed1a90547601bbba3",
+      "bytes": 4007773,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 21(1).png",
+      "sha256": "9722ce111a63f083aafb0a71e574aca04bc546b83cbb27436ef2eeb988bd7f50",
+      "pixel_sha256": "99fb695755442bd64b081f996e45989db0b8563b5358a05a454ae7d02be8c710",
+      "bytes": 3683024,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 22(1).png",
+      "sha256": "5b440f7a313accd2e21b0d1b42744bd6ee28741127357f8d68396d81f0edafc9",
+      "pixel_sha256": "b22b960cd18d6d41d722346b56585c1ef2ce3b7652689aef33213e5bafef15b1",
+      "bytes": 3797404,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 23(1).png",
+      "sha256": "2cf36b475cb8d8792d54be60c712832badfdb4af0f24652595148e55d45d9cd7",
+      "pixel_sha256": "442fdc74716005be0274acafbae9410776158a54e15520526356ab690c18e223",
+      "bytes": 3826715,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 24(1).png",
+      "sha256": "4f5d5825bf5162c3e4f89469780eb513a2d9f31c72d81ff6182e367aa66b5ab0",
+      "pixel_sha256": "9a3e57f7765eaf0344b14f2f156a6ad7fec0ac912f58b690991ec1af2b94cfbf",
+      "bytes": 3972594,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 25(1).png",
+      "sha256": "597c60da7a0c11fbaa749fbdb3265a520e8f2e5e949b8e9dce6b89229c1e911f",
+      "pixel_sha256": "dc5dc10a2804d303bb07d4bdef1163aeae6fac9241703cfe4d13886defb752a6",
+      "bytes": 3532645,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 26(1).png",
+      "sha256": "091722336cc34a982dbdb8c49fee7c7414bb19c90bf71a341357d7948e058c1a",
+      "pixel_sha256": "36ad26604338a19658d13e28045b9c2390bd0e9be80e85a0586a3cf9c047450a",
+      "bytes": 3559525,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 27(1).png",
+      "sha256": "37661f5eb4102d89cee0faca1e6bc9ef0c7fe6ab9a2d01645b5a86736052bd7b",
+      "pixel_sha256": "c5f3a80c7e6d5b0a440e22bdd29fc0b98cde7a9ac74fdd525b0a52601416c90c",
+      "bytes": 3612142,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 28(1).png",
+      "sha256": "37661f5eb4102d89cee0faca1e6bc9ef0c7fe6ab9a2d01645b5a86736052bd7b",
+      "pixel_sha256": "c5f3a80c7e6d5b0a440e22bdd29fc0b98cde7a9ac74fdd525b0a52601416c90c",
+      "bytes": 3612142,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 29(1).png",
+      "sha256": "74f68c67476b65abc2956d0201e10996ae4fe860a6924ae88cad5d32bb5702fa",
+      "pixel_sha256": "ba028851764013781ae8c61aa5c15ccd1c257cbcea994dcc79e2a98aaea9928a",
+      "bytes": 3630221,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 30(1).png",
+      "sha256": "ab5d59deb112196da3b99a4c5e4b6b4f5eff45d199a5fb1e9f4992882ea48a4a",
+      "pixel_sha256": "295c22b4c227fdb2729afb20dcdd914d1c3015c4fc537f690ba2a02fe865aafe",
+      "bytes": 3313677,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 31(1).png",
+      "sha256": "4455de99044d1467b3b9d803d3255dead53adf9b8a145d1a3ee10972368796c6",
+      "pixel_sha256": "a28d471eb2d696ab243c13da7f4b86a92cd1f4e672d5a78cafb0baf8ad2c798d",
+      "bytes": 3370467,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 32(1).png",
+      "sha256": "127c24121d5d5d4692b1c46c9e4bd19b48b93e1a3b78ff2ca935616ff72f8bde",
+      "pixel_sha256": "2898d28df23fb1bc897cc9e9309c6bd281a5b65afd09af02e2130b5ee91998b4",
+      "bytes": 3604979,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 33(1).png",
+      "sha256": "55e2a6c4d6b0ece289b78e6021606d717d4d8063bc88c2c67a4667ea20e6b6d1",
+      "pixel_sha256": "999aa05d557f562a96024e171cae36c743a0680ccf78de6f8aa18872b9c27c65",
+      "bytes": 3602340,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 34(1).png",
+      "sha256": "376229fee89247491c5a617570edb3ac47776cf195f754dade7c5788f6911fc8",
+      "pixel_sha256": "3c88b89f2a2bfaf5d94c5de259f42b083b69adaf77f86e70c9486b79db90c4ee",
+      "bytes": 3493412,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 35(1).png",
+      "sha256": "0c4508d6f5570dba44f897419ad48f7bbb8bcd3beae338ef2505cf555fca101d",
+      "pixel_sha256": "16032f54a98fd5b6ac4e24c6f9eded8fdb535ef776552ff2fadce9793abeb995",
+      "bytes": 3514044,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 36(1).png",
+      "sha256": "ef536c4590aae3c2d511dd8981926c6addfb1e6c7b6b714f6f7427e4ea230889",
+      "pixel_sha256": "ab5cc3bef5706147804f23cdae61449a1a46937ad47a6270cd0fb07588dde600",
+      "bytes": 3218893,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 37(1).png",
+      "sha256": "5e81868b6e13897d2ef6627f10138ad7b642df0c0cb86522888b629e4153b04d",
+      "pixel_sha256": "dd7b41bde3c7c31fae27e86bf1006a1f1291b39c2fcb9fac88ad128cbb2f0056",
+      "bytes": 3169594,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "filename": "TEST IMAGE 38(1).png",
+      "sha256": "214c348f4bc496738bfbc1dbdaaa83a34fe047f7e31bbb0e52ee894f002e3ae5",
+      "pixel_sha256": "a15afeb4e5b475adaeacb4010522411b0110a1212b2110efafcd5a5a711d2c3a",
+      "bytes": 3430975,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 39(1).png",
+      "sha256": "dc886f81d11818e7d653bc21b482eab7965623ffe0ef104163b41bd6cff520ac",
+      "pixel_sha256": "8a531e8b4429d8584979705028d4ed7ffe6ba596aa677ff52e0e55c684999516",
+      "bytes": 3889682,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 40(1).png",
+      "sha256": "e45969e0ef9bf6adfd88c3cf430c8b0349c6a08a3a0f7a6210da051d946fb5a5",
+      "pixel_sha256": "308bc2215b7459a0a166113b0bd3ecfcfd90bd69802962280981dd040181b8af",
+      "bytes": 3609000,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 41(1).png",
+      "sha256": "2a8c936c205255322721828efe35fe3053f93d8aa42cef1838e00f6391dd0b8c",
+      "pixel_sha256": "bac3eb9a2bf4fc8b59ac4ef5e86cba1006c3240f79fd5f5f2f67571ef3cdf6f9",
+      "bytes": 3372157,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 42 (1)(1).png",
+      "sha256": "50fdf966ddc100e372d97ca1e0e54e7dc4c1a63d785848623155ae1e6ec13604",
+      "pixel_sha256": "f3f64c8fb6cf9898378d1bce082d7ac7c3c9c075be0178b63a5fd6d2328827ef",
+      "bytes": 3305090,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 42(1).png",
+      "sha256": "50fdf966ddc100e372d97ca1e0e54e7dc4c1a63d785848623155ae1e6ec13604",
+      "pixel_sha256": "f3f64c8fb6cf9898378d1bce082d7ac7c3c9c075be0178b63a5fd6d2328827ef",
+      "bytes": 3305090,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 43(1).png",
+      "sha256": "8adf2f8a306b8b31773ed2a1f877c5d7fcd6848cfb154bc2fe156fbb81037cc6",
+      "pixel_sha256": "834f7b06f30f6abbf4e2e5b6bd04da775fe7fb1c7e052f2d7962b705dc7471e5",
+      "bytes": 3319099,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 44(1).png",
+      "sha256": "c108e25f79545fa105de15d9757648479cfdb28fedfd981cb0aea0cec5426f70",
+      "pixel_sha256": "50d3d03fa8339cd7bba025c205632582e04ec3ff4cffb93fee9b8b942193f35c",
+      "bytes": 3340518,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 45(1).png",
+      "sha256": "fbad3453276c04b2b8e16df43f5d0f44117798cec3c16a5241fdc51d042331b5",
+      "pixel_sha256": "d47e97370675a0cc8a5b76cfbcd4cbdbff4ebb1c85809aa94a360bdf4e6ea10e",
+      "bytes": 3169447,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 46(1).png",
+      "sha256": "fbad3453276c04b2b8e16df43f5d0f44117798cec3c16a5241fdc51d042331b5",
+      "pixel_sha256": "d47e97370675a0cc8a5b76cfbcd4cbdbff4ebb1c85809aa94a360bdf4e6ea10e",
+      "bytes": 3169447,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 47(1).png",
+      "sha256": "f734ca14e58ab0fef20793902109018c952420047f3e57e642979ae4a6ca7e18",
+      "pixel_sha256": "58aeb4ddccfb170e44870ebdf5b2d8f882d05da734b54db02bb95b7c2db1411a",
+      "bytes": 3933454,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 48.png",
+      "sha256": "68ba96cbde15dd77cece645018b3d912f0213467719703ac36ea3d31e8e51cf4",
+      "pixel_sha256": "e3ada7b29bf094dc105b1128dab8050c78655f47e29442a1b184056d1b63fd69",
+      "bytes": 4100763,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 49(1).png",
+      "sha256": "318f8c43782ade9a257c928d1ebc2fff0967b92706ceb122cebb2fb5c7d75ac1",
+      "pixel_sha256": "b968a69ad2d36ba5cabc4aa8bb0a36e5e5c365ffc31b76a924191411259bdd50",
+      "bytes": 4117167,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 5(1).png",
+      "sha256": "c29ed6b49894afe3402ae0fe130ca85ed68150f27827c902fbd5c5166baf30af",
+      "pixel_sha256": "4f195609662795403ea7c418d5349bfbf9d8b768f8de83671ab004dfc244283c",
+      "bytes": 3611688,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 51(1).png",
+      "sha256": "e1aa192089f622b3a86c1ddbf965cb19c504b07935ed4d0af4699e77217a66c6",
+      "pixel_sha256": "7cab3135d86d56abb93489362eb6f2accffb70493cba9139cf129a1b57744e18",
+      "bytes": 4273719,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 52(1).png",
+      "sha256": "3ad08d6d8c3869906e76c4269d9707f00fa41acbe25b8db99962f0197c455973",
+      "pixel_sha256": "ccca67daefe666b31847195ad30b0c086af6e45ee25de0e19494a29408fb50ec",
+      "bytes": 3716090,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 53(1).png",
+      "sha256": "ee608c31e4365eca5159fa0cabe2ede69a8c55c83c0aba862524ea21a0849e52",
+      "pixel_sha256": "da2dcd0d4fa51fbf393c5eb39efbf47f40e4834f35a4f8f4bdecdc90feb67ba8",
+      "bytes": 3510677,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 54(1).png",
+      "sha256": "506968d5531185456deb0a4fd103be2b35855ee57a6c3e6eba77284dc5ce665e",
+      "pixel_sha256": "3f98df277353d6e6a998b5c519cb66cfd16999de64ea75bd1781def0c4f3009e",
+      "bytes": 3313616,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 55(1).png",
+      "sha256": "d7bdaf8887cb3d4b4111f65ce78655eed3d98a4dd3b582f87ab8623abf515ee7",
+      "pixel_sha256": "98d2e1d3f3f36f83965664560ac2ba84b2c5f7f357af138d4b68d11d4100f34d",
+      "bytes": 3298129,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 56(1).png",
+      "sha256": "ce18503532ad77e512f15b791472d3716d11594fc2cc87ea08cce852899aa479",
+      "pixel_sha256": "bcc16ae4a470d32b5d7ce3cdb6ecaf55132f7ff01aa8960135d38db0a3192524",
+      "bytes": 3244232,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 57(1).png",
+      "sha256": "99971e3e72871adf0f0b5dca36b159fcd829a997906c03a18f0b38267df18798",
+      "pixel_sha256": "de2871da796056795d444b0b112aa262a1a1de4382cd553a16cf27f6b5918430",
+      "bytes": 3170200,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 58(1).png",
+      "sha256": "415b69609ff0d8f3dc613d4f7ee13c03eabff1674c37958f14c4eece1abe1cdf",
+      "pixel_sha256": "456c266219c7e8f43847d2537fd579f77c1a90b791b6d4aad7b36d839b3aada5",
+      "bytes": 3551530,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 59(1).png",
+      "sha256": "8f7ba27c5c09db7b31343cc10d698d55b05d4687fc5c8463132be806bb825467",
+      "pixel_sha256": "d06a201fd714941dba72cd81b10350a150cb979cfbeb7043dcd375f7929accd0",
+      "bytes": 3417992,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 6(1).png",
+      "sha256": "89c4f6b146faa1ed8b63ce12289fea0c35e07999c31453b83c5df4b2c6fa3515",
+      "pixel_sha256": "4318a73e88c1b0cf72825aa9722777c6cd695c7ac6276902e965ea710e56a314",
+      "bytes": 3409515,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 60(1).png",
+      "sha256": "f19feeafeb7771fd571b66876760b897bb42333d43a25cb611958b8694ee1edc",
+      "pixel_sha256": "9ccba5ace6fbd00936ea868a1982cb929bc6203dca25ff94ec51b0140cc3a7d4",
+      "bytes": 3533025,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 61(1).png",
+      "sha256": "3757044689d952476299189d30482b852984ebe086b6827a78222feb8d36122e",
+      "pixel_sha256": "68fcf3276e99dfb818f22a75bd218f56a6ed72b5c3fa2c5ef2e2c366e61142f4",
+      "bytes": 3543009,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 62(1).png",
+      "sha256": "f4fa245a43421fae78465d6ed2b83356133577f1768a56a21595e1e183b59423",
+      "pixel_sha256": "eeb4786ae45704ca0f0944764a22adbb22c0ab02dc4108f6a8624f585eedf465",
+      "bytes": 3926516,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 63(1).png",
+      "sha256": "3b53ee1cdba56212f115b51f8dc39308c6a79f36ac0255f27944735893a16d6c",
+      "pixel_sha256": "69e45df05d781e8dd387e78077a2e392992ab5777ec25dae8767b44dd41f1136",
+      "bytes": 4034891,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 64(1).png",
+      "sha256": "590d4168865577a869fe932a8a9c2162039c644a74474081a3fd86a192a2eb37",
+      "pixel_sha256": "f474a68f59e08100ba6154513ee4a42eb597c83814a882103e498f9650a1d4ae",
+      "bytes": 4071985,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 65(1).png",
+      "sha256": "03f52b11cc7888ebdf69ef02db8af0785eb61ce15c038c72ca194e459dd5b69c",
+      "pixel_sha256": "abbcef4b262a9c8037e5c9e54775b295cce7bd7591b56c91011bdd8da3c7bcd6",
+      "bytes": 4122454,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 66(1).png",
+      "sha256": "8eed9f33ea5f63122847a76e0c2f561761716b9040301eaa4baea85b791627d5",
+      "pixel_sha256": "0947ab5df5c7ab7dafe321819036fd9c4733c256f47c5bf02cc9dbe010b621d4",
+      "bytes": 4112637,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 67(1).png",
+      "sha256": "fdeee4783c78a6aa2f2da7e3ac29eef5e7cbb69202976ce4c1f4c21df5e4f186",
+      "pixel_sha256": "eb8699352c56f33aee22878e0090c0166f382a68cc51935c4ab84392622a00c3",
+      "bytes": 4194174,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 68(1).png",
+      "sha256": "95aebc1eae93f983fec6f7dfd49aa2606ff6e761f8d69b3ddf0c4a278f485ae4",
+      "pixel_sha256": "22a0f49de22ea8412df521fc624f4260c2454a025b2eaa96125cad36d1a71474",
+      "bytes": 4207208,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 69(1).png",
+      "sha256": "420979d9acc7b6c234f0e39a598858b383b30f3b810ac0fe548ebe52c3aa621b",
+      "pixel_sha256": "26c4828aa98769ccfc5b666b0149728d8ff3653d9ff2594792650d9fa84374d7",
+      "bytes": 4081715,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 7(1).png",
+      "sha256": "f991b18ac99cac4e5201b3eee16f8ebb9f7ab6f1c54715a510c2a1d08be32b52",
+      "pixel_sha256": "4e7d402a272b35fb80878f876763492d6b43608c1de7da998fa8c66273c693ff",
+      "bytes": 3505054,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 70(1).png",
+      "sha256": "a44d7e49158afe37fc0464d1501c76c01fd2b32ea623f2e8aa8d4775c862aabc",
+      "pixel_sha256": "abc2a07ef0f0e85a54c59329fc87fb3b4c72e6970447b2da9d72bb7ce473adbe",
+      "bytes": 2535936,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 81(1).png",
+      "sha256": "1396a9f712b988f8893250d06c7c9aacdbdc6014a37575bfc1f4617e3769e11d",
+      "pixel_sha256": "2b81d9091624077ebcdc06774518135f8e3a95568e1205c32af92f5902b04dc5",
+      "bytes": 4046638,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 82 (1)(1).png",
+      "sha256": "cdb98aa0731f01014e336fd68058300d15f3a53963a7196d0627b996fdf8fdee",
+      "pixel_sha256": "da5507bae198b150e88d7de6f1f3650fd2ce8dedcf62a1b62dcc7e8a238a08cd",
+      "bytes": 4109085,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 82(1).png",
+      "sha256": "cdb98aa0731f01014e336fd68058300d15f3a53963a7196d0627b996fdf8fdee",
+      "pixel_sha256": "da5507bae198b150e88d7de6f1f3650fd2ce8dedcf62a1b62dcc7e8a238a08cd",
+      "bytes": 4109085,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST IMAGE 9(1).png",
+      "sha256": "8d799d95742215ac370cdca06c2fe85d4216a90c37fd6bd37dc51dcf7f041908",
+      "pixel_sha256": "4fb96c8a89277f8cdcb8c04eb748221ce94d24319b68dea0d16d01ca10e582ca",
+      "bytes": 3624821,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "TEST image 13(1).png",
+      "sha256": "37a133a1d5500dc1e924bc54b5ce671aab888f5111f1fc846179b6924188473e",
+      "pixel_sha256": "464b0eaff079c68eef886e8bfaeaeb6fbc101c871a2c9ea9399b03dff2feb07c",
+      "bytes": 3680671,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Test 11(1).png",
+      "sha256": "c63b504545cd6aa20ff348759432f6a91dde70361a53d8c869fcce1b11fe6042",
+      "pixel_sha256": "e565c54e91bfdf7cc55eed112ff753889a3824b43009124e692983ca658ac002",
+      "bytes": 3649268,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Test 8(1).png",
+      "sha256": "b72ac79d5eae9ad198c7db3afe8c7434af1e9dc5357760dfebd2f2fd1f166f06",
+      "pixel_sha256": "bbd3e3ad752175f0018eb1860eec94057d32db566d188cafc67406dc333e48ca",
+      "bytes": 3640740,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "filename": "Test Image 4(1).png",
+      "sha256": "05f8b9ab83ff9342befc9a27a3289b4887172ecc0fce8c1d2b95b5d82db54334",
+      "pixel_sha256": "43b790499bc119e7f696e7803a828158f974c5a1c1652803e463f2d5ac12cf5c",
+      "bytes": 3810829,
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "references": [
+    {
+      "id": "vr-2393d8d0b49d9ac9",
+      "title": "Witches Needle institutional tower",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "Complete portrait of a vast dark tower and inhabited concentric rings above clouds. Tiny craft and windows establish scale; law, medicine, military, education, research, WN_REZ, Lower Burgs and Greatweb remain distinct."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "Designer (2)(1).png",
+      "aliases": [
+        "Designer (2) (1)(1).png",
+        "Designer (2)(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-2393d8d0b49d9ac9.png",
+      "url": "/visual-reference/vr-2393d8d0b49d9ac9.png",
+      "sha256": "2393d8d0b49d9ac9e15047282816f560af9a27b0757ff768d9bd60e108ed742d",
+      "pixel_sha256": "aa253e0d970289b4f1f90be6ebb13cc28fe22880a75291c6f91dd4de7e1abad7",
+      "bytes": 4229879,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-7abfece0914d92a9",
+      "title": "Witches Needle tower variant 16",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A richly tiered dark tower places law, medicine, tactical intervention, education and research within an inhabited vertical body; outlying district panels remain distinct."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 16(1).png",
+      "aliases": [
+        "TEST IMAGE 16(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-7abfece0914d92a9.png",
+      "url": "/visual-reference/vr-7abfece0914d92a9.png",
+      "sha256": "7abfece0914d92a9817e7bde520206b1b90df958ef85fcd9d20cd00a137389d3",
+      "pixel_sha256": "613d4b08effc86a4e9759d45faeb444d0015284740dd06d4e2bbb8ccb2cbae00",
+      "bytes": 3716339,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-640de1d9c547bffe",
+      "title": "Witches Needle tower variant 17",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A smooth continuous tower holds broad inhabited rings above a crystalline approach and Greatweb; the central body stays opaque and massive."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 17(1).png",
+      "aliases": [
+        "TEST IMAGE 17(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-640de1d9c547bffe.png",
+      "url": "/visual-reference/vr-640de1d9c547bffe.png",
+      "sha256": "640de1d9c547bffe83494cd1bcfbe0b2e17bd3cedc1a6e92026646143bf5c1a3",
+      "pixel_sha256": "53a59931ea499c18581391691060bf138d5ab36b3f868573513791ff7eee734a",
+      "bytes": 3582370,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-37661f5eb4102d89",
+      "title": "Witches Needle tower variant 27",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A continuous black monolith embeds civilization in the tower. Its caption explicitly disallows external bridges, unlike other variants."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 27(1).png",
+      "aliases": [
+        "TEST IMAGE 27(1).png",
+        "TEST IMAGE 28(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-37661f5eb4102d89.png",
+      "url": "/visual-reference/vr-37661f5eb4102d89.png",
+      "sha256": "37661f5eb4102d89cee0faca1e6bc9ef0c7fe6ab9a2d01645b5a86736052bd7b",
+      "pixel_sha256": "c5f3a80c7e6d5b0a440e22bdd29fc0b98cde7a9ac74fdd525b0a52601416c90c",
+      "bytes": 3612142,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-74f68c67476b65ab",
+      "title": "Witches Needle tower variant 29",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A lower tower view places agricultural lots, maintenance settlement, neural-wood extraction and Greatweb filaments around the rooted monolith."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 29(1).png",
+      "aliases": [
+        "TEST IMAGE 29(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-74f68c67476b65ab.png",
+      "url": "/visual-reference/vr-74f68c67476b65ab.png",
+      "sha256": "74f68c67476b65abc2956d0201e10996ae4fe860a6924ae88cad5d32bb5702fa",
+      "pixel_sha256": "ba028851764013781ae8c61aa5c15ccd1c257cbcea994dcc79e2a98aaea9928a",
+      "bytes": 3630221,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-ab5d59deb112196d",
+      "title": "Witches Needle tower variant 30",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A cloud-piercing tower contrasts with minute workers, harvested trunks, agricultural lots and a separate standby transfer ring."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 30(1).png",
+      "aliases": [
+        "TEST IMAGE 30(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-ab5d59deb112196d.png",
+      "url": "/visual-reference/vr-ab5d59deb112196d.png",
+      "sha256": "ab5d59deb112196da3b99a4c5e4b6b4f5eff45d199a5fb1e9f4992882ea48a4a",
+      "pixel_sha256": "295c22b4c227fdb2729afb20dcdd914d1c3015c4fc537f690ba2a02fe865aafe",
+      "bytes": 3313677,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-4455de99044d1467",
+      "title": "Witches Needle tower variant 31",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A slender continuous tower and thin ring outlines frame Embrite domes, weathered service metal, agricultural lots and harvest workers."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 31(1).png",
+      "aliases": [
+        "TEST IMAGE 31(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-4455de99044d1467.png",
+      "url": "/visual-reference/vr-4455de99044d1467.png",
+      "sha256": "4455de99044d1467b3b9d803d3255dead53adf9b8a145d1a3ee10972368796c6",
+      "pixel_sha256": "a28d471eb2d696ab243c13da7f4b86a92cd1f4e672d5a78cafb0baf8ad2c798d",
+      "bytes": 3370467,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-127c24121d5d5d46",
+      "title": "Witches Needle tower variant 32",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "Broad inhabited rings surround a continuous tower; an ENACT_HILLS integration callout occurs inside this tower composition."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions",
+        "tower_hills_label"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 32(1).png",
+      "aliases": [
+        "TEST IMAGE 32(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-127c24121d5d5d46.png",
+      "url": "/visual-reference/vr-127c24121d5d5d46.png",
+      "sha256": "127c24121d5d5d4692b1c46c9e4bd19b48b93e1a3b78ff2ca935616ff72f8bde",
+      "pixel_sha256": "2898d28df23fb1bc897cc9e9309c6bd281a5b65afd09af02e2130b5ee91998b4",
+      "bytes": 3604979,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-55e2a6c4d6b0ece2",
+      "title": "Witches Needle tower variant 33",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "Translucent inhabited rings emphasize encapsulated districts and routed nodes; the standby porti-fractal is explicitly inactive."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 33(1).png",
+      "aliases": [
+        "TEST IMAGE 33(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-55e2a6c4d6b0ece2.png",
+      "url": "/visual-reference/vr-55e2a6c4d6b0ece2.png",
+      "sha256": "55e2a6c4d6b0ece289b78e6021606d717d4d8063bc88c2c67a4667ea20e6b6d1",
+      "pixel_sha256": "999aa05d557f562a96024e171cae36c743a0680ccf78de6f8aa18872b9c27c65",
+      "bytes": 3602340,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-376229fee8924749",
+      "title": "Witches Needle tower variant 34",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "Three thin luminous runerings distinguish upper development, middle civil administration and lower operations around an opaque monolith."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 34(1).png",
+      "aliases": [
+        "TEST IMAGE 34(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-376229fee8924749.png",
+      "url": "/visual-reference/vr-376229fee8924749.png",
+      "sha256": "376229fee89247491c5a617570edb3ac47776cf195f754dade7c5788f6911fc8",
+      "pixel_sha256": "3c88b89f2a2bfaf5d94c5de259f42b083b69adaf77f86e70c9486b79db90c4ee",
+      "bytes": 3493412,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-0c4508d6f5570dba",
+      "title": "Witches Needle tower variant 35",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "Broad flattened luminous ring fields extend far beyond the tower; tiny embedded civic forms contrast with its solid central body."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 35(1).png",
+      "aliases": [
+        "TEST IMAGE 35(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-0c4508d6f5570dba.png",
+      "url": "/visual-reference/vr-0c4508d6f5570dba.png",
+      "sha256": "0c4508d6f5570dba44f897419ad48f7bbb8bcd3beae338ef2505cf555fca101d",
+      "pixel_sha256": "16032f54a98fd5b6ac4e24c6f9eded8fdb535ef776552ff2fadce9793abeb995",
+      "bytes": 3514044,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-ef536c4590aae3c2",
+      "title": "Witches Needle tower variant 36",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "Very thin horizontal runerings and spare lights reduce clutter; distant maintenance domes and harvest ground retain tactile surfaces."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 36(1).png",
+      "aliases": [
+        "TEST IMAGE 36(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-ef536c4590aae3c2.png",
+      "url": "/visual-reference/vr-ef536c4590aae3c2.png",
+      "sha256": "ef536c4590aae3c2d511dd8981926c6addfb1e6c7b6b714f6f7427e4ea230889",
+      "pixel_sha256": "ab5cc3bef5706147804f23cdae61449a1a46937ad47a6270cd0fb07588dde600",
+      "bytes": 3218893,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-5e81868b6e13897d",
+      "title": "Witches Needle tower variant 37",
+      "category": "architecture",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "Convergence hubs interrupt three ring bands; null sectors are deliberate dormancy/maintenance holds and the standby ring is inactive."
+      ],
+      "conflicts": [
+        "tower_variants",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 37(1).png",
+      "aliases": [
+        "TEST IMAGE 37(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-5e81868b6e13897d.png",
+      "url": "/visual-reference/vr-5e81868b6e13897d.png",
+      "sha256": "5e81868b6e13897d2ef6627f10138ad7b642df0c0cb86522888b629e4153b04d",
+      "pixel_sha256": "dd7b41bde3c7c31fae27e86bf1006a1f1291b39c2fcb9fac88ad128cbb2f0056",
+      "bytes": 3169594,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Preserve a continuous opaque monolith with body-scale service detail and distant inhabited upper works.",
+        "Use muted stone/metal, small amber practicals and precise cyan/white-gold routing without inventing floors or routes."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-8f7ba27c5c09db7b",
+      "title": "Tower contract-battle concept 59",
+      "category": "combat",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A contract-battle concept puts augmented combatants below/between tower rings; prototype factions contest Node 7B amid ash, violet effects and muzzle flashes."
+      ],
+      "conflicts": [
+        "battle_scenarios",
+        "image_readouts",
+        "tower_variants"
+      ],
+      "status": "scenario_visual_prototype",
+      "filename": "TEST IMAGE 59(1).png",
+      "aliases": [
+        "TEST IMAGE 59(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-8f7ba27c5c09db7b.png",
+      "url": "/visual-reference/vr-8f7ba27c5c09db7b.png",
+      "sha256": "8f7ba27c5c09db7b31343cc10d698d55b05d4687fc5c8463132be806bb825467",
+      "pixel_sha256": "d06a201fd714941dba72cd81b10350a150cb979cfbeb7043dcd375f7929accd0",
+      "bytes": 3417992,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep combatants individually identifiable and effects tied to committed action/contact.",
+        "Use as animation/silhouette reference without adding factions, battles, aerial movement, damage or objectives."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-f19feeafeb7771fd",
+      "title": "Tower contract-battle concept 60",
+      "category": "combat",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A battle variant uses cultivated Druid-Sec lots; irrigation, crop rows and agricultural material remain visible beneath localized effects."
+      ],
+      "conflicts": [
+        "battle_scenarios",
+        "image_readouts",
+        "tower_variants"
+      ],
+      "status": "scenario_visual_prototype",
+      "filename": "TEST IMAGE 60(1).png",
+      "aliases": [
+        "TEST IMAGE 60(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-f19feeafeb7771fd.png",
+      "url": "/visual-reference/vr-f19feeafeb7771fd.png",
+      "sha256": "f19feeafeb7771fd571b66876760b897bb42333d43a25cb611958b8694ee1edc",
+      "pixel_sha256": "9ccba5ace6fbd00936ea868a1982cb929bc6203dca25ff94ec51b0140cc3a7d4",
+      "bytes": 3533025,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep combatants individually identifiable and effects tied to committed action/contact.",
+        "Use as animation/silhouette reference without adding factions, battles, aerial movement, damage or objectives."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-3757044689d95247",
+      "title": "Tower contract-battle concept 61",
+      "category": "combat",
+      "profiles": [
+        "WN_TOWER"
+      ],
+      "observed": [
+        "A battle variant returns to harvested neural-wood ground, ash and stumps; faction affiliations and objectives differ from neighboring battle sheets."
+      ],
+      "conflicts": [
+        "battle_scenarios",
+        "image_readouts",
+        "tower_variants"
+      ],
+      "status": "scenario_visual_prototype",
+      "filename": "TEST IMAGE 61(1).png",
+      "aliases": [
+        "TEST IMAGE 61(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-3757044689d95247.png",
+      "url": "/visual-reference/vr-3757044689d95247.png",
+      "sha256": "3757044689d952476299189d30482b852984ebe086b6827a78222feb8d36122e",
+      "pixel_sha256": "68fcf3276e99dfb818f22a75bd218f56a6ed72b5c3fa2c5ef2e2c366e61142f4",
+      "bytes": 3543009,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep combatants individually identifiable and effects tied to committed action/contact.",
+        "Use as animation/silhouette reference without adding factions, battles, aerial movement, damage or objectives."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-fdd132d57632842c",
+      "title": "Beck and Nailyn routekeeper framework",
+      "category": "framework",
+      "profiles": [],
+      "observed": [
+        "Beck and a Nailyn engram reference accompany MMTX, EUNIX and Snail Wood. Beck has an authored gender-transition and modification history; this is not a player creation default."
+      ],
+      "conflicts": [
+        "framework_status",
+        "framework_needs",
+        "framework_gate",
+        "character_identity"
+      ],
+      "status": "conceptual_framework",
+      "filename": "MMTX 2(2).png",
+      "aliases": [
+        "MMTX 2(2).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-fdd132d57632842c.png",
+      "url": "/visual-reference/vr-fdd132d57632842c.png",
+      "sha256": "fdd132d57632842c6c8cec4c92e523e7709bf72b5fdd2f2217a1d0c3d77dbd6c",
+      "pixel_sha256": "e9a1ecacab211a478fc0d6137669910e38a096bdaa03792e6c60101ade8ffd41",
+      "bytes": 3232327,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use vocabulary as off-screen setting/authoring reference, without numerical solver parameters.",
+        "Keep conceptual views distinct from independently simulated objects."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-3ff56e19dc27b939",
+      "title": "Expanded relational framework",
+      "category": "framework",
+      "profiles": [],
+      "observed": [
+        "Object boundary and sequence are undefined; a singular RENDER.STANCE expresses manifestation views rather than separate instances."
+      ],
+      "conflicts": [
+        "framework_status",
+        "framework_needs"
+      ],
+      "status": "conceptual_framework",
+      "filename": "CODE FINAL AI EDIT(1).png",
+      "aliases": [
+        "CODE FINAL AI EDIT (1)(1).png",
+        "CODE FINAL AI EDIT(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-3ff56e19dc27b939.png",
+      "url": "/visual-reference/vr-3ff56e19dc27b939.png",
+      "sha256": "3ff56e19dc27b939cc9cf42e3203307f21bb27ad5926e221590d63a06331a73b",
+      "pixel_sha256": "c6a46205635e5279aa5fa8156987c2f79c79cafc332fbed2031e260486542da9",
+      "bytes": 2453445,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use vocabulary as off-screen setting/authoring reference, without numerical solver parameters.",
+        "Keep conceptual views distinct from independently simulated objects."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-00ca3a34ee9a2b7c",
+      "title": "MMTX baseline framework",
+      "category": "framework",
+      "profiles": [],
+      "observed": [
+        "Indivisible MMTX, localized percept, semblance continuity and simultaneous encap/resolution are presented as a conceptual diagram."
+      ],
+      "conflicts": [
+        "framework_status",
+        "framework_needs"
+      ],
+      "status": "conceptual_framework",
+      "filename": "CODE(1).png",
+      "aliases": [
+        "CODE (1)(1).png",
+        "CODE(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-00ca3a34ee9a2b7c.png",
+      "url": "/visual-reference/vr-00ca3a34ee9a2b7c.png",
+      "sha256": "00ca3a34ee9a2b7c6ed83e588fff2192c2c60923a4245d172a78dfd3da4acc05",
+      "pixel_sha256": "479bec42b2f1246a5a3dd4095d0b9194d4504699f4d0a61a4fe710760186e837",
+      "bytes": 3047847,
+      "width": 1536,
+      "height": 1024,
+      "review": "pixel-identical match to previously reviewed source; incoming encoding preserved",
+      "generation_use": [
+        "Use vocabulary as off-screen setting/authoring reference, without numerical solver parameters.",
+        "Keep conceptual views distinct from independently simulated objects."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ],
+      "pixel_identical_to": "reference/lore-transport/PROTOTYPE IMAGE v2/CODE.png"
+    },
+    {
+      "id": "vr-d80309d1a6d7df7b",
+      "title": "MMTX framework variant",
+      "category": "framework",
+      "profiles": [],
+      "observed": [
+        "A second conceptual sheet preserves baseline and continuity vocabulary. FINAL is a source filename, not evidence of precedence."
+      ],
+      "conflicts": [
+        "framework_status",
+        "framework_needs"
+      ],
+      "status": "conceptual_framework",
+      "filename": "CODE FINAL(1).png",
+      "aliases": [
+        "CODE FINAL (1)(1).png",
+        "CODE FINAL(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-d80309d1a6d7df7b.png",
+      "url": "/visual-reference/vr-d80309d1a6d7df7b.png",
+      "sha256": "d80309d1a6d7df7b7a983b8e12d83985f9e91f4b7703ced46aadc38c863e0b34",
+      "pixel_sha256": "0b91eb64d8e1f76aa2bcf86c3b90d29c357f7d747e9df7b2e01bd775aa4a5c9c",
+      "bytes": 2577572,
+      "width": 1536,
+      "height": 1024,
+      "review": "pixel-identical match to previously reviewed source; incoming encoding preserved",
+      "generation_use": [
+        "Use vocabulary as off-screen setting/authoring reference, without numerical solver parameters.",
+        "Keep conceptual views distinct from independently simulated objects."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ],
+      "pixel_identical_to": "reference/lore-transport/PROTOTYPE IMAGE v2/CODE FINAL.png"
+    },
+    {
+      "id": "vr-730a6e216080312f",
+      "title": "Mesas framework reference",
+      "category": "framework",
+      "profiles": [],
+      "observed": [
+        "Framework sheet combines nonsequential MMTX, relational RED<GATE<, EUNIX continuity, RENDER.001 needs and arcane mollusk stages/extract."
+      ],
+      "conflicts": [
+        "framework_status",
+        "framework_needs",
+        "framework_gate"
+      ],
+      "status": "conceptual_framework",
+      "filename": "MMTX(1).png",
+      "aliases": [
+        "MMTX(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-730a6e216080312f.png",
+      "url": "/visual-reference/vr-730a6e216080312f.png",
+      "sha256": "730a6e216080312f5be5096bddde9da180dd177823d70d1e6e9d877057258abd",
+      "pixel_sha256": "7a5e77e360fceaedd81c2a640c3b65a340d3cd0a3881d75febc0c892faf5e3dc",
+      "bytes": 3336531,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use vocabulary as off-screen setting/authoring reference, without numerical solver parameters.",
+        "Keep conceptual views distinct from independently simulated objects."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-a44d7e49158afe37",
+      "title": "NULL_0 computational framework",
+      "category": "framework",
+      "profiles": [],
+      "observed": [
+        "Code-like conceptual sheet treats MMTX as indivisible/nonconditional, percept as a local limit, encap/resolution as simultaneous and RENDER.STANCE as singular."
+      ],
+      "conflicts": [
+        "framework_status",
+        "framework_needs"
+      ],
+      "status": "conceptual_framework",
+      "filename": "TEST IMAGE 70(1).png",
+      "aliases": [
+        "TEST IMAGE 70(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-a44d7e49158afe37.png",
+      "url": "/visual-reference/vr-a44d7e49158afe37.png",
+      "sha256": "a44d7e49158afe37fc0464d1501c76c01fd2b32ea623f2e8aa8d4775c862aabc",
+      "pixel_sha256": "abc2a07ef0f0e85a54c59329fc87fb3b4c72e6970447b2da9d72bb7ce473adbe",
+      "bytes": 2535936,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use vocabulary as off-screen setting/authoring reference, without numerical solver parameters.",
+        "Keep conceptual views distinct from independently simulated objects."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-524163370d1a09df",
+      "title": "Infrastructure and spectrum study 10",
+      "category": "infrastructure",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Cultivation, commerce, institutions, cyber-neon, nano and meta-break appear as alternate material/system presentations with waystations and transfer anchors."
+      ],
+      "conflicts": [
+        "spectrum_labels",
+        "map_authority",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST 10(1).png",
+      "aliases": [
+        "TEST 10(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-524163370d1a09df.png",
+      "url": "/visual-reference/vr-524163370d1a09df.png",
+      "sha256": "524163370d1a09df0961c29855f19513e29e5669379792c864818baa5375aadf",
+      "pixel_sha256": "5c0897ea165a8ffd8e6c013cae14df4e1a11340128bf0b0b5b9bf74de5b8937c",
+      "bytes": 3943268,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Distinguish locally specific transit, freight circulation and pilgrimage.",
+        "Use function, maintenance and local materials as authoring variables; colored routes are not automatic map overlays."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-c63b504545cd6aa2",
+      "title": "Infrastructure and spectrum study 11",
+      "category": "infrastructure",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "A commercial city prioritizes function-form dwellings and local transit; physical-light utilities are depicted through need, use, completion and dissolution."
+      ],
+      "conflicts": [
+        "spectrum_labels",
+        "map_authority",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "Test 11(1).png",
+      "aliases": [
+        "Test 11(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-c63b504545cd6aa2.png",
+      "url": "/visual-reference/vr-c63b504545cd6aa2.png",
+      "sha256": "c63b504545cd6aa20ff348759432f6a91dde70361a53d8c869fcce1b11fe6042",
+      "pixel_sha256": "e565c54e91bfdf7cc55eed112ff753889a3824b43009124e692983ca658ac002",
+      "bytes": 3649268,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Distinguish locally specific transit, freight circulation and pilgrimage.",
+        "Use function, maintenance and local materials as authoring variables; colored routes are not automatic map overlays."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-96b0d2627c021aa0",
+      "title": "Infrastructure and spectrum study 12",
+      "category": "infrastructure",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "A civilization-map test places Mesas, WN_TOWER, wildlands and new route names in a broad landscape with color-coded logistics."
+      ],
+      "conflicts": [
+        "spectrum_labels",
+        "map_authority",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST 12(1).png",
+      "aliases": [
+        "TEST 12(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-96b0d2627c021aa0.png",
+      "url": "/visual-reference/vr-96b0d2627c021aa0.png",
+      "sha256": "96b0d2627c021aa0ff985669d5119dd0bb9e926ea9a97320ab9902459dc5424b",
+      "pixel_sha256": "5b19bdfa91ebfeca89c47c61ec9fdf868bce8b272938afb5d8924cbc3e81492a",
+      "bytes": 3878988,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Distinguish locally specific transit, freight circulation and pilgrimage.",
+        "Use function, maintenance and local materials as authoring variables; colored routes are not automatic map overlays."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-b72ac79d5eae9ad1",
+      "title": "Infrastructure and spectrum study 8",
+      "category": "infrastructure",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "An infrastructure panorama joins resource wildlands, maintenance, maglev and refinery zones with small credential marks and brand-specific contrails."
+      ],
+      "conflicts": [
+        "spectrum_labels",
+        "map_authority",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "Test 8(1).png",
+      "aliases": [
+        "Test 8(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-b72ac79d5eae9ad1.png",
+      "url": "/visual-reference/vr-b72ac79d5eae9ad1.png",
+      "sha256": "b72ac79d5eae9ad198c7db3afe8c7434af1e9dc5357760dfebd2f2fd1f166f06",
+      "pixel_sha256": "bbd3e3ad752175f0018eb1860eec94057d32db566d188cafc67406dc333e48ca",
+      "bytes": 3640740,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Distinguish locally specific transit, freight circulation and pilgrimage.",
+        "Use function, maintenance and local materials as authoring variables; colored routes are not automatic map overlays."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-8d799d95742215ac",
+      "title": "Infrastructure and spectrum study 9",
+      "category": "infrastructure",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Transit hierarchy separates city-specific loops, peripheral caravans and pilgrimage networks; a cultivated city edge grades into protected wildland."
+      ],
+      "conflicts": [
+        "spectrum_labels",
+        "map_authority",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 9(1).png",
+      "aliases": [
+        "TEST IMAGE 9(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-8d799d95742215ac.png",
+      "url": "/visual-reference/vr-8d799d95742215ac.png",
+      "sha256": "8d799d95742215ac370cdca06c2fe85d4216a90c37fd6bd37dc51dcf7f041908",
+      "pixel_sha256": "4fb96c8a89277f8cdcb8c04eb748221ce94d24319b68dea0d16d01ca10e582ca",
+      "bytes": 3624821,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Distinguish locally specific transit, freight circulation and pilgrimage.",
+        "Use function, maintenance and local materials as authoring variables; colored routes are not automatic map overlays."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-05f60eb9437a847e",
+      "title": "Bio-carved CORP-E product study",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Dark wood, carved gold/green surfaces, cyan transport and violet crystal implements form an organic product grid. IAMGE is the original filename spelling."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "PRODUCT TEST IAMGE(1).png",
+      "aliases": [
+        "PRODUCT TEST IAMGE(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-05f60eb9437a847e.png",
+      "url": "/visual-reference/vr-05f60eb9437a847e.png",
+      "sha256": "05f60eb9437a847ec2df0026583018922c902bec012d9931797d38458e7eba81",
+      "pixel_sha256": "50c832495fe96a3ed0796d1eefe51a8f69da2b35b174b4201f757718b1131cbb",
+      "bytes": 3874990,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-05f8b9ab83ff9342",
+      "title": "CORP-E material study 4",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Bio-wood, mycelium, vascular-polymer, neural-tissue, crystal and alloy families distinguish ornate vehicles, wirelets and services."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "Test Image 4(1).png",
+      "aliases": [
+        "Test Image 4(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-05f8b9ab83ff9342.png",
+      "url": "/visual-reference/vr-05f8b9ab83ff9342.png",
+      "sha256": "05f8b9ab83ff9342befc9a27a3289b4887172ecc0fce8c1d2b95b5d82db54334",
+      "pixel_sha256": "43b790499bc119e7f696e7803a828158f974c5a1c1652803e463f2d5ac12cf5c",
+      "bytes": 3810829,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-c29ed6b49894afe3",
+      "title": "CORP-E material study 5",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Cleaner industrial car/train silhouettes contrast with carved organic tools, packaged food, supplements and clothing."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 5(1).png",
+      "aliases": [
+        "TEST IMAGE 5(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-c29ed6b49894afe3.png",
+      "url": "/visual-reference/vr-c29ed6b49894afe3.png",
+      "sha256": "c29ed6b49894afe3402ae0fe130ca85ed68150f27827c902fbd5c5166baf30af",
+      "pixel_sha256": "4f195609662795403ea7c418d5349bfbf9d8b768f8de83671ab004dfc244283c",
+      "bytes": 3611688,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-89c4f6b146faa1ed",
+      "title": "CORP-E material study 6",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Spectrum panels pair earth/bark/bone, forest/copper/moss, teal/amber/bronze, ivory/gold/cyan, ice/cyan/violet and ultraviolet/magenta."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 6(1).png",
+      "aliases": [
+        "TEST IMAGE 6(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-89c4f6b146faa1ed.png",
+      "url": "/visual-reference/vr-89c4f6b146faa1ed.png",
+      "sha256": "89c4f6b146faa1ed8b63ce12289fea0c35e07999c31453b83c5df4b2c6fa3515",
+      "pixel_sha256": "4318a73e88c1b0cf72825aa9722777c6cd695c7ac6276902e965ea710e56a314",
+      "bytes": 3409515,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-f991b18ac99cac4e",
+      "title": "CORP-E material study 7",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Used, maintained, elite and cyber-neon surface finishes appear with small credential marks, individual framegens and route wakes."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 7(1).png",
+      "aliases": [
+        "TEST IMAGE 7(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-f991b18ac99cac4e.png",
+      "url": "/visual-reference/vr-f991b18ac99cac4e.png",
+      "sha256": "f991b18ac99cac4e5201b3eee16f8ebb9f7ab6f1c54715a510c2a1d08be32b52",
+      "pixel_sha256": "4e7d402a272b35fb80878f876763492d6b43608c1de7da998fa8c66273c693ff",
+      "bytes": 3505054,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-724de71ec1952c89",
+      "title": "CORP-E product index",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Dark metallic framegens, crystal wirelets, augmentation anatomy and supplies carry individually identifiable manufacturer signatures."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "CORP-E PRODUCTS(1).png",
+      "aliases": [
+        "CORP-E PRODUCTS (1).png",
+        "CORP-E PRODUCTS(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-724de71ec1952c89.png",
+      "url": "/visual-reference/vr-724de71ec1952c89.png",
+      "sha256": "724de71ec1952c89df5e5ae04d9d71c747e4557f6ca36725000787579e6775ae",
+      "pixel_sha256": "7d818d2c1cad561ea17c7e3644c0548586de9bedac37374982a05900681350a2",
+      "bytes": 3476154,
+      "width": 1536,
+      "height": 1024,
+      "review": "pixel-identical match to previously reviewed source; incoming encoding preserved",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ],
+      "pixel_identical_to": "reference/lore-transport/PROTOTYPE IMAGE v2/CORP-E PRODUCTS.png"
+    },
+    {
+      "id": "vr-d732a6ac34901973",
+      "title": "CORP-E product index, second sheet",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "A second product sheet expands the labeled brand, vehicle, augmentation and institutional-supply references."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "CORP-E PRODUCTS pt. 2(1).png",
+      "aliases": [
+        "CORP-E PRODUCTS pt. 2 (1)(1).png",
+        "CORP-E PRODUCTS pt. 2(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-d732a6ac34901973.png",
+      "url": "/visual-reference/vr-d732a6ac34901973.png",
+      "sha256": "d732a6ac3490197347433df65f22ace77baa1594ac2cfc715f3a8a961d485a5e",
+      "pixel_sha256": "c46d1d3557fdb95ddc97268d8740a273c884474fdebc38dcd92c2a62f6b6e8e4",
+      "bytes": 3293911,
+      "width": 1536,
+      "height": 1024,
+      "review": "pixel-identical match to previously reviewed source; incoming encoding preserved",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ],
+      "pixel_identical_to": "reference/lore-transport/PROTOTYPE IMAGE v2/CORP-E PRODUCTS pt. 2.png"
+    },
+    {
+      "id": "vr-38b21188e70deb19",
+      "title": "Organic product variant 2",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Branching golden/green surfaces, resin/glass/leaf motifs, biomorphic framegens and crystal implements reinterpret existing product families."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "Image Test 2(1).png",
+      "aliases": [
+        "Image Test 2 (1)(1).png",
+        "Image Test 2(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-38b21188e70deb19.png",
+      "url": "/visual-reference/vr-38b21188e70deb19.png",
+      "sha256": "38b21188e70deb190878e4335a652432774501eb951e0b738c2ea1ed49a5cbae",
+      "pixel_sha256": "f23d36da9f7e547867bb9aa6283c468df68adbd631dfff2ddbc5ca7fc581cf39",
+      "bytes": 3860318,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-815fcd0be954973e",
+      "title": "Organic product variant 3",
+      "category": "products",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "A sibling organic product sheet varies framegen silhouettes, manufacturers, implements and service anatomy."
+      ],
+      "conflicts": [
+        "spectrum_labels"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "Image Test 3(1).png",
+      "aliases": [
+        "Image Test 3 (1)(1).png",
+        "Image Test 3(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-815fcd0be954973e.png",
+      "url": "/visual-reference/vr-815fcd0be954973e.png",
+      "sha256": "815fcd0be954973e18d93b38e30c15d6323270aaf81ef3610f1c4c95f13c6ed5",
+      "pixel_sha256": "f0ba5ad412fdde2839e9d31daff43b4c8457a414d68003cd85a6b6f3cbf08d18",
+      "bytes": 3754901,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each unit/manufacturer identifiable through material, silhouette and localized signature light.",
+        "Use alongside the 43 paragraph-cited product specifications; a pictured variant creates no duplicate economic item."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-979ce3ee319bd3a7",
+      "title": "AETHERGALE checkpoint and spectrum study",
+      "category": "regions",
+      "profiles": [
+        "AETHERGALE"
+      ],
+      "observed": [
+        "Muted dustlands under jade/rose currents contain fabric outposts, tiny pilgrims and distant checkpoints. A 90% muted / 10% luminous caption is a composition target; the sheet also illustrates provisions and constructs."
+      ],
+      "conflicts": [
+        "map_authority",
+        "khi_condition",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "IMAGE 18(1).png",
+      "aliases": [
+        "IMAGE 18 (1)(1).png",
+        "IMAGE 18(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-979ce3ee319bd3a7.png",
+      "url": "/visual-reference/vr-979ce3ee319bd3a7.png",
+      "sha256": "979ce3ee319bd3a79e6934c5dddc5163a10487711af679683cb93effb39801d7",
+      "pixel_sha256": "c7c4f4c228476e7383a1f2589e64ce09b8f24b31c2fddb28b85e1ba222337e17",
+      "bytes": 4086876,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-5e29f14b5fc53dd1",
+      "title": "AETHERGALE omnigale and checkpoints",
+      "category": "regions",
+      "profiles": [
+        "AETHERGALE"
+      ],
+      "observed": [
+        "Jade and rose currents cross muted dustlands between TRIAD, RESID, CASC, GALE and UNDERTOW. CASC retains Khi inside an enneract prism; Red Gate is a lethal boundary."
+      ],
+      "conflicts": [
+        "map_authority",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 19(1).png",
+      "aliases": [
+        "TEST IMAGE 19(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-5e29f14b5fc53dd1.png",
+      "url": "/visual-reference/vr-5e29f14b5fc53dd1.png",
+      "sha256": "5e29f14b5fc53dd18b7a3527d3dba8d03b777df21fc7d2c2714e767750922a97",
+      "pixel_sha256": "28385844bde02af936aeab3f73d07a510914fd9f375f603f85d79046d845f114",
+      "bytes": 3838081,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-d0ad6322d7620c58",
+      "title": "AquiSphere crystalline city-tree study",
+      "category": "regions",
+      "profiles": [
+        "AQUISPHERE"
+      ],
+      "observed": [
+        "A labeled branching crystalline city uses stabilized-water approaches, four partitions and outposts; BRANCHES_OVERLINE, TRUNK_BASE and ROOT_SEAM callouts resemble ArK studies."
+      ],
+      "conflicts": [
+        "aquisphere_tree",
+        "manifestation_permissions",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 15(1).png",
+      "aliases": [
+        "TEST IMAGE 15(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-d0ad6322d7620c58.png",
+      "url": "/visual-reference/vr-d0ad6322d7620c58.png",
+      "sha256": "d0ad6322d7620c58fba3c0ca8bf158c0dac803ca0516e9d0398e53456941bf50",
+      "pixel_sha256": "154fced1b162e596bf6b29709a53bbb9f77c9cbce23cb9034bf25aff252cdde9",
+      "bytes": 3927231,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-f734ca14e58ab0fe",
+      "title": "AquiSphere water-node battlestation",
+      "category": "regions",
+      "profiles": [
+        "AQUISPHERE"
+      ],
+      "observed": [
+        "A labeled translucent water/crystal sphere reveals dark nested terraces, radial stabilized approaches and four partitions. Diagnostic-looking captions are part of the image."
+      ],
+      "conflicts": [
+        "manifestation_permissions",
+        "image_readouts",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 47(1).png",
+      "aliases": [
+        "TEST IMAGE 47(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-f734ca14e58ab0fe.png",
+      "url": "/visual-reference/vr-f734ca14e58ab0fe.png",
+      "sha256": "f734ca14e58ab0fef20793902109018c952420047f3e57e642979ae4a6ca7e18",
+      "pixel_sha256": "58aeb4ddccfb170e44870ebdf5b2d8f882d05da734b54db02bb95b7c2db1411a",
+      "bytes": 3933454,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-e8289fc811037d21",
+      "title": "City_Cloud_S mountain-city variant 20",
+      "category": "regions",
+      "profiles": [
+        "CITY_CLOUD_S"
+      ],
+      "observed": [
+        "A composite juxtaposes AETHERGALE checkpoints with a cliff-city section: upper node crown, mid sector, ED.NET and extraction base."
+      ],
+      "conflicts": [
+        "city_orientation",
+        "scale_claims",
+        "manifestation_permissions",
+        "composite_geography"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 20(1).png",
+      "aliases": [
+        "TEST IMAGE 20(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-e8289fc811037d21.png",
+      "url": "/visual-reference/vr-e8289fc811037d21.png",
+      "sha256": "e8289fc811037d212c49aad2ecfe4e0ea1901d1667ba820d67f042b71a9ffe7a",
+      "pixel_sha256": "7843d5298850079f4de8f5cd89abe447022db356ec7759bed1a90547601bbba3",
+      "bytes": 4007773,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-9722ce111a63f083",
+      "title": "City_Cloud_S mountain-city variant 21",
+      "category": "regions",
+      "profiles": [
+        "CITY_CLOUD_S"
+      ],
+      "observed": [
+        "An inhabited mountain shows extraction at the foot, cyan learning chambers inside and a broad refined upper platform; the text calls the city eastern."
+      ],
+      "conflicts": [
+        "city_orientation",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 21(1).png",
+      "aliases": [
+        "TEST IMAGE 21(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-9722ce111a63f083.png",
+      "url": "/visual-reference/vr-9722ce111a63f083.png",
+      "sha256": "9722ce111a63f083aafb0a71e574aca04bc546b83cbb27436ef2eeb988bd7f50",
+      "pixel_sha256": "99fb695755442bd64b081f996e45989db0b8563b5358a05a454ae7d02be8c710",
+      "bytes": 3683024,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-5b440f7a313accd2",
+      "title": "City_Cloud_S mountain-city variant 22",
+      "category": "regions",
+      "profiles": [
+        "CITY_CLOUD_S"
+      ],
+      "observed": [
+        "An eastern-mountain confab spans narrow peaks beneath a broad metallic platform; tiny travelers, repairs and dark stone establish scale."
+      ],
+      "conflicts": [
+        "city_orientation",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 22(1).png",
+      "aliases": [
+        "TEST IMAGE 22(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-5b440f7a313accd2.png",
+      "url": "/visual-reference/vr-5b440f7a313accd2.png",
+      "sha256": "5b440f7a313accd2e21b0d1b42744bd6ee28741127357f8d68396d81f0edafc9",
+      "pixel_sha256": "b22b960cd18d6d41d722346b56585c1ef2ce3b7652689aef33213e5bafef15b1",
+      "bytes": 3797404,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-2cf36b475cb8d879",
+      "title": "City_Cloud_S mountain-city variant 23",
+      "category": "regions",
+      "profiles": [
+        "CITY_CLOUD_S"
+      ],
+      "observed": [
+        "Isolated rock needles support a wide upper platform; the KHO.NODE section distinguishes deep education and extraction roots."
+      ],
+      "conflicts": [
+        "city_orientation",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 23(1).png",
+      "aliases": [
+        "TEST IMAGE 23(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-2cf36b475cb8d879.png",
+      "url": "/visual-reference/vr-2cf36b475cb8d879.png",
+      "sha256": "2cf36b475cb8d8792d54be60c712832badfdb4af0f24652595148e55d45d9cd7",
+      "pixel_sha256": "442fdc74716005be0274acafbae9410776158a54e15520526356ab690c18e223",
+      "bytes": 3826715,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-597c60da7a0c11fb",
+      "title": "City_Cloud_S mountain-city variant 25",
+      "category": "regions",
+      "profiles": [
+        "CITY_CLOUD_S"
+      ],
+      "observed": [
+        "A sparsely inhabited mountain confab is labeled far northwest and not physically near the southern Red Gate; internal KHO connections link sectors."
+      ],
+      "conflicts": [
+        "city_orientation",
+        "scale_claims",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 25(1).png",
+      "aliases": [
+        "TEST IMAGE 25(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-597c60da7a0c11fb.png",
+      "url": "/visual-reference/vr-597c60da7a0c11fb.png",
+      "sha256": "597c60da7a0c11fbaa749fbdb3265a520e8f2e5e949b8e9dce6b89229c1e911f",
+      "pixel_sha256": "dc5dc10a2804d303bb07d4bdef1163aeae6fac9241703cfe4d13886defb752a6",
+      "bytes": 3532645,
+      "width": 1024,
+      "height": 1536,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-4f5d5825bf5162c3",
+      "title": "ENACT foothill and normalcy composite",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Domestic foothill work, a monumental upper plateau and a restrained burial archive share a composition with AETHER checkpoints and Red Gate."
+      ],
+      "conflicts": [
+        "composite_geography",
+        "manifestation_permissions",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 24(1).png",
+      "aliases": [
+        "TEST IMAGE 24(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-4f5d5825bf5162c3.png",
+      "url": "/visual-reference/vr-4f5d5825bf5162c3.png",
+      "sha256": "4f5d5825bf5162c3e4f89469780eb513a2d9f31c72d81ff6182e367aa66b5ab0",
+      "pixel_sha256": "9a3e57f7765eaf0344b14f2f156a6ad7fec0ac912f58b690991ec1af2b94cfbf",
+      "bytes": 3972594,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-214c348f4bc49673",
+      "title": "ENACT inhabited-massif variant 38",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Six named peaks descend across terraced stone toward Common Lands; a 1.5x comparison and an archival gravespire are shown."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 38(1).png",
+      "aliases": [
+        "TEST IMAGE 38(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-214c348f4bc49673.png",
+      "url": "/visual-reference/vr-214c348f4bc49673.png",
+      "sha256": "214c348f4bc496738bfbc1dbdaaa83a34fe047f7e31bbb0e52ee894f002e3ae5",
+      "pixel_sha256": "a15afeb4e5b475adaeacb4010522411b0110a1212b2110efafcd5a5a711d2c3a",
+      "bytes": 3430975,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-dc886f81d11818e7",
+      "title": "ENACT inhabited-massif variant 39",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Six named high peaks and meter annotations accompany a violet grave archive at the base and a luminous geometric field beyond."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 39(1).png",
+      "aliases": [
+        "TEST IMAGE 39(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-dc886f81d11818e7.png",
+      "url": "/visual-reference/vr-dc886f81d11818e7.png",
+      "sha256": "dc886f81d11818e7d653bc21b482eab7965623ffe0ef104163b41bd6cff520ac",
+      "pixel_sha256": "8a531e8b4429d8584979705028d4ed7ffe6ba596aa677ff52e0e55c684999516",
+      "bytes": 3889682,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-e45969e0ef9bf6ad",
+      "title": "ENACT inhabited-massif variant 40",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Six explicitly unnamed peaks form a connected mountain frontier; a restrained grave precinct sits at the base of the first hub."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 40(1).png",
+      "aliases": [
+        "TEST IMAGE 40(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-e45969e0ef9bf6ad.png",
+      "url": "/visual-reference/vr-e45969e0ef9bf6ad.png",
+      "sha256": "e45969e0ef9bf6adfd88c3cf430c8b0349c6a08a3a0f7a6210da051d946fb5a5",
+      "pixel_sha256": "308bc2215b7459a0a166113b0bd3ecfcfd90bd69802962280981dd040181b8af",
+      "bytes": 3609000,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-2a8c936c20525532",
+      "title": "ENACT inhabited-massif variant 41",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Six unnamed peaks center on PYRI INTERNODE and a bridge complex; inhabited paths distinguish upper/mid terraces, Foothill Cusp and Common Lands."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 41(1).png",
+      "aliases": [
+        "TEST IMAGE 41(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-2a8c936c20525532.png",
+      "url": "/visual-reference/vr-2a8c936c20525532.png",
+      "sha256": "2a8c936c205255322721828efe35fe3053f93d8aa42cef1838e00f6391dd0b8c",
+      "pixel_sha256": "bac3eb9a2bf4fc8b59ac4ef5e86cba1006c3240f79fd5f5f2f67571ef3cdf6f9",
+      "bytes": 3372157,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-50fdf966ddc100e3",
+      "title": "ENACT inhabited-massif variant 42",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "A dark mountain cluster frames PYRI INTERNODE, a central hub, grave precinct and lantern-lit agricultural foothills; a 100 km bar appears."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 42(1).png",
+      "aliases": [
+        "TEST IMAGE 42 (1)(1).png",
+        "TEST IMAGE 42(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-50fdf966ddc100e3.png",
+      "url": "/visual-reference/vr-50fdf966ddc100e3.png",
+      "sha256": "50fdf966ddc100e372d97ca1e0e54e7dc4c1a63d785848623155ae1e6ec13604",
+      "pixel_sha256": "f3f64c8fb6cf9898378d1bce082d7ac7c3c9c075be0178b63a5fd6d2328827ef",
+      "bytes": 3305090,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-8adf2f8a306b8b31",
+      "title": "ENACT inhabited-massif variant 43",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "A related mountain cluster uses quieter light fields and a shorter 10 km comparison bar despite a similar composition."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 43(1).png",
+      "aliases": [
+        "TEST IMAGE 43(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-8adf2f8a306b8b31.png",
+      "url": "/visual-reference/vr-8adf2f8a306b8b31.png",
+      "sha256": "8adf2f8a306b8b31773ed2a1f877c5d7fcd6848cfb154bc2fe156fbb81037cc6",
+      "pixel_sha256": "834f7b06f30f6abbf4e2e5b6bd04da775fe7fb1c7e052f2d7962b705dc7471e5",
+      "bytes": 3319099,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-c108e25f79545fa1",
+      "title": "ENACT inhabited-massif variant 44",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Runoff and eastern wetlands accompany the inhabited mountain cluster, precise bridge links and quiet grave architecture."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 44(1).png",
+      "aliases": [
+        "TEST IMAGE 44(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-c108e25f79545fa1.png",
+      "url": "/visual-reference/vr-c108e25f79545fa1.png",
+      "sha256": "c108e25f79545fa105de15d9757648479cfdb28fedfd981cb0aea0cec5426f70",
+      "pixel_sha256": "50d3d03fa8339cd7bba025c205632582e04ec3ff4cffb93fee9b8b942193f35c",
+      "bytes": 3340518,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-fbad3453276c04b2",
+      "title": "ENACT inhabited-massif variant 45",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "An immense INTERNODE assembly rises above the western peak; grave precinct, foothill settlement and eastern wetlands remain readable."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 45(1).png",
+      "aliases": [
+        "TEST IMAGE 45(1).png",
+        "TEST IMAGE 46(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-fbad3453276c04b2.png",
+      "url": "/visual-reference/vr-fbad3453276c04b2.png",
+      "sha256": "fbad3453276c04b2b8e16df43f5d0f44117798cec3c16a5241fdc51d042331b5",
+      "pixel_sha256": "d47e97370675a0cc8a5b76cfbcd4cbdbff4ebb1c85809aa94a360bdf4e6ea10e",
+      "bytes": 3169447,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-4c23b2eaa228d75f",
+      "title": "ENACT mountain and orbit study",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Pointed inhabited peaks, tiered bridges and tiny amber windows sit against a geometric field; PYRI INTERNODE, upper/mid Runehills, Foothill Cusp, Common Lands and Grave Site are labeled."
+      ],
+      "conflicts": [
+        "hills_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "IMAGE TEST 51(1).png",
+      "aliases": [
+        "IMAGE TEST 51(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-4c23b2eaa228d75f.png",
+      "url": "/visual-reference/vr-4c23b2eaa228d75f.png",
+      "sha256": "4c23b2eaa228d75f08e9943c5373ded39c29c71290a920fae3855788c341e502",
+      "pixel_sha256": "e595c03e0b772290f2cc16cacf378259b959eff05c490ead91242a7d6b8da35a",
+      "bytes": 3587447,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-091722336cc34a98",
+      "title": "ENACT peaks and percept-limit transition",
+      "category": "regions",
+      "profiles": [
+        "ENACT_HILLS"
+      ],
+      "observed": [
+        "Sheer inhabited peaks descend toward illustrated NULL_0. Foothill Cusp, restricted gravesite, INTERNnode and OMNIPILLAR are distinct; an inset PLAT.EN_MID caption also occurs."
+      ],
+      "conflicts": [
+        "composite_geography",
+        "hills_variants",
+        "manifestation_permissions"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 26(1).png",
+      "aliases": [
+        "TEST IMAGE 26(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-091722336cc34a98.png",
+      "url": "/visual-reference/vr-091722336cc34a98.png",
+      "sha256": "091722336cc34a982dbdb8c49fee7c7414bb19c90bf71a341357d7948e058c1a",
+      "pixel_sha256": "36ad26604338a19658d13e28045b9c2390bd0e9be80e85a0586a3cf9c047450a",
+      "bytes": 3559525,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-54b24a8884604ef9",
+      "title": "Mesas stacked city and transit",
+      "category": "regions",
+      "profiles": [
+        "MESAS_D_S_CONV"
+      ],
+      "observed": [
+        "Industrial terraces, elevated roads and craft frame a violet central spire; brand signage, Greatweb, clearance checks, MID.LINE_TRACK and HIGH_LAND.TRAX provide localized light."
+      ],
+      "conflicts": [
+        "mesas_labels",
+        "map_authority"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "Mesas.D.S.CONV.png",
+      "aliases": [
+        "Mesas.D.S.CONV.png"
+      ],
+      "path": "reference/visual-corpus/images/vr-54b24a8884604ef9.png",
+      "url": "/visual-reference/vr-54b24a8884604ef9.png",
+      "sha256": "54b24a8884604ef927837f64431647f6c8c0adbfd2211bbb03b41913d7fec68a",
+      "pixel_sha256": "a25db5cf02b0e1990bfe058644e49983bbc165bcf0566ed1957ec51579034542",
+      "bytes": 3981767,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-37a133a1d5500dc1",
+      "title": "The ArK seed-core study 13",
+      "category": "regions",
+      "profiles": [
+        "ARK"
+      ],
+      "observed": [
+        "An immense mossed tree with a spherical seed core joins luminous branch runoff and root-seam fields; tiny pilgrims and a convoy establish body scale. The sheet presents the ArK as a self-perpetuating ecological process."
+      ],
+      "conflicts": [
+        "manifestation_permissions",
+        "map_authority",
+        "scale_claims"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST image 13(1).png",
+      "aliases": [
+        "TEST image 13(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-37a133a1d5500dc1.png",
+      "url": "/visual-reference/vr-37a133a1d5500dc1.png",
+      "sha256": "37a133a1d5500dc1e924bc54b5ce671aab888f5111f1fc846179b6924188473e",
+      "pixel_sha256": "464b0eaff079c68eef886e8bfaeaeb6fbc101c871a2c9ea9399b03dff2feb07c",
+      "bytes": 3680671,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-284b265b3fd8d7e9",
+      "title": "The ArK seed-core study 14",
+      "category": "regions",
+      "profiles": [
+        "ARK"
+      ],
+      "observed": [
+        "A closer seed-core/tree composition shows physical-light navigation, loading, shelter, repair and interface forms among wide forested valleys. The sheet presents the ArK as a self-perpetuating ecological process."
+      ],
+      "conflicts": [
+        "manifestation_permissions",
+        "map_authority",
+        "scale_claims"
+      ],
+      "status": "labeled_visual_prototype",
+      "filename": "TEST IMAGE 14(1).png",
+      "aliases": [
+        "TEST IMAGE 14(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-284b265b3fd8d7e9.png",
+      "url": "/visual-reference/vr-284b265b3fd8d7e9.png",
+      "sha256": "284b265b3fd8d7e9e3801613ad74dabbfdc0597d3864db0b055635732e627bb1",
+      "pixel_sha256": "f7fd222c46128ae755aa4d4fa98bf9c776b8d87c7812f8430e8b916a362cb46e",
+      "bytes": 3851199,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use the pictured material, localized light and scale relationships as a source-specific asset brief.",
+        "Apply only to established objects, without adding places, actors, supplies, physical events or permissions."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-f4fa245a43421fae",
+      "title": "NULL_FIELD reported-construct study 62",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "NULL_FIELD.OMNI overview labels eight reported structures against red/violet substrate; signpost, cube, dual pillars, diamond, cylinder and helix are distinct."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 62(1).png",
+      "aliases": [
+        "TEST IMAGE 62(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-f4fa245a43421fae.png",
+      "url": "/visual-reference/vr-f4fa245a43421fae.png",
+      "sha256": "f4fa245a43421fae78465d6ed2b83356133577f1768a56a21595e1e183b59423",
+      "pixel_sha256": "eeb4786ae45704ca0f0944764a22adbb22c0ab02dc4108f6a8624f585eedf465",
+      "bytes": 3926516,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-3b53ee1cdba56212",
+      "title": "NULL_FIELD reported-construct study 63",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A wider field adds pyramid, aquifer-like biome, feather/cloud form, root tree, scratched substrate, saw grass, lattice and void mountain; Red Gate points northeast."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 63(1).png",
+      "aliases": [
+        "TEST IMAGE 63(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-3b53ee1cdba56212.png",
+      "url": "/visual-reference/vr-3b53ee1cdba56212.png",
+      "sha256": "3b53ee1cdba56212f115b51f8dc39308c6a79f36ac0255f27944735893a16d6c",
+      "pixel_sha256": "69e45df05d781e8dd387e78077a2e392992ab5777ec25dae8767b44dd41f1136",
+      "bytes": 4034891,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-590d4168865577a8",
+      "title": "NULL_FIELD reported-construct study 64",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A sibling field rearranges annotations and extends its boundary beyond the image; it supplies no traversal-safe route."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 64(1).png",
+      "aliases": [
+        "TEST IMAGE 64(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-590d4168865577a8.png",
+      "url": "/visual-reference/vr-590d4168865577a8.png",
+      "sha256": "590d4168865577a869fe932a8a9c2162039c644a74474081a3fd86a192a2eb37",
+      "pixel_sha256": "f474a68f59e08100ba6154513ee4a42eb597c83814a882103e498f9650a1d4ae",
+      "bytes": 4071985,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-03f52b11cc7888eb",
+      "title": "NULL_FIELD reported-construct study 65",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A dense field separates amber pyramid, teal biome, violet helix and fractured diamond; red boundary arrows continue in several directions."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 65(1).png",
+      "aliases": [
+        "TEST IMAGE 65(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-03f52b11cc7888eb.png",
+      "url": "/visual-reference/vr-03f52b11cc7888eb.png",
+      "sha256": "03f52b11cc7888ebdf69ef02db8af0785eb61ce15c038c72ca194e459dd5b69c",
+      "pixel_sha256": "abbcef4b262a9c8037e5c9e54775b295cce7bd7591b56c91011bdd8da3c7bcd6",
+      "bytes": 4122454,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-8eed9f33ea5f6312",
+      "title": "NULL_FIELD reported-construct study 66",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A sibling overview puts the Red Gate arrow northwest; feather/weather and biome labels change apparent placement relative to neighboring variants."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 66(1).png",
+      "aliases": [
+        "TEST IMAGE 66(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-8eed9f33ea5f6312.png",
+      "url": "/visual-reference/vr-8eed9f33ea5f6312.png",
+      "sha256": "8eed9f33ea5f63122847a76e0c2f561761716b9040301eaa4baea85b791627d5",
+      "pixel_sha256": "0947ab5df5c7ab7dafe321819036fd9c4733c256f47c5bf02cc9dbe010b621d4",
+      "bytes": 4112637,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-fdeee4783c78a6aa",
+      "title": "NULL_FIELD reported-construct study 67",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A quieter daylight variant reveals natural substrate and river channels around individually luminous constructs."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 67(1).png",
+      "aliases": [
+        "TEST IMAGE 67(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-fdeee4783c78a6aa.png",
+      "url": "/visual-reference/vr-fdeee4783c78a6aa.png",
+      "sha256": "fdeee4783c78a6aa2f2da7e3ac29eef5e7cbb69202976ce4c1f4c21df5e4f186",
+      "pixel_sha256": "eb8699352c56f33aee22878e0090c0166f382a68cc51935c4ab84392622a00c3",
+      "bytes": 4194174,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-95aebc1eae93f983",
+      "title": "NULL_FIELD reported-construct study 68",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A higher viewpoint separates constructs across a wider muted landscape; annotations still describe unresolved forms."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 68(1).png",
+      "aliases": [
+        "TEST IMAGE 68(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-95aebc1eae93f983.png",
+      "url": "/visual-reference/vr-95aebc1eae93f983.png",
+      "sha256": "95aebc1eae93f983fec6f7dfd49aa2606ff6e761f8d69b3ddf0c4a278f485ae4",
+      "pixel_sha256": "22a0f49de22ea8412df521fc624f4260c2454a025b2eaa96125cad36d1a71474",
+      "bytes": 4207208,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-420979d9acc7b6c2",
+      "title": "NULL_FIELD reported-construct study 69",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A route-study variant adds Station_DEGRADE, dotted historical links, a compass and an approximate 1,500 km bar."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 69(1).png",
+      "aliases": [
+        "TEST IMAGE 69(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-420979d9acc7b6c2.png",
+      "url": "/visual-reference/vr-420979d9acc7b6c2.png",
+      "sha256": "420979d9acc7b6c234f0e39a598858b383b30f3b810ac0fe548ebe52c3aa621b",
+      "pixel_sha256": "26c4828aa98769ccfc5b666b0149728d8ff3653d9ff2594792650d9fa84374d7",
+      "bytes": 4081715,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-1396a9f712b988f8",
+      "title": "NULL_FIELD reported-construct study 81",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A wide terrain overview puts Station_DEGRADE at lower left, with separated constructs, northwest Red Gate direction and an approximate 1,000 km bar."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 81(1).png",
+      "aliases": [
+        "TEST IMAGE 81(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-1396a9f712b988f8.png",
+      "url": "/visual-reference/vr-1396a9f712b988f8.png",
+      "sha256": "1396a9f712b988f8893250d06c7c9aacdbdc6014a37575bfc1f4617e3769e11d",
+      "pixel_sha256": "2b81d9091624077ebcdc06774518135f8e3a95568e1205c32af92f5902b04dc5",
+      "bytes": 4046638,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-cdb98aa0731f0101",
+      "title": "NULL_FIELD reported-construct study 82",
+      "category": "reported_landscapes",
+      "profiles": [
+        "NULL_FIELD_OMNI"
+      ],
+      "observed": [
+        "A related NULL_FIELD.OMNI overview retains Station_DEGRADE, source-specific boundary continuation and individually separated reported structures."
+      ],
+      "conflicts": [
+        "null_report_variants",
+        "scale_claims",
+        "map_authority"
+      ],
+      "status": "reported_landscape_visualization",
+      "filename": "TEST IMAGE 82(1).png",
+      "aliases": [
+        "TEST IMAGE 82 (1)(1).png",
+        "TEST IMAGE 82(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-cdb98aa0731f0101.png",
+      "url": "/visual-reference/vr-cdb98aa0731f0101.png",
+      "sha256": "cdb98aa0731f01014e336fd68058300d15f3a53963a7196d0627b996fdf8fdee",
+      "pixel_sha256": "da5507bae198b150e88d7de6f1f3650fd2ce8dedcf62a1b62dcc7e8a238a08cd",
+      "bytes": 4109085,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Keep each reported construct individually readable, with muted substrate and localized spectral accents.",
+        "Retain source uncertainty and off-screen measurements; this is not a present bodily observation."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-3ad08d6d8c386990",
+      "title": "Unassigned monumental-tree study 52",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "A colossal broad-canopy tree rises over ordinary forests, cloud bands and distant mountains; faint cyan runoff appears in the bark."
+      ],
+      "conflicts": [
+        "unlabeled_studies",
+        "scale_claims"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 52(1).png",
+      "aliases": [
+        "TEST IMAGE 52(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-3ad08d6d8c386990.png",
+      "url": "/visual-reference/vr-3ad08d6d8c386990.png",
+      "sha256": "3ad08d6d8c3869906e76c4269d9707f00fa41acbe25b8db99962f0197c455973",
+      "pixel_sha256": "ccca67daefe666b31847195ad30b0c086af6e45ee25de0e19494a29408fb50ec",
+      "bytes": 3716090,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-ee608c31e4365eca",
+      "title": "Unassigned monumental-tree study 53",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "Twisting exposed branches and deeply fluted bark carry fine cyan lines above tiny forested valleys."
+      ],
+      "conflicts": [
+        "unlabeled_studies",
+        "scale_claims"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 53(1).png",
+      "aliases": [
+        "TEST IMAGE 53(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-ee608c31e4365eca.png",
+      "url": "/visual-reference/vr-ee608c31e4365eca.png",
+      "sha256": "ee608c31e4365eca5159fa0cabe2ede69a8c55c83c0aba862524ea21a0849e52",
+      "pixel_sha256": "da2dcd0d4fa51fbf393c5eb39efbf47f40e4834f35a4f8f4bdecdc90feb67ba8",
+      "bytes": 3510677,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-506968d553118545",
+      "title": "Unassigned monumental-tree study 54",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "A vast branching tree crowns a curved atmospheric horizon; ordinary forests and cloud layers supply additional scale references."
+      ],
+      "conflicts": [
+        "unlabeled_studies",
+        "scale_claims"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 54(1).png",
+      "aliases": [
+        "TEST IMAGE 54(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-506968d553118545.png",
+      "url": "/visual-reference/vr-506968d553118545.png",
+      "sha256": "506968d5531185456deb0a4fd103be2b35855ee57a6c3e6eba77284dc5ce665e",
+      "pixel_sha256": "3f98df277353d6e6a998b5c519cb66cfd16999de64ea75bd1781def0c4f3009e",
+      "bytes": 3313616,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-d7bdaf8887cb3d4b",
+      "title": "Unassigned monumental-tree study 55",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "A moss-covered immense trunk and sparse twisting canopy dominate layered forests and pale cloud bands."
+      ],
+      "conflicts": [
+        "unlabeled_studies",
+        "scale_claims"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 55(1).png",
+      "aliases": [
+        "TEST IMAGE 55(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-d7bdaf8887cb3d4b.png",
+      "url": "/visual-reference/vr-d7bdaf8887cb3d4b.png",
+      "sha256": "d7bdaf8887cb3d4b4111f65ce78655eed3d98a4dd3b582f87ab8623abf515ee7",
+      "pixel_sha256": "98d2e1d3f3f36f83965664560ac2ba84b2c5f7f357af138d4b68d11d4100f34d",
+      "bytes": 3298129,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-ce18503532ad77e5",
+      "title": "Unassigned monumental-tree study 56",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "Emerald light descends along a mossed trunk beneath a violet/cyan canopy; fine vertical luminous threads punctuate the forest."
+      ],
+      "conflicts": [
+        "unlabeled_studies",
+        "scale_claims"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 56(1).png",
+      "aliases": [
+        "TEST IMAGE 56(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-ce18503532ad77e5.png",
+      "url": "/visual-reference/vr-ce18503532ad77e5.png",
+      "sha256": "ce18503532ad77e512f15b791472d3716d11594fc2cc87ea08cce852899aa479",
+      "pixel_sha256": "bcc16ae4a470d32b5d7ce3cdb6ecaf55132f7ff01aa8960135d38db0a3192524",
+      "bytes": 3244232,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-99971e3e72871adf",
+      "title": "Unassigned monumental-tree study 57",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "A dark mossed trunk carries narrow cyan runoff into green valleys with small isolated luminous descents."
+      ],
+      "conflicts": [
+        "unlabeled_studies",
+        "scale_claims"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 57(1).png",
+      "aliases": [
+        "TEST IMAGE 57(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-99971e3e72871adf.png",
+      "url": "/visual-reference/vr-99971e3e72871adf.png",
+      "sha256": "99971e3e72871adf0f0b5dca36b159fcd829a997906c03a18f0b38267df18798",
+      "pixel_sha256": "de2871da796056795d444b0b112aa262a1a1de4382cd553a16cf27f6b5918430",
+      "bytes": 3170200,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-415b69609ff0d8f3",
+      "title": "Unassigned monumental-tree study 58",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "A fluted mossed trunk transitions into green/cyan branch seams above ordinary forests; distant circular linework stays faint."
+      ],
+      "conflicts": [
+        "unlabeled_studies",
+        "scale_claims"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 58(1).png",
+      "aliases": [
+        "TEST IMAGE 58(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-415b69609ff0d8f3.png",
+      "url": "/visual-reference/vr-415b69609ff0d8f3.png",
+      "sha256": "415b69609ff0d8f3dc613d4f7ee13c03eabff1674c37958f14c4eece1abe1cdf",
+      "pixel_sha256": "456c266219c7e8f43847d2537fd579f77c1a90b791b6d4aad7b36d839b3aada5",
+      "bytes": 3551530,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-68ba96cbde15dd77",
+      "title": "Unassigned sphere landscape 48",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "An unlabeled translucent sphere hangs over green cliff forest and waterfalls, with dark nested internal terraces."
+      ],
+      "conflicts": [
+        "unlabeled_studies"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 48.png",
+      "aliases": [
+        "TEST IMAGE 48.png"
+      ],
+      "path": "reference/visual-corpus/images/vr-68ba96cbde15dd77.png",
+      "url": "/visual-reference/vr-68ba96cbde15dd77.png",
+      "sha256": "68ba96cbde15dd77cece645018b3d912f0213467719703ac36ea3d31e8e51cf4",
+      "pixel_sha256": "e3ada7b29bf094dc105b1128dab8050c78655f47e29442a1b184056d1b63fd69",
+      "bytes": 4100763,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-318f8c43782ade9a",
+      "title": "Unassigned sphere landscape 49",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "An unlabeled sphere overlooks a boundary between crystalline water/ice-like terrain and green cliff forest."
+      ],
+      "conflicts": [
+        "unlabeled_studies"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 49(1).png",
+      "aliases": [
+        "TEST IMAGE 49(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-318f8c43782ade9a.png",
+      "url": "/visual-reference/vr-318f8c43782ade9a.png",
+      "sha256": "318f8c43782ade9a257c928d1ebc2fff0967b92706ceb122cebb2fb5c7d75ac1",
+      "pixel_sha256": "b968a69ad2d36ba5cabc4aa8bb0a36e5e5c365ffc31b76a924191411259bdd50",
+      "bytes": 4117167,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-76901a4977c97b72",
+      "title": "Unassigned sphere landscape 50",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "An unlabeled blue translucent sphere hangs over a lake, radial approaches, cliff forests and waterfalls, with nested interior forms."
+      ],
+      "conflicts": [
+        "unlabeled_studies"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "IMAGE TEST 50(1).png",
+      "aliases": [
+        "IMAGE TEST 50(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-76901a4977c97b72.png",
+      "url": "/visual-reference/vr-76901a4977c97b72.png",
+      "sha256": "76901a4977c97b72c2bd5cd9c7e8520d850bc52945d17997f66e18e8616b11b5",
+      "pixel_sha256": "0100ff95a81a6d01852255a4dd85d3ee52999eff2524531b76d6e38052d39b50",
+      "bytes": 4057724,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    },
+    {
+      "id": "vr-e1aa192089f622b3",
+      "title": "Unassigned sphere landscape 51",
+      "category": "unassigned",
+      "profiles": [],
+      "observed": [
+        "An unlabeled wide regional view frames a smaller sphere, radial causeways, arid plateaus and forested cliffs."
+      ],
+      "conflicts": [
+        "unlabeled_studies"
+      ],
+      "status": "unassigned_visual_study",
+      "filename": "TEST IMAGE 51(1).png",
+      "aliases": [
+        "TEST IMAGE 51(1).png"
+      ],
+      "path": "reference/visual-corpus/images/vr-e1aa192089f622b3.png",
+      "url": "/visual-reference/vr-e1aa192089f622b3.png",
+      "sha256": "e1aa192089f622b3a86c1ddbf965cb19c504b07935ed4d0af4699e77217a66c6",
+      "pixel_sha256": "7cab3135d86d56abb93489362eb6f2accffb70493cba9139cf129a1b57744e18",
+      "bytes": 4273719,
+      "width": 1536,
+      "height": 1024,
+      "review": "visual inspection",
+      "generation_use": [
+        "Use only as an unassigned composition/material study in authoring tools.",
+        "Resemblance establishes no named location, coordinates, route, dimensions or current event."
+      ],
+      "constraints": [
+        "Reference imagery supplies no sprite sheet, rig, alpha mask, collision geometry or calibrated physics."
+      ]
+    }
+  ],
+  "conflict_register": {
+    "framework_status": "CODE, FINAL, AI EDIT, MMTX and study 70 remain conceptual variants. Order/filename establishes neither precedence, executable code, a physical law nor a change to host time or numerical kernels.",
+    "framework_needs": "RENDER.STANCE need/access declarations are setting concepts; they issue no food, water, shelter, clearance, immortality or simulated objects.",
+    "framework_gate": "Relational Red Gate language does not remove the documented/game access boundary or open a route.",
+    "character_identity": "Beck is a source persona with an authored transition history, not a player identity. A Nailyn engram depiction does not establish the missing person as present, alive or recruitable.",
+    "spectrum_labels": "Poster genre names and numeric tiers remain original text. Rose uses the requested druid / nano / neon spectrum; material tiers are not rules of skill, moral, cultural or gameplay superiority.",
+    "map_authority": "The original interpreted drawings retain navigation authority: ENACT upper left, Red Gate / Scarlet Plateau toward lower right. Poster compositions add no coordinates or destinations.",
+    "khi_condition": "IMAGE 18 suggests a free tent-maintaining Khi; the AETHERGALE DOCX and study 19 retain Khi in a prism. Do not spawn an available Khi from the inconsistent image.",
+    "scale_claims": "Heights, 1.5x comparisons, kilometers, miles and Greatweb extents are inconsistent source-specific prototype claims, not a world-grid or physics calibration. Preserve vast-world framing through percept/detail hierarchy.",
+    "tower_variants": "Rings vary from solid inhabited structures to thin lightPRKT fields. Study 27 forbids bridges while other variants show them. Keep siblings without choosing final topology, traversable rings or active portals.",
+    "tower_hills_label": "Study 32 labels ENACT integration within a tower composition; it establishes neither regional co-location nor a relocated hub.",
+    "mesas_labels": "The Mesas panorama includes WN_REZ / Lower Burgs labels associated elsewhere with WN_TOWER. Do not transplant those districts into Mesas.",
+    "aquisphere_tree": "Study 15 is labeled AquiSphere but borrows ArK branch/trunk/root callouts and a tree silhouette. Study 47 is spherical; neither establishes a final morphology.",
+    "city_orientation": "City studies 21–23 describe an eastern city; 25 says far northwest and no physical proximity to the southern gate. Preserve the existing interpreted atlas position.",
+    "composite_geography": "Composite sheets reuse regional/district labels. Juxtaposition does not establish proximity, a route, shared jurisdiction or a present object.",
+    "hills_variants": "Studies 38–39 name six peaks; 40–45 explicitly leave them unnamed. Grave-site placement, mid districts and orbit diagrams also vary. Retain DOCX jurisdiction and do not choose a peak taxonomy automatically.",
+    "unlabeled_studies": "Sphere studies resemble AquiSphere and monumental trees resemble the ArK, but association is unconfirmed. They remain unassigned and outside current-region guidance.",
+    "manifestation_permissions": "A pictured utility, vendor, transfer anchor or credential creates no inventory, services, clearance, free supplies, simulated mechanism or teleport route.",
+    "image_readouts": "Integrity percentages, verification states, cycle labels and engagement logs are concept-image pixels, not live telemetry.",
+    "battle_scenarios": "Fractbound Covenant, Enneract Trinode, Duskvoid Syndicate and Node 7B are proposed scenario elements. Different allegiances/objectives do not become live factions, NPCs, contracts or events.",
+    "null_report_variants": "NULL_FIELD constructs stay reported/unresolved. Directions, station links, annotation positions and scale vary; images confirm neither material composition nor a route beyond Red Gate."
+  },
+  "profile_briefs": {
+    "WN_TOWER": {
+      "materials": [
+        "opaque dark stone and bio-metal",
+        "weathered service metal and bio-plast",
+        "neural-wood and ash on established harvest ground"
+      ],
+      "lighting": [
+        "small amber practicals",
+        "fine cyan node paths",
+        "sparse white-gold motifs"
+      ],
+      "scale": "A continuous monolith dwarfs human-scale service frames. Use atmospheric distance without enlarging current collisions or inventing reachable floors.",
+      "sources": [
+        "vr-2393d8d0b49d9ac9",
+        "vr-37661f5eb4102d89",
+        "vr-ab5d59deb112196d",
+        "vr-376229fee8924749",
+        "vr-5e81868b6e13897d"
+      ]
+    },
+    "ENACT_HILLS": {
+      "materials": [
+        "sheer charcoal rock",
+        "civic terraces embedded in mountain stone",
+        "restrained gothic burial architecture"
+      ],
+      "lighting": [
+        "tiny amber occupation lights",
+        "fine cyan institutional links",
+        "isolated violet archive accents"
+      ],
+      "scale": "Show inhabited mountain scale through tiny terraces and layered distance; peak counts/names/heights and scale bars stay variant claims.",
+      "sources": [
+        "vr-214c348f4bc49673",
+        "vr-e45969e0ef9bf6ad",
+        "vr-2a8c936c20525532",
+        "vr-fbad3453276c04b2",
+        "vr-4c23b2eaa228d75f"
+      ]
+    },
+    "CITY_CLOUD_S": {
+      "materials": [
+        "dark mountain stone",
+        "salvaged iron and tarnished copper",
+        "repaired graphite alloys",
+        "refined silver-grey upper works"
+      ],
+      "lighting": [
+        "amber extraction practicals",
+        "pale cyan educational/node interfaces",
+        "localized white-gold authority light"
+      ],
+      "scale": "Read mountain stone as inhabited infrastructure with a distant upper platform and body-scale work/learning spaces. No direction, altitude or new route is established.",
+      "sources": [
+        "vr-9722ce111a63f083",
+        "vr-5b440f7a313accd2",
+        "vr-2cf36b475cb8d879",
+        "vr-597c60da7a0c11fb"
+      ]
+    },
+    "AETHERGALE": {
+      "materials": [
+        "scoured muted stone",
+        "deposited dust",
+        "patched fabric refuge surfaces",
+        "small crystalline collector accents"
+      ],
+      "lighting": [
+        "jade/rose reference currents",
+        "localized refuge and node lights"
+      ],
+      "scale": "Wide spacing, tiny convoys and repeated horizons suggest immense journeys. Current saved weather and surface state remain authoritative; a pictured storm/water source is not a present event.",
+      "sources": [
+        "vr-979ce3ee319bd3a7",
+        "vr-5e29f14b5fc53dd1"
+      ]
+    },
+    "MESAS_D_S_CONV": {
+      "materials": [
+        "maintained industrial metal",
+        "bio-wood/mycelial composites",
+        "resin/glass product finishes",
+        "individual manufacturer chassis"
+      ],
+      "lighting": [
+        "localized brand signage",
+        "cyan transit",
+        "amber service/haulage",
+        "violet implements"
+      ],
+      "scale": "Distinguish transit, freight and pilgrimage in asset briefs. Mesas remains unplaced.",
+      "sources": [
+        "vr-8d799d95742215ac",
+        "vr-89c4f6b146faa1ed",
+        "vr-54b24a8884604ef9"
+      ]
+    },
+    "ARK": {
+      "materials": [
+        "mossed bark",
+        "embedded spherical seed core",
+        "crystalline/organic seams"
+      ],
+      "lighting": [
+        "localized cyan runoff",
+        "jade/violet root/branch accents"
+      ],
+      "scale": "Ordinary forests, tiny pilgrims and remote canopies frame a monumental process study; the ArK remains unplaced.",
+      "sources": [
+        "vr-37a133a1d5500dc1",
+        "vr-284b265b3fd8d7e9"
+      ]
+    },
+    "AQUISPHERE": {
+      "materials": [
+        "translucent crystalline shell",
+        "opaque nested inhabited interior",
+        "stabilized water-like approaches"
+      ],
+      "lighting": [
+        "cold blue-white interfaces",
+        "restrained internal amber practicals"
+      ],
+      "scale": "Separate shell, interior structures and small approaches. City-tree/sphere remain alternatives; AquiSphere remains unplaced.",
+      "sources": [
+        "vr-d0ad6322d7620c58",
+        "vr-f734ca14e58ab0fe"
+      ]
+    },
+    "NULL_FIELD_OMNI": {
+      "materials": [
+        "muted charcoal substrate",
+        "individually distinct reported crystalline/organic constructs"
+      ],
+      "lighting": [
+        "localized cyan/violet/amber signatures",
+        "red boundary reference accents"
+      ],
+      "scale": "Reported overviews are not current bodily observations; source bars and links add no traversal beyond Red Gate.",
+      "sources": [
+        "vr-f4fa245a43421fae",
+        "vr-95aebc1eae93f983",
+        "vr-420979d9acc7b6c2",
+        "vr-cdb98aa0731f0101"
+      ]
+    }
+  },
+  "source_recovery": {
+    "historical_zip": "reference/lore-transport/recovery-record.json",
+    "status": "The original ZIP recovery remains partial. These independent attachments include a complete Designer; unknown later ZIP members remain unknown."
+  },
+  "production_handoff": {
+    "stage": "reference integration; no new sprite bake",
+    "spectrum": "druid / nano / neon",
+    "pipeline": [
+      "Model each approved unit in the existing locked projection and sprite pipeline.",
+      "Separate silhouette, human-scale interface, tactile roughness, wear and functional emission.",
+      "Render approved directions, shadows, condition states and contact-timed clips with explicit alpha and foot anchors.",
+      "Inspect native-size palette/CRT presentation, occlusion, path clearance and solid-pixel picking.",
+      "Bind motion/destruction to authoritative saved results; concept effects are not a second simulation."
+    ],
+    "pending": [
+      "Approved regional ring/peak morphology",
+      "New individual modeled units and character/portrait assets",
+      "Directional/condition animation bakes",
+      "Full-browser and art-reviewed native-size sign-off"
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "version": "0.18.0",
+  "scope": "Artistic RGB finish; not physics, emission or numerical measurement.",
+  "materials": {
+    "wood": {
+      "label": "Mineralized neural-wood / handled grain",
+      "shadow": [
+        58,
+        51,
+        41
+      ],
+      "light": [
+        169,
+        150,
+        114
+      ],
+      "mix": 0.28,
+      "contrast": 0.07,
+      "grain": 2
+    },
+    "metal": {
+      "label": "Repaired alloy / restrained reflections",
+      "shadow": [
+        48,
+        53,
+        56
+      ],
+      "light": [
+        168,
+        172,
+        166
+      ],
+      "mix": 0.3,
+      "contrast": 0.08,
+      "grain": 1
+    },
+    "stone": {
+      "label": "Worked charcoal stone / embedded earth",
+      "shadow": [
+        52,
+        51,
+        47
+      ],
+      "light": [
+        157,
+        150,
+        131
+      ],
+      "mix": 0.34,
+      "contrast": 0.09,
+      "grain": 2.4
+    },
+    "crystal": {
+      "label": "Dense crystalline solid / cold facet response",
+      "shadow": [
+        44,
+        62,
+        69
+      ],
+      "light": [
+        171,
+        201,
+        195
+      ],
+      "mix": 0.2,
+      "contrast": 0.08,
+      "grain": 0.5
+    },
+    "fabric": {
+      "label": "Woven refuge fabric / broad handling marks",
+      "shadow": [
+        65,
+        58,
+        45
+      ],
+      "light": [
+        179,
+        160,
+        123
+      ],
+      "mix": 0.29,
+      "contrast": 0.04,
+      "grain": 1.8
+    },
+    "polymer": {
+      "label": "Patched bio-polymer / matte structural skin",
+      "shadow": [
+        46,
+        50,
+        44
+      ],
+      "light": [
+        153,
+        159,
+        137
+      ],
+      "mix": 0.24,
+      "contrast": 0.05,
+      "grain": 1.1
+    }
+  },
+  "regions": {
+    "WN_TOWER": {
+      "name": "Witches Needle / WN_TOWER",
+      "material_sources": [
+        "vr-2393d8d0b49d9ac9",
+        "vr-7abfece0914d92a9",
+        "vr-640de1d9c547bffe",
+        "vr-37661f5eb4102d89",
+        "vr-74f68c67476b65ab",
+        "vr-ab5d59deb112196d",
+        "vr-4455de99044d1467",
+        "vr-127c24121d5d5d46",
+        "vr-55e2a6c4d6b0ece2",
+        "vr-376229fee8924749",
+        "vr-0c4508d6f5570dba",
+        "vr-ef536c4590aae3c2",
+        "vr-5e81868b6e13897d"
+      ]
+    },
+    "ENACT_HILLS": {
+      "name": "ENACT_HILLS",
+      "material_sources": [
+        "vr-4f5d5825bf5162c3",
+        "vr-214c348f4bc49673",
+        "vr-dc886f81d11818e7",
+        "vr-e45969e0ef9bf6ad",
+        "vr-2a8c936c20525532",
+        "vr-50fdf966ddc100e3",
+        "vr-8adf2f8a306b8b31",
+        "vr-c108e25f79545fa1",
+        "vr-fbad3453276c04b2",
+        "vr-4c23b2eaa228d75f",
+        "vr-091722336cc34a98"
+      ]
+    },
+    "CITY_CLOUD_S": {
+      "name": "CITY_CLOUD_S",
+      "material_sources": [
+        "vr-e8289fc811037d21",
+        "vr-9722ce111a63f083",
+        "vr-5b440f7a313accd2",
+        "vr-2cf36b475cb8d879",
+        "vr-597c60da7a0c11fb"
+      ]
+    },
+    "AETHERGALE": {
+      "name": "AETHERGALE",
+      "material_sources": [
+        "vr-979ce3ee319bd3a7",
+        "vr-5e29f14b5fc53dd1"
+      ]
+    }
+  }
+}

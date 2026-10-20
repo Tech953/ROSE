@@ -1,0 +1,20 @@
+PASS: sprite loading — bounded requests, shared URL decoding, complete readiness, isolated banks and queue recovery after failure.
+PASS: audio node contract — explicit enable, mute, short envelopes, bounded panning and node cleanup. Live browser/audio playback remains untested.
+Display checks passed: exact off/sharp, soft pixels, aspect ratio, context restoration, buffer reuse and fallback.
+PASS: spectrum lighting — regional data, offline/portable lamps, additive spectra, blocker-aware actor/ground spill, unchanged alpha/shadows, bounded cache and exact baked fallback.
+PASS: individualized visuals — stable designations, all five bodies, regional assets, legacy fallback, current-frame alpha picking and condition frames.
+PASS: spectrum host flow — four regions, exact picking, saved browser preference and unchanged game state.
+PASS: monolith scale — four regions, body-relative hierarchy, service registration, solid-pixel picking, player fade-through, staged construction, bounded composition and unchanged host state.
+PASS: continuous scenery — opaque viewport, stable passable approaches and growth, no automatic selection, optional tactical grid, onward-travel hint, bounded buffers and unchanged host state.
+PASS: environment interface — measured ecology, six blueprints, clipped construction draw/hit bounds, particle readout, converted survey, guarded approach selection and unchanged host state.
+PASS: local interaction — cursor cycle, no-roll hover, hold suppression, keyboard/touch fallback, explicit item costs, blocked action conservation, Look/default actions, discovery, room identity and one-click movement.
+PASS: sprite pixels — transparent padding, real foreground occlusion, fade rendering and picking through to the covered character.
+Display host flow passed: profiles, preferences, native label settings/order, picking and unchanged world state.
+PASS: target mode — ordinary NPCs rejected, equipment/range/AP prerequisites retained, and combat Look has no AP or turn cost.
+PASS: assurance flows — stable NPC details/drafts/focus, unchanged menus, contextual locks, rejected import rollback, quieter announcements, room identity, malformed responses, serialized polls, stale-response rejection, disconnect during poll/walk, and timeout fallback.
+PASS: restricted-storage and corrupt-session startup; creation, graphics preferences and disconnect continue safely.
+PASS: materials — live HTTP demolition, staff wear, paid repairs, finite clearing, persistent receipts and rock menus; four regional condition states, lower debris silhouettes, exact solid/shadow picking, legacy/vector fallbacks and bounded caches.
+PASS: physics animation — committed paths, terrain registration, contact-time recoil, misses, shared guards, serial deduplication, bounded queues, pause/resume, remote/void boundaries, reduced motion, solver-only hardware endpoints, parked shutdown, native collapse alpha picking, prepared-surface limits and real-host rendering.
+PASS: particle/construction/optics/VREX live-host flow — void return, construction, guarded imports, source controls, outage/repair, paid restart, hidden physics records, tracked IDs, off-screen diagnostics/export, dissipative stop, graph extension, fitted pump operation, conserved downstream work, ordinary-play motion and machine disengagement.
+PASS: real HTTP + interface logic — continuous point travel, arrival/entry, cartography and discovery separation, indexed Blender sprite decoding, four isolated art styles, rules, two companions, physical approaches, maintenance, supply conservation, exchange, blueprint, combat/AP/parley, remote boundary, pause and resume.
+PASS: actual canvas renderer exported a 1000×620 PNG. Full browser layout is not tested.

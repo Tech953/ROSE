@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "renderer": "Original software 3D mesh rasterizer; not a new Blender/Cycles bake.",
+  "source_sha256": "340bccb3e95cf7907e3c483fe05b9ae848426a21c7e8d1ec369016cc37f13b4e",
+  "models": 12,
+  "frames": 24,
+  "assets": [
+    {
+      "asset": "monolith_power_WN_TOWER",
+      "image": "rose-monolith-power-wn-tower-v1.png",
+      "frames": 2,
+      "sha256": "3ee7b960de6d6003a0e318f8f0b261ab2b4ead2de2482ad4b6957906eeb9ee0f"
+    },
+    {
+      "asset": "monolith_water_WN_TOWER",
+      "image": "rose-monolith-water-wn-tower-v1.png",
+      "frames": 2,
+      "sha256": "7b1869386611dcaa0fefa89d39586ed3da1be321151e44b2c14eb2c0ed393240"
+    },
+    {
+      "asset": "monolith_relay_WN_TOWER",
+      "image": "rose-monolith-relay-wn-tower-v1.png",
+      "frames": 2,
+      "sha256": "685ffda94100cd9fc172a37e5e811f641b5db069eec2c7b7263c3712c47aa1f6"
+    },
+    {
+      "asset": "monolith_power_ENACT_HILLS",
+      "image": "rose-monolith-power-enact-hills-v1.png",
+      "frames": 2,
+      "sha256": "e604a209b0103a1a2178c375a4325a62d63e83ad95650be02cfc018ae51cb95d"
+    },
+    {
+      "asset": "monolith_water_ENACT_HILLS",
+      "image": "rose-monolith-water-enact-hills-v1.png",
+      "frames": 2,
+      "sha256": "0627d92632e3f0e7f1889d890986ed1923bc191e714b01721bef064210123854"
+    },
+    {
+      "asset": "monolith_relay_ENACT_HILLS",
+      "image": "rose-monolith-relay-enact-hills-v1.png",
+      "frames": 2,
+      "sha256": "dcdc6a8220db11056e62e911db4accf4ecaed7b9c08234ec8f98cf8f10311a70"
+    },
+    {
+      "asset": "monolith_power_CITY_CLOUD_S",
+      "image": "rose-monolith-power-city-cloud-s-v1.png",
+      "frames": 2,
+      "sha256": "94539b7c6d9b5924645f7f9c5140961f8a83f642582e187dd371cbd9ba5938dd"
+    },
+    {
+      "asset": "monolith_water_CITY_CLOUD_S",
+      "image": "rose-monolith-water-city-cloud-s-v1.png",
+      "frames": 2,
+      "sha256": "d183ec48164b2eabda28a889dcb4d03f1da8d2f785d7e72da5aa494290c07ce7"
+    },
+    {
+      "asset": "monolith_relay_CITY_CLOUD_S",
+      "image": "rose-monolith-relay-city-cloud-s-v1.png",
+      "frames": 2,
+      "sha256": "2e8a2d6b8441c8717ffb07a56884eb4646cf5115ce5017b914658abe47b29c28"
+    },
+    {
+      "asset": "monolith_power_AETHERGALE",
+      "image": "rose-monolith-power-aethergale-v1.png",
+      "frames": 2,
+      "sha256": "af4eba775c63fc4e220de6834866ebbcee9ea0c6536a1592e6abd1cd12481dff"
+    },
+    {
+      "asset": "monolith_water_AETHERGALE",
+      "image": "rose-monolith-water-aethergale-v1.png",
+      "frames": 2,
+      "sha256": "563b44b44e783337191b3b94dab392f34a1828185472df2d6722152249a8abde"
+    },
+    {
+      "asset": "monolith_relay_AETHERGALE",
+      "image": "rose-monolith-relay-aethergale-v1.png",
+      "frames": 2,
+      "sha256": "4ebf89fb0c66fa83cc65244235ad4f50d1bd71afc78bcf4af88b2e3d288c17aa"
+    }
+  ]
+}

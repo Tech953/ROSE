@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "comparison": "Independent six-frame review render against the complete final environment bake; raw RGBA before palette export.",
+  "repeat_renderer": {
+    "source_sha256": "bb9bc85083f931eb0a56f2eb773cea7af5b47f752959ec5547587574e8c35e72",
+    "blend_sha256": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+    "blender": "4.2.0",
+    "samples": 48,
+    "supersample": 1,
+    "mode": "saved-blend",
+    "threads": 3,
+    "texture_supersample": 2
+  },
+  "bake_renderer": {
+    "source_sha256": "bb9bc85083f931eb0a56f2eb773cea7af5b47f752959ec5547587574e8c35e72",
+    "blend_sha256": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+    "blender": "4.2.0",
+    "samples": 48,
+    "supersample": 1,
+    "mode": "saved-blend-with-verified-body-reuse",
+    "threads": 3,
+    "texture_supersample": 2,
+    "model_source_sha256": {
+      "traveler": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "archivist": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "artisan": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "mediator": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "metal_kin": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "construct": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "power_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "water_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "garden_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "shelter_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "workshop_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "exchange_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "relay_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "power_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "water_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "garden_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "shelter_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "workshop_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "exchange_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "relay_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "rock_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "rock_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_path_WN_TOWER": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_path_CITY_CLOUD_S": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "power_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "water_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "garden_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "shelter_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "workshop_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "exchange_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "relay_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "power_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "water_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "garden_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "shelter_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "workshop_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "exchange_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "relay_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "rock_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "rock_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_path_ENACT_HILLS": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090",
+      "ground_path_AETHERGALE": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090"
+    },
+    "body_reuse_proof_sha256": "f35f2ef70faa96637c226b903a479246373c12cb5e4d0f03c5d291ddeed99923",
+    "body_renderer_sha256": "27cfbd6b9b230defd789585455d9530cbace2cf4784b2d19cff9b18f0f77e6ed"
+  },
+  "samples": [
+    {
+      "frame": "ground_WN_TOWER/idle-0-00.png",
+      "raw_size": [
+        384,
+        480
+      ],
+      "identical_rgba": true,
+      "changed_pixels": 0,
+      "changed_channels": 0,
+      "changed_alpha_samples": 0,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "bake_png_sha256": "523f3d0f8228c1d076a574fe35f6b72bd4717fc6ce4247736c5032a3299466c3",
+      "repeat_png_sha256": "aa7cd3ce7bee6cb5bc7c7bb816ada4e6d73ac5c5bdc2744b1681b4d4fcb86da7"
+    },
+    {
+      "frame": "ground_path_CITY_CLOUD_S/idle-0-00.png",
+      "raw_size": [
+        384,
+        480
+      ],
+      "identical_rgba": true,
+      "changed_pixels": 0,
+      "changed_channels": 0,
+      "changed_alpha_samples": 0,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "bake_png_sha256": "7595e7f81566e2415410f362012b9b759a4fbf528b0d0093473344213b3cee7e",
+      "repeat_png_sha256": "107f2315826c4f47d05f3e41d8491a812fbfc2a6e62e1c78bd164158f43e7f57"
+    },
+    {
+      "frame": "rock_WN_TOWER/idle-0-00.png",
+      "raw_size": [
+        288,
+        336
+      ],
+      "identical_rgba": true,
+      "changed_pixels": 0,
+      "changed_channels": 0,
+      "changed_alpha_samples": 0,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "bake_png_sha256": "264b495e5ef9b28a7f88e1beeb134353e405fca17a37573546b0aa21a51ebe50",
+      "repeat_png_sha256": "5221a9a7a63386e36c5f668900b1046972f9b32987a137816c02c2e259ec7690"
+    },
+    {
+      "frame": "workshop_CITY_CLOUD_S/idle-0-00.png",
+      "raw_size": [
+        288,
+        336
+      ],
+      "identical_rgba": true,
+      "changed_pixels": 0,
+      "changed_channels": 0,
+      "changed_alpha_samples": 0,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "bake_png_sha256": "5c71894aaeb64ebeac8dbe3dcda0f19c8ee413d91770edb5fd8faf2701702658",
+      "repeat_png_sha256": "67a6475f0c558e7c200a99464b1bd238fdb566e24bd85b1fd99087e749cbf757"
+    },
+    {
+      "frame": "workshop_ENACT_HILLS/idle-0-00.png",
+      "raw_size": [
+        288,
+        336
+      ],
+      "identical_rgba": true,
+      "changed_pixels": 0,
+      "changed_channels": 0,
+      "changed_alpha_samples": 0,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "bake_png_sha256": "b99944674f6697c019395b96632d5c2b1e0f81f8324d8b85f6ad0e68f06fa3f6",
+      "repeat_png_sha256": "7e79488a24873a16903889f7f8c387a68a2d6c195f18a92910ecff0370f5e3ec"
+    },
+    {
+      "frame": "workshop_WN_TOWER/idle-0-00.png",
+      "raw_size": [
+        288,
+        336
+      ],
+      "identical_rgba": true,
+      "changed_pixels": 0,
+      "changed_channels": 0,
+      "changed_alpha_samples": 0,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0,
+      "bake_png_sha256": "ae085536bf971d5cfa21185e2dd629f89408b5700fff962a5f7f973e8021431b",
+      "repeat_png_sha256": "7b11fa508fee28ce335a51edf4610a4362e4f5f642538f022d09ddb38d8786ae"
+    }
+  ]
+}

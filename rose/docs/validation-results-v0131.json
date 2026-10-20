@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.1",
+  "date": "2026-10-03",
+  "python_tests": {
+    "status": "PASS",
+    "count": 330,
+    "seconds": 27.234,
+    "new_solver_regressions": 9
+  },
+  "focused_physics_migration": {
+    "status": "PASS",
+    "cases": 43,
+    "seconds": 4.694
+  },
+  "device_controls": {
+    "status": "PASS",
+    "cases": 9
+  },
+  "full_http_native_ui": {
+    "status": "PASS",
+    "backend": "modeled DOM + real HTTP + @napi-rs/canvas"
+  },
+  "final_shutdown_http_ui": {
+    "status": "PASS",
+    "command": "node tests/ui-smoke.cjs --particles"
+  },
+  "fidelity": {
+    "status": "PARTIAL PASS",
+    "preview": "Rose-audit-before-after.png",
+    "renderer_record": "renderer-audit-v0131.json",
+    "fixtures": [
+      "WN_TOWER",
+      "CITY_CLOUD_S"
+    ],
+    "unchanged_hex_picks_per_fixture": 127,
+    "unchanged_host_state": true
+  },
+  "not_verified": [
+    "full browser layout",
+    "Windows launch",
+    "audible playback",
+    "LAN session",
+    "human balance",
+    "full hyper-realistic art library"
+  ]
+}

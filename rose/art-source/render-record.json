@@ -1,0 +1,1943 @@
+{
+  "schema": 1,
+  "renderer": {
+    "source_sha256": "84f88927fc433811c22959ac43b6e07c162f29c2f385bd309c597fa8ebdc08b0",
+    "blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+    "blender": "4.2.0",
+    "samples": 48,
+    "supersample": 1,
+    "mode": "saved-blend-with-verified-body-reuse",
+    "threads": 4,
+    "texture_supersample": 2,
+    "model_source_sha256": {
+      "traveler": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "archivist": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "artisan": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "mediator": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "metal_kin": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "construct": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013",
+      "power_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "water_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "garden_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "shelter_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "workshop_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "exchange_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "relay_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "power_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "water_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "garden_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "shelter_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "workshop_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "exchange_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "relay_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "rock_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "rock_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_path_ENACT_HILLS": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_path_AETHERGALE": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "power_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "water_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "garden_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "shelter_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "workshop_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "exchange_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "relay_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "power_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "water_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "garden_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "shelter_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "workshop_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "exchange_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "relay_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "rock_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "rock_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_path_WN_TOWER": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+      "ground_path_CITY_CLOUD_S": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    "body_reuse_proof_sha256": "85965360f38d1df855e75379274f900df553754de71905b2b6f728192aaff7c9",
+    "body_renderer_sha256": "27cfbd6b9b230defd789585455d9530cbace2cf4784b2d19cff9b18f0f77e6ed",
+    "retained_body_checksums_sha256": "d32cf3b8be816c507f6d83d78565811dd063c5d6fbc39313881102560cc13ff5"
+  },
+  "frame_count": 1244,
+  "modeled_families": 46,
+  "blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+  "assets": [
+    {
+      "asset": "traveler",
+      "frames": 192,
+      "image": "rose-3d-traveler-v6.png",
+      "sha256": "f79da26f7de65168e133d71bea9e2622a5a569e806493d0e6d52091feb28a7af",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "traveler_tone1",
+      "derived_from": "traveler",
+      "frames": 192,
+      "image": "rose-3d-traveler-tone1-v6.png",
+      "sha256": "847c61ee39aaf57d95c0f44bac89147d41639204f0daf6fcf7b6fe20ddfe0f59",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "traveler_tone2",
+      "derived_from": "traveler",
+      "frames": 192,
+      "image": "rose-3d-traveler-tone2-v6.png",
+      "sha256": "df7d052851b726516bc63e31c03d48a82791ec9cecb22878d124a0a3a543bb08",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "archivist",
+      "frames": 192,
+      "image": "rose-3d-archivist-v6.png",
+      "sha256": "215fe76df927972797f11600c8314e815101256e0d6754b32077d48ff96802c5",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "archivist_tone1",
+      "derived_from": "archivist",
+      "frames": 192,
+      "image": "rose-3d-archivist-tone1-v6.png",
+      "sha256": "156768567732c620fc77f5e306b2b9e6cb3316a122895d9bb351c9b851fc7f06",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "archivist_tone2",
+      "derived_from": "archivist",
+      "frames": 192,
+      "image": "rose-3d-archivist-tone2-v6.png",
+      "sha256": "2b480f067358e303452fedf7ac8bef9f97467e89608e8b626eb302777ff31c09",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "artisan",
+      "frames": 192,
+      "image": "rose-3d-artisan-v6.png",
+      "sha256": "9f0525c8036f241a75ffbb53b982be0b2b145440b51bba2daaeb5c3c04988997",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "artisan_tone1",
+      "derived_from": "artisan",
+      "frames": 192,
+      "image": "rose-3d-artisan-tone1-v6.png",
+      "sha256": "0b93083cf7db66809669fee1445d5e8aecbd5c48b619f4682e15f52be542f623",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "artisan_tone2",
+      "derived_from": "artisan",
+      "frames": 192,
+      "image": "rose-3d-artisan-tone2-v6.png",
+      "sha256": "20c9c01b712eb30010cca3d140e1e8fe06185c4c0470e1df77c016fadb9ecba3",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "mediator",
+      "frames": 192,
+      "image": "rose-3d-mediator-v6.png",
+      "sha256": "274303363f5dd48631f68a0ed9113a8881ca1dd468036e7fc9fb75f6c93da2bc",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "mediator_tone1",
+      "derived_from": "mediator",
+      "frames": 192,
+      "image": "rose-3d-mediator-tone1-v6.png",
+      "sha256": "a04c9c7a247409ede7483dbf205d0f63963ac108756996209403e0ca61383839",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "mediator_tone2",
+      "derived_from": "mediator",
+      "frames": 192,
+      "image": "rose-3d-mediator-tone2-v6.png",
+      "sha256": "874d3e185971046f8a603f4db0f454219e0efa730a592d5b3f9bc1ff6c68136e",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "metal_kin",
+      "frames": 192,
+      "image": "rose-3d-metal-kin-v6.png",
+      "sha256": "692fb2c82617714678ff87a33f12e7aa3667810ae89b929698e0157262ea5838",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "metal_kin_tone1",
+      "derived_from": "metal_kin",
+      "frames": 192,
+      "image": "rose-3d-metal-kin-tone1-v6.png",
+      "sha256": "7623dd91d15ada87b83004a41c23330085761a22cb149f9614a3443230d7dd9f",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "metal_kin_tone2",
+      "derived_from": "metal_kin",
+      "frames": 192,
+      "image": "rose-3d-metal-kin-tone2-v6.png",
+      "sha256": "65d1c8dd327deeb9718cdbc809ceba45c05a3fbbf8d8406b0039aec6c37aa39a",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "construct",
+      "frames": 192,
+      "image": "rose-3d-construct-v6.png",
+      "sha256": "bab0b98a373cd5fe5d278f226966665bad8c4c3649db34e9b613a8d74bd188eb",
+      "size": [
+        1536,
+        4608
+      ],
+      "anchor": [
+        96.000057,
+        136.621485
+      ],
+      "model_source_sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "asset": "power_WN_TOWER",
+      "frames": 8,
+      "image": "rose-3d-power-wn-tower-v6.png",
+      "sha256": "b5e742a8093749b267a75c652c19abc9f8c4b16df55c237a2eaa55fe05fe1833",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_WN_TOWER_tone1",
+      "derived_from": "power_WN_TOWER",
+      "frames": 8,
+      "image": "rose-3d-power-wn-tower-tone1-v6.png",
+      "sha256": "2606c878f505a4c2e89ed7c364851d5ee06eaa34c0fbf605be1b5c7012499d79",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_WN_TOWER_tone2",
+      "derived_from": "power_WN_TOWER",
+      "frames": 8,
+      "image": "rose-3d-power-wn-tower-tone2-v6.png",
+      "sha256": "e098d08aa814511f1f8c54f92f7da288706c1a7c55e200dab5639c91e524430b",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-water-wn-tower-v6.png",
+      "sha256": "c0f1cdb730f7d5e8972283160020e5e5f602d23f483d12a704b2522b3b9f7069",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_WN_TOWER_tone1",
+      "derived_from": "water_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-water-wn-tower-tone1-v6.png",
+      "sha256": "1bb2128e3a55560f7d669e2dbee5291d3a05fdaa97480c9d6f513ae165f16862",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_WN_TOWER_tone2",
+      "derived_from": "water_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-water-wn-tower-tone2-v6.png",
+      "sha256": "a8a0a268604511fe051ccd4f26b69f79837e7becef72897dd9627f7753854841",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-garden-wn-tower-v6.png",
+      "sha256": "3d18c1b2be61693b2020b5981259ba5f12b56f8db86fe2711a3e98658419f607",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_WN_TOWER_tone1",
+      "derived_from": "garden_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-garden-wn-tower-tone1-v6.png",
+      "sha256": "18f6083c308809547ebade013070e52ec7936c944f8c014f2ce76e9b2650336d",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_WN_TOWER_tone2",
+      "derived_from": "garden_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-garden-wn-tower-tone2-v6.png",
+      "sha256": "eeee382b0eb92cee9ec1dcad22bf49d5b9ebd98ee764d78a75476fa661f6aed2",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-shelter-wn-tower-v6.png",
+      "sha256": "37eeae2062643ab37b9db5d813b8d373d8bf1dc6012d97afb7f38144c2e6a1f4",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_WN_TOWER_tone1",
+      "derived_from": "shelter_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-shelter-wn-tower-tone1-v6.png",
+      "sha256": "66dd67e09e790e0215bc414d34606b1b34180aeda76db82878a59c3fa5fb5406",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_WN_TOWER_tone2",
+      "derived_from": "shelter_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-shelter-wn-tower-tone2-v6.png",
+      "sha256": "14008c1a8f9c33e9fe446aefc9ba94f7dc23c92776d3c5ad8c3d1c7184522f67",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-workshop-wn-tower-v6.png",
+      "sha256": "a45ee16a87cec356454443b7a47a4c0d21002e3a71db6ac9887bc7a7efc656a0",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_WN_TOWER_tone1",
+      "derived_from": "workshop_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-workshop-wn-tower-tone1-v6.png",
+      "sha256": "9277ac40f544bcbfc839630d62befe4453b80e7e89c14f8609a0f12eadd28ede",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_WN_TOWER_tone2",
+      "derived_from": "workshop_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-workshop-wn-tower-tone2-v6.png",
+      "sha256": "2fab53bf0b3fb9732045c85638e0cea29bd118d911cac12f01689811e8f8e1ec",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-exchange-wn-tower-v6.png",
+      "sha256": "e455095eaf703a43ca3c1205ac99566038ef0c5ef5352c7aef8a3239d147d02b",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_WN_TOWER_tone1",
+      "derived_from": "exchange_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-exchange-wn-tower-tone1-v6.png",
+      "sha256": "adffc91e70215e892dcec376faff37a18a0f908c151e009919655fe23c57a718",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_WN_TOWER_tone2",
+      "derived_from": "exchange_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-exchange-wn-tower-tone2-v6.png",
+      "sha256": "da2171f7ce8e1c37d4d1f1768f2400dbeea6b47407ac197aecf58aa39336530b",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-relay-wn-tower-v6.png",
+      "sha256": "bff3c66b07b469d8fb1574940586dd524d8e26c1be60614fa5ba9ed33b60daab",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_WN_TOWER_tone1",
+      "derived_from": "relay_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-relay-wn-tower-tone1-v6.png",
+      "sha256": "507bcaf391527d6718d6290bb203f154ad5b4fb6137c2eef0345d884bb2d4c5d",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_WN_TOWER_tone2",
+      "derived_from": "relay_WN_TOWER",
+      "frames": 2,
+      "image": "rose-3d-relay-wn-tower-tone2-v6.png",
+      "sha256": "b388ec2246d6efaf7dbf463700687e2173125d8446a6ab9e42484e60e7acc034",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_CITY_CLOUD_S",
+      "frames": 8,
+      "image": "rose-3d-power-city-cloud-s-v6.png",
+      "sha256": "912efc5e6736f577e9bbc1ce39561b09c9afcd19ea41db2fe6af8c7fa556f92f",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_CITY_CLOUD_S_tone1",
+      "derived_from": "power_CITY_CLOUD_S",
+      "frames": 8,
+      "image": "rose-3d-power-city-cloud-s-tone1-v6.png",
+      "sha256": "482eda38b8e92abc34a913249f7e20276b33d047033950237cc7d5b08662ff39",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_CITY_CLOUD_S_tone2",
+      "derived_from": "power_CITY_CLOUD_S",
+      "frames": 8,
+      "image": "rose-3d-power-city-cloud-s-tone2-v6.png",
+      "sha256": "0c9b3849d70f8b1f07ac264f58fc7e63d9e16f441f5d828aeae6273eef647021",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-water-city-cloud-s-v6.png",
+      "sha256": "ed0e8e350f2c7e0403b1bf0d06683c6023628c6868666dfcffd9f22cc76eacf2",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_CITY_CLOUD_S_tone1",
+      "derived_from": "water_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-water-city-cloud-s-tone1-v6.png",
+      "sha256": "ebc294b674b0a13c9c8b366d83a76cf939c2655aec303126121c089888737b00",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_CITY_CLOUD_S_tone2",
+      "derived_from": "water_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-water-city-cloud-s-tone2-v6.png",
+      "sha256": "df7140157b2d2320eb7743ad622becb78e56c71ca873edccc7d7a1250d63fcc9",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-garden-city-cloud-s-v6.png",
+      "sha256": "a9906e6a6d899a2f61866a2c2bdce4724f46dd794f204707b67df66d7959b990",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_CITY_CLOUD_S_tone1",
+      "derived_from": "garden_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-garden-city-cloud-s-tone1-v6.png",
+      "sha256": "4cb01949c5b390aa0ec42ab5c225dfd2e6723c22ff7cc793dc664a344ae6473e",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_CITY_CLOUD_S_tone2",
+      "derived_from": "garden_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-garden-city-cloud-s-tone2-v6.png",
+      "sha256": "b74ee948180fa24d270e00d23c6b01090455196edc2ac2c7451002f7e1a91efe",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-shelter-city-cloud-s-v6.png",
+      "sha256": "93b91c43ef18e2ed6fda289cf667557455869e512e00e2dc5c426614fe31cd8f",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_CITY_CLOUD_S_tone1",
+      "derived_from": "shelter_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-shelter-city-cloud-s-tone1-v6.png",
+      "sha256": "be38323e6b8ab8eb97c28eab7d3a0cb1ee6ab83e49dc1780c598df14603ac09b",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_CITY_CLOUD_S_tone2",
+      "derived_from": "shelter_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-shelter-city-cloud-s-tone2-v6.png",
+      "sha256": "a2c46944cfa815f45ef06a39764b036a0e6549ecfada518a4b233a578327743f",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-workshop-city-cloud-s-v6.png",
+      "sha256": "1f39d62837c38ca6b3583f7fed681579167da66cdf84a9dd0d5502f3b2311399",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_CITY_CLOUD_S_tone1",
+      "derived_from": "workshop_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-workshop-city-cloud-s-tone1-v6.png",
+      "sha256": "0a9588dc7543f6b6290cf75addb635ab79cd05ee46b083c11d56cb58ed9c4ece",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_CITY_CLOUD_S_tone2",
+      "derived_from": "workshop_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-workshop-city-cloud-s-tone2-v6.png",
+      "sha256": "d64c4fdc0b263563d945d09894ec67027e1308599ba92341c737fc4714e015d9",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-exchange-city-cloud-s-v6.png",
+      "sha256": "ee20ee06e1aa4cf5ea81432b3fb2cf3f959c482b2acc4eeb44403dd0128c38b3",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_CITY_CLOUD_S_tone1",
+      "derived_from": "exchange_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-exchange-city-cloud-s-tone1-v6.png",
+      "sha256": "aaea43477ab088919df47a658f93f58605f5b5c00c9c8f2cca2311b07920c413",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_CITY_CLOUD_S_tone2",
+      "derived_from": "exchange_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-exchange-city-cloud-s-tone2-v6.png",
+      "sha256": "4f669e1af122702deb4dbf1231fc9ca40f2f4915128f12b423cf1cea4b7f6302",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-relay-city-cloud-s-v6.png",
+      "sha256": "c50d641964249478b7cf990d659483e25baf1d3e222a0be394ddf8a523244f1a",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_CITY_CLOUD_S_tone1",
+      "derived_from": "relay_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-relay-city-cloud-s-tone1-v6.png",
+      "sha256": "a611eb81e8d5d7c52ce288375a24ca1b0b8917a92c0e25905c0711b39cf664a3",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_CITY_CLOUD_S_tone2",
+      "derived_from": "relay_CITY_CLOUD_S",
+      "frames": 2,
+      "image": "rose-3d-relay-city-cloud-s-tone2-v6.png",
+      "sha256": "8d0caf32560dbfe6a6016b1cbf2956996628ceffd982c1db8d5333295ae69648",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_ENACT_HILLS",
+      "frames": 8,
+      "image": "rose-3d-power-enact-hills-v6.png",
+      "sha256": "011603042e41c46bfa3bda28a42f6767e8bc05a24d1b03fda75500de08665eb1",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_ENACT_HILLS_tone1",
+      "derived_from": "power_ENACT_HILLS",
+      "frames": 8,
+      "image": "rose-3d-power-enact-hills-tone1-v6.png",
+      "sha256": "5585c63dcab4eb15308d9f78e7f676a2000c396d4aa833dba69637af99e4030a",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_ENACT_HILLS_tone2",
+      "derived_from": "power_ENACT_HILLS",
+      "frames": 8,
+      "image": "rose-3d-power-enact-hills-tone2-v6.png",
+      "sha256": "9351d590dac4501842a27537645841abb469621d56fedcf67e707590949a8e6b",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-water-enact-hills-v6.png",
+      "sha256": "535c9f6b6a3d1f9bc5e1bd73b1a3cf400d5eb20f3f43e2dc60c0960f8163ff40",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_ENACT_HILLS_tone1",
+      "derived_from": "water_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-water-enact-hills-tone1-v6.png",
+      "sha256": "61601069abd1a08ec6de0f6f8de51dc3e0ae651c62874831a061b1afa5499998",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_ENACT_HILLS_tone2",
+      "derived_from": "water_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-water-enact-hills-tone2-v6.png",
+      "sha256": "8a7b9ae77400b0de670838536662ffd9437b76af060e05d4ff70dda693e3abb5",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-garden-enact-hills-v6.png",
+      "sha256": "faa6ec3771ae695e51f34c00ca0ba91f0244620f4499a9072566df1ff694a82f",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_ENACT_HILLS_tone1",
+      "derived_from": "garden_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-garden-enact-hills-tone1-v6.png",
+      "sha256": "7341223c38723dedcb34874617edc6c17dd7503436496e04b62501be2244afdb",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_ENACT_HILLS_tone2",
+      "derived_from": "garden_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-garden-enact-hills-tone2-v6.png",
+      "sha256": "f9d4c8e767f7dfd2c252236c0a8213716f94ca74eacc896e6c7f6c69d7ba322f",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-shelter-enact-hills-v6.png",
+      "sha256": "180191083f76d6b60273c58486c91ba6ca70cad7c18a0f540ede31d6346ff071",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_ENACT_HILLS_tone1",
+      "derived_from": "shelter_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-shelter-enact-hills-tone1-v6.png",
+      "sha256": "7465198da09118ba33bc70a378d80edb345192dac32773be40a025dcdd519e94",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_ENACT_HILLS_tone2",
+      "derived_from": "shelter_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-shelter-enact-hills-tone2-v6.png",
+      "sha256": "2f6de9f3a1d9a50d8c56e4237567fe78c3a76a7bb01e7fc5bc3832bfb4a9d3bd",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-workshop-enact-hills-v6.png",
+      "sha256": "23bcc7194372afcb7d6182edc06a37479ccc8f8d2d6f2e1264b14e5fc50b71a6",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_ENACT_HILLS_tone1",
+      "derived_from": "workshop_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-workshop-enact-hills-tone1-v6.png",
+      "sha256": "865b24cf5f00bded00f2e4df66fb6cfcf38291a6e0e20a9309c8ae3eadebabe2",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_ENACT_HILLS_tone2",
+      "derived_from": "workshop_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-workshop-enact-hills-tone2-v6.png",
+      "sha256": "cf705f8774a74b56d8e877550abe0c9c86306d59c0e0a63f4ee58647d5dcaf7d",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-exchange-enact-hills-v6.png",
+      "sha256": "0f4602c53fb495e69bd8cb3754ee5fc891008eb92c499c0e7dd2296e6058fc0d",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_ENACT_HILLS_tone1",
+      "derived_from": "exchange_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-exchange-enact-hills-tone1-v6.png",
+      "sha256": "f12070bae9ffdb10c80f4cf1b46f91a0fc6af5efad25f1a95e9d45c046760cce",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_ENACT_HILLS_tone2",
+      "derived_from": "exchange_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-exchange-enact-hills-tone2-v6.png",
+      "sha256": "084b91015464d33a0f40065cffb37e6b30caa75c89f1345fbeff5169ffe71df1",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-relay-enact-hills-v6.png",
+      "sha256": "668c63d66735a9cdd76543414861e3387c90804cd43f5a99ee970f2dc38c3355",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_ENACT_HILLS_tone1",
+      "derived_from": "relay_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-relay-enact-hills-tone1-v6.png",
+      "sha256": "5dec731845e713154547a549649559d91e09215cb4b54330f94ad4fd4048eb79",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_ENACT_HILLS_tone2",
+      "derived_from": "relay_ENACT_HILLS",
+      "frames": 2,
+      "image": "rose-3d-relay-enact-hills-tone2-v6.png",
+      "sha256": "3dc33639cd55a93008bf662dae1a6b15f5cb05e6d7a96022c065fa9aa1cfa715",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_AETHERGALE",
+      "frames": 8,
+      "image": "rose-3d-power-aethergale-v6.png",
+      "sha256": "8afd2c9dd8a09bae315b55593f3f3eedd1f9fcce406b49f8cf83ad4f63e5c6af",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_AETHERGALE_tone1",
+      "derived_from": "power_AETHERGALE",
+      "frames": 8,
+      "image": "rose-3d-power-aethergale-tone1-v6.png",
+      "sha256": "a2eeb5202c0885d5928ba65573bef367303a11a4b5fc93019042c7e4db5f54bb",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "power_AETHERGALE_tone2",
+      "derived_from": "power_AETHERGALE",
+      "frames": 8,
+      "image": "rose-3d-power-aethergale-tone2-v6.png",
+      "sha256": "3d4648e716d18bfacac5c04f2f3d94628ba9e30844286218cb400c0b0ee7e7dd",
+      "size": [
+        2304,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-water-aethergale-v6.png",
+      "sha256": "882a9fdfc947322b38c1a838d59b345a4900a928b3671f09b1682ee645f205a0",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_AETHERGALE_tone1",
+      "derived_from": "water_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-water-aethergale-tone1-v6.png",
+      "sha256": "7c1728b75019fbcc801d0216ea09cc74391d8a8f99905761ce26b016054d7be9",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "water_AETHERGALE_tone2",
+      "derived_from": "water_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-water-aethergale-tone2-v6.png",
+      "sha256": "5d83237ca31581fc77e01751c21ebc82d59d346f7e962a9b8d27181e61421438",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-garden-aethergale-v6.png",
+      "sha256": "c44405a587c20d4477a7c654ef5644f1c089021f9cd277d35446c46870f5302d",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_AETHERGALE_tone1",
+      "derived_from": "garden_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-garden-aethergale-tone1-v6.png",
+      "sha256": "99879470b4690c3e293509a9d34b4523b9f04106121d366323a5aa6dcf18e21c",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "garden_AETHERGALE_tone2",
+      "derived_from": "garden_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-garden-aethergale-tone2-v6.png",
+      "sha256": "385e70583dc72e14be94ac7ed0834018c6f4f36ecd475a86d4de9a75dfa785c1",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-shelter-aethergale-v6.png",
+      "sha256": "a31a472b361d05b722f030a61849a43932ae8658159f31f0354879899e432d2e",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_AETHERGALE_tone1",
+      "derived_from": "shelter_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-shelter-aethergale-tone1-v6.png",
+      "sha256": "680b8e42adc0878ec98dbddc9d32dbf0b92fbe0d66fc0452c8a38c2ad4dfa8a7",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "shelter_AETHERGALE_tone2",
+      "derived_from": "shelter_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-shelter-aethergale-tone2-v6.png",
+      "sha256": "e68ff845f92e7c13c08bd1c3cfb17a4add6cd16df51e2549e1819ed4ebd3c1b4",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-workshop-aethergale-v6.png",
+      "sha256": "771c6a5265bc067edb5488cc681c5377889f711fa8052845eaca435b739a1ab1",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_AETHERGALE_tone1",
+      "derived_from": "workshop_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-workshop-aethergale-tone1-v6.png",
+      "sha256": "8424376695adeef1a8bacebde357c44012405e49ffbdd112c216d4b335302aa0",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "workshop_AETHERGALE_tone2",
+      "derived_from": "workshop_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-workshop-aethergale-tone2-v6.png",
+      "sha256": "0943b6f9465d36ab4f794d087fab803ed44c0247cb7775e716640b0c2a3387f0",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-exchange-aethergale-v6.png",
+      "sha256": "e13f53325eeb71231a32027ce43d4d69fd0ae04b466f7831ad9673dc33c3b9dd",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_AETHERGALE_tone1",
+      "derived_from": "exchange_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-exchange-aethergale-tone1-v6.png",
+      "sha256": "b7de3556338d7059963dc0f48597b2ef224dc415d86acd33f4ff1d962fa6401a",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "exchange_AETHERGALE_tone2",
+      "derived_from": "exchange_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-exchange-aethergale-tone2-v6.png",
+      "sha256": "3683e8d4cf33445a652e5c27f079192c3c7b29f2236a58dab94265edca9be34a",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-relay-aethergale-v6.png",
+      "sha256": "7fcc7e6ae33e8b145ea28abdf895b6b645cb324fa69f72f258f5ef36e7df9061",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_AETHERGALE_tone1",
+      "derived_from": "relay_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-relay-aethergale-tone1-v6.png",
+      "sha256": "c219fb7d77af7092a73adb6b62004da478c791574038f6f0ae87c8a8ce47501b",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "relay_AETHERGALE_tone2",
+      "derived_from": "relay_AETHERGALE",
+      "frames": 2,
+      "image": "rose-3d-relay-aethergale-tone2-v6.png",
+      "sha256": "2dab58f7a40b0f188c7abe1b31b358044cd3e5db84d72b55d7b047d2efa5cb96",
+      "size": [
+        576,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_WN_TOWER",
+      "frames": 1,
+      "image": "rose-3d-rock-wn-tower-v6.png",
+      "sha256": "451af0fe0775ff30979307f97e81fcfc709d02fccc0a762d8dadf84c5c3cc6dd",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_WN_TOWER_tone1",
+      "derived_from": "rock_WN_TOWER",
+      "frames": 1,
+      "image": "rose-3d-rock-wn-tower-tone1-v6.png",
+      "sha256": "5b89d6bc3d4a52839df790dbb8d77a95f6ffc152faa491f69885eef5ef0909fc",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_WN_TOWER_tone2",
+      "derived_from": "rock_WN_TOWER",
+      "frames": 1,
+      "image": "rose-3d-rock-wn-tower-tone2-v6.png",
+      "sha256": "60c234c3a73f7f73babbc11ef14c5cd88ea2a0b5311e59e22b018be8120f6a6e",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_CITY_CLOUD_S",
+      "frames": 1,
+      "image": "rose-3d-rock-city-cloud-s-v6.png",
+      "sha256": "6062c4ca47872330321c0bc0836b95599a946796878e3405677260321c1ef6d2",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_CITY_CLOUD_S_tone1",
+      "derived_from": "rock_CITY_CLOUD_S",
+      "frames": 1,
+      "image": "rose-3d-rock-city-cloud-s-tone1-v6.png",
+      "sha256": "9734dbfb233df4a3782095e1c41397e6509b116b4a8d3a50fce62c126f5a73f3",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_CITY_CLOUD_S_tone2",
+      "derived_from": "rock_CITY_CLOUD_S",
+      "frames": 1,
+      "image": "rose-3d-rock-city-cloud-s-tone2-v6.png",
+      "sha256": "5989aadef57c804a79fbf2bed00d59144eaee39075339e63d5deda43de926502",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_ENACT_HILLS",
+      "frames": 1,
+      "image": "rose-3d-rock-enact-hills-v6.png",
+      "sha256": "2b5d3990f13e343056f4fe2840545042a8c070542570faf3da8cd34eb5694fef",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_ENACT_HILLS_tone1",
+      "derived_from": "rock_ENACT_HILLS",
+      "frames": 1,
+      "image": "rose-3d-rock-enact-hills-tone1-v6.png",
+      "sha256": "ee2e6bfdd2fc5f6b95a76c6b6a143276769f49ee57b0c54e3c231b6efaed566f",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_ENACT_HILLS_tone2",
+      "derived_from": "rock_ENACT_HILLS",
+      "frames": 1,
+      "image": "rose-3d-rock-enact-hills-tone2-v6.png",
+      "sha256": "8c69269aab03b689bacb0f7f0bcefbc014ed312d2e31a83705a8dcba50895eb1",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_AETHERGALE",
+      "frames": 1,
+      "image": "rose-3d-rock-aethergale-v6.png",
+      "sha256": "17b2546874ef439f22fbb386ef5c2ecfc9ba86ee48a229eb6df0afcc1322d622",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_AETHERGALE_tone1",
+      "derived_from": "rock_AETHERGALE",
+      "frames": 1,
+      "image": "rose-3d-rock-aethergale-tone1-v6.png",
+      "sha256": "46b7d9e4399da6aa6af5a5583fe4d110fe6436d20295f337a4ca8ed45c5103f9",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "rock_AETHERGALE_tone2",
+      "derived_from": "rock_AETHERGALE",
+      "frames": 1,
+      "image": "rose-3d-rock-aethergale-tone2-v6.png",
+      "sha256": "acff1270dc73918d887697f7095634117662c62095fdc4e172d97ecf8f1f98d0",
+      "size": [
+        288,
+        336
+      ],
+      "anchor": [
+        144.000051,
+        202.849943
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_WN_TOWER",
+      "frames": 1,
+      "image": "rose-3d-ground-wn-tower-v6.png",
+      "sha256": "97376d064553bf6e0ebb7601eeb87914d2a2862f56a907dc11dfa8e7614daac9",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_CITY_CLOUD_S",
+      "frames": 1,
+      "image": "rose-3d-ground-city-cloud-s-v6.png",
+      "sha256": "8fdb3dbba190bf57ca8f117f3959cfff23ecd953b5860f2a16b97ad95eb7e89b",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_ENACT_HILLS",
+      "frames": 1,
+      "image": "rose-3d-ground-enact-hills-v6.png",
+      "sha256": "7999a49ff639d13de905393b3886aca27b95d378e302baed8d59eb488a4d1743",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_AETHERGALE",
+      "frames": 1,
+      "image": "rose-3d-ground-aethergale-v6.png",
+      "sha256": "a5e1bc32692e95f3e2e6ca3355793c96f56d93756565ba9a52763aba1e538a88",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_path_WN_TOWER",
+      "frames": 1,
+      "image": "rose-3d-ground-path-wn-tower-v6.png",
+      "sha256": "017873de6cb7c5e9049134b0a19de11ced6c1fec5311b567725eba1bd3eb4f95",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_path_CITY_CLOUD_S",
+      "frames": 1,
+      "image": "rose-3d-ground-path-city-cloud-s-v6.png",
+      "sha256": "7c82ed7b64118359df32a326e90f1c0cfdf891620ad4d871a53ce7cd1a70a136",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_path_ENACT_HILLS",
+      "frames": 1,
+      "image": "rose-3d-ground-path-enact-hills-v6.png",
+      "sha256": "3a4934f544f778756f45705c9e3925a97976cf518ed1ac5fdf2d96010165dbb2",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "asset": "ground_path_AETHERGALE",
+      "frames": 1,
+      "image": "rose-3d-ground-path-aethergale-v6.png",
+      "sha256": "3f87875ebe1268a3cf1cf7d03d33705f311c31fbb6315430383248171969bbb8",
+      "size": [
+        192,
+        240
+      ],
+      "anchor": [
+        96.000046,
+        154.849942
+      ],
+      "model_source_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    }
+  ]
+}

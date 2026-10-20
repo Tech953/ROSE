@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "engine_version": "0.17.0",
+  "source_requirements": [
+    {
+      "document": "AETHERGALE - THORNS.docx",
+      "paragraphs": [
+        2,
+        6
+      ],
+      "role": "desert wind, bio-plast and tent constructions"
+    },
+    {
+      "document": "AETHERGALE - THORNS.docx",
+      "paragraphs": [
+        23,
+        26
+      ],
+      "role": "pilgrim tent provision"
+    },
+    {
+      "document": "AETHERGALE - THORNS.docx",
+      "paragraphs": [
+        31,
+        38
+      ],
+      "role": "crystalline storage tents and border domicile"
+    }
+  ],
+  "status": "source-inspired game adaptation",
+  "coefficients": "weathering.py: WIND, advance, protection; not calibrated physical parameters",
+  "rendering": "static/weather.js: registered interior patch, exact retained alpha and bounded caches",
+  "implemented": [
+    "persistent wet/dust surface state",
+    "observed-cycle lashing strain",
+    "paid range/ownership/skill/standing-aware cleaning and bracing",
+    "protection through existing wear",
+    "prepared-surface material and cloth response"
+  ],
+  "unimplemented": [
+    "mesh cloth solver",
+    "new city placement",
+    "ArK assimilation",
+    "AquiSphere reformation",
+    "mollusk lifecycle expansion",
+    "Mesas moving topology"
+  ],
+  "measurement_visibility": "No new numerical measurement HUD; existing physics diagnostics remain off screen."
+}

@@ -1,0 +1,34 @@
+{
+  "sourceRelease": "Rose 0.18.0",
+  "scope": "Unchanged supplied reference files. Browser lab proxies are a separate implementation; source engine audit results do not validate the lab.",
+  "files": [
+    {
+      "file": "art-direction-comparison.png",
+      "sha256": "f2f54c507048a872e41d0abe04a30a6d873cf85ebbdea1676fe56cdd3566a070"
+    },
+    {
+      "file": "art-direction.md",
+      "sha256": "955efb2abb6dde6ceb2bb670df623eccabf565146fb9b1076dba66426bcdf07f"
+    },
+    {
+      "file": "continuous-terrain-and-portrait-guide.md",
+      "sha256": "2ce3a75c98d0800dc65f0935ef78d2d8f21d078da99017abdec682ba2f510aee"
+    },
+    {
+      "file": "material-aging-and-destruction-guide.md",
+      "sha256": "9a7f3f78d8f769a1f44961f60f9bdc9160badc618fb2a173ef49242d32f01280"
+    },
+    {
+      "file": "monolith-scale-guide.md",
+      "sha256": "8e2f41207784da97478bb792f38417f9489cc76c4753b157fa800a1aa5990f50"
+    },
+    {
+      "file": "physics-emulation-guide.md",
+      "sha256": "913397e406be67b4c9344574fa94a570e04b3c0129a58f813c634a7fa13cc394"
+    },
+    {
+      "file": "source-audit.md",
+      "sha256": "9ac1575f427ecbc83d5f7cbfa069a6f42de55aec6b46b8a8a915767153d0cce4"
+    }
+  ]
+}

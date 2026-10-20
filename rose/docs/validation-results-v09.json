@@ -1,0 +1,64 @@
+{
+  "version": "0.9.0",
+  "date": "2026-10-03",
+  "python_syntax_files": 104,
+  "javascript_syntax_files": 23,
+  "project_images": 538,
+  "decoded_project_frames": 552,
+  "raw_render_frames": 1244,
+  "html_unique_ids": 206,
+  "script_routes": [
+    "/ui.js",
+    "/creator.js",
+    "/lighting.js",
+    "/prefabs.js",
+    "/audio.js",
+    "/display.js",
+    "/environment.js",
+    "/scene.js",
+    "/survey.js",
+    "/overworld.js",
+    "/particulate.js",
+    "/app.js"
+  ],
+  "lore_records": 32,
+  "continental_features": 19,
+  "checks": "All source syntax, image integrity/decode and unique static IDs passed.",
+  "json_data_files": 64,
+  "blueprint_regeneration": "Exact initial seed/rules/layout match: 28 sites, 114 public structures",
+  "python_tests": {
+    "count": 211,
+    "status": "passed",
+    "duration_seconds": 11.998
+  },
+  "repeat_render": "Two environment frames, identical decoded RGBA, max delta 0; PNG metadata differs",
+  "graphics": {
+    "models": 46,
+    "raw_frames": 1244,
+    "retained_body_frames": 1152,
+    "new_environment_frames": 92,
+    "indexed_pngs": 120,
+    "game_entries": 132,
+    "practical_fixtures": 34
+  },
+  "limits": [
+    "Full browser layout, Windows launch, live audio/touch/LAN, live model inference and original Aurora execution unverified",
+    "Finite game approximation, no literal infinite rendering or empirical physics claim"
+  ],
+  "live_http_interface": "Complete combined flow passed, including five-step construction, void expedition, larger import, ordinary request cap, individual isolation/export and rollback",
+  "native_canvas": "Actual renderer, 120 current PNG atlases / 132 entries decoded; comparisons and survey visually reviewed",
+  "raw_archive": {
+    "filename": "Rose-3D-Render-Frames.zip",
+    "members": 1250,
+    "raw_frames": 1244,
+    "crc": "passed",
+    "bytes": 67957438,
+    "sha256": "beff46f24553deb26f20357268abda61b02b797faf86c90818a8c27facbc4354"
+  },
+  "package_review": "Engine and raw-frame CRC checks passed. No databases, caches, logs, original Aurora executables or Fallout sheet pixels are included.",
+  "engine_archive": {
+    "members": 783,
+    "crc": "passed",
+    "exclusions": "passed"
+  }
+}

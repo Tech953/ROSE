@@ -1,0 +1,595 @@
+{
+  "schema": 1,
+  "title": "Continental percept / ENACT to RED",
+  "source": "User-supplied 01-10154.jpg and subsequent scale clarifications",
+  "source_image": {
+    "url": "/continental-reference.jpg",
+    "width": 1152,
+    "height": 1536,
+    "paper_corners": [
+      [
+        103,
+        98
+      ],
+      [
+        1045,
+        103
+      ],
+      [
+        1118,
+        1431
+      ],
+      [
+        63,
+        1448
+      ]
+    ]
+  },
+  "coordinates": "Normalized source-image coordinates; image-up follows the supplied photograph. No geographic projection, GPS or metric scale.",
+  "scale": {
+    "comparison": "Africa is the closest approximate size comparison supplied by the author.",
+    "planetary_context": "The environment is perceived against the square coverage of the planet; this is not an exact area measurement.",
+    "percept": "infi-particulate meta-expansion percept",
+    "boundary": "void_space inhibit",
+    "monuments": "Monument sizes defy comprehension; icon size is symbolic, not physical.",
+    "metric_transform": null,
+    "boundary_note": "The later commentary makes void_null tangible and traversable. Unmapped source space is unresolved cartography, not an imposed physical wall."
+  },
+  "travel": "Only named approach links select an existing destination. Other inferred features do not create routes or unlock destinations.",
+  "features": [
+    {
+      "id": "northern-canopy",
+      "name": "Northern canopy",
+      "kind": "forest",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.44271,
+          0.06055
+        ],
+        [
+          0.63108,
+          0.05924
+        ],
+        [
+          0.65278,
+          0.10872
+        ],
+        [
+          0.68229,
+          0.16602
+        ],
+        [
+          0.60069,
+          0.18359
+        ],
+        [
+          0.48611,
+          0.15365
+        ],
+        [
+          0.4349,
+          0.11263
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Dense hatched woodland is traced from the upper central drawing. Its name and biome assignment remain interpretive."
+    },
+    {
+      "id": "central-canopy",
+      "name": "Central canopy",
+      "kind": "forest",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.48611,
+          0.29883
+        ],
+        [
+          0.61632,
+          0.27604
+        ],
+        [
+          0.68142,
+          0.29362
+        ],
+        [
+          0.68924,
+          0.35221
+        ],
+        [
+          0.63802,
+          0.39323
+        ],
+        [
+          0.53993,
+          0.39323
+        ],
+        [
+          0.4783,
+          0.35352
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "The central wooded pocket surrounds drawn spiral forms; local paths and exact species remain unassigned."
+    },
+    {
+      "id": "southern-canopy",
+      "name": "Southern canopy",
+      "kind": "forest",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.40365,
+          0.87826
+        ],
+        [
+          0.51823,
+          0.85482
+        ],
+        [
+          0.60503,
+          0.87891
+        ],
+        [
+          0.61979,
+          0.94401
+        ],
+        [
+          0.50087,
+          0.95703
+        ],
+        [
+          0.40451,
+          0.94922
+        ],
+        [
+          0.35677,
+          0.91406
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "A broad lower woodland closes around the large spiral marks."
+    },
+    {
+      "id": "eastern-wooded-margin",
+      "name": "Eastern wooded margin",
+      "kind": "forest",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.84375,
+          0.58854
+        ],
+        [
+          0.91493,
+          0.59505
+        ],
+        [
+          0.9349,
+          0.66797
+        ],
+        [
+          0.89931,
+          0.72526
+        ],
+        [
+          0.84722,
+          0.71484
+        ],
+        [
+          0.83073,
+          0.65299
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Hatched woodland and patterned ground follow the eastern margin."
+    },
+    {
+      "id": "northwest-built-forms",
+      "name": "Northwest built forms",
+      "kind": "settlement",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.23872,
+          0.07552
+        ],
+        [
+          0.36806,
+          0.07292
+        ],
+        [
+          0.3967,
+          0.12826
+        ],
+        [
+          0.39062,
+          0.17773
+        ],
+        [
+          0.29253,
+          0.18164
+        ],
+        [
+          0.2309,
+          0.13802
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Rectangular towers and ordered marks in the upper left are interpreted as built infrastructure; no settlement name is invented."
+    },
+    {
+      "id": "eastern-built-forms",
+      "name": "Eastern built forms",
+      "kind": "settlement",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.86372,
+          0.36589
+        ],
+        [
+          0.92448,
+          0.36784
+        ],
+        [
+          0.9375,
+          0.58398
+        ],
+        [
+          0.87326,
+          0.57943
+        ],
+        [
+          0.84896,
+          0.49414
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "A long band of rectangular forms lies beside circular marks. Footprints are diagrammatic, not measured buildings."
+    },
+    {
+      "id": "central-ruins",
+      "name": "Central ruins",
+      "kind": "settlement",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.44358,
+          0.55794
+        ],
+        [
+          0.5599,
+          0.5638
+        ],
+        [
+          0.61545,
+          0.62109
+        ],
+        [
+          0.55816,
+          0.67513
+        ],
+        [
+          0.43142,
+          0.66081
+        ],
+        [
+          0.39323,
+          0.61589
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Mixed rectangular and upright marks in the lower center suggest a built or ruin field; its chronology is unresolved."
+    },
+    {
+      "id": "lower-left-peaks",
+      "name": "Lower left peaks",
+      "kind": "ridge",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.07465,
+          0.74284
+        ],
+        [
+          0.1849,
+          0.70768
+        ],
+        [
+          0.27257,
+          0.76888
+        ],
+        [
+          0.3316,
+          0.8151
+        ],
+        [
+          0.2691,
+          0.87956
+        ],
+        [
+          0.17708,
+          0.91081
+        ],
+        [
+          0.07378,
+          0.87826
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Tall angular silhouettes occupy the lower left. The drawing communicates scale without defining altitude."
+    },
+    {
+      "id": "lower-right-plateau",
+      "name": "Lower right plateau",
+      "kind": "ridge",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.63542,
+          0.6569
+        ],
+        [
+          0.76736,
+          0.64193
+        ],
+        [
+          0.86979,
+          0.72786
+        ],
+        [
+          0.89149,
+          0.83659
+        ],
+        [
+          0.82899,
+          0.89128
+        ],
+        [
+          0.69444,
+          0.86849
+        ],
+        [
+          0.60243,
+          0.78581
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Angular silhouettes and patterned ground approach the named scarlet plateau. This outline is inferred; the regional name is user-confirmed."
+    },
+    {
+      "id": "western-water-margin",
+      "name": "Western water margin",
+      "kind": "water",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.08247,
+          0.34961
+        ],
+        [
+          0.15972,
+          0.37305
+        ],
+        [
+          0.20139,
+          0.53516
+        ],
+        [
+          0.20226,
+          0.69466
+        ],
+        [
+          0.15625,
+          0.7207
+        ],
+        [
+          0.08247,
+          0.65625
+        ],
+        [
+          0.07378,
+          0.53255
+        ],
+        [
+          0.07639,
+          0.43034
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Repeated waves and a bank along the western edge are converted into an interpreted water margin; this is not a confirmed continental coastline."
+    },
+    {
+      "id": "lower-eastern-water-margin",
+      "name": "Lower eastern water margin",
+      "kind": "water",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.92795,
+          0.69401
+        ],
+        [
+          0.95226,
+          0.72786
+        ],
+        [
+          0.96528,
+          0.91797
+        ],
+        [
+          0.87153,
+          0.9375
+        ],
+        [
+          0.90278,
+          0.86458
+        ],
+        [
+          0.92101,
+          0.79883
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Fine wave-like marks at the lower right are interpreted as a water margin."
+    },
+    {
+      "id": "central-drainage",
+      "name": "Central drainage",
+      "kind": "channel",
+      "geometry": "polygon",
+      "points": [
+        [
+          0.2717,
+          0.32227
+        ],
+        [
+          0.31771,
+          0.37956
+        ],
+        [
+          0.37847,
+          0.42643
+        ],
+        [
+          0.41753,
+          0.48633
+        ],
+        [
+          0.39149,
+          0.51367
+        ],
+        [
+          0.34462,
+          0.52474
+        ],
+        [
+          0.30469,
+          0.53841
+        ],
+        [
+          0.31163,
+          0.59831
+        ],
+        [
+          0.28993,
+          0.66797
+        ],
+        [
+          0.34635,
+          0.70573
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "A thin irregular central line is recorded as an inferred drainage or route. Its function and continuity are uncertain."
+    },
+    {
+      "id": "enact-hills",
+      "name": "ENACT_HILLS",
+      "kind": "anchor",
+      "geometry": "point",
+      "points": [
+        [
+          0.27951,
+          0.12044
+        ]
+      ],
+      "confidence": "user-confirmed upper-left region",
+      "description": "Upper-left regional anchor, confirmed by the supplied map description. Select its established FOOTHILL CUSP approach in the route atlas. This does not establish a continent-to-sector coordinate transform.",
+      "approach_landmark": "foothills"
+    },
+    {
+      "id": "red-gate",
+      "name": "RED>GATE>",
+      "kind": "anchor",
+      "geometry": "point",
+      "points": [
+        [
+          0.85156,
+          0.89388
+        ]
+      ],
+      "confidence": "user-confirmed lower-right region",
+      "description": "Lower-right RED gate anchor, confirmed by the supplied map description. The existing Observation Line remains the approach; the restricted interior stays closed.",
+      "approach_landmark": "red_gate",
+      "aliases": [
+        "red<gate<"
+      ]
+    },
+    {
+      "id": "scarlet-plateau",
+      "name": "PLATEAU<SCARLET<",
+      "kind": "anchor",
+      "geometry": "point",
+      "points": [
+        [
+          0.7908,
+          0.79297
+        ]
+      ],
+      "confidence": "user-confirmed lower-right region",
+      "description": "Lower-right scarlet plateau anchor, confirmed by the supplied map description. The boundary and exact connection to playable sectors remain unresolved.",
+      "aliases": [
+        "scarlet>plateau>"
+      ]
+    },
+    {
+      "id": "spiral-chain",
+      "name": "Spiral monument chain",
+      "kind": "monument",
+      "geometry": "point",
+      "points": [
+        [
+          0.38281,
+          0.29622
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Linked gear-like outlines and spiral centers recur here. They represent an unresolved monument motif, with no fixed diameter or distance."
+    },
+    {
+      "id": "central-spiral",
+      "name": "Canopy spiral monument",
+      "kind": "monument",
+      "geometry": "point",
+      "points": [
+        [
+          0.5816,
+          0.35547
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "A spiral enclosure appears within the central canopy. The monument theme honors incomprehensible scale without imposing a size in meters."
+    },
+    {
+      "id": "southern-spiral",
+      "name": "Southern spiral monument",
+      "kind": "monument",
+      "geometry": "point",
+      "points": [
+        [
+          0.51562,
+          0.90365
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "The lower canopy holds a large spiral motif. Its identity, interior and physical extent remain uncertain."
+    },
+    {
+      "id": "forked-spires",
+      "name": "Forked spire field",
+      "kind": "monument",
+      "geometry": "point",
+      "points": [
+        [
+          0.74566,
+          0.75391
+        ]
+      ],
+      "confidence": "inferred drawing interpretation",
+      "description": "Repeated forked silhouettes run through the right-hand plain. They are traced as unresolved spire motifs, rather than assigned a new canonical civilization."
+    }
+  ]
+}

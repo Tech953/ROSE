@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "source": "User-supplied Fallout 2 Mapper / Pixote prefab index sheets",
+  "use": "Visual reference only; no sheet pixels or meshes shipped in Rose",
+  "sheets": [
+    {
+      "filename": "Critters_PID.gif",
+      "size": [
+        2048,
+        1308
+      ],
+      "frames": 1,
+      "bytes": 968545,
+      "sha256": "49042462a4497cc7f8782fba12bfb7cf7349ff848cfab4056643db76129165af"
+    },
+    {
+      "filename": "Inventory-Images_FRM.gif",
+      "size": [
+        1922,
+        2048
+      ],
+      "frames": 1,
+      "bytes": 4693987,
+      "sha256": "f6a550638b33d98949ea5990526386f14a49e1eefc6927699cf52ee545ccd692"
+    },
+    {
+      "filename": "Items_PID.gif",
+      "size": [
+        2048,
+        1323
+      ],
+      "frames": 1,
+      "bytes": 738211,
+      "sha256": "ef6d601d480f8c46dd603d1b84cf5f84c490bed8f3162ad1be7293d5f5d55b02"
+    },
+    {
+      "filename": "Markers-Icon_Description.gif",
+      "size": [
+        600,
+        1428
+      ],
+      "frames": 1,
+      "bytes": 78614,
+      "sha256": "5d056d7ed4f003d6fa91301b896d543d555a3267f4fa51fc5cb3961b3725096b"
+    },
+    {
+      "filename": "Misc_PID.gif",
+      "size": [
+        864,
+        1788
+      ],
+      "frames": 1,
+      "bytes": 71786,
+      "sha256": "9f3404a28d8f12fc81b268bd5e633d95273c83354824089a6151af7d44ac83a6"
+    },
+    {
+      "filename": "Scenery-001_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 1568994,
+      "sha256": "d32888cde530ccefd42f09ee0c3a4d46034f8f41a1e67706125bf0af6642297c"
+    },
+    {
+      "filename": "Scenery-002_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 1759817,
+      "sha256": "0c161b72c396ca58465222ef59422948716f06bf535e92dc06534907f5bfa60d"
+    },
+    {
+      "filename": "Scenery-003_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 2045499,
+      "sha256": "0ea771e4341462cc7b1584ebc9ad8961b11077d679d413eebda07cdba10eddda"
+    },
+    {
+      "filename": "Scenery-004_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 2026595,
+      "sha256": "32f53dfddd103fe28d88f9dcd6aeb25de3fa0a84a02118a08bc45cf6c46896ee"
+    },
+    {
+      "filename": "Scenery-005_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 1881992,
+      "sha256": "df16ac9093c720d25899b722f934597e6cc30a46655c1d02d9f9b55edb16c5f3"
+    },
+    {
+      "filename": "Scenery-006_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 2720455,
+      "sha256": "4cb4aa884c13d45781b8ab257818dc6dd04795775c324bc1ce28b6733e7c172e"
+    },
+    {
+      "filename": "Scenery-007_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 2903139,
+      "sha256": "94d5ad9d0ef6bc7c8cd8cb25c1952242add36b54c56be535b2a5afc68037686c"
+    },
+    {
+      "filename": "Scenery-008_PID.gif",
+      "size": [
+        1353,
+        2048
+      ],
+      "frames": 1,
+      "bytes": 2035940,
+      "sha256": "47ec0d93b947008adffb647c6e7ea66a071e68f9187153a94ffec798b4fd0802"
+    },
+    {
+      "filename": "Tiles-001_PID.gif",
+      "size": [
+        2047,
+        1266
+      ],
+      "frames": 1,
+      "bytes": 2482928,
+      "sha256": "0c1283c7138dfe2355a9554270c96fede15bd4f459ec975fe9ce620ae4d6bef4"
+    },
+    {
+      "filename": "Tiles-002_PID.gif",
+      "size": [
+        2047,
+        1266
+      ],
+      "frames": 1,
+      "bytes": 2251629,
+      "sha256": "9d095bc7df88d8bdd2babb9b78122a82cf5de4204ada8eba90912aad676f7ed3"
+    },
+    {
+      "filename": "Tiles-003_PID.gif",
+      "size": [
+        2047,
+        1266
+      ],
+      "frames": 1,
+      "bytes": 2738375,
+      "sha256": "99934affebb8c2a0788683831bfda5b061dec5966534bb9c301815bdccddf292"
+    },
+    {
+      "filename": "Tiles-004_PID.gif",
+      "size": [
+        2047,
+        1266
+      ],
+      "frames": 1,
+      "bytes": 2358903,
+      "sha256": "27f6988056a954747554e8e53c4c5ff6da2c2996432e03df0f4b1d19df5eb61b"
+    },
+    {
+      "filename": "Tiles-005_PID.gif",
+      "size": [
+        1103,
+        1564
+      ],
+      "frames": 1,
+      "bytes": 491871,
+      "sha256": "fb65a9dff7c4291c86113f3a83979878624cc868fbb4d2369cf6cb6d694974e8"
+    },
+    {
+      "filename": "Walls-001_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 2490286,
+      "sha256": "4ef3248ba91018cd71ee176cc4be64ec52de3240bd55d218f6c967579c763ffe"
+    },
+    {
+      "filename": "Walls-002_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 1798003,
+      "sha256": "4a8c858b26132abb7e2ddd3cb64e5bd3322254d3c991a85fdbe9cb7e07cefcb4"
+    },
+    {
+      "filename": "Walls-003_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 1929483,
+      "sha256": "109cb36c7e4c249114fc6a421970977c2feac7ff9a6cb8c66fd32ea46ecdc8b1"
+    },
+    {
+      "filename": "Walls-004_PID.gif",
+      "size": [
+        2048,
+        2039
+      ],
+      "frames": 1,
+      "bytes": 1956992,
+      "sha256": "ae53f37148c56ecb52e7a5eaae02cf85495cbbae1f8f6becbafaba7c035ffd77"
+    }
+  ]
+}

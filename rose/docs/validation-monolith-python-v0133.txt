@@ -1,0 +1,10 @@
+test_base_and_overhang_fit_one_authoritative_solid_hex (test_monoliths.MonumentAssets.test_base_and_overhang_fit_one_authoritative_solid_hex) ... ok
+test_condition_states_and_transparent_margins_are_registered (test_monoliths.MonumentAssets.test_condition_states_and_transparent_margins_are_registered) ... ok
+test_meshes_are_closed_solids_with_positive_volume (test_monoliths.MonumentAssets.test_meshes_are_closed_solids_with_positive_volume) ... ok
+test_receipts_pin_source_and_every_new_atlas (test_monoliths.MonumentAssets.test_receipts_pin_source_and_every_new_atlas) ... ok
+test_service_models_and_aliases_use_the_registered_core (test_monoliths.MonumentAssets.test_service_models_and_aliases_use_the_registered_core) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.156s
+
+OK

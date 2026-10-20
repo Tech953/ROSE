@@ -1,0 +1,73 @@
+PART word/document.xml
+[001] Snail Wood
+[002] A semblance of past heroics, arcane_mollusks have remained a dominant force of defense, imbuement, and companionship since before the formation of the WN_TOWER. Percept imbuement with corp-e contract-basis places bond.skill as priority, resulting in selective breeding through absence. When an arcane_mollusk goes into hibernation, or dies, they form a stalk of bio-gel, perching themselves at the top. Arcane_magus, or necramancer’s form houses out of empty shells, known for acting as spiritual guides to contract holders, civs, and non-contract holders alike.
+[003] Canvas_TO.LI<GATE.SEC
+[004] ARCANE_MAGUS_3.33
+[005] Outside of contact with corp-e, all known representatives of outpost percept, lays advisor to KHO, lost to the SIM.NODE, now populating an empty arcane_mollusk shell at the border of Snail Wood. Named by designation, this individual presides by ageless presentation, bio-mod specificity in metallurgy-essence manipulation, and builds elaborate channels of unraveled intelligence through percept of Meta-Kin.
+[006] Metallurgy requires material access and facilitation of technique mastery; subjects taught with high fidelity to participants of KHO. This entity proceeded with art-aesthetic regarding lightPROKT< generation, communicating as a solo researcher with ancestral and encapped persona for develop projection.
+[007] An accidental exile-captive, held aloft by connection affinity to various processing intelligences that populate the city complex major, this individual maintains positive acceptance and attribution of skillset to any that seek them out, providing the tools needed for their survival of studentship.
+[008] fracTECH.NODE_ReF_3.12
+[009] Acting as interNODE and fracTECH reference for contractors, civs, and pilgrims navigating Snail Wood, this digiPROKT< presents accessible data through encrypted percept enactment. Initially constructed by Harvet as a forward net.point, this analytical-entry developer tech provides dual intel and reporting documentation as a service provision. Open contracts are offered through the piercing lightPROKT< cascade, dissipating far above into the sky.
+[010] Contract-basis is a tracked deliberation, and nodes offer corp-e oversight even well within the_outlands. Enabled with encap and siphonTECH, this fracTECH node maintains an atmosphere of dread and promise. Outfitted with the ability to de-resolution and pay contract holders in equal measure, nodes referenced in this category are targeted by ext.excursion groups for antiCAP resistance. 
+[011] HOVEL-REG>CASC>
+[012] Imbued with preTECH variPROKT< visualizations and street lamps, this small residential setting is populated by civs and resting pilgrims, with corp-e outposts and vending.merchs scattered throughout. 
+[013] SOURCE.S_CORE
+[014] A widespread merchantile provision service for Sap-Core, this specific outpost maintains a dynamic of high fidelity product, long term storage, and low customer engagement. Due to limited contract engagement, this conveshop is maintained by a fracTECH lightPROKT< of a contracted sales-merch operating through AquiSphere, a >proxy< format that enables both oversight, and person by person engagement. 
+[015] EXAMPLE MERCH.PRODUCT:
+[016] Enerwu
+[017] MAX_meat
+[018] Cannedbui
+[019] Puriagua
+[020] Carbobreak/lunch/dinner
+[021] Prexin
+[022] Littlets
+[023] Poi.node
+[024] MERCH.OS
+[025] Connected directly to CLOUD_CITY_S economic infraNODES, this processing intelligence utilities meta-break lightPROKT< engagement cycles to trade and extract goods from displacement or distanced locations. Regulated through contraDEFENSE initiative, enabling full encap or siphon in event of intercession, this node provides framework to the Snail Woods pilgrimage footholds. 
+[026] EXAMPLE MERCH.PRODUCT:
+[027] Crystallin< ballistics
+[028] Bio-Mod Contracts
+[029] Sig-Contract Direction
+[030] Fractech INT_REF
+[031] Canned Food
+[032] Canned Beverages
+[033] Rental Contracts
+[034] Open.DIST Residentials
+[035] These are open properties for rental within HOVEL-REG>CASC>, contracted through MERCH.OS. Stipulations for contract engagement are contingent on reputation, foothold.measure, and specific faction alignment. Sig.Contract holders have condiACCESS to any open property in this area, able to reside within indefinitely assuming the property is open.
+[036] EXAMPLE PROPERTIES:
+[037] Rev.HOUSE-1 -> 6
+[038] 4 Room
+[039] 2 Bed
+[040] MiniCookSTAT
+[041] Parlor Access
+[042] Garage
+[043] Casc_UPPERFLOOR
+[044] 2 Room
+[045] 1 Bed
+[046] CookSTATmin
+[047] 1 Chair and CouchSET
+[048] LOWERFLOOR Habitation Potential 
+[049] Mono-TAB.SING
+[050] 1 Room
+[051] 1 Futon
+[052] minCOOK
+[053] 1 Chair
+[054] Proximity ALARM
+[055] modal.MULTI_ext
+[056] 8 Room
+[057] 3 Couches
+[058] 1 INTELPIC
+[059] MaxCOOKSTAT
+[060] Garage
+[061] Parlor 
+[062] Front Deck
+[063] Garden
+[064] Fountain w/ Bio Integrations
+[065] Modal.INFI_particulate-GEN
+[066] 20 Rooms
+[067] 6 Couches
+[068] Tech Req Specialization
+[069] InfiCOOKSTAT
+[070] Equp-Req.NODE
+[071] GardenTECH
+[072] Exten.infraENACT
