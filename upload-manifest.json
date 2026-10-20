@@ -5,7 +5,7 @@
     "sha256": "ffe84b16ab1c73aa41bcf9fa39a13e6d81876445ed1348f37c0905d6d25dba4e",
     "member_count": 1100
   },
-  "file_count": 1120,
+  "file_count": 1118,
   "files": [
     {
       "path": "README.md",
@@ -2054,6 +2054,12 @@
       "sha256": "65d3cbaad64d3c96c21189a93a3054b2d74290224f862c4ac98cc268321dca2c"
     },
     {
+      "path": "rose/reference/art-direction/direction-v018.json",
+      "size": 557299,
+      "git_blob_sha": "9f61d4d4ec642c94e392b7adb4436329522163bb",
+      "sha256": "f73958ca59e643908ec0a8cc5188f26a8376aecdca18e2f55d090ac48d95d74c"
+    },
+    {
       "path": "rose/reference/art/continuous-scenery/cavern-reference.webp",
       "size": 86416,
       "git_blob_sha": "62e25490e0d937f7cddfa730cc4b4fa38c502432",
@@ -2100,12 +2106,6 @@
       "size": 2765,
       "git_blob_sha": "a2b49e621298b7bd560fb86273bea199481e2d52",
       "sha256": "5d258c00ffc457b9c7ec0cd717f1de003b9cc0af755791e0ba0cfd60371988a0"
-    },
-    {
-      "path": "rose/reference/art-direction/direction-v018.json",
-      "size": 557299,
-      "git_blob_sha": "9f61d4d4ec642c94e392b7adb4436329522163bb",
-      "sha256": "f73958ca59e643908ec0a8cc5188f26a8376aecdca18e2f55d090ac48d95d74c"
     },
     {
       "path": "rose/reference/aurora/DEVELOPER.md",
@@ -2424,18 +2424,6 @@
       "size": 151910,
       "git_blob_sha": "6346d9a15e18c9f355b8c8d59c6dc6ae8c828859",
       "sha256": "21428321937cd1da810f67c66ba7885cc8d20e1b8e95171b7b93e01ea756423b"
-    },
-    {
-      "path": "rose/reference/visual-corpus/images/.vr-2393d8d0b49d9ac9.png.KsLFO3",
-      "size": 3932160,
-      "git_blob_sha": "c7e73b24f8c50253def2d7f3bab4b8818ab8d770",
-      "sha256": "ce28e5180152c56ecf1a135cc8f6a5ff786ff9d2307173d32d12bd7bdc22e74d"
-    },
-    {
-      "path": "rose/reference/visual-corpus/images/.vr-8d799d95742215ac.png.dmVjRC",
-      "size": 2359296,
-      "git_blob_sha": "1e11583d22224bf2821589e64fc7584d759151a8",
-      "sha256": "8106d282e3dc171510a523938a85e0a363f2b805d1c26f0738a04f17dbf50f02"
     },
     {
       "path": "rose/reference/visual-corpus/images/vr-00ca3a34ee9a2b7c.png",
@@ -2970,6 +2958,48 @@
       "size": 27624,
       "git_blob_sha": "ab293aa324612470b0ec6c9ada9e17dee77af3cb",
       "sha256": "f3adb1246f7ca8f8ee82d588b574cbe4f166bb1bbed7b57d8af0209d2adadba0"
+    },
+    {
+      "path": "rose/static/art-direction-runtime.json",
+      "size": 3122,
+      "git_blob_sha": "f0bc52a3f5dd83c9c6b3525987bb895a42c2f7e5",
+      "sha256": "9ebcbcdbd2528d018da8a6814f313857c71167f19659b52cee34e5bba54ea232"
+    },
+    {
+      "path": "rose/static/art-direction.html",
+      "size": 73194,
+      "git_blob_sha": "cc357f0873f2505ff19761f892f1f715638b786f",
+      "sha256": "654c0ebf84afbb96ef028723761e4805b2c516902ded4f399cf863c88ffd871d"
+    },
+    {
+      "path": "rose/static/art-direction.js",
+      "size": 3074,
+      "git_blob_sha": "fa43174b7ae6bab1a2b7c1b89b690af272a1f749",
+      "sha256": "6d69c91771e43e693bb5b4c5bdfb0ebc848c31045c30a624fa90d101c059ae91"
+    },
+    {
+      "path": "rose/static/art-manifest-rendered-legacy.json",
+      "size": 99544,
+      "git_blob_sha": "de7f8746fa13d8e4103598fdb9684c3b3007f941",
+      "sha256": "e63204254d766279d63d47b6af6aefcb7ee8a5a82d2e7acf192b2dd9af12b7f8"
+    },
+    {
+      "path": "rose/static/art-manifest-rendered.json",
+      "size": 535672,
+      "git_blob_sha": "4c6cfaea96b937c9e3701f7b12747c0ea3bb2290",
+      "sha256": "20e48ef137514f934e58011e4e48da5b85125b030ce3fab15bfe9d5b3277e83a"
+    },
+    {
+      "path": "rose/static/art-manifest-vector.json",
+      "size": 1858,
+      "git_blob_sha": "b782bb65b87db3c96bb7f29c84acbda2612d0164",
+      "sha256": "15a5ebf0ea2c6dc429852136b4b6e52971d9ab2d8c701379e28bcb3023aa36e3"
+    },
+    {
+      "path": "rose/static/art-manifest.json",
+      "size": 46474,
+      "git_blob_sha": "6ef820b0d1760f2e56179011d4cab257ae5284df",
+      "sha256": "316461bb1b7c1d492ed8ea5fb3249275317468350ef484d89ffed564de8b35ae"
     },
     {
       "path": "rose/static/art/README.md",
@@ -6078,48 +6108,6 @@
       "size": 2375433,
       "git_blob_sha": "fdb798b9761666d5dc429ef271e97500beb19d48",
       "sha256": "48a6abe267f4e727f2bca1214dbf35bb7ee8003b59a214b41f203a6892b3235e"
-    },
-    {
-      "path": "rose/static/art-direction-runtime.json",
-      "size": 3122,
-      "git_blob_sha": "f0bc52a3f5dd83c9c6b3525987bb895a42c2f7e5",
-      "sha256": "9ebcbcdbd2528d018da8a6814f313857c71167f19659b52cee34e5bba54ea232"
-    },
-    {
-      "path": "rose/static/art-direction.html",
-      "size": 73194,
-      "git_blob_sha": "cc357f0873f2505ff19761f892f1f715638b786f",
-      "sha256": "654c0ebf84afbb96ef028723761e4805b2c516902ded4f399cf863c88ffd871d"
-    },
-    {
-      "path": "rose/static/art-direction.js",
-      "size": 3074,
-      "git_blob_sha": "fa43174b7ae6bab1a2b7c1b89b690af272a1f749",
-      "sha256": "6d69c91771e43e693bb5b4c5bdfb0ebc848c31045c30a624fa90d101c059ae91"
-    },
-    {
-      "path": "rose/static/art-manifest-rendered-legacy.json",
-      "size": 99544,
-      "git_blob_sha": "de7f8746fa13d8e4103598fdb9684c3b3007f941",
-      "sha256": "e63204254d766279d63d47b6af6aefcb7ee8a5a82d2e7acf192b2dd9af12b7f8"
-    },
-    {
-      "path": "rose/static/art-manifest-rendered.json",
-      "size": 535672,
-      "git_blob_sha": "4c6cfaea96b937c9e3701f7b12747c0ea3bb2290",
-      "sha256": "20e48ef137514f934e58011e4e48da5b85125b030ce3fab15bfe9d5b3277e83a"
-    },
-    {
-      "path": "rose/static/art-manifest-vector.json",
-      "size": 1858,
-      "git_blob_sha": "b782bb65b87db3c96bb7f29c84acbda2612d0164",
-      "sha256": "15a5ebf0ea2c6dc429852136b4b6e52971d9ab2d8c701379e28bcb3023aa36e3"
-    },
-    {
-      "path": "rose/static/art-manifest.json",
-      "size": 46474,
-      "git_blob_sha": "6ef820b0d1760f2e56179011d4cab257ae5284df",
-      "sha256": "316461bb1b7c1d492ed8ea5fb3249275317468350ef484d89ffed564de8b35ae"
     },
     {
       "path": "rose/static/atlas.svg",
