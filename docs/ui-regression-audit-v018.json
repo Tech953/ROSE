@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "engine_version": "0.18.0",
+  "result": "PASS",
+  "process_isolation": true,
+  "scope": "Real HTTP, modeled semantic DOM and native canvas; full browser layout and audible playback not tested",
+  "flows": [
+    {
+      "flow": "--core",
+      "result": "PASS",
+      "seconds": 29.957
+    },
+    {
+      "flow": "--direction",
+      "result": "PASS",
+      "seconds": 10.077
+    },
+    {
+      "flow": "--materials",
+      "result": "PASS",
+      "seconds": 7.6
+    },
+    {
+      "flow": "--weather",
+      "result": "PASS",
+      "seconds": 5.693
+    },
+    {
+      "flow": "--animations",
+      "result": "PASS",
+      "seconds": 25.731
+    },
+    {
+      "flow": "--particles",
+      "result": "PASS",
+      "seconds": 49.828
+    }
+  ]
+}

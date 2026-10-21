@@ -1,15 +1,22 @@
 /* A separate live-host expedition exercises the usable client flow end to end. */
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 function find(node,predicate){if(predicate(node))return node;for(const child of node.children||[]){const hit=find(child,predicate);if(hit)return hit;}return null;}
+async function creationReady(rig){
+ for(let i=0;i<1000;i++){
+  if(rig.context.RoseCreator.ready&&rig.ids['engine-fields'].querySelectorAll('input').length===19)return;
+  await new Promise(resolve=>setTimeout(resolve,10));
+ }
+ assert.fail('Character creation and all 19 generation controls must finish loading: '+rig.ids.error.textContent);
+}
 module.exports=async({base,tmp,setupInterface,canvasModule,root})=>{
  const build=setupInterface(base,tmp),br=()=>vm.runInContext('state',build.context);
- for(let i=0;i<100&&!build.context.RoseCreator.ready;i++)await new Promise(r=>setTimeout(r,10));build.ids.name.value='Builder';build.ids.seed.value='construction-ui';build.context.document.getElementById('rule-generation-hostility').value=0;await build.ids['join-form'].requestSubmit();await build.ids.start.click();assert.equal(await vm.runInContext('action',build.context)('act',{text:'salvage'}),true);
+ await creationReady(build);build.ids.name.value='Builder';build.ids.seed.value='construction-ui';build.context.document.getElementById('rule-generation-hostility').value=0;await build.ids['join-form'].requestSubmit();await build.ids.start.click();assert.equal(await vm.runInContext('action',build.context)('act',{text:'salvage'}),true);
  build.ids['construction-kind'].value='shelter';build.ids['construction-kind'].onchange();const site=br().scene.lifecycle.candidates.find(n=>!n.reason);assert.ok(site);build.ids['construction-site'].value=site.pos.join(',');build.ids['construction-site'].onchange();const scrap=br().me.inventory.scrap,count=br().scene.infrastructure.nodes.length;
  assert.equal(build.ids['construction-plan'].disabled,false,build.ids['construction-plan'].dataset.blockReason);assert.equal(await build.ids['construction-plan'].click(),true,build.ids.error.textContent);assert.equal(br().me.inventory.scrap,scrap-5);const job=br().scene.lifecycle.projects.find(n=>n.stage==='foundation');assert.ok(job);assert.equal(br().scene.tiles[site.pos.join(',')].passable,false);
  for(let i=0;i<5;i++){build.context.RoseField.select({type:'project',id:job.id});const work=find(build.ids['field-selection-actions'],n=>n.tagName==='BUTTON'&&n.textContent==='WORK ONE STEP');assert.ok(work);assert.equal(await work.click(),true,build.ids.error.textContent);}
  assert.equal(br().scene.infrastructure.nodes.length,count+1);assert.equal(br().scene.lifecycle.projects.find(n=>n.id===job.id).stage,'complete');assert.equal(br().scene.infrastructure.nodes.find(n=>n.pos.join(',')===site.pos.join(',')).kind,'shelter');await build.ids.disconnect.click();
  const {context,ids}=setupInterface(base,tmp),read=()=>vm.runInContext('state',context),act=text=>vm.runInContext('action',context)('act',{text});
- for(let i=0;i<100&&!context.RoseCreator.ready;i++)await new Promise(r=>setTimeout(r,10));ids.name.value='Particle Explorer';ids.seed.value='particle-ui';context.document.getElementById('rule-generation-hostility').value=0;await ids['join-form'].requestSubmit();assert.equal(ids.game.hidden,false);await ids.start.click();
+ await creationReady({context,ids});ids.name.value='Particle Explorer';ids.seed.value='particle-ui';context.document.getElementById('rule-generation-hostility').value=0;await ids['join-form'].requestSubmit();assert.equal(ids.game.hidden,false);await ids.start.click();
  const travel=async id=>{assert.equal(await vm.runInContext('action',context)('act',{intent:{action:'goto',target:id}}),true,ids.error.textContent);for(const deadline=performance.now()+60000;read().atlas.navigation.status==='traveling'&&performance.now()<deadline;){await new Promise(r=>setTimeout(r,200));await vm.runInContext('poll()',context);}assert.equal(read().atlas.navigation.status,'arrived',ids.error.textContent);assert.equal(await vm.runInContext('action',context)('act',{intent:{action:'enter_location',target:''}}),true);};
  await act('salvage');await act('salvage');await travel('blackdot');assert.equal(await act('register'),true,ids.error.textContent);await travel('thorns');
  assert.equal(await ids['void-prepare'].click(),true,ids.error.textContent);assert.equal(read().particles.percept.immunix,2);
@@ -27,7 +34,7 @@ module.exports=async({base,tmp,setupInterface,canvasModule,root})=>{
  const revision=read().revision,cred=read().me.credentials.join(',');ids['particle-import'].files=[{size:500,text:async()=>JSON.stringify(raw)}];await ids['particle-import'].onchange();await ids['particle-import-apply'].click();assert.match(ids.error.textContent,/already|duplicate|identity/);assert.equal(read().revision,revision);assert.equal(read().particles.objects.length,13);assert.equal(read().me.credentials.join(','),cred);
  await ids.disconnect.click();
  const rig=setupInterface(base,tmp),rr=()=>vm.runInContext('state',rig.context);
- for(let i=0;i<100&&!rig.context.RoseCreator.ready;i++)await new Promise(r=>setTimeout(r,10));rig.ids.name.value='Light Explorer';rig.ids.seed.value='optics-ui';rig.context.document.getElementById('rule-generation-hostility').value=0;await rig.ids['join-form'].requestSubmit();await rig.ids.start.click();
+ await creationReady(rig);rig.ids.name.value='Light Explorer';rig.ids.seed.value='optics-ui';rig.context.document.getElementById('rule-generation-hostility').value=0;await rig.ids['join-form'].requestSubmit();await rig.ids.start.click();
  assert.equal(rig.ids['resonance-tune'].disabled,true,'A workshop must be physically approached before tuning');
  const workshop=rr().scene.infrastructure.nodes.find(n=>n.kind==='workshop');assert.ok(workshop);const field=rig.context.RoseField,chosen=label=>find(rig.ids['field-selection-actions'],n=>n.tagName==='BUTTON'&&n.textContent===label),setting=(name,menu=false)=>find(rig.ids[menu?'field-menu-actions':'field-selection-actions'],n=>n.tagName==='SELECT'&&n.dataset.opticalSetting===name);
  field.select({type:'structure',id:workshop.id});assert.equal(chosen('TUNE SPECTRUM').disabled,true);assert.equal(chosen('EXCITE / 1 PUBLIC POWER').disabled,true);assert.equal(rig.ids['particle-excite'].disabled,true,'Inspector uses the same physical guard');

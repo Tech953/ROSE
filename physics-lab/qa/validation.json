@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-17T21:14:36.971Z",
+  "scope": "Engine assertions, actual event handlers in a modeled DOM, and native Canvas rendering. Browser layout, live pointer/touch, screen reader and real download behavior are not verified.",
+  "passed": 32,
+  "total": 32,
+  "results": [
+    {
+      "name": "Zero force neither invents motion, energy, damage nor salvage",
+      "passed": true
+    },
+    {
+      "name": "Impact produces a finite response and settles",
+      "passed": true
+    },
+    {
+      "name": "A vertical impulse has no horizontal response",
+      "passed": true
+    },
+    {
+      "name": "Paused state does not advance",
+      "passed": true
+    },
+    {
+      "name": "Aging and exposure reduce capacity for each of six materials",
+      "passed": true
+    },
+    {
+      "name": "Source recovery percentages retained",
+      "passed": true
+    },
+    {
+      "name": "Repair consumes finite input, restores up to 25%, and retains age",
+      "passed": true
+    },
+    {
+      "name": "Repair cannot restore collapsed works or operate without stock",
+      "passed": true
+    },
+    {
+      "name": "Destruction disconnects service, blocks ground, and creates finite rubble",
+      "passed": true
+    },
+    {
+      "name": "Salvage transfers once, clears footprint, and does not restore service",
+      "passed": true
+    },
+    {
+      "name": "Rebuilding spends a full specimen mass and exhausts repeated cycles",
+      "passed": true
+    },
+    {
+      "name": "Seismic and storm scenarios reach collapse through the force model",
+      "passed": true
+    },
+    {
+      "name": "Baseline is an independent snapshot",
+      "passed": true
+    },
+    {
+      "name": "Fixed-step results do not depend on frame grouping",
+      "passed": true
+    },
+    {
+      "name": "All 120 material/structure/force combinations remain finite at severe age",
+      "passed": true
+    },
+    {
+      "name": "Invalid numeric and enum inputs are bounded before simulation",
+      "passed": true
+    },
+    {
+      "name": "Tactical hex round trips and shares exact neighboring edge vertices",
+      "passed": true
+    },
+    {
+      "name": "Natural and tactical views render distinctly without mutating the specimen",
+      "passed": true
+    },
+    {
+      "name": "All five structure and three scale render paths execute",
+      "passed": true
+    },
+    {
+      "name": "Collapsed, aged, selected, and cleared views render",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion suppresses displacement and falling-debris animation without changing data",
+      "passed": true
+    },
+    {
+      "name": "Every HTML ID is unique and local asset links resolve",
+      "passed": true
+    },
+    {
+      "name": "Actual UI material, structure, force, and range controls prepare the chosen specimen",
+      "passed": true
+    },
+    {
+      "name": "Scenario preset selects coherent material, structure, age and forcing",
+      "passed": true
+    },
+    {
+      "name": "Apply, pause, single-step, and compare handlers work",
+      "passed": true
+    },
+    {
+      "name": "Hex and reduced-motion toggles preserve physics state",
+      "passed": true
+    },
+    {
+      "name": "Ground inspection resolves hidden hex coordinates",
+      "passed": true
+    },
+    {
+      "name": "Age advancement updates model and visible control values",
+      "passed": true
+    },
+    {
+      "name": "Destruction, salvage, and rebuild controls obey lifecycle guards",
+      "passed": true
+    },
+    {
+      "name": "Visual validation renders matched views and saves a three-criterion review",
+      "passed": true
+    },
+    {
+      "name": "Material atlas and model notes navigation work",
+      "passed": true
+    },
+    {
+      "name": "Cold reload preserves current results, stock and review without resuming force",
+      "passed": true
+    }
+  ]
+}

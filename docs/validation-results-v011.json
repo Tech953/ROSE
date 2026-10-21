@@ -1,0 +1,60 @@
+{
+  "version": "0.11.0",
+  "date": "2026-10-03",
+  "python_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 256,
+    "new_workshop_cases": 17,
+    "new_research_cases": 10,
+    "seconds": 13.353
+  },
+  "interface_checks": {
+    "commands": [
+      "node tests/ui-smoke.cjs"
+    ],
+    "passed": true,
+    "host": "real local HTTP and temporary SQLite",
+    "canvas": "native @napi-rs/canvas",
+    "dom": "modeled DOM, not a full browser",
+    "research": "cold/paid audit, unrun gates, observational export and original PDF route",
+    "workshop": "physical controls, menu draft/focus, outage, scrap repair and paid restart"
+  },
+  "code": {
+    "version": "0.11.0",
+    "python_ast": 109,
+    "javascript_syntax": 23,
+    "json_parse": 73,
+    "unchanged_source_and_art_files_checked": 652,
+    "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+    "image_files": 541,
+    "decoded_image_frames": 555,
+    "html_unique_ids": 218,
+    "advertised_scripts": 12,
+    "proposal_pages_reviewed": 12,
+    "proposal_equations_indexed": 22
+  },
+  "art": {
+    "unchanged_prior_package_files": 652,
+    "blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+    "rebake_performed": false
+  },
+  "sources": {
+    "registered_files": 11,
+    "pdf_pages_indexed": 515,
+    "csv_records_parsed": 10871,
+    "visually_reviewed_pdf_pages": 29,
+    "new_proposal_pages_read_and_rendered": 12,
+    "new_proposal_equations_indexed": 22,
+    "coverage": "complete new proposal; prior focused source sections remain bounded"
+  },
+  "limits": [
+    "full browser layout and assistive technology",
+    "Windows launch",
+    "audible audio playback",
+    "multiplayer LAN",
+    "live optional local model",
+    "human game balance",
+    "legacy Aurora replay and proposed DTC/TCE/topology experiments",
+    "complete scientific reproduction or line-by-line prior textbook audit"
+  ]
+}

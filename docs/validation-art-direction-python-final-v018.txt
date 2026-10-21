@@ -1,0 +1,13 @@
+test_authoring_access_is_defensive_and_never_changes_the_map_or_world (test_art_direction.ArtDirectionTests.test_authoring_access_is_defensive_and_never_changes_the_map_or_world) ... ok
+test_blueprint_has_public_direction_without_character_or_session_data (test_art_direction.ArtDirectionTests.test_blueprint_has_public_direction_without_character_or_session_data) ... ok
+test_engineering_fragments_and_independent_identities_keep_their_scope (test_art_direction.ArtDirectionTests.test_engineering_fragments_and_independent_identities_keep_their_scope) ... ok
+test_exact_source_coverage_and_provenance (test_art_direction.ArtDirectionTests.test_exact_source_coverage_and_provenance) ... ok
+test_host_serves_only_registered_source_routes_with_exact_bytes (test_art_direction.ArtDirectionTests.test_host_serves_only_registered_source_routes_with_exact_bytes) ... ok
+test_individual_recipes_preserve_qualitative_specifications (test_art_direction.ArtDirectionTests.test_individual_recipes_preserve_qualitative_specifications) ... ok
+test_narrator_is_current_region_only_and_keeps_registered_identity (test_art_direction.ArtDirectionTests.test_narrator_is_current_region_only_and_keeps_registered_identity) ... ok
+test_unassigned_and_scenario_sources_stay_out_of_named_region_briefs (test_art_direction.ArtDirectionTests.test_unassigned_and_scenario_sources_stay_out_of_named_region_briefs) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.850s
+
+OK

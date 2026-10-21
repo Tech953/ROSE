@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "engine_version": "0.14.0",
+  "date": "2026-10-04",
+  "python_tests": {
+    "status": "PASS",
+    "count": 372,
+    "seconds": 28.334,
+    "new_material_cases": 37
+  },
+  "full_http_native_ui": {
+    "status": "PASS",
+    "backend": "modeled DOM + real HTTP + @napi-rs/canvas",
+    "includes": "General play, travel, companions, art banks, construction, optics, hidden physics/VREX, assurance and material mechanics."
+  },
+  "focused_material_ui": {
+    "status": "PASS",
+    "command": "node tests/ui-smoke.cjs --materials",
+    "cases": 20,
+    "states_per_case": 4,
+    "receipt": "material-aging-audit-v014.json"
+  },
+  "fidelity": {
+    "status": "PROTOTYPE PASS",
+    "scope": "Prepared-surface staining, fracture cuts and low debris with shared drawing/picking; original assets retained.",
+    "remaining": [
+      "dedicated Blender fracture assets",
+      "rigid-body debris",
+      "layered structural components",
+      "fire/chemical simulation"
+    ]
+  },
+  "not_verified": [
+    "full browser layout",
+    "Windows launch",
+    "audible playback",
+    "LAN sessions",
+    "human balance"
+  ],
+  "logs": [
+    "validation-python-v014.txt",
+    "validation-ui-v014.txt",
+    "validation-material-python-v014.txt",
+    "validation-material-ui-v014.txt"
+  ]
+}

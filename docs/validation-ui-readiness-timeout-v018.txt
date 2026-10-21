@@ -1,0 +1,40 @@
+
+RUN: isolated interface flow --core
+PASS: sprite loading — bounded requests, shared URL decoding, complete readiness, isolated banks and queue recovery after failure.
+PASS: audio node contract — explicit enable, mute, short envelopes, bounded panning and node cleanup. Live browser/audio playback remains untested.
+Display checks passed: exact off/sharp, soft pixels, aspect ratio, context restoration, buffer reuse and fallback.
+PASS: spectrum lighting — regional data, offline/portable lamps, additive spectra, blocker-aware actor/ground spill, unchanged alpha/shadows, bounded cache and exact baked fallback.
+PASS: individualized visuals — stable designations, all five bodies, regional assets, legacy fallback, current-frame alpha picking and condition frames.
+PASS: spectrum host flow — four regions, exact picking, saved browser preference and unchanged game state.
+PASS: monolith scale — four regions, body-relative hierarchy, service registration, solid-pixel picking, player fade-through, staged construction, bounded composition and unchanged host state.
+PASS: continuous scenery — opaque viewport, stable passable approaches and growth, no automatic selection, optional tactical grid, onward-travel hint, bounded buffers and unchanged host state.
+PASS: environment interface — measured ecology, six blueprints, clipped construction draw/hit bounds, particle readout, converted survey, guarded approach selection and unchanged host state.
+PASS: local interaction — cursor cycle, no-roll hover, hold suppression, keyboard/touch fallback, explicit item costs, blocked action conservation, Look/default actions, discovery, room identity and one-click movement.
+PASS: sprite pixels — transparent padding, real foreground occlusion, fade rendering and picking through to the covered character.
+Display host flow passed: profiles, preferences, native label settings/order, picking and unchanged world state.
+PASS: target mode — ordinary NPCs rejected, equipment/range/AP prerequisites retained, and combat Look has no AP or turn cost.
+PASS: assurance flows — stable NPC details/drafts/focus, unchanged menus, contextual locks, rejected import rollback, quieter announcements, room identity, malformed responses, serialized polls, stale-response rejection, disconnect during poll/walk, and timeout fallback.
+AssertionError [ERR_ASSERTION]: Deferred operation became available
+    at waitFor (/workspace/scratch/04aa93c43c89/rose-art-direction/work/rose/tests/ui-assurance.cjs:4:115)
+    at async module.exports (/workspace/scratch/04aa93c43c89/rose-art-direction/work/rose/tests/ui-assurance.cjs:76:2)
+    at async main (/workspace/scratch/04aa93c43c89/rose-art-direction/work/rose/tests/ui-smoke.cjs:115:3) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+AssertionError [ERR_ASSERTION]: Interface flow --core
+
+1 !== 0
+
+    at module.exports (/workspace/scratch/04aa93c43c89/rose-art-direction/work/rose/tests/ui-regression.cjs:9:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}

@@ -1,0 +1,3344 @@
+{
+  "engine_version": "0.16.0",
+  "baseline_version": "0.15.0",
+  "baseline_members": 905,
+  "baseline_sha256": "4d4e7c78566216d67b0a2754eb20f9b36eace1ad78a59e7d5651a200e38f8fb0",
+  "missing_baseline_members": [],
+  "changed_baseline_members": [
+    "rose/CHANGELOG.md",
+    "rose/README.md",
+    "rose/adventure.py",
+    "rose/docs/QUALITY-AND-ASSURANCE-AUDIT.md",
+    "rose/docs/VALIDATION.md",
+    "rose/engine.py",
+    "rose/lore.py",
+    "rose/narrator.py",
+    "rose/server.py",
+    "rose/static/index.html",
+    "rose/static/style.css",
+    "rose/world.py"
+  ],
+  "protected_members": [
+    {
+      "path": "rose/art-source/Rose-prefabs.blend",
+      "unchanged": true,
+      "sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+    },
+    {
+      "path": "rose/art-source/Rose-prefabs.blend1",
+      "unchanged": true,
+      "sha256": "5b1a959b9db93c2e280bb10f0bbb8e63f2dfa4c7f3f43583c4954f42f36dc715"
+    },
+    {
+      "path": "rose/art-source/archive/body-bake-v3/README.md",
+      "unchanged": true,
+      "sha256": "9bce1dce9686cc124950c438018254880582d23286d9eade942f7e49696979c0"
+    },
+    {
+      "path": "rose/art-source/archive/body-bake-v3/render_blender.py",
+      "unchanged": true,
+      "sha256": "05dd2884fedaa87f0903de9b6faafc68b266535ac0e672548d0fa44aecc44b38"
+    },
+    {
+      "path": "rose/art-source/archive/body-bake-v3/render_saved_blend.py",
+      "unchanged": true,
+      "sha256": "7719c024881af8838b6496af89d796686726767bf60e6f03e7400c1b2039dbfa"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/README.md",
+      "unchanged": true,
+      "sha256": "f2ec7e638b101f23674d511cecbe1d525725d802e2e3538d32d617db44f2f89f"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/Rose-prefabs.blend",
+      "unchanged": true,
+      "sha256": "9b196162a13b979817d71cb3e59105ca9f15e925573f75de49ca492eb87e7a3e"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/export_sprites.py",
+      "unchanged": true,
+      "sha256": "2805876a93c0cfc591c6d43d9b89f77215e4b9758b6a8d3920cef9481ef6b2b8"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/render-catalog.json",
+      "unchanged": true,
+      "sha256": "1e61962c1bba0cb824b75e60eeab5045e777c221094ca57e34fe6b879ddeae3e"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/render-record.json",
+      "unchanged": true,
+      "sha256": "1292dad59a04eb0e95c638fdadc505b44a160db582f9f8661dc43b6604b54f3d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/render-settings.json",
+      "unchanged": true,
+      "sha256": "c9305cd59c0cbdad862ae85ff4bf29c0092584e71f54c8f3ef46171de8f534fb"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/render_blender.py",
+      "unchanged": true,
+      "sha256": "aaa971002c571b8679fb1ffc80f8ca9a66252ec544052a169dc67a4464583f86"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/render_saved_blend.py",
+      "unchanged": true,
+      "sha256": "f1d8935c7175f60b07ebbeff135c1f1d40a34b34d6e7ae363ab94c6e3801f2ac"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v1/rose-palette-v1.json",
+      "unchanged": true,
+      "sha256": "22c2ab012bea0886f20ca8fcbe9893ef41cc48cb0b8065dbde3ce75c9af21661"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/README.md",
+      "unchanged": true,
+      "sha256": "31a42cf1c5a3b6c79ebe4353b6bfa0425db3c0626d3a2cb816a60c33c3202252"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/Rose-prefabs.blend",
+      "unchanged": true,
+      "sha256": "abdd3864125f90704b13915a1f30f327bd7104c0e09183a3da979c2a64b05091"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/art-manifest-rendered.json",
+      "unchanged": true,
+      "sha256": "17ef02798aa2a7ea08ae18b20cc2c639589cb0f2ff606ee5eb3b5d06d1d6141d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/export_sprites.py",
+      "unchanged": true,
+      "sha256": "10621eb94b9782c020511c309f7f76e9559bed26cd975942c993baee6b3c1658"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/render-catalog.json",
+      "unchanged": true,
+      "sha256": "110e978edeef37155663bf22b40be824f193d24c9ffb39e0ac8d467f0b8f8618"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/render-record.json",
+      "unchanged": true,
+      "sha256": "b32fd113587926fa6d372d1171d2c873d04ae9f6908094856ac4139947dee32d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/render-settings.json",
+      "unchanged": true,
+      "sha256": "6eb07bccd3cbabd75974702dabd6c75d6f5488d3f482caee84b889e0b3075bf2"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/render_blender.py",
+      "unchanged": true,
+      "sha256": "f27dd6d5c0136cbfe7c98feffe63cd845015d6113ff5b5cb3277b275a51a4af7"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/render_saved_blend.py",
+      "unchanged": true,
+      "sha256": "f1d8935c7175f60b07ebbeff135c1f1d40a34b34d6e7ae363ab94c6e3801f2ac"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/rerender-check-v2.json",
+      "unchanged": true,
+      "sha256": "361021ecce735f54b1c6a67b4f7a09b2556c1e5be57cbf69994be0ff79175893"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v2/rose-palette-v2.json",
+      "unchanged": true,
+      "sha256": "c2c64afebeb3e9390eabcdd9a9b441d56f020438738fce61cba2686d80c95ffe"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/README.md",
+      "unchanged": true,
+      "sha256": "b879b430600d6b49f36fb6d88107f06ccdeed984b36831d0d241d29200db5a32"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/Rose-3D-prefabs-preview.png",
+      "unchanged": true,
+      "sha256": "e6eab2fc6ce6c33343a48cd72852ebe510696b7469e3ad18262c9c504248380d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/Rose-display-comparison.png",
+      "unchanged": true,
+      "sha256": "d3092adeda1b42e550b2fa7904af7c162624701fa20ffd7c3ffe083f7300b44c"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/Rose-field-preview.png",
+      "unchanged": true,
+      "sha256": "028f5537a798091eb8e8a0de943be38b6d77439b221ebee8374de9891a1cf589"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/Rose-individual-prefabs-preview.png",
+      "unchanged": true,
+      "sha256": "6d06223907f8811db2e3252cc3e364f41612ab8e2959e9ba3cbeda1aaf08b57c"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/Rose-prefabs.blend",
+      "unchanged": true,
+      "sha256": "edeb13c2bc5ea3ea2a8bee1c5be16a293711965f420f2a1cdf76229d85f67a21"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/Rose-sharp-field-preview.png",
+      "unchanged": true,
+      "sha256": "e762aeca5a36c55c620606e452badb8b3ff7e2f0da1574da2704b225bd7fa079"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/VALIDATION.md",
+      "unchanged": true,
+      "sha256": "5816e95c27d35cd076dd4b19a84e56ab8f0d9eb7bc09fd6613a7ffe530afff9d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/art-manifest-rendered.json",
+      "unchanged": true,
+      "sha256": "0e1eaa18230526b097be4c9373334959c430b2a27ec70e100c79f4cc7919f3be"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/body-bake-v3.blend",
+      "unchanged": true,
+      "sha256": "c3fda96e82d18867c30750f0516cc792439d212ec6b1d9a2d1edf7ae8600af8c"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/body-reuse-proof-v3.json",
+      "unchanged": true,
+      "sha256": "2abad70b7460e68bb6625b4622b442818ae87502fc685c7e42431875e5e3a717"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/compose_render_pack.py",
+      "unchanged": true,
+      "sha256": "fda45b20a7dabbb9dda345b780aa5af52d2f1655f4252ee3aff4a2b506fea62a"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/export_sprites.py",
+      "unchanged": true,
+      "sha256": "6998d3bc2fd6963656a423eba7368201898320b5b89db55d6eae6915390cb2fc"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/individual_models.py",
+      "unchanged": true,
+      "sha256": "afd470d570e46079d8e2c213a4f7844a1d25995afc8bd055dab72c11a58b8040"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/merge_render_shards.py",
+      "unchanged": true,
+      "sha256": "0794cf6880af2d575b67efd5b60c5900967cab2a08467c38a1fd12d2162fdaf0"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/patch_exchange_wear.py",
+      "unchanged": true,
+      "sha256": "462ec43811b5a3221b87a0e3066149e2982cf3e2dcda5a03488e6cf839c07b77"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/reframe_environment.py",
+      "unchanged": true,
+      "sha256": "dfc363ebf15f872d044190e323e767a8e6e16e13f2c6af01dd0b8591e9b1c85d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/render-catalog.json",
+      "unchanged": true,
+      "sha256": "b418eb1b1f3136bbba5fd25028cc9709cd2abedd237cc9c1cbeab8f6662fb826"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/render-record.json",
+      "unchanged": true,
+      "sha256": "dbf090324939ae9f40d18639a0b3910b06e196ee0b8d3680b0ba5fc903a32076"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/render-settings.json",
+      "unchanged": true,
+      "sha256": "864810d0a66ff0471e96f56a3414f000b6c6534db29a2c7e942840bcffa1ab06"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/render_blender.py",
+      "unchanged": true,
+      "sha256": "bb7a6e6bfcc489db87b2c30924d8ee1add220f1b9844878875fa5509025c9e4c"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/render_saved_blend.py",
+      "unchanged": true,
+      "sha256": "7719c024881af8838b6496af89d796686726767bf60e6f03e7400c1b2039dbfa"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/rerender-check-v3.json",
+      "unchanged": true,
+      "sha256": "57006b85a2cc712ee4cedfb86d4b19328ac01a238fe3163db753327baea0079f"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v3/rose-palette-v3.json",
+      "unchanged": true,
+      "sha256": "1d8aee39efff667aabbf29050b12c09a4fa8c5d4723952f320193263a3024215"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/3D-SPRITE-PIPELINE.md",
+      "unchanged": true,
+      "sha256": "fe1c3b20f2cf83e0f335f89f14d9b5d0c2e9dc28a76f3072415ddc94a9241e14"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/ART-DIRECTION-AND-DISPLAY.md",
+      "unchanged": true,
+      "sha256": "3747dbbc704c36215a60925d085e577550a7daa5da7129949742f87d8bae756b"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/README.md",
+      "unchanged": true,
+      "sha256": "c09d8bf76fee6b0ade2cd443b39a046108470de0f2461bca6f29b674a11324b3"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/Rose-3D-prefabs-preview.png",
+      "unchanged": true,
+      "sha256": "df91578f33ab3de98c42471ccb2507d70f2124ac9a9a91d38f8a12cbf8f57b74"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/Rose-3D-walk-preview.gif",
+      "unchanged": true,
+      "sha256": "dce05c6156c84e76b48c21edf50453935435fee5c97ab3102c169eae15e2a00b"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/Rose-detail-preview.png",
+      "unchanged": true,
+      "sha256": "41e084d4dffe1e942d6c8e59b5a764211d953a57aaa0664f400ddb1e69c2f865"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/Rose-fidelity-comparison.png",
+      "unchanged": true,
+      "sha256": "44dad1d1d01490e25e71f112290397c96a1664ead2d499645421146f3c586f3e"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/Rose-field-preview.png",
+      "unchanged": true,
+      "sha256": "b4fe55c1b899a41d8b8ccf7319e46390c2755d84e05d69589910f57ad6b4b1ce"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/Rose-individual-prefabs-preview.png",
+      "unchanged": true,
+      "sha256": "fc21b05e69c81b07509841f647504b33a06aff6293c3d0e7235ff3a5b4ecbab8"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/Rose-prefabs.blend",
+      "unchanged": true,
+      "sha256": "270f13f7aa05947c176349f39ebf219a9050a97873307a25299a64fc45382013"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/VALIDATION.md",
+      "unchanged": true,
+      "sha256": "a7a2fccd7971e8995e37318c501a97368d1e35651b5843379803da72febab227"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/art-manifest-rendered.json",
+      "unchanged": true,
+      "sha256": "0ebb37d61ce53157a69f2b242a23267bbd0a00b6ff1c3731d7e37c7fdc252482"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/build_art_manifest.py",
+      "unchanged": true,
+      "sha256": "2f55798820410dd5f18e3cd2b775ec7cb6b4c8a3afc66175c2f7077f06363f6d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/build_fidelity_preview.py",
+      "unchanged": true,
+      "sha256": "779a22de9297917bdefe2501a09ff7460a8f5585157a67183b0b94c77a586819"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/compose_render_pack.py",
+      "unchanged": true,
+      "sha256": "fda45b20a7dabbb9dda345b780aa5af52d2f1655f4252ee3aff4a2b506fea62a"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/configure_fidelity_render.py",
+      "unchanged": true,
+      "sha256": "78a73dec7628cb5640fca53e44fdb8f6450ea64377033e45ff67242eaf9e684f"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/export_sprites.py",
+      "unchanged": true,
+      "sha256": "f0e09e9637004160c90f8530677f6f309b8c6e8562ccf4c16569d2b8d86ced12"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/fidelity_models.py",
+      "unchanged": true,
+      "sha256": "78bd3bd622c63045ce59ad9434f8d9b03ab518cb0e0b39d3135c4e62072ff255"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/generate.py",
+      "unchanged": true,
+      "sha256": "cacb1a8ff303be75f76bc42a7fe7fcd1277501abbdbd0a4b532e20793f4f7e79"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/individual_models.py",
+      "unchanged": true,
+      "sha256": "afd470d570e46079d8e2c213a4f7844a1d25995afc8bd055dab72c11a58b8040"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/merge_render_shards.py",
+      "unchanged": true,
+      "sha256": "0794cf6880af2d575b67efd5b60c5900967cab2a08467c38a1fd12d2162fdaf0"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/patch_exchange_wear.py",
+      "unchanged": true,
+      "sha256": "462ec43811b5a3221b87a0e3066149e2982cf3e2dcda5a03488e6cf839c07b77"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/refine_fidelity_source.py",
+      "unchanged": true,
+      "sha256": "a83e747c140ffc6e533fd237b7912f8ca8d2db6c688e7ba9b8f0726abc9dce25"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/reframe_environment.py",
+      "unchanged": true,
+      "sha256": "dfc363ebf15f872d044190e323e767a8e6e16e13f2c6af01dd0b8591e9b1c85d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/render-catalog.json",
+      "unchanged": true,
+      "sha256": "dc954b9053e9e8fdd971bfc5a800f2dd888a42e37de7020ead30bd82d8ebc765"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/render-record.json",
+      "unchanged": true,
+      "sha256": "ad2071a115277e8e7bb83b1717b887594067e7122d38db5958140edf0d4df425"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/render-settings.json",
+      "unchanged": true,
+      "sha256": "67ebd1e50d17f927ffb6b6928e72f49466a4b1cbd9d1c67a8892ae01030d7a18"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/render_blender.py",
+      "unchanged": true,
+      "sha256": "7a7e27663ee8c7b6162e62f06105b30a8cee8258de3de5e1c756aa670fae4250"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/render_saved_blend.py",
+      "unchanged": true,
+      "sha256": "a97052dd00891b8d1cb9482b7bec2939427808a76575440effb124960cef61a5"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/rerender-check-v4.json",
+      "unchanged": true,
+      "sha256": "f63849587cf2368d35da7ae047aa31e7d6475e4e9c3e0dc0402b23a50af74a45"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v4/rose-palette-v4.json",
+      "unchanged": true,
+      "sha256": "474b18792e63b05e76e2b5de37b68db668750d31737d31d3f57178f49fd46e61"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/3D-SPRITE-PIPELINE.md",
+      "unchanged": true,
+      "sha256": "b01f3e7d53aef74d2697b7f81d106e619764195df46b9151b418936cb229a8bf"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/ART-DIRECTION-AND-DISPLAY.md",
+      "unchanged": true,
+      "sha256": "785af5c08b9a52b7d8bc4e3dacd2684a2d33c0e4613f3c032d2b571e27fdfb4d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/PREFAB-REFERENCE-GUIDE.md",
+      "unchanged": true,
+      "sha256": "a3680071141e021f5287cfa5a5a112f82568c591b370c5bd56e9ce8824fa4044"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/README.md",
+      "unchanged": true,
+      "sha256": "191deff70fc843abeb58cad65974b12423209c9e02528fe9c90175266c05436c"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/Rose-fidelity-comparison.png",
+      "unchanged": true,
+      "sha256": "cf8dd3eb50f77761b1973f1e656f591c2bc32cbef34c3a7137cb7c6a91aff3d7"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/Rose-field-preview.png",
+      "unchanged": true,
+      "sha256": "7919eb8b0066e8fe573bf94abf23c52e74b9e376fd77ebfd2225e27cd45984b6"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/Rose-prefabs.blend",
+      "unchanged": true,
+      "sha256": "8a32e9d30f5e5bce37925c8b155bb030f6fe3d8d11a3d139d30c0600c799e090"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/VALIDATION.md",
+      "unchanged": true,
+      "sha256": "d9434a78f024a40fc980b5e8bb0d3aa7db2d6a27ef3dd6096997d7a77182760b"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/art-manifest-rendered.json",
+      "unchanged": true,
+      "sha256": "07dd876fe9dc83fc4099aa27c8cddd178fad6c8cb8ee443d69b4b4a3d1db53f7"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/body-reuse-proof-v5.json",
+      "unchanged": true,
+      "sha256": "f35f2ef70faa96637c226b903a479246373c12cb5e4d0f03c5d291ddeed99923"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/body_dependencies.py",
+      "unchanged": true,
+      "sha256": "b86df4800b0f373e2df3febe6a1763b3db3c70c32522e228def990734da3d3b5"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/build_art_manifest.py",
+      "unchanged": true,
+      "sha256": "2f55798820410dd5f18e3cd2b775ec7cb6b4c8a3afc66175c2f7077f06363f6d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/build_fidelity_preview.py",
+      "unchanged": true,
+      "sha256": "47028a691092210cacef7fa3d395e3f8a26b6551f2af82ae16fd57e1381e39fa"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/build_reference_preview.py",
+      "unchanged": true,
+      "sha256": "2b3dfe22cc948ca795ac3986548eec7dbfa811f80d355e7ab8036fc79cd49357"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/compose_reference_pack.py",
+      "unchanged": true,
+      "sha256": "31d5be9e94afa3933d065cfaf44eef72fef5bd186e8267e88888f11384afe3e6"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/compose_render_pack.py",
+      "unchanged": true,
+      "sha256": "fda45b20a7dabbb9dda345b780aa5af52d2f1655f4252ee3aff4a2b506fea62a"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/configure_fidelity_render.py",
+      "unchanged": true,
+      "sha256": "78a73dec7628cb5640fca53e44fdb8f6450ea64377033e45ff67242eaf9e684f"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/export_sprites.py",
+      "unchanged": true,
+      "sha256": "0705997e8c6dfefc938f7c8df4457a6a187b85560c5f06d4ab5972171434838b"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/fidelity_models.py",
+      "unchanged": true,
+      "sha256": "78bd3bd622c63045ce59ad9434f8d9b03ab518cb0e0b39d3135c4e62072ff255"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/generate.py",
+      "unchanged": true,
+      "sha256": "cacb1a8ff303be75f76bc42a7fe7fcd1277501abbdbd0a4b532e20793f4f7e79"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/individual_models.py",
+      "unchanged": true,
+      "sha256": "afd470d570e46079d8e2c213a4f7844a1d25995afc8bd055dab72c11a58b8040"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/merge_render_shards.py",
+      "unchanged": true,
+      "sha256": "0794cf6880af2d575b67efd5b60c5900967cab2a08467c38a1fd12d2162fdaf0"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/patch_exchange_wear.py",
+      "unchanged": true,
+      "sha256": "462ec43811b5a3221b87a0e3066149e2982cf3e2dcda5a03488e6cf839c07b77"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/prefab-references.json",
+      "unchanged": true,
+      "sha256": "69b400438a2723eb9c26ca629bf582b6e8cba2d15868210820e8fcdf3bf85ffa"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/raw-body-checksums.json",
+      "unchanged": true,
+      "sha256": "d32cf3b8be816c507f6d83d78565811dd063c5d6fbc39313881102560cc13ff5"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/reference_models.py",
+      "unchanged": true,
+      "sha256": "7f709c8898d9200cb3c5a84b277fa852368c39148cd2392ed641f4e051541bd4"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/refine_fidelity_source.py",
+      "unchanged": true,
+      "sha256": "a83e747c140ffc6e533fd237b7912f8ca8d2db6c688e7ba9b8f0726abc9dce25"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/refine_reference_source.py",
+      "unchanged": true,
+      "sha256": "d7d2f1aab778b05448426b1fd76ab4c196f648d0af1f2de712a3f21975d15c27"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/reframe_environment.py",
+      "unchanged": true,
+      "sha256": "dfc363ebf15f872d044190e323e767a8e6e16e13f2c6af01dd0b8591e9b1c85d"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/render-catalog.json",
+      "unchanged": true,
+      "sha256": "4fa54728d2bacc6fb5cc361ddb64d12c581edf635cbd06f326dfa0955a4dd798"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/render-record.json",
+      "unchanged": true,
+      "sha256": "2115c4a93485055971cca642d3daa0878b19c66c6d2c6f662db96ab1db76a426"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/render-settings.json",
+      "unchanged": true,
+      "sha256": "93e5cade1b72822dfeb662f9e2c4c23301dfc8d1fcb10142b29977dd0b231ccb"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/render_blender.py",
+      "unchanged": true,
+      "sha256": "f567750518e89e026eed5aa4aa8d9f3c1df15a9511618337a3cd78b616c18522"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/render_saved_blend.py",
+      "unchanged": true,
+      "sha256": "a97052dd00891b8d1cb9482b7bec2939427808a76575440effb124960cef61a5"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/rerender-check-v5.json",
+      "unchanged": true,
+      "sha256": "5b367be0661b9526112d1fa34ad436ec3cc06a346918c1a28036ed42bba21d15"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/rose-palette-v5.json",
+      "unchanged": true,
+      "sha256": "72ef51f6e67fee3e70d8b7e0b8c8daa500f8a94a142fdb609b0c8f08eabeeb3a"
+    },
+    {
+      "path": "rose/art-source/archive/rendered-v5/visual-catalog.json",
+      "unchanged": true,
+      "sha256": "f6bfd68f986485209409854497023b962689ac18cc9fdb41ddbcdbe520a34516"
+    },
+    {
+      "path": "rose/art-source/body-bake-v3.blend",
+      "unchanged": true,
+      "sha256": "c3fda96e82d18867c30750f0516cc792439d212ec6b1d9a2d1edf7ae8600af8c"
+    },
+    {
+      "path": "rose/art-source/body-reuse-proof-v3.json",
+      "unchanged": true,
+      "sha256": "2abad70b7460e68bb6625b4622b442818ae87502fc685c7e42431875e5e3a717"
+    },
+    {
+      "path": "rose/art-source/body-reuse-proof-v5.json",
+      "unchanged": true,
+      "sha256": "f35f2ef70faa96637c226b903a479246373c12cb5e4d0f03c5d291ddeed99923"
+    },
+    {
+      "path": "rose/art-source/body-reuse-proof-v6.json",
+      "unchanged": true,
+      "sha256": "85965360f38d1df855e75379274f900df553754de71905b2b6f728192aaff7c9"
+    },
+    {
+      "path": "rose/art-source/monoliths-v1/models.json",
+      "unchanged": true,
+      "sha256": "dc478f11c8200739560ea22b6f0c1539fa58ffd54939c4371c3ad8120e27a73e"
+    },
+    {
+      "path": "rose/art-source/monoliths-v1/render-record.json",
+      "unchanged": true,
+      "sha256": "4d296006c544d80b8c7ca29bdb60bba0b7ae2151203399daf528f79d480231c7"
+    },
+    {
+      "path": "rose/art-source/prefab-references.json",
+      "unchanged": true,
+      "sha256": "69b400438a2723eb9c26ca629bf582b6e8cba2d15868210820e8fcdf3bf85ffa"
+    },
+    {
+      "path": "rose/art-source/render-catalog.json",
+      "unchanged": true,
+      "sha256": "36238ace96dffa2fbba8609ecd9e0b69833598725d04489dc1d8e2886c6d64f3"
+    },
+    {
+      "path": "rose/art-source/render-record.json",
+      "unchanged": true,
+      "sha256": "10d73813c5d61f9b82aed0de344ecba6d42d42d80cfa556ed88148b11b205340"
+    },
+    {
+      "path": "rose/art-source/render-settings.json",
+      "unchanged": true,
+      "sha256": "2838ed065e6c593165ea8568feed755157e7b8c0f8ab63b1a49c24c07104fd54"
+    },
+    {
+      "path": "rose/art-source/repeat-render-v6.json",
+      "unchanged": true,
+      "sha256": "0b58ac93c0ace0378785ef63a9e48e43e1edefc751e5c786c2903f7e38272b17"
+    },
+    {
+      "path": "rose/art-source/rerender-check-v2.json",
+      "unchanged": true,
+      "sha256": "361021ecce735f54b1c6a67b4f7a09b2556c1e5be57cbf69994be0ff79175893"
+    },
+    {
+      "path": "rose/art-source/rerender-check-v3.json",
+      "unchanged": true,
+      "sha256": "57006b85a2cc712ee4cedfb86d4b19328ac01a238fe3163db753327baea0079f"
+    },
+    {
+      "path": "rose/art-source/rerender-check-v4.json",
+      "unchanged": true,
+      "sha256": "f63849587cf2368d35da7ae047aa31e7d6475e4e9c3e0dc0402b23a50af74a45"
+    },
+    {
+      "path": "rose/art-source/rerender-check-v5.json",
+      "unchanged": true,
+      "sha256": "5b367be0661b9526112d1fa34ad436ec3cc06a346918c1a28036ed42bba21d15"
+    },
+    {
+      "path": "rose/art-source/rose-palette-v1.json",
+      "unchanged": true,
+      "sha256": "22c2ab012bea0886f20ca8fcbe9893ef41cc48cb0b8065dbde3ce75c9af21661"
+    },
+    {
+      "path": "rose/art-source/rose-palette-v2.json",
+      "unchanged": true,
+      "sha256": "c2c64afebeb3e9390eabcdd9a9b441d56f020438738fce61cba2686d80c95ffe"
+    },
+    {
+      "path": "rose/art-source/rose-palette-v3.json",
+      "unchanged": true,
+      "sha256": "1d8aee39efff667aabbf29050b12c09a4fa8c5d4723952f320193263a3024215"
+    },
+    {
+      "path": "rose/art-source/rose-palette-v4.json",
+      "unchanged": true,
+      "sha256": "474b18792e63b05e76e2b5de37b68db668750d31737d31d3f57178f49fd46e61"
+    },
+    {
+      "path": "rose/art-source/rose-palette-v5.json",
+      "unchanged": true,
+      "sha256": "72ef51f6e67fee3e70d8b7e0b8c8daa500f8a94a142fdb609b0c8f08eabeeb3a"
+    },
+    {
+      "path": "rose/art-source/rose-palette-v6.json",
+      "unchanged": true,
+      "sha256": "3477ebe5a0d21d9a5430f7ae6669b4263ca9c2dd7b13caf1c9d333200fcd0c0f"
+    },
+    {
+      "path": "rose/photonics.py",
+      "unchanged": true,
+      "sha256": "2d95659935ea2f2764673a1eed6f7f3a2f19b27ebfbd621977110351e5225570"
+    },
+    {
+      "path": "rose/physics.py",
+      "unchanged": true,
+      "sha256": "89b43000a2f5c6e3145e9bd6daff61bcb5760c8da0927a721ffdf74fe9f01f69"
+    },
+    {
+      "path": "rose/research.py",
+      "unchanged": true,
+      "sha256": "19771b8d912723f1a8270a23f80b4389614cfa64bd82d381b7a4ef10c9a9e837"
+    },
+    {
+      "path": "rose/static/art/README.md",
+      "unchanged": true,
+      "sha256": "8e1619e51d9c58b73cd4a7ed3280e56af78d6d69a2812d6cb693300aaeb57386"
+    },
+    {
+      "path": "rose/static/art/prefabs-vector-v0.1.js",
+      "unchanged": true,
+      "sha256": "e1da16d0a91843ac7b026031c6f972d88315e5a7aa4caf2f4800776f0a92c77d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "4e319397d46c8fb3d5c6bc8a327905493f3a64f79aa919aa3d46dac974d95b88"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "9d275a5e9eb19c2e717e7114bee95d5797483733519357dd7965a4635474872a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "9d275a5e9eb19c2e717e7114bee95d5797483733519357dd7965a4635474872a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "156768567732c620fc77f5e306b2b9e6cb3316a122895d9bb351c9b851fc7f06"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "33205ffe8318f534e0e4fb2217291a9414cc98560afef8fac9e346a1f03e3999"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "ac8c1cd77bd47675599d808f7935847a7fcf153dd7a67020ae6a2d548907a1d1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "ac8c1cd77bd47675599d808f7935847a7fcf153dd7a67020ae6a2d548907a1d1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "2b480f067358e303452fedf7ac8bef9f97467e89608e8b626eb302777ff31c09"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-v3.png",
+      "unchanged": true,
+      "sha256": "bda97bab88c0c9c349a3195291d038a7175687692f99e3a4912b1c8c3bbcbcde"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-v4.png",
+      "unchanged": true,
+      "sha256": "bed38123a1b8d08bf405759bd79cf7eef1985d905763a3a13520a6a10e70ddba"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-v5.png",
+      "unchanged": true,
+      "sha256": "bed38123a1b8d08bf405759bd79cf7eef1985d905763a3a13520a6a10e70ddba"
+    },
+    {
+      "path": "rose/static/art/rose-3d-archivist-v6.png",
+      "unchanged": true,
+      "sha256": "215fe76df927972797f11600c8314e815101256e0d6754b32077d48ff96802c5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "93288310b7ae9a80214a489c63a21d0915ae2ed4b10f0b0e9fa400473f6e08c0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "be350f9d8515d0dec0ef4132014016fd9f9e2e2e6c74f1260a1c1f6845a1cb05"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "be350f9d8515d0dec0ef4132014016fd9f9e2e2e6c74f1260a1c1f6845a1cb05"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "0b93083cf7db66809669fee1445d5e8aecbd5c48b619f4682e15f52be542f623"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "e50af8b771cd68c1207de2eee7cb1e97b09456c9d8c60e1ebc3581c2787f1bf7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "f36d5af924674fa4051ecdb49c1d6038343c7cc29e33421424958b85e46af0c9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "f36d5af924674fa4051ecdb49c1d6038343c7cc29e33421424958b85e46af0c9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "20c9c01b712eb30010cca3d140e1e8fe06185c4c0470e1df77c016fadb9ecba3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-v3.png",
+      "unchanged": true,
+      "sha256": "610086c71c25a17d9be835ad84927b51f14632655c433dfc9faf6dde86376260"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-v4.png",
+      "unchanged": true,
+      "sha256": "49731a15ab0c19579a03a70784660a5236c660df7576c8ca45749a4a0d1b964f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-v5.png",
+      "unchanged": true,
+      "sha256": "49731a15ab0c19579a03a70784660a5236c660df7576c8ca45749a4a0d1b964f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-artisan-v6.png",
+      "unchanged": true,
+      "sha256": "9f0525c8036f241a75ffbb53b982be0b2b145440b51bba2daaeb5c3c04988997"
+    },
+    {
+      "path": "rose/static/art/rose-3d-construct-v1.png",
+      "unchanged": true,
+      "sha256": "dd927446fc75cad71931c13523585745c1a3e8701934a91bdce746c586f592f7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-construct-v2.png",
+      "unchanged": true,
+      "sha256": "cdc62b35e83f47d2efdd8f569ed48902b00e47c210e3e04dbaa730ff36b7447a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-construct-v3.png",
+      "unchanged": true,
+      "sha256": "e5abaaee64f074a2716ec7cefdf0f9d3fbc14494688dd2b6d856f2496143132f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-construct-v4.png",
+      "unchanged": true,
+      "sha256": "ad025694d5c67fefda108fb06cf6baf5ffa73bdcbbc833215687aa19c058ee56"
+    },
+    {
+      "path": "rose/static/art/rose-3d-construct-v5.png",
+      "unchanged": true,
+      "sha256": "ad025694d5c67fefda108fb06cf6baf5ffa73bdcbbc833215687aa19c058ee56"
+    },
+    {
+      "path": "rose/static/art/rose-3d-construct-v6.png",
+      "unchanged": true,
+      "sha256": "bab0b98a373cd5fe5d278f226966665bad8c4c3649db34e9b613a8d74bd188eb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "4cb7959a0fb582975ae427743eaa8365b404d7244daff3e24508ef64caea29bb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "68b9de209968ed155167dd4503afbe776392f2bf18ffc7dd910b20486be0b047"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "0bfb9d61f6d53413928cc2bdeeaafc2f8b1d6de3d392c024c0baead5100e8e12"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "b7de3556338d7059963dc0f48597b2ef224dc415d86acd33f4ff1d962fa6401a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "da3f8c20dd2ada25128012e52d872ed18e0c85b3118bded3aa4cd20adea41bd6"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "c9b3aae1e47d6ac85a2de94c8fdb09cdce7cb9cac8bd61a95d780d2a7cdb88ed"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "4d4f66bb37e5ef45403a61ad7feacd9fb5ccd7c850d98f83791e1bddb48cf2bf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "3683e8d4cf33445a652e5c27f079192c3c7b29f2236a58dab94265edca9be34a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "b91f7792040a7086b034f1337f208c64373109eed9a8d96356189ed3561b129d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "ba6f6b3db0b365574325c4c4b339fb17b76f0d95a40928003b8aec0ec801e4a4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "123c7beea1afe8e3342009c8f999708bcb168555a66f556d384352c42a900b0d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "e13f53325eeb71231a32027ce43d4d69fd0ae04b466f7831ad9673dc33c3b9dd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "153c10d80a59ea4058145cf9d9617d7bd9ff3f956dc75ed326cc7040d73017da"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "c9bd71a562ca5fc761aedad40cedad2a7f279111ebc9b6de087db6a7717c8b28"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "f7c02769a44838a456dbaba5bf9023be9030c5f86d0df4d3729d213f1e4ed7c3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "aaea43477ab088919df47a658f93f58605f5b5c00c9c8f2cca2311b07920c413"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "e1627d876f68506136e822f28885cce2f96ee6f1f8e75a9d1e4af1f78caf7916"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "4a3094457d255977dc48241d219d339013e087ae1a12540c709f99e33b809bba"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "c5fb0f2b0e4a058828f903b3cec51e0db17021b70d61a6444bc2e4c84224e768"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "4f669e1af122702deb4dbf1231fc9ca40f2f4915128f12b423cf1cea4b7f6302"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "540d1b8587d843be774888947e1e58eea7d205f58a3c1f3334f05583ae633224"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "3197faa91592c3fca7a8fb157245f103e7b665998076bd9cbaa2c86bbe0d9b8c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "c949620dd0b7c17bacb9bbcb436fd7c79da4cddd28a66130ce84d190f57c12d3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "ee20ee06e1aa4cf5ea81432b3fb2cf3f959c482b2acc4eeb44403dd0128c38b3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "939b6666e18ca61d539f73deadd4a144adbbe48b24ccf9b7823e97acd6ef5e60"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "307388a2950c31166d629faf22f97177837e76d2d6be9609bd7f21d0501a8f80"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "feee69dd402938df2051804a6310652154e1b1763661fd48c8c68506c71c4abf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "f12070bae9ffdb10c80f4cf1b46f91a0fc6af5efad25f1a95e9d45c046760cce"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "fd37b637ed2813e4104b36ff86c705e3fa43bd7bb68e8d784f7d926248c5361f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "083160e8b198ff8f72d0b937cca8586c08cb64580e7286b7c3e2796becfae127"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "4afdcfe9370ff07f536ed4afc9eb0e135b59998156b558fd25c1be9c23c6f211"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "084b91015464d33a0f40065cffb37e6b30caa75c89f1345fbeff5169ffe71df1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "1955100b08f2027ff709209fc7a58979dc5a2c0ff63c8476547396cf8a46192f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "452ecf7b101328e1c5e7d3facdd1f498e4b3713d4c8f411d4aabee982ac2cf06"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "fc3c1f5f44848a9b70c7780619c6fa8f7d2743e44ed5d3504147d1170842017d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "0f4602c53fb495e69bd8cb3754ee5fc891008eb92c499c0e7dd2296e6058fc0d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-v1.png",
+      "unchanged": true,
+      "sha256": "d7c09c03d73b4502ba00a5c6edb8b987b1e35009e886e799a63a5a33f05b3ec2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-v2.png",
+      "unchanged": true,
+      "sha256": "27a6fae6acb0692a238770882f1eaf5110087941fa532b89dd33b66efd956d6c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "6cfb743b1dc52f420de5f53cf2196174d8303d7cbae0c5bfa599d9cdb15f04eb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "920c44d9a06f180ff95524d1aa47a4e24aa97e3fe7dd39dbc597d28e42216957"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "ad331b499f9ae145f1fc3d5833f4df63339997d7ec4ecd34f960c362ea7988fc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "adffc91e70215e892dcec376faff37a18a0f908c151e009919655fe23c57a718"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "af6fed61f6bf45d056ffcf01929f816bf540d0e90ae7bd5867e7c5dd1980ec34"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "d1c22bb483bec18c875f35c99ce5bce8aebc874298a34cb9ed1fc4ad015b85e6"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "1b101ea4f42482f7c8371777f95315f2dc8220e50f235c90c3b7571d1889d688"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "da2171f7ce8e1c37d4d1f1768f2400dbeea6b47407ac197aecf58aa39336530b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "68e86d561f801d1b70fce219d91bc764409da6bc7ad6596899d118b0ce544b03"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "8f5e7230a8ea76179030f3880ac36c0e2ccf29769f8021aabfe3efa3e4630a61"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "d6c7bb017c417a1bb55b7251b88c9d212f7e1e49ad541af4082caccc6f696768"
+    },
+    {
+      "path": "rose/static/art/rose-3d-exchange-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "e455095eaf703a43ca3c1205ac99566038ef0c5ef5352c7aef8a3239d147d02b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "7c7d0594c6912acf5a95fae552502a5369b6ee2fc37e61d0b2ad2ad5ce9ae61c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "88f3cbb5fd9b74ca4224f3ce511eca926121e4b903a015149ad7977da62989bf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "158fd5f668fd88f0c97dceef6f8af0dadf373ff6df6fa06bc79f10e3e0322c1c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "99879470b4690c3e293509a9d34b4523b9f04106121d366323a5aa6dcf18e21c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "e67212a90027910ad7408973a302483c2fb43e0150555d43bd6d9de774ad39af"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "b6257c7abcab30769f09e06f0589a3088a493587a6a1ee47d03d757770a056aa"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "b314cc7ad5d485cf58db3f87823204529902dbc1f375dc6895a98eeb68b1ceb2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "385e70583dc72e14be94ac7ed0834018c6f4f36ecd475a86d4de9a75dfa785c1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "37bf7b6e7328e371c2c28cbf76078f8061c2b3cba9fff26ece051d1477e799ad"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "a643cf18f76dc9058ef5436764ae8637d2daf12cb3715601d808be46b7687dcc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "698f55400a6d7157325f52c2e15b6b7df055254f8bfd81267979bb0434e29e1a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "c44405a587c20d4477a7c654ef5644f1c089021f9cd277d35446c46870f5302d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "418056e89bd9dd0972943bcf2adba9d29dfa10e06a37a8264e30a7bd9650a467"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "9b2c28a4a4b9a669af1789619fb38258f014c82054819a8f56cf5e363e28ff40"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "37cdd88b96133952834d3ec720938787ae2d80ba7af097b4d21e271ad53e9864"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "4cb01949c5b390aa0ec42ab5c225dfd2e6723c22ff7cc793dc664a344ae6473e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "31125d2b4ea3250f50f91781efa444725d61f2afc8cb2577157eccd03ed45da5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "2200a0d7046e76c72dd53f9456b57724fdfefb7fa45920c9376ba3ae1c983ecf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "5c6f86c1f674222da0e82779a590f06545800e1c57400a577c16001d893ff2cf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "b74ee948180fa24d270e00d23c6b01090455196edc2ac2c7451002f7e1a91efe"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "db8b5a7f236c00176b242ed85086997bf727a06bf47d75fc69c38c3ff92e8f78"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "5b8688f1cc37b276f5a0bb662c0f2f53c3b5243171ddc92626c916eb743d6bb7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "9cc34995089c1e1a51b5978dd810fad0af96ef7ea960ff45aa0f84581a129bfb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "a9906e6a6d899a2f61866a2c2bdce4724f46dd794f204707b67df66d7959b990"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "f51fa97a0bfdac13489a385dc1be36ce908daa00cd0ffdd7588ef598eb738d02"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "88ac46666c04e183d9b0c48d0290728dc444ac9b71b22ed42e23c75c2864242d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "a8817705064e0cb58f283e0cc107b130f4fa9e1f303f62f70f8bdb687948ff66"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "7341223c38723dedcb34874617edc6c17dd7503436496e04b62501be2244afdb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "7ca715a91e83e2ac7b3f8fbc4eeb4539bfeca0dff4653c83ec68c4877cdfe167"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "3a6cced903dfc6720f012f5d60c1e6973de4a3dd3843c9e6cf507c41e00f5928"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "6be1af46b381a6f2dec7c40dbc355ff6d6219a86f162a740792260a7e67cbd7c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "f9d4c8e767f7dfd2c252236c0a8213716f94ca74eacc896e6c7f6c69d7ba322f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "006c8b692cfd0347716e48c36531ed89ab60846047af61e9924204e9447abf82"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "7186c444284348b6031f39fcb2561473353c3cf5bb8da2a5615b96b5cdc7d888"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "1d48134253e59655682e017fb684fc62c95920e6cf186d78f9e8da1be272acf9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "faa6ec3771ae695e51f34c00ca0ba91f0244620f4499a9072566df1ff694a82f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-v1.png",
+      "unchanged": true,
+      "sha256": "8226dbbb7c14eca7900da7f3c40005d1ff3a7a31150fcde277e39f05bdd15398"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-v2.png",
+      "unchanged": true,
+      "sha256": "09373f40a2c3153a5cc928a1400b6c6a056473119e3d7278663d765e4f9e63c9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "16f88e2bf6d24d379874f417b7e45965034260d82e06d552dba35d18d084b6ab"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "2905e6ac2e564794de02cf9f7b22893c469ace044650b787fc1883027dad58b4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "55b83064ec1fcabb3e9724ec7af4a485ebaad50d8e70ab011d5abd9c7e65c01c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "18f6083c308809547ebade013070e52ec7936c944f8c014f2ce76e9b2650336d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "8e5245f66b7eb75cf692ee60e4dae5a956f023af1d9268786607480fffee78e2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "512aa31c425b164fef89e8d7736042400be74dd91047e6f6c8e161908fd102ef"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "61b418b281efab68694c792820b5c37bc60471cd53bf38ee47990d06e88b77e8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "eeee382b0eb92cee9ec1dcad22bf49d5b9ebd98ee764d78a75476fa661f6aed2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "d0f43cc102841d574b8f71e5800e91a58c8ac7373f85ae067822e428809b1d53"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "1a22b1da134e43c58bffe4e08b281b05fa8f6ea21e3986756534697e847bc791"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "803fe390c933601cdc9bb44739ca675c28bf04de346ff874eb56ae35fa12c0a9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-garden-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "3d18c1b2be61693b2020b5981259ba5f12b56f8db86fe2711a3e98658419f607"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-aethergale-v1.png",
+      "unchanged": true,
+      "sha256": "10bae33a380040dd59871f1ba99d003536debafd93bd4dfa139149c8a5fb2530"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-aethergale-v2.png",
+      "unchanged": true,
+      "sha256": "2d91872f46fcf7061d31add1c80508d834c3ae524b97a56dc52451e196ef06bc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "cd4e2c45b828c998ed45067d8b2861116f4c63cfddeedb5445ca24ec77f9a3ac"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "b7ba4fe5c4b2cb6e985db625bdf94c26e10b63b6a895a2f95313a8f7eaab7450"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "b20d0a307b68253cf6e25fb2558df3c4508cd18fec430defedb9bed3e9a1c58f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "a5e1bc32692e95f3e2e6ca3355793c96f56d93756565ba9a52763aba1e538a88"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-city-cloud-s-v1.png",
+      "unchanged": true,
+      "sha256": "aafd5c0b2954c2b8087438b2db376ff94e9b59c488a825da055fb450ed5b23b9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-city-cloud-s-v2.png",
+      "unchanged": true,
+      "sha256": "2b1f54500abff7e2d0bb080c593c3516efc15f10304a3c4fa1eb65e91e2773ac"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "185bb469db6fee35153b9acdcb4e1311f9744e1e09c030584e9d37198c93b2f7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "81d0be24660cf4da556a80703b7d0bc11dd5cc2102d381551a18a26b130a2b21"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "fd2214cc6d26866d92567f126c7178a5d93683a21307c22448fea0c2002f997d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "8fdb3dbba190bf57ca8f117f3959cfff23ecd953b5860f2a16b97ad95eb7e89b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-enact-hills-v1.png",
+      "unchanged": true,
+      "sha256": "f0aacb5ed0a228ae79628a4ee8cf2c045f419a5a3c7cfada5aff56486fcb9a0a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-enact-hills-v2.png",
+      "unchanged": true,
+      "sha256": "0aa6ad5dd2a458236f319097c25c8da9a6b42f5d1e282e636e5dc81888233f0c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "c5154e40896fc9d267d54e26844e64eae57c0f0697d126c1c77339fbe0c5db7e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "dd6c2bbbd6ae1048bdca2c541bc57110b4c8abb46a546142ed68df00c2d6ad45"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "716a65ffbd6069a8a11a4b046ca956ee05f1320ff1ee13fbc8ba8ff4d6b3e940"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "7999a49ff639d13de905393b3886aca27b95d378e302baed8d59eb488a4d1743"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "8f99d248dd3ba9a0f1e275ddeafda8d79516bc8c132ecc27f53d5e22477939b8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "3f87875ebe1268a3cf1cf7d03d33705f311c31fbb6315430383248171969bbb8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "87c8ad52bee291716e0675370fa60764955c57ce32667f27f9a6967df15af42d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "7c82ed7b64118359df32a326e90f1c0cfdf891620ad4d871a53ce7cd1a70a136"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "750ae5b605b09a33bd7ebe75717c97e79e4d36ba85f6d497c45d22c7d506543b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "3a4934f544f778756f45705c9e3925a97976cf518ed1ac5fdf2d96010165dbb2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "facb6731e324c504a79c7f13a16650391d631ec79c208557dbefca5d77f82cc8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-path-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "017873de6cb7c5e9049134b0a19de11ced6c1fec5311b567725eba1bd3eb4f95"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-wn-tower-v1.png",
+      "unchanged": true,
+      "sha256": "4795e8841bcd5065c067c5782f6b4f390fd821ec61501c49cb181ebc9c8b60b9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-wn-tower-v2.png",
+      "unchanged": true,
+      "sha256": "9983c4493e925f596d34263bd86135e266fb28742cf4aa8112730276be428d3f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "3d0595fbc6a2444cce0f3690b944b75a65f734ffc692329ffe775305998add44"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "f0ecc6e8d40b7a575458b72296746bbb6f4e7ba3450290520afdd51b41031186"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "f48956c477f0ebb52a46cdd9db06f1fbd0a5c87b579c092651a70d32c2f0a49b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-ground-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "97376d064553bf6e0ebb7601eeb87914d2a2862f56a907dc11dfa8e7614daac9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "8efd3382f375c4116b829bf26ca9b5a2e42d63995bd050a82e457f3a0c889669"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "4307b36152aa73f1a65f5c696bdab1e1d528a68860961b5360ae4029485438e0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "4307b36152aa73f1a65f5c696bdab1e1d528a68860961b5360ae4029485438e0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "a04c9c7a247409ede7483dbf205d0f63963ac108756996209403e0ca61383839"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "1e790fedfe9c7ec89b717a1cc843d45cb6dba9e2730de6ce7a8424806de59e5b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "85b2f0cb816b1dec375f5318ac1758597564cfc240ae4481763b448715ed2607"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "85b2f0cb816b1dec375f5318ac1758597564cfc240ae4481763b448715ed2607"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "874d3e185971046f8a603f4db0f454219e0efa730a592d5b3f9bc1ff6c68136e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-v3.png",
+      "unchanged": true,
+      "sha256": "476960a997554c2bb6be3682c1c9076cd1989aca29ee20873da924de97973d45"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-v4.png",
+      "unchanged": true,
+      "sha256": "cf47e3989d61e298e02193dc3ffc6fd10a3c5268b5b187ab3c3e4459f364b6a6"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-v5.png",
+      "unchanged": true,
+      "sha256": "cf47e3989d61e298e02193dc3ffc6fd10a3c5268b5b187ab3c3e4459f364b6a6"
+    },
+    {
+      "path": "rose/static/art/rose-3d-mediator-v6.png",
+      "unchanged": true,
+      "sha256": "274303363f5dd48631f68a0ed9113a8881ca1dd468036e7fc9fb75f6c93da2bc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "edd87d6a0a29163aa9b4faade0c522b94f2624c68bcc877c87be1a0844e22b30"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "1b450d7d69ddd7f9408ea36680dc7f46b2c180b21ef5043eeeba32f2ef3c27bf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "1b450d7d69ddd7f9408ea36680dc7f46b2c180b21ef5043eeeba32f2ef3c27bf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "7623dd91d15ada87b83004a41c23330085761a22cb149f9614a3443230d7dd9f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "f24d7b22fa827d1d97eeafa0d55b659eee17927bd7ec6da9fb415a3cede7e7da"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "4feaaababd895b882f5c2b431d7e737e041f5ea4c5cb773afe6cf6059afafbce"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "4feaaababd895b882f5c2b431d7e737e041f5ea4c5cb773afe6cf6059afafbce"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "65d1c8dd327deeb9718cdbc809ceba45c05a3fbbf8d8406b0039aec6c37aa39a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-v3.png",
+      "unchanged": true,
+      "sha256": "7808ee1467aff6854a18f54b6360ede9162a8088f5ca8dd42da2eba3663dfdd8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-v4.png",
+      "unchanged": true,
+      "sha256": "dd31cb046eaeffb111fd47470c8ae92d649a3981372d933fedf9821b1855eefd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-v5.png",
+      "unchanged": true,
+      "sha256": "dd31cb046eaeffb111fd47470c8ae92d649a3981372d933fedf9821b1855eefd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-metal-kin-v6.png",
+      "unchanged": true,
+      "sha256": "692fb2c82617714678ff87a33f12e7aa3667810ae89b929698e0157262ea5838"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "8b693bd3d0482909a2e70d219285d699867e253f60d4bd3529786da3b0d2b16d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "87e7b7fb2435c64d0e9378776b3fc4fc8da936c5fedad9c740d7b9832dd78c8d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "87716b354de1aef0c4ebb57847a60df85877885298e2fa3e99b3b4bf40539372"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "a2eeb5202c0885d5928ba65573bef367303a11a4b5fc93019042c7e4db5f54bb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "8c22cd4cc2f4beea1922dbd2f7500a501ccf2e0ed48d8f5a37bd06a89b0b356c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "4d3cde84cd18da8a0bd89eead4046d02832fc4626e8f20c86f5ca49310de7818"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "41cd504f787d6324fb4f8339b60822e682ab35a56312ec3bc3c4b9141898b2a1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "3d4648e716d18bfacac5c04f2f3d94628ba9e30844286218cb400c0b0ee7e7dd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "e9440e93e4dbad6d4e245d288d34913388b1420abfd5db4f1457ad0a25c53e1e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "294dff20afe5f390c36c1b653d1319061e91a59f48c339a9108437c942369e39"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "5c4d8c146f45a4e540e1d0f4614b8899bea3eb15541e7126e7130b757e878793"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "8afd2c9dd8a09bae315b55593f3f3eedd1f9fcce406b49f8cf83ad4f63e5c6af"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "8a01e4828ac719ff8c0a9641d1a55ce6796f3086c30c5cc2c22415c21cee1374"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "f452b58428ecd844ee6e0fbeca286a2b999fbed69930be7b0ab488ab0caf2622"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "3ad91a97238da1dcb1a9e84b04338ab62ec45e4b9ddbfb28f12c79e90ba475db"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "482eda38b8e92abc34a913249f7e20276b33d047033950237cc7d5b08662ff39"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "744f276ced21d9c0ab3d3af53d0411fc36c1f43168a756d97e4eb1ff52c32923"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "eefe4ab3e628069013ddd854697fc7cd81378f5275e10cef3cc81216e495e025"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "bc424a24ee2277cf336eb657295c38c8afed9785b2436f25abe856dcebc57486"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "0c9b3849d70f8b1f07ac264f58fc7e63d9e16f441f5d828aeae6273eef647021"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "daf38b076a1313acca3f7c4658e1a8f78793730e460ac7a75526edb9d8a38290"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "ab1d6d98f84280652ba0b9c0a6c678e0cad02b8a36c6d6828060f8710a253ea1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "8173b80bfeae3c583b06c98329d5018233ceb085f5a5ad691420a627df657810"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "912efc5e6736f577e9bbc1ce39561b09c9afcd19ea41db2fe6af8c7fa556f92f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "d275c956ef6155f8f94026c2bf00ea69cf32147b4ae4bed1328c6094bae064ab"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "139a25230cbb4b5ced206497a2e133b55163fa2a76b623fdf2b3c3ee5d89520b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "978182f24204f0ebcfc292694547294b1bc989066ae40a4d639a6c7001a74e60"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "5585c63dcab4eb15308d9f78e7f676a2000c396d4aa833dba69637af99e4030a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "b28894bfcd954215d040de5d35e3a9789253861075c1687c38ff069dbc46b0bc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "aec69fa17c13797585b7ea5fac2c16ecc446d51a236c167c176fa2a71e385537"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "a3f71c0769da3a03be0272e08d91277c5bbd1675c365dbaeb34be1289ec0a33d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "9351d590dac4501842a27537645841abb469621d56fedcf67e707590949a8e6b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "3bb313684d275a64b22630417e68c87d10d3335168deb064d5cb7faa4956c7e9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "b786d2543429cfb9407fe4f43380c65e21e26d4ee32bfdaf0877ab1cd9191c26"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "24376fa6cae0e500af5ba131e1ebc127327847b66ecd934b6189ce1d1329d2be"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "011603042e41c46bfa3bda28a42f6767e8bc05a24d1b03fda75500de08665eb1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-v1.png",
+      "unchanged": true,
+      "sha256": "6ed58e6d5785bae885c3cad3dfbd93a84da7a336eb2dbb34c6ddf7362764d716"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-v2.png",
+      "unchanged": true,
+      "sha256": "f934842e5d935ceb822414dee14ff99f25b65a0b8c145fdd08b1dd6571b61df4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "719e0bf5ffcd72ac4b83b3a5599897e3b2488c7d4ba74d92d87aabb33b873980"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "7dcceba6f9379f9e92b0bd296b03654d87e059d0b09dcb27b05a63ebac8d364b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "540f1b58a168fb315f9ba2320853e1e788ece24f0576a64daf6d7fe9bb58de04"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "2606c878f505a4c2e89ed7c364851d5ee06eaa34c0fbf605be1b5c7012499d79"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "38d349dcf961c6d515bb6f25528ae8abe9a279bde8615eddbfb290559abedd67"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "43dc31df541a7d7bf3dc119322f81ab7ec7104cc79b0b35fea280cd06bbda667"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "9638384d48896c1a2ccce0e34392cae3f18fb3b24d4d88fb18be48c3664cbd44"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "e098d08aa814511f1f8c54f92f7da288706c1a7c55e200dab5639c91e524430b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "0c7bcf5ec5fcbbbd7740d659fff7187d798bfdc4614b5c2ac53758547262e049"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "747607400d1848943f6251390eef5cf7f8a78ab2d0d5f69f4f3439db3fdb75fa"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "7d5d8f7a487322174aabf5c35c24d742158a50757967f3c2bb908cb4b877e9fb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-power-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "b5e742a8093749b267a75c652c19abc9f8c4b16df55c237a2eaa55fe05fe1833"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "bc5068acf7a79d807e0433b3c166fc974c875a65fd228517ba249517c61acc80"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "6d490e4286123bcdd9fef4a2126a3f2740f9e695c7409d54532ba3fdd22f394c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "f750a2e6423dd5f513f43b5402f7d3b7b64c1d326f99a7a0505e5f39ef727be0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "c219fb7d77af7092a73adb6b62004da478c791574038f6f0ae87c8a8ce47501b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "16ab5c93080b60f5836e7205cf2725a1fb7bcd9c984f24ded856306e6879890e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "f7a35b7836057c0c8e71705a753e4d2865090f5c8b777860abad3fb9e7ea7dee"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "15e11daf6aca3325fab80b9d545095d83ea7b98c54bd4396edb07d9e32b93886"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "2dab58f7a40b0f188c7abe1b31b358044cd3e5db84d72b55d7b047d2efa5cb96"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "04d1e165354c1446e53a5b8224d2b13dda992a90230a4148a076955c64b59dbd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "7b7095366cb99f225c1ddf10d5f37deb47b75b14e587d7e664622caf96c8faeb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "3eef87593255de02c5778c6b3e649a5cd530030f8a9fb2671a575505b16a417a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "7fcc7e6ae33e8b145ea28abdf895b6b645cb324fa69f72f258f5ef36e7df9061"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "64c17e3e072f33b4a9710b22b1b8173b2a07e10b6f388620430c69f83fc41d09"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "d3d418c8afd88d08cb059f3a152e2df1f10c91a99c18ad60c8261a12ed29821a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "cfb5e726283d472076d535d937485db097cba2a90dff16bf8aa3eb2716775066"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "a611eb81e8d5d7c52ce288375a24ca1b0b8917a92c0e25905c0711b39cf664a3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "e23a95769e6a4c003268fd6e931e31d4dd156020199dcdc327ee2eb639dd4512"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "297b31fb3f0702e6c3fea2317b31c5271630037a2bd90fbaffacec7af33a0991"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "fb988de08e47df30df9501e5caf7cfecb34c10a7c5af1c52c7921edc30ce015c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "8d0caf32560dbfe6a6016b1cbf2956996628ceffd982c1db8d5333295ae69648"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "ecd5ac14d05bf61928e905ff1ee88d7770e82dc4b3dc6eb2cd1be61d1edcad80"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "33b99f6b61a176fb286b8a746dad35bbff82bf405ee4d992b71f53da97fec887"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "1b66076ca7f9d3a4c5804939818be251f865692a8c4fabcedfa2283c359385c7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "c50d641964249478b7cf990d659483e25baf1d3e222a0be394ddf8a523244f1a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "eb7a7f7d34dbac65050aadddc648dc883805a620868bf1caf9612a50b269c5d9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "e297b2d79c998cc17b6518e249b12dab9ffe6593eec0dbedaa212e9311846267"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "e9d5f640e8994f29a70e3d0ecee7b1b341aac843e36ceefacafbd0e60fc5a1d0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "5dec731845e713154547a549649559d91e09215cb4b54330f94ad4fd4048eb79"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "e6133c414e57acc82609c8a482b47816d6fb9778025d2cf9c33d6cf237d24bf4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "e8e8f250df081ccb76281546c85d4d93666ab1ab6fbb6b269c8ed3eb20fc5605"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "6322cbfb2b25fc3e096628b0508ec0cdaa0e733c1a30554a54a943872eeabec5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "3dc33639cd55a93008bf662dae1a6b15f5cb05e6d7a96022c065fa9aa1cfa715"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "ee94db053753a742a0e9c4f26b629e837c2f725082048e2c0bbe231ff7b2d1c9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "f90b2e552a7f930977d5ba9e23051e8e214bcacc6389f197a800541bb823b67f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "f730c432bc7815364d66f8d0a279fa1d110ee4c7bc6a00a958aa80b21dd83155"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "668c63d66735a9cdd76543414861e3387c90804cd43f5a99ee970f2dc38c3355"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-v1.png",
+      "unchanged": true,
+      "sha256": "4fb2d2c220a9e348c832ff00c366235ec4a9c528a09d2269388453accbaa2f83"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-v2.png",
+      "unchanged": true,
+      "sha256": "182b5a2abfbc28147e5ac4d5c656918c610d3f4e25f879fcd0b097674dfe9ce0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "6b483b2c81875684ad5e1ddda10ced6b1b091f88fa8d230f0ac8eeafa2c6b19b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "2de024d8ce25f86f255881ef3a8cf810a8d4ef7deea012ee5e819dc30c9ce696"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "64471d4ad32024759bbfa178cc54cd360ad1ba42003f33c014d979ce8523ee05"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "507bcaf391527d6718d6290bb203f154ad5b4fb6137c2eef0345d884bb2d4c5d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "eec9c7f7326db6f189aa255e1216143ca051c905e3858a7aca1a656da1178d96"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "2aed608c5467ac644a55810222e2e230be17fb3d71c17416d692c28da1e9fb85"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "be47aa0c9b13a8fc09b99b528eb0f0c9a0ec2c11d573b0aa2a7df80a63688a4e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "b388ec2246d6efaf7dbf463700687e2173125d8446a6ab9e42484e60e7acc034"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "e203f6f5dcc732c0ddf3421b7f1a596c3c6b22b4cd2bc76a441060dcc85a3ac3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "2750a83ed8b671f11692f82ee60ad620618b21552860c0c80549f58d7e9b9948"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "d8d0f44347415cb4d5ac816e929d10cd6ea26b1439a7c476430a5d3f159160ee"
+    },
+    {
+      "path": "rose/static/art/rose-3d-relay-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "bff3c66b07b469d8fb1574940586dd524d8e26c1be60614fa5ba9ed33b60daab"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "4084c4655f158d3b15f05c5949da1d3a03d3254332cee7ee313df7e260ff4b59"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "389febb219f5d87693a8520068466948e23fdefd3706d7938b7ef63b7e370f71"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "176d1f3c2d95a42fd3d75bee3f87ac714155d612051e5dba429b12821b5e8da7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "46b7d9e4399da6aa6af5a5583fe4d110fe6436d20295f337a4ca8ed45c5103f9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "34d0e358aa4ad6c72e6035cec12c6ef575aa15f20a980b9fffb82509f0ed2c03"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "6fc9e36556fb67e4a5f37fc55bc46886fea60af8ce4e522cd441f250d53ba57a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "b76ad7e289e448a870bf0418b32e2aabc0593821860e9db204311d9ddabbe8df"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "acff1270dc73918d887697f7095634117662c62095fdc4e172d97ecf8f1f98d0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "befb26d3a16dda929d1094f88089b2dd80bdcfa8fecb5bdf249e48f81c1e187c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "43a292c13af99feeacea0f94694d6dcf063b52c82e90a957356aca765f7ba89d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "f0c778a26942abec67f71366c5d6557602febbcfe047de6631665c5d0f376719"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "17b2546874ef439f22fbb386ef5c2ecfc9ba86ee48a229eb6df0afcc1322d622"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "6aa5c0c70fb4581d05c2842abc6a607853ecd3db6fd929f5465056f856ae234b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "5a2cbbd7ab20b705f55692eae8761be4f0df48d0832af8e4cf5e53fd0e6694d4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "ecb9074b64863764b0fb5689685cd09049193b83fc7142a1e5fcc8de219239b0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "9734dbfb233df4a3782095e1c41397e6509b116b4a8d3a50fce62c126f5a73f3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "f8a32c662119cd94fbeb250c305906d6bfbaed5c32d3cca44ecbd6beba3b621e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "4e752da1921712dbfa6833bf510d6b713fb8706fa5dff2cbfc07509badacee10"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "339dc0a980708221a990444e151da87202194bc1ac50a75339551e315b2d0dfe"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "5989aadef57c804a79fbf2bed00d59144eaee39075339e63d5deda43de926502"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "bb06167bc9051b1d27ff7a12a7b4ce929d7f1072c500d54f29861ef47e9b718f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "8568289b05ac04f20a6e66765a690fdb3e8123e74e4cb23f29cf31b04be4f34a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "387dd3c94eabef208f5cd0aeaae38698c3ecc9d30ec4bc25fb864bd2bcc96e6b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "6062c4ca47872330321c0bc0836b95599a946796878e3405677260321c1ef6d2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "433a5464091dc1a772909cdf64db42a8f612eee254e5eac2643d1136048728ae"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "e1d1c10a84359bba6687c249821eeaa5ca248249415cc7705ed38a84a82574c7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "d152cae59aa020a17733fecf3829291efe338b58c46baecbc9623db660738c3f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "ee2e6bfdd2fc5f6b95a76c6b6a143276769f49ee57b0c54e3c231b6efaed566f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "11a435dda441e6262beac22b1b6c6f59e368a4de49ff27f6d0cc1c8707402568"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "d4dd1fb92e3b565fdc87e53f357a183a1cd1473803c967f294bad6f2f5f6f476"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "1f657d9e1016a3d903eac2367c9f5b24e84aa0674899d60b8e1a9e556f95c264"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "8c69269aab03b689bacb0f7f0bcefbc014ed312d2e31a83705a8dcba50895eb1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "ba88ef966bedd7261d9628842ed186f2b492491a6fdfb49430599ba97d301991"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "15fedce965d1741b959686e1585063bb082829aeae7a305e83be94cec26259ba"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "6ca0e380b8491b4dd6cd640678783c085496877c73d3ad9496bb56ee1545efcf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "2b5d3990f13e343056f4fe2840545042a8c070542570faf3da8cd34eb5694fef"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-v1.png",
+      "unchanged": true,
+      "sha256": "39661a583a27ac1e0c9a4e3f4e503c7fb61cf820ff2a396dea09669831ec2deb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-v2.png",
+      "unchanged": true,
+      "sha256": "8f1b959755530f0a1cb6dc3879ab9fe398f869cc37833d9e3a3e820e714b90c7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "5a92aa0b800fd7a19672ffb629ad9a6fd3a52c5842c4779c0c25c37111d44a32"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "98e6118fc5e8d44bb4a5cf8477b2509fcf29cb7a1eb6763f40cc3e30607ced56"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "f611781ebfeeb696efa1f380a0637a8f9ca73fa76cfab24b1d5b1e620d3d2c85"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "5b89d6bc3d4a52839df790dbb8d77a95f6ffc152faa491f69885eef5ef0909fc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "b2f121bca3af919bc263c26f1425b937bf1204dc63fe7e4215d2c975dd61d8dc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "495cf3a52a83685ac5a827f28dbe70336a49c2b341b6ebcfc5da09ec8ae487a8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "822ccce2b0e3fb5a8cc7f92c872b5ba4eb4bb1654be9ad500c4e24bf6a216f1d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "60c234c3a73f7f73babbc11ef14c5cd88ea2a0b5311e59e22b018be8120f6a6e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "7b046b3d7f617c43c130a44654510e66c059d4e57bae3e21b09579f3573e45fe"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "0208a91cdd0e85285c0ce1882723f7a276d4b5d9c3d9469560652834c1bf2395"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "a32dee1dc1b146887d4b9202d854f94cdff2a8678f47b503c5415e9d331306fb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-rock-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "451af0fe0775ff30979307f97e81fcfc709d02fccc0a762d8dadf84c5c3cc6dd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "e3749d9123e5190a4892a9a28c81982cf13601b1c41032e020e563023e98a92a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "47c4aea639f9710fe2097e6ca68a285fd65196ea65993f8fd5aa26b2a6c46ab4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "2c41a0f53d546db48e410f4c215c561f366c192890e49235a4d2511d592b7fb0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "680b8e42adc0878ec98dbddc9d32dbf0b92fbe0d66fc0452c8a38c2ad4dfa8a7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "9f00e27ddc6482f6067bf031ac0970f9dc62de85ffe57e6cc98c5f17fa9dda67"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "1cae94306096e973304bb069145bf093fbfd24c096af9798eab2b9bb3db816d5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "9d87e596c02b877111e08177a0f7944977abda664f2a4fc9bed6b0384891c4e3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "e68ff845f92e7c13c08bd1c3cfb17a4add6cd16df51e2549e1819ed4ebd3c1b4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "cdbcf3b448a35d32bc8ec67ef94df0c6324ff31dc2438b016cad9bc69185dbf8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "17eaa0980bda90d33749647ee49553e22250693dfa06d655144cd94d55bcafe3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "b49063efc50b1076a30327d1a07e666f7e70c33e069ca89790c7022efe6a8803"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "a31a472b361d05b722f030a61849a43932ae8658159f31f0354879899e432d2e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "e525c08edb244785a5c29bd459400e30f0ef791eaf30c66465cd81ed88f5cdfa"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "c55c5aa00f4fad3bbc65e505964125083439229a012bd5865d639671acb595bd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "126a7f140730857915e0d524481a8a1e74c6856e8b87da89f45d0931383d201b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "be38323e6b8ab8eb97c28eab7d3a0cb1ee6ab83e49dc1780c598df14603ac09b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "bdcab441af5bb801d6024595f45453bd27668f1c68ad1788ed87ecb7f4770561"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "e85269379f63d05d188d9c480a2a5ab4f1d17224986519bcef5a8281ddb8784e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "59efe1d3303f8b8c4e6062cabf1c94738fae32877e7ba8749e7559db07b35f53"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "a2c46944cfa815f45ef06a39764b036a0e6549ecfada518a4b233a578327743f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "181476ef9a0896a8a2018c9e1d0d73540abeaa2398860a7834b3b0c63cd91a15"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "380e70c340494725e9e7a5124168dfda27e68543322f49309a6d91e4adb657bc"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "b8970873ee2b7b6c84a12d3b5725ac98448db02e54f3d7de65cc3ecddb3de226"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "93b91c43ef18e2ed6fda289cf667557455869e512e00e2dc5c426614fe31cd8f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "6308bd6a366a65efb1a7384952d30e31a2fd646296989720eb84bcdd47249993"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "91652f48e0f6ce5bd3d6d705592c06a60febd39a177de40e20cd3591c7a783a2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "02f8c5df0c66a3e118960a0780e216ff52e4324f98e0bf71f2bd5d9941076e5a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "7465198da09118ba33bc70a378d80edb345192dac32773be40a025dcdd519e94"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "e9268e4289a0c3089e4220cfe6c5ad19fd4919f6494e0862ec4ba86592f591fe"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "26671df360b44b4f582ac7db87dfc7fac293b5fe249c5362b48f08a0a54a6dc9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "2c8e8b2263a5d2d9e51fa43efde92c2c415ecf3f360a881cf0f88a409c905b8d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "2f6de9f3a1d9a50d8c56e4237567fe78c3a76a7bb01e7fc5bc3832bfb4a9d3bd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "c544a78f810536af9a24740ee209fc3d19ca91ff5e53684b956e982f23f6a7f7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "7d2ad1584516c1d666980b394de864b6bab83dd183bfb3d3a00e48125ede16d4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "fea905615f09e3b1b66bc831a82df9a76546a526fd8c767a02942b66c23c0b2c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "180191083f76d6b60273c58486c91ba6ca70cad7c18a0f540ede31d6346ff071"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-v1.png",
+      "unchanged": true,
+      "sha256": "66b4e8428669b868a57e02fb8836238e7b4c75d7063d0fa6dfa1b60a13eed3d9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-v2.png",
+      "unchanged": true,
+      "sha256": "8404287b274381a2b64b182301e50e8258aaaf0be617e57ff53637fa74fc47e8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "57eb3a415a57a812ffadc5ac56c2e215863816e7557ac4ef462e8bc984c37640"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "19d69ff89ff35fda9fa21c0a69d0cc8051cf41a716e837026acae10c11177a44"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "f2127016be009d7e6fd6cda7492452c8926dbb457693ce4dc678a4903d1e8ef1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "66dd67e09e790e0215bc414d34606b1b34180aeda76db82878a59c3fa5fb5406"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "13717ab851ccf6938727e56a624f47a17105f0f32e0ced00850827f5ae8f8603"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "329383598805d237741454adf425762b3a15956e1f959b84d67cf899b2758fc8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "7c8f3dd4d7dd3c25d91e2be0faa6688a4aa0049b03a4f502a1b511415bb33917"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "14008c1a8f9c33e9fe446aefc9ba94f7dc23c92776d3c5ad8c3d1c7184522f67"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "ba721aeb27e335b3ef4a14450af2b51087f9790ceec0d31a7b6800d2c12531f9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "e8f780c07c14f749008c8fe1dd9c0dde2d87505173d32709c4cf67fcf3a88d3b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "13e406fd6c034ccd2effc3610732a396059d870d20e9775ce8ca13dd35fa5b68"
+    },
+    {
+      "path": "rose/static/art/rose-3d-shelter-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "37eeae2062643ab37b9db5d813b8d373d8bf1dc6012d97afb7f38144c2e6a1f4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "a140fd8a2d7534838f3c946c3f1e58a3aa58869a5dc7b64b90f82b5f838be693"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "947446d708a15328054dd7d3950997dd2b07dd3f60fd6b553ecfc1d86847a483"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "947446d708a15328054dd7d3950997dd2b07dd3f60fd6b553ecfc1d86847a483"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "847c61ee39aaf57d95c0f44bac89147d41639204f0daf6fcf7b6fe20ddfe0f59"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "2d7947ad502f511431754cdebdeed8a412de28630a5176998f46b6e61c5bfaa7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "fef7f75261b638ebc1fdd0e5a4a982cac468303dbb015ba46a3e8e40fe9d24da"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "fef7f75261b638ebc1fdd0e5a4a982cac468303dbb015ba46a3e8e40fe9d24da"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "df7d052851b726516bc63e31c03d48a82791ec9cecb22878d124a0a3a543bb08"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-v1.png",
+      "unchanged": true,
+      "sha256": "812a6a43478a9a8951eff6ccd2e52cb2193c57b4be23af510bd016f2ebc2b96a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-v2.png",
+      "unchanged": true,
+      "sha256": "6a52ab279270b9140ec081708a74f1fc055b1294d701558627bf219cf40e3d14"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-v3.png",
+      "unchanged": true,
+      "sha256": "17aef23383bde4d699acebfae7d819620f3860c64d6177387d1dd0ae281823a5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-v4.png",
+      "unchanged": true,
+      "sha256": "cf3cd286a582f2947a62dbf2b206fffea07e5328a8c70bc837b204ac3fb087cd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-v5.png",
+      "unchanged": true,
+      "sha256": "cf3cd286a582f2947a62dbf2b206fffea07e5328a8c70bc837b204ac3fb087cd"
+    },
+    {
+      "path": "rose/static/art/rose-3d-traveler-v6.png",
+      "unchanged": true,
+      "sha256": "f79da26f7de65168e133d71bea9e2622a5a569e806493d0e6d52091feb28a7af"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "8607b15af905395bd2172d5f34fd960b0e90554306fd87d03e7c71cd28424b75"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "c8ec0807f6a1ac217020777f7d605086019066b8bad80a4c87a1f3e4631dce10"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "22ff7fa6c846edacc78a7259b49d67f2f2fcace2340ce2bda1620a1afa6aed73"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "7c1728b75019fbcc801d0216ea09cc74391d8a8f99905761ce26b016054d7be9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "686e4ba2a2b013878d9185367bbf1f725cba871f0660c7492404d9516b579867"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "eabbeddf591cc80cde3d9444bbd271e6b22b8a4fc0b36ad167f0fa8b1186e1c7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "3d213384cffc4bdf539cd428abd296ed2dfdc4a926d651b4f756fc28d2517cae"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "5d83237ca31581fc77e01751c21ebc82d59d346f7e962a9b8d27181e61421438"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "8ca8ff7ca001b5a5bdacdcbe941291860aa651b4d793f843ebd6c2eec742f464"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "0ac8d02ea6ae1aae5fbe653914251a2703fb09156f1bad7ea76f39d5f2c56488"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "c775c9929ffbf66d3c33328172d8a8d303abd334d0a7c759d504cb1a5db59cda"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "882a9fdfc947322b38c1a838d59b345a4900a928b3671f09b1682ee645f205a0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "a0db1e8f3e745f7f33ab57a8246b8b7691686374ef147485f6773d803875e52a"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "35a651c35aa611f78f98e9ab15ba70e54f73b304057615ae1b4a871863dd1105"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "fb53f9691c90af864f460a5df96f19fab90f13af2bd7214b73ecb2d4aa00815d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "ebc294b674b0a13c9c8b366d83a76cf939c2655aec303126121c089888737b00"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "3f017cc5a5e15964a2c49beadbd27a83876388e49941e4b71539b947884ded57"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "61d16c270888c8065fdd23c06d3a3adeb7b261d3a8deba3c03b251fb47aa01b8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "6ae3060211fa576fd3fa5e9b8555de287e0f8c5f2a154c4b12cb948896975d87"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "df7140157b2d2320eb7743ad622becb78e56c71ca873edccc7d7a1250d63fcc9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "a7095ee0d4994f97ae47d6d19bdf9a147fb355db5750574b82fdb6f5e27b411c"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "0fb1358ff8946b7fa73510c1571e57905efaa083cbca913dabd76f68a0b23457"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "dcc5363762642d742e55f387cb8ac9c1a1b90cbbd7ca8ec48e64cedf6dc4e113"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "ed0e8e350f2c7e0403b1bf0d06683c6023628c6868666dfcffd9f22cc76eacf2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "00606893a16b98f7041dba6374097433634c55c3c919e0dde5f7544a16c9694e"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "bd035206e3619eb5bb223601c52366feb3d8ac35854d7b412fe003cbd5b87c49"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "6265b574fe357798620dfb85a2dfbe0229b89f0ff6de77138e1113b2f645d174"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "61601069abd1a08ec6de0f6f8de51dc3e0ae651c62874831a061b1afa5499998"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "4ba7669a4e6a5d811d676aeec705e21f948a7283bcf66b9cc9f417334750ba17"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "5848bcab8b81564c4fa422573344095601ed8e606e4b22d272044abbad596f3b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "07a64cea4054396385bf4099c31303e486a983551db14ea6f94c5b2f73c98c6b"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "8a7b9ae77400b0de670838536662ffd9437b76af060e05d4ff70dda693e3abb5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "128a535df2c49ea7bfec4f1bfc1b0be87c8cad4c87766ad9f2b1ebf032dcef27"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "5ac4d78031ce05e20bcdea64ad17e7867891f5525bdff3df924770591751b020"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "f9696f0dabff0b64e823057b7b8099827da94b9058cc8e28b208dcb4e84bc676"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "535c9f6b6a3d1f9bc5e1bd73b1a3cf400d5eb20f3f43e2dc60c0960f8163ff40"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-v1.png",
+      "unchanged": true,
+      "sha256": "a51d4f61e33b38dfcbf4ce123a5b1595e5234344513b79bf135c0011857964bf"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-v2.png",
+      "unchanged": true,
+      "sha256": "1daaee6a71c6a9e33aff1fd74be04e09f13fdf46415647c84a2e1204a76861de"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "f4519fa0f33782d08336a4ebd908da950c61d1abeacdee23dc904468ee656200"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "67b40ec197c65d51a0ebfaa6f16ecc8db47484a571f090099ad65509e3e2b432"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "317793f3645ce88f46bcb304a2ad09cd70a8d47b5fc20d8cdb9c8f0cacd6eaaa"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "1bb2128e3a55560f7d669e2dbee5291d3a05fdaa97480c9d6f513ae165f16862"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "54f711a95bad51a846ea12de312257ac2f192adbee8038a7e06dc09882758cc5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "bfe53069fa22209d82b9f2e3a5edf9739b998af105f3ca1a2ca889ca09367436"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "ce28ef2ff3a2fa08909c58dbab2f2f644b3efeb5d842b330a83eca8e60cd7a09"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "a8a0a268604511fe051ccd4f26b69f79837e7becef72897dd9627f7753854841"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "fc1a681d83fccb881434699f00ba1b64283d5779fd54d7366e2533a818c991be"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "30e3401ca153322b34a6d5a746e7ba875406d09b79e72951f6e673345c1a1753"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "1ec317fc7191f116fe4a579a3fd66c695f9a135ebfff90cb44cdf4d83c95646d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-water-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "c0f1cdb730f7d5e8972283160020e5e5f602d23f483d12a704b2522b3b9f7069"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "fc064d533261889fec7a6a338c39276dc828df8a8015de2a23777929e662e745"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "81503105407c924963d23c0a09038d834d932d7d3e91f38ebf50db10f70d3f4d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "0ee137f1084c185012669e34a7c9704a5a83422580bff93d49b041e0e814f583"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "8424376695adeef1a8bacebde357c44012405e49ffbdd112c216d4b335302aa0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "0359f212d840a56488ef0a97aca9b167280ef45ad6e935c3030505b313ead0c9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "3b3ba1eb45f1153ea0e8ada9ad2574eb01f9e4c6d3a2e4d82795fca2a6c3c1db"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "6c4a98cea0e8ed589b9db14f81f8f6309e49072c61f72404709475f6ff11a6e4"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "0943b6f9465d36ab4f794d087fab803ed44c0247cb7775e716640b0c2a3387f0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-v3.png",
+      "unchanged": true,
+      "sha256": "2114adc08775265bc1dd346de02f1800e6277a3999a987cfbd789716605ca6c5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-v4.png",
+      "unchanged": true,
+      "sha256": "28f8fed8c2ca2220c2aa88530d355a9ab20b4834a7d0df9b7d0f8ea670f62871"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-v5.png",
+      "unchanged": true,
+      "sha256": "37bfadff32a9bd26d0e939154b68b5a5e3e1295cccf9598912a2e1b5ac0c75b0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-aethergale-v6.png",
+      "unchanged": true,
+      "sha256": "771c6a5265bc067edb5488cc681c5377889f711fa8052845eaca435b739a1ab1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "a1c435db7550d7b1c86b6e097baf50c41ea16b5ee9bf46de38c5d6dae932de01"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "fd0c8bd61b9ebe70091dd23e4dd00af8b8a5f568a0c818c230f6c8335fae1fd0"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "0a19ce807a5699c4e191f75f74d6dcdefeb664e9bcc9758b715ce73ecd9b9195"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "0a9588dc7543f6b6290cf75addb635ab79cd05ee46b083c11d56cb58ed9c4ece"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "f97cee5d813dba8be796c1f59ee0bb90a2bd12f950f0e7da8a4dc4c663ba89d8"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "71f4020aebec26d18c07154a214d03c4b3e6fb809215c9d055775175edfa4285"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "ad60d2dac58e8c40e9b1ae08b8526fe38005dbc4f5e6ebacc79640693ea7440d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "d64c4fdc0b263563d945d09894ec67027e1308599ba92341c737fc4714e015d9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-v3.png",
+      "unchanged": true,
+      "sha256": "d3457705f32309af94deb6d9f93c8034c91bd8269aeebb78e64d76742464db30"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-v4.png",
+      "unchanged": true,
+      "sha256": "fb0d3cf9ddb86b42b824b6d658b3ba394ecbe22e0ce262f11d87150b7947aca2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-v5.png",
+      "unchanged": true,
+      "sha256": "da943a85fbe66a2f86fd138724d9e3ffeac9ae24130f551a7e69ccaaf50b8d77"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-city-cloud-s-v6.png",
+      "unchanged": true,
+      "sha256": "1f39d62837c38ca6b3583f7fed681579167da66cdf84a9dd0d5502f3b2311399"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "9ac83922739ae3abc8646f90520e5c178d1495c30951c493676721df128a2c19"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "cb63dca68ecfefc3c2dbd32ba3a9ffcdc9d74b8ff6a66dd5107e419a9762ece7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "9d749e4486d2bec090f539a8aa6617882bbb066f8a71fb40916fc46a4dc3a778"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "865b24cf5f00bded00f2e4df66fb6cfcf38291a6e0e20a9309c8ae3eadebabe2"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "45537d2f581cae7c469263d1021eff442d8af648347fdf5389c45422a9f8f949"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "b1e1c963616b0ca08fd07d55b4d8e74b0ad160fe7f068c18b9d20335743574c5"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "ecb7447101eecffecef79672c48e183490319a7321d587b0d584d6cd10f5e833"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "cf705f8774a74b56d8e877550abe0c9c86306d59c0e0a63f4ee58647d5dcaf7d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-v3.png",
+      "unchanged": true,
+      "sha256": "d7edf214399b0c4987c37b4f3c658f1ab2db86aacde96c96cd60e6720b6bbfc9"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-v4.png",
+      "unchanged": true,
+      "sha256": "38637b8511a9a14f91122620b2db7a9edc6ce4d1cfb385fcd4a4656637c34999"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-v5.png",
+      "unchanged": true,
+      "sha256": "a5729361591ae31d0f36c1f457cc9512781a50879361aabce5a79a8628ecbe0f"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-enact-hills-v6.png",
+      "unchanged": true,
+      "sha256": "23bcc7194372afcb7d6182edc06a37479ccc8f8d2d6f2e1264b14e5fc50b71a6"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-v1.png",
+      "unchanged": true,
+      "sha256": "04506c29ece07f408d082c564f4f5628bcb45493fc69e28371c308fbf5d5ef62"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-v2.png",
+      "unchanged": true,
+      "sha256": "fd065bf39f5a2f3aa7d32ab3bc737ee802b805c966f83d607db50caddee9f60d"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone1-v3.png",
+      "unchanged": true,
+      "sha256": "f403c68da0cb34ea35c2674dbbe324065486118a014a44a56b430cd9279561d3"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone1-v4.png",
+      "unchanged": true,
+      "sha256": "1e146c21b7c219a2b506d90d3265ba2fc12b9b23541f5349a2e4a93a185eba77"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone1-v5.png",
+      "unchanged": true,
+      "sha256": "cdb0d4012379b788aaab726527a7c0fe712c242daa146aa82809e24e5f410cc1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone1-v6.png",
+      "unchanged": true,
+      "sha256": "9277ac40f544bcbfc839630d62befe4453b80e7e89c14f8609a0f12eadd28ede"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone2-v3.png",
+      "unchanged": true,
+      "sha256": "d9d7a88fe54c7e6d599909aa0e63dda86ae8a17dec586ddb1f00018e6e389e55"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone2-v4.png",
+      "unchanged": true,
+      "sha256": "18989b3518e42675a399124bede149b5c466b454b253154395b56ba165bf0beb"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone2-v5.png",
+      "unchanged": true,
+      "sha256": "73c109036461e010cec23287ebe6c94066e045dacc2aee5eccd4f3a765c35bd1"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-tone2-v6.png",
+      "unchanged": true,
+      "sha256": "2fab53bf0b3fb9732045c85638e0cea29bd118d911cac12f01689811e8f8e1ec"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-v3.png",
+      "unchanged": true,
+      "sha256": "16340fdb64b81e5520d54c24d20e66141b5f4286db0fb9dc058e708c786d13b7"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-v4.png",
+      "unchanged": true,
+      "sha256": "3d355cf765d2c2e6b08c10e97ac59c03d9bcd43c63f07d380088b2872c9b12fa"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-v5.png",
+      "unchanged": true,
+      "sha256": "d64d189c1390088143efea8d9a1b5a6fdfc6c9797353496c0ee20c49853a1925"
+    },
+    {
+      "path": "rose/static/art/rose-3d-workshop-wn-tower-v6.png",
+      "unchanged": true,
+      "sha256": "a45ee16a87cec356454443b7a47a4c0d21002e3a71db6ac9887bc7a7efc656a0"
+    },
+    {
+      "path": "rose/static/art/rose-ground-materials-v1.png",
+      "unchanged": true,
+      "sha256": "9c6244b27c7d56745895e5eab5840bcf6c758aed2928b6d20f7620f39df3d761"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-power-aethergale-v1.png",
+      "unchanged": true,
+      "sha256": "af4eba775c63fc4e220de6834866ebbcee9ea0c6536a1592e6abd1cd12481dff"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-power-city-cloud-s-v1.png",
+      "unchanged": true,
+      "sha256": "94539b7c6d9b5924645f7f9c5140961f8a83f642582e187dd371cbd9ba5938dd"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-power-enact-hills-v1.png",
+      "unchanged": true,
+      "sha256": "e604a209b0103a1a2178c375a4325a62d63e83ad95650be02cfc018ae51cb95d"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-power-wn-tower-v1.png",
+      "unchanged": true,
+      "sha256": "3ee7b960de6d6003a0e318f8f0b261ab2b4ead2de2482ad4b6957906eeb9ee0f"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-relay-aethergale-v1.png",
+      "unchanged": true,
+      "sha256": "4ebf89fb0c66fa83cc65244235ad4f50d1bd71afc78bcf4af88b2e3d288c17aa"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-relay-city-cloud-s-v1.png",
+      "unchanged": true,
+      "sha256": "2e8a2d6b8441c8717ffb07a56884eb4646cf5115ce5017b914658abe47b29c28"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-relay-enact-hills-v1.png",
+      "unchanged": true,
+      "sha256": "dcdc6a8220db11056e62e911db4accf4ecaed7b9c08234ec8f98cf8f10311a70"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-relay-wn-tower-v1.png",
+      "unchanged": true,
+      "sha256": "685ffda94100cd9fc172a37e5e811f641b5db069eec2c7b7263c3712c47aa1f6"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-water-aethergale-v1.png",
+      "unchanged": true,
+      "sha256": "563b44b44e783337191b3b94dab392f34a1828185472df2d6722152249a8abde"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-water-city-cloud-s-v1.png",
+      "unchanged": true,
+      "sha256": "d183ec48164b2eabda28a889dcb4d03f1da8d2f785d7e72da5aa494290c07ce7"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-water-enact-hills-v1.png",
+      "unchanged": true,
+      "sha256": "0627d92632e3f0e7f1889d890986ed1923bc191e714b01721bef064210123854"
+    },
+    {
+      "path": "rose/static/art/rose-monolith-water-wn-tower-v1.png",
+      "unchanged": true,
+      "sha256": "7b1869386611dcaa0fefa89d39586ed3da1be321151e44b2c14eb2c0ed393240"
+    },
+    {
+      "path": "rose/static/art/rose-prefabs-crt-v1.png",
+      "unchanged": true,
+      "sha256": "ae6baa819ed350936184aab52fa69febbe2d94e7a4742696520354e76b91302e"
+    },
+    {
+      "path": "rose/static/art/rose-traveler-actions-v1.png",
+      "unchanged": true,
+      "sha256": "ee0bad2ff8077172c314d7c5050f80018f624eea3c1b1ddb83f1d1fc9fa56952"
+    },
+    {
+      "path": "rose/static/art/rose-traveler-walk-v1.png",
+      "unchanged": true,
+      "sha256": "48a6abe267f4e727f2bca1214dbf35bb7ee8003b59a214b41f203a6892b3235e"
+    },
+    {
+      "path": "rose/static/art-manifest-rendered-legacy.json",
+      "unchanged": true,
+      "sha256": "e63204254d766279d63d47b6af6aefcb7ee8a5a82d2e7acf192b2dd9af12b7f8"
+    },
+    {
+      "path": "rose/static/art-manifest-rendered.json",
+      "unchanged": true,
+      "sha256": "20e48ef137514f934e58011e4e48da5b85125b030ce3fab15bfe9d5b3277e83a"
+    },
+    {
+      "path": "rose/static/art-manifest-vector.json",
+      "unchanged": true,
+      "sha256": "15a5ebf0ea2c6dc429852136b4b6e52971d9ab2d8c701379e28bcb3023aa36e3"
+    },
+    {
+      "path": "rose/static/art-manifest.json",
+      "unchanged": true,
+      "sha256": "316461bb1b7c1d492ed8ea5fb3249275317468350ef484d89ffed564de8b35ae"
+    },
+    {
+      "path": "rose/vrex.py",
+      "unchanged": true,
+      "sha256": "9d14ccf27be2308ba4e4752b4eff68494d6a3d0a9e0102468b6501b03be380d2"
+    }
+  ],
+  "status": "PASS"
+}

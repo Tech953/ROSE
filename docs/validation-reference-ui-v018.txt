@@ -1,0 +1,2 @@
+PASS: real HTTP + archive interface logic — 80 original links, alias search, combined filters, one-image preview, exact bytes, stale-event rejection, error recovery and unchanged saved state.
+Full browser layout is not tested.

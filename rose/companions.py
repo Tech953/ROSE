@@ -4,6 +4,7 @@ import hashlib
 import random
 import characters as chars
 import geography as geo
+import generation
 import visuals
 
 ACTS={'recruit','dismiss','npc_talk','npc_task','share','request','companion_treat'}
@@ -49,6 +50,7 @@ def ensure(w,a):
         a['health']=g.randint(85,100);a['energy']=100;a['inventory']=dict(food=3,water=4,scrap=2,seed=1,medkit=1)
         a['engagement']=dict(phase='observe',cycles=0,last_tick=w['tick'],task='support',events=[],last_work=-20)
         a['owner']=None;a['memory']=[];a['injuries']=[];a['ailments']=[];a['xp']=0;a['credentials']=[];a['loadout']=[]
+    a.setdefault('presentation',generation.npc_identity(w['seed'],a))
     chars.ensure(a)
     visuals.ensure_actor(w,a)
     a.setdefault('owner',None);a.setdefault('memory',[]);a.setdefault('attitude',50)
@@ -123,18 +125,16 @@ def snapshot(w,p):
 def speech(w,p,a,topic,success,engine):
     ch=a['character'];phase=a['engagement']['phase'];task=a['engagement']['task']
     last=a['engagement']['events'][-1]['text'] if a['engagement']['events'] else 'We have not yet done shared field work.'
-    g=seeded(w,a['id']+':speech:'+str(w['tick'])+':'+str(len(a['memory']))+':'+topic)
-    opening=g.choice(['I can tell you what is clear to me.','Let us keep the promise smaller than the claim.','The last crossing changed what I was ready to say.'])
     if topic=='lore':body=ch['bio'] if success else a['lore'][0]+' The rest needs a steadier conversation.'
     elif topic=='plans':body=f"I want to {ch['goal']}. I am in my {phase} cycle, with {task} as my current task. {last}"
     elif topic=='contracts':
         v=viability(w,p,a);body='My preferred commitments are '+', '.join(a['contract_preferences'])+'. '+('Your current issuer is '+p['contract']['faction']+'. ' if p.get('contract') else '')+' '.join(k+': '+('ready' if x['viable'] else ', '.join(x['reasons'])) for k,x in v.items())
     elif topic=='factions':body=f"My recorded affiliation is {a['faction']}. Its shared standing with this expedition is {w['reputation'].get(a['faction'],0)}, and your personal standing is {p.get('personal_reputation',{}).get(a['faction'],0)}. My own engagement is {a['personal_reputation']}."
-    elif topic=='history':body=f"We have {len(a['memory'])} retained conversations. {last} Your current aim is {p['character']['goal'] or 'still unstated'}."
+    elif topic=='history':body=f"We have {sum(m.get('actor_id')==p['id'] for m in a['memory'])} identified shared conversations in the retained record. {last} Your current aim is {p['character']['goal'] or 'still unstated'}."
     elif topic=='needs':body=f"Health {a['health']}, energy {a['energy']}. My own pack holds {a['inventory']}. I need care and materials before a difficult promise becomes viable."
     else:body=f"I am {attitude(a)} about this agreement. My limit is {ch['boundary'].lower()}. Trust grows through shared work and provision, not a declared affiliation."
     if not success and topic!='lore':body+=' I can give the public record, but I am not ready to elaborate on its private uncertainties.'
-    return f"{a['name']}, speaking {ch['voice']}, says: “{opening} {body}” {a['name']} {ch['mannerisms']}. The current air is {engine.weather(w,engine.local(w,p))}."
+    return generation.dialogue(w,p,a,topic,body,success,engine.local(w,p))
 
 def handle(w,p,intent,raw,engine):
     ensure_world(w);op=intent['action'];target=intent.get('target','');selector,_,detail=target.partition('|')
@@ -169,7 +169,7 @@ def handle(w,p,intent,raw,engine):
         out=speech(w,p,a,topic,ok,engine)
         import adventure
         out=adventure.note_dialogue(w,p,a,topic,out)
-        a['memory'].append(dict(tick=w['tick'],topic=topic,speaker=p['name'],response=out));a['memory']=a['memory'][-40:]
+        a['memory'].append(dict(tick=w['tick'],topic=topic,actor_id=p['id'],speaker=p['name'],response=out));a['memory']=a['memory'][-40:]
         if ok and w['tick']>=a.get('bond_after',0):
             p['relationships'][a['id']]['trust']=min(5,p['relationships'][a['id']]['trust']+1)
             a['attitude']=min(100,a['attitude']+1);a['bond_after']=w['tick']+4

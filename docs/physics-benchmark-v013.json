@@ -1,0 +1,458 @@
+{
+  "schema": 1,
+  "classification": "ISOLATED SOFTWARE MECHANICS TEST",
+  "source_configuration": "3d3160d5ed6584f74d6ba612a2b86f10f75e91837c925025ce5833a24fc71460",
+  "status": "PASS",
+  "cases": [
+    {
+      "application": "pump",
+      "control": "loaded",
+      "input": 4.0,
+      "load": 0.40792021016283775,
+      "work": 0.2488717956201476,
+      "heat": 0.14488589386518463,
+      "energy": {
+        "status": "PASS",
+        "residual": 0.0005189433190069814,
+        "normalized_residual": 6.487212299521685e-05,
+        "tolerance": 0.01,
+        "transfer": 0.40792021016283775,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "PASS",
+          "residual": -4.4839174595523446e-08,
+          "normalized_residual": 5.6048967930248605e-09,
+          "tolerance": 1e-06,
+          "stored": 0.799307802147577,
+          "input": 4.0,
+          "load": 0.40792021016283775,
+          "heat": 2.79277203252876,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0005189881581822431,
+          "normalized_residual": 0.0006365442360590243,
+          "tolerance": 0.01,
+          "stored": 0.013643532519323286,
+          "input": 0.40792021016283775,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.14488589386518463,
+          "work": 0.2488717956201476,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "MEASURED",
+        "peak": {
+          "lag_samples": -5,
+          "coefficient": 0.9999408051396548,
+          "overlap": 123,
+          "lag_time": -0.15625
+        }
+      },
+      "duration": 40.0,
+      "receipts": 1280
+    },
+    {
+      "application": "pump",
+      "control": "unloaded",
+      "input": 4.0,
+      "load": 0.0,
+      "work": 0.0,
+      "heat": 0.0,
+      "energy": {
+        "status": "PASS",
+        "residual": -2.8303637211735122e-08,
+        "normalized_residual": 3.5379546389493253e-09,
+        "tolerance": 0.01,
+        "transfer": 0.0,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "PASS",
+          "residual": -2.8303637655824332e-08,
+          "normalized_residual": 3.537954694460476e-09,
+          "tolerance": 1e-06,
+          "stored": 0.7192730364322267,
+          "input": 4.0,
+          "load": 0.0,
+          "heat": 3.280726991871411,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 0.01,
+          "stored": 0.0,
+          "input": 0.0,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.0,
+          "work": 0.0,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "INSUFFICIENT VARIATION",
+        "peak": null
+      },
+      "duration": 40.0,
+      "receipts": 0
+    },
+    {
+      "application": "pump",
+      "control": "no-input",
+      "input": 0.0,
+      "load": 0.0,
+      "work": 0.0,
+      "heat": 0.0,
+      "energy": {
+        "status": "PASS",
+        "residual": 0.0,
+        "normalized_residual": 0.0,
+        "tolerance": 0.01,
+        "transfer": 0.0,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "EMPTY",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 1e-06,
+          "stored": 0.0,
+          "input": 0.0,
+          "load": 0.0,
+          "heat": 0.0,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 0.01,
+          "stored": 0.0,
+          "input": 0.0,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.0,
+          "work": 0.0,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "INSUFFICIENT VARIATION",
+        "peak": null
+      },
+      "duration": 40.0,
+      "receipts": 0
+    },
+    {
+      "application": "press",
+      "control": "loaded",
+      "input": 4.0,
+      "load": 0.40792021016283775,
+      "work": 0.23789728689380965,
+      "heat": 0.14430536797086801,
+      "energy": {
+        "status": "PASS",
+        "residual": 0.005044032602756182,
+        "normalized_residual": 0.0006309018615392869,
+        "tolerance": 0.01,
+        "transfer": 0.40792021016283775,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "PASS",
+          "residual": -4.4839174595523446e-08,
+          "normalized_residual": 5.6048967930248605e-09,
+          "tolerance": 1e-06,
+          "stored": 0.799307802147577,
+          "input": 4.0,
+          "load": 0.40792021016283775,
+          "heat": 2.79277203252876,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.005044077441931277,
+          "normalized_residual": 0.006221139853671367,
+          "tolerance": 0.01,
+          "stored": 0.02067347785622883,
+          "input": 0.40792021016283775,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.14430536797086801,
+          "work": 0.23789728689380965,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "MEASURED",
+        "peak": {
+          "lag_samples": -16,
+          "coefficient": 0.9757352798152513,
+          "overlap": 112,
+          "lag_time": -0.5
+        }
+      },
+      "duration": 40.0,
+      "receipts": 1280
+    },
+    {
+      "application": "press",
+      "control": "unloaded",
+      "input": 4.0,
+      "load": 0.0,
+      "work": 0.0,
+      "heat": 0.0,
+      "energy": {
+        "status": "PASS",
+        "residual": -2.8303637211735122e-08,
+        "normalized_residual": 3.5379546389493253e-09,
+        "tolerance": 0.01,
+        "transfer": 0.0,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "PASS",
+          "residual": -2.8303637655824332e-08,
+          "normalized_residual": 3.537954694460476e-09,
+          "tolerance": 1e-06,
+          "stored": 0.7192730364322267,
+          "input": 4.0,
+          "load": 0.0,
+          "heat": 3.280726991871411,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 0.01,
+          "stored": 0.0,
+          "input": 0.0,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.0,
+          "work": 0.0,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "INSUFFICIENT VARIATION",
+        "peak": null
+      },
+      "duration": 40.0,
+      "receipts": 0
+    },
+    {
+      "application": "press",
+      "control": "no-input",
+      "input": 0.0,
+      "load": 0.0,
+      "work": 0.0,
+      "heat": 0.0,
+      "energy": {
+        "status": "PASS",
+        "residual": 0.0,
+        "normalized_residual": 0.0,
+        "tolerance": 0.01,
+        "transfer": 0.0,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "EMPTY",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 1e-06,
+          "stored": 0.0,
+          "input": 0.0,
+          "load": 0.0,
+          "heat": 0.0,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 0.01,
+          "stored": 0.0,
+          "input": 0.0,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.0,
+          "work": 0.0,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "INSUFFICIENT VARIATION",
+        "peak": null
+      },
+      "duration": 40.0,
+      "receipts": 0
+    },
+    {
+      "application": "damper",
+      "control": "loaded",
+      "input": 4.0,
+      "load": 0.40792021016283775,
+      "work": 0.0,
+      "heat": 0.394557941395208,
+      "energy": {
+        "status": "PASS",
+        "residual": 0.00048396939864875366,
+        "normalized_residual": 6.049983483967236e-05,
+        "tolerance": 0.01,
+        "transfer": 0.40792021016283775,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "PASS",
+          "residual": -4.4839174595523446e-08,
+          "normalized_residual": 5.6048967930248605e-09,
+          "tolerance": 1e-06,
+          "stored": 0.799307802147577,
+          "input": 4.0,
+          "load": 0.40792021016283775,
+          "heat": 2.79277203252876,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0004840142378239043,
+          "normalized_residual": 0.0005936229043022444,
+          "tolerance": 0.01,
+          "stored": 0.012878254529805849,
+          "input": 0.40792021016283775,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.394557941395208,
+          "work": 0.0,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "MEASURED",
+        "peak": {
+          "lag_samples": -4,
+          "coefficient": 0.9938315750839006,
+          "overlap": 124,
+          "lag_time": -0.125
+        }
+      },
+      "duration": 40.0,
+      "receipts": 1280
+    },
+    {
+      "application": "damper",
+      "control": "unloaded",
+      "input": 4.0,
+      "load": 0.0,
+      "work": 0.0,
+      "heat": 0.0,
+      "energy": {
+        "status": "PASS",
+        "residual": -2.8303637211735122e-08,
+        "normalized_residual": 3.5379546389493253e-09,
+        "tolerance": 0.01,
+        "transfer": 0.0,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "PASS",
+          "residual": -2.8303637655824332e-08,
+          "normalized_residual": 3.537954694460476e-09,
+          "tolerance": 1e-06,
+          "stored": 0.7192730364322267,
+          "input": 4.0,
+          "load": 0.0,
+          "heat": 3.280726991871411,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 0.01,
+          "stored": 0.0,
+          "input": 0.0,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.0,
+          "work": 0.0,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "INSUFFICIENT VARIATION",
+        "peak": null
+      },
+      "duration": 40.0,
+      "receipts": 0
+    },
+    {
+      "application": "damper",
+      "control": "no-input",
+      "input": 0.0,
+      "load": 0.0,
+      "work": 0.0,
+      "heat": 0.0,
+      "energy": {
+        "status": "PASS",
+        "residual": 0.0,
+        "normalized_residual": 0.0,
+        "tolerance": 0.01,
+        "transfer": 0.0,
+        "unapplied_load": 0.0,
+        "source": {
+          "status": "EMPTY",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 1e-06,
+          "stored": 0.0,
+          "input": 0.0,
+          "load": 0.0,
+          "heat": 0.0,
+          "units": "VREX game units"
+        },
+        "mechanism": {
+          "status": "PASS",
+          "residual": 0.0,
+          "normalized_residual": 0.0,
+          "tolerance": 0.01,
+          "stored": 0.0,
+          "input": 0.0,
+          "initial": 0.0,
+          "external_work": 0.0,
+          "heat": 0.0,
+          "work": 0.0,
+          "units": "local mechanical game units"
+        },
+        "units": "shared dimensionless work units",
+        "ownership": "VREX load debit equals downstream input credit; it is eliminated once from the combined ledger."
+      },
+      "correlation": {
+        "status": "INSUFFICIENT VARIATION",
+        "peak": null
+      },
+      "duration": 40.0,
+      "receipts": 0
+    }
+  ],
+  "world_unchanged": true,
+  "units": "dimensionless game units",
+  "scope": "Four explicitly supplied diagnostic inputs per driven case; no game stock, device output, laboratory result or calibration is created."
+}

@@ -1,0 +1,2346 @@
+{
+  "format": "Rose-VREX-systems",
+  "schema": 1,
+  "engine_version": "0.12.0",
+  "source": {
+    "filename": "VREX v3 systems reference.pdf",
+    "sha256": "7d7b774360ed65f995f46b9726e8ced8e8c333089aa8919bff7c72e8c7d4cd73",
+    "pages": 12,
+    "path": "reference/science/vrex-v3-systems-reference.pdf",
+    "route": "/vrex-reference.pdf",
+    "classification": "user-supplied systems reference"
+  },
+  "field": "base:-10,3",
+  "tick": 21,
+  "state": {
+    "schema": 1,
+    "model": "vrex-1",
+    "seed": "optics-ui|base:-10,3",
+    "preset": "returned",
+    "parameters": {
+      "omega": 1,
+      "drive_omega": 1.9,
+      "alpha": 0.15,
+      "damping": 0.04,
+      "force": 0.42,
+      "coupling": 0.12,
+      "tether_coupling": 0.6,
+      "tether_damping": 0.03
+    },
+    "states": [
+      {
+        "id": "q-81530fd90a47",
+        "X": [
+          0.5065707745294858,
+          0.26390460611690036
+        ],
+        "q": 0.13686100556389036,
+        "v": 0.14886121667267507,
+        "omega": 0.9759569467876258,
+        "particle_id": "p-d1ffebf76029"
+      },
+      {
+        "id": "q-95e4fe899087",
+        "X": [
+          0.5577019448068763,
+          -0.04278224770362993
+        ],
+        "q": 0.13572346665448942,
+        "v": 0.14478851969104498,
+        "omega": 1.016789157440579,
+        "particle_id": "p-fe9901375e07"
+      },
+      {
+        "id": "q-02da41c8e46c",
+        "X": [
+          -0.31463470737518917,
+          -0.1314492163918769
+        ],
+        "q": 0.13693249023579457,
+        "v": 0.14912170731325625,
+        "omega": 0.9735672294000719,
+        "particle_id": "p-533125b98df4"
+      },
+      {
+        "id": "q-d12a409834a8",
+        "X": [
+          0.3150755847704192,
+          -0.4636903462193882
+        ],
+        "q": 0.13612303144883178,
+        "v": 0.14621297309123207,
+        "omega": 1.0024296469283365,
+        "particle_id": "p-51b5c7fd88ca"
+      },
+      {
+        "id": "q-0a6d75776c2a",
+        "X": [
+          -0.7426741467257598,
+          -0.6203527211542159
+        ],
+        "q": 0.13640384454975418,
+        "v": 0.1472245290845544,
+        "omega": 0.992679035185063,
+        "particle_id": "p-40c40ea3ee2b"
+      },
+      {
+        "id": "q-4a9c05bde954",
+        "X": [
+          -0.20451002331144197,
+          -0.13504953859187085
+        ],
+        "q": 0.1369732023560028,
+        "v": 0.14926292774602545,
+        "omega": 0.9718868635111477,
+        "particle_id": "p-01cf433d6e47"
+      },
+      {
+        "id": "q-fc13a019b008",
+        "X": [
+          0.4527325387949124,
+          0.17561725186927557
+        ],
+        "q": 0.1361681143388469,
+        "v": 0.14638026329207976,
+        "omega": 1.0010447068044346,
+        "particle_id": "p-ac4638163a75"
+      },
+      {
+        "id": "q-4a9df8865cff",
+        "X": [
+          0.4074262474653618,
+          -0.44969114914247765
+        ],
+        "q": 0.1357872813011625,
+        "v": 0.14501617030161257,
+        "omega": 1.0144186063224228,
+        "particle_id": "p-d937c67a4140"
+      },
+      {
+        "id": "q-5182e68425c9",
+        "X": [
+          -0.26652259141169776,
+          0.4241499706023941
+        ],
+        "q": 0.13552070878154374,
+        "v": 0.14405990539124092,
+        "omega": 1.0237695458974634,
+        "particle_id": "p-b71cf59e6d9f"
+      },
+      {
+        "id": "q-7da616c426bf",
+        "X": [
+          -0.05536464363433724,
+          -0.6080256619887321
+        ],
+        "q": 0.13594152601850282,
+        "v": 0.14557060972351513,
+        "omega": 1.0091550774891247,
+        "particle_id": "p-fa102ab28e84"
+      },
+      {
+        "id": "q-a518dd2a1281",
+        "X": [
+          -0.1901078024263788,
+          0.5222029972883171
+        ],
+        "q": 0.13536272304253413,
+        "v": 0.14349822385869498,
+        "omega": 1.029194052835755,
+        "particle_id": "p-9fdbf098205b"
+      },
+      {
+        "id": "q-56777244810c",
+        "X": [
+          0.47138494902273487,
+          0.4557197874547816
+        ],
+        "q": 0.13607128905469462,
+        "v": 0.14603176018064773,
+        "omega": 1.0044533779709752,
+        "particle_id": "p-3f719210b327"
+      }
+    ],
+    "links": [
+      {
+        "a": "q-81530fd90a47",
+        "b": "q-fc13a019b008",
+        "gain": 0.32463323607967604,
+        "phase": 0.2106651218130513
+      },
+      {
+        "a": "q-81530fd90a47",
+        "b": "q-56777244810c",
+        "gain": 0.1645643551617167,
+        "phase": 0.12265508554132243
+      },
+      {
+        "a": "q-81530fd90a47",
+        "b": "q-95e4fe899087",
+        "gain": 0.14655450460793157,
+        "phase": -0.09839162799300594
+      },
+      {
+        "a": "q-95e4fe899087",
+        "b": "q-fc13a019b008",
+        "gain": 0.7848083434299437,
+        "phase": 0.7065899426383497
+      },
+      {
+        "a": "q-95e4fe899087",
+        "b": "q-81530fd90a47",
+        "gain": 0.7327725230396578,
+        "phase": 0.6075992887913988
+      },
+      {
+        "a": "q-95e4fe899087",
+        "b": "q-4a9df8865cff",
+        "gain": 0.6480603763251555,
+        "phase": -0.6735993480427478
+      },
+      {
+        "a": "q-02da41c8e46c",
+        "b": "q-4a9c05bde954",
+        "gain": 0.17913394915214176,
+        "phase": -0.0022877052764611605
+      },
+      {
+        "a": "q-02da41c8e46c",
+        "b": "q-7da616c426bf",
+        "gain": 0.5812718663155584,
+        "phase": -0.37539288756498257
+      },
+      {
+        "a": "q-02da41c8e46c",
+        "b": "q-5182e68425c9",
+        "gain": 0.20611321404150817,
+        "phase": 2.0918068118295023
+      },
+      {
+        "a": "q-d12a409834a8",
+        "b": "q-4a9df8865cff",
+        "gain": 0.9108239156430351,
+        "phase": 0.05265471988098147
+      },
+      {
+        "a": "q-d12a409834a8",
+        "b": "q-7da616c426bf",
+        "gain": 0.6719536582963862,
+        "phase": -0.9695196547696829
+      },
+      {
+        "a": "q-d12a409834a8",
+        "b": "q-95e4fe899087",
+        "gain": 0.6151861337709867,
+        "phase": 0.3667593713041799
+      },
+      {
+        "a": "q-0a6d75776c2a",
+        "b": "q-02da41c8e46c",
+        "gain": 0.5221484451741016,
+        "phase": 0.2980873324144331
+      },
+      {
+        "a": "q-0a6d75776c2a",
+        "b": "q-7da616c426bf",
+        "gain": 0.502871786710566,
+        "phase": 0.006276660168242465
+      },
+      {
+        "a": "q-0a6d75776c2a",
+        "b": "q-4a9c05bde954",
+        "gain": 0.09689733952208399,
+        "phase": 0.05136565948981486
+      },
+      {
+        "a": "q-4a9c05bde954",
+        "b": "q-02da41c8e46c",
+        "gain": 0.8956697457607088,
+        "phase": 1.0881189023741227
+      },
+      {
+        "a": "q-4a9c05bde954",
+        "b": "q-7da616c426bf",
+        "gain": 0.6090016955796628,
+        "phase": -0.4428661375705625
+      },
+      {
+        "a": "q-4a9c05bde954",
+        "b": "q-5182e68425c9",
+        "gain": 0.20509567539391982,
+        "phase": 1.5809934691802514
+      },
+      {
+        "a": "q-fc13a019b008",
+        "b": "q-81530fd90a47",
+        "gain": 0.9017589891102111,
+        "phase": 0.3581189763972321
+      },
+      {
+        "a": "q-fc13a019b008",
+        "b": "q-95e4fe899087",
+        "gain": 0.15696166868598874,
+        "phase": -0.07859349722361575
+      },
+      {
+        "a": "q-fc13a019b008",
+        "b": "q-56777244810c",
+        "gain": 0.27188553162490176,
+        "phase": 2.2419824157398462
+      },
+      {
+        "a": "q-4a9df8865cff",
+        "b": "q-d12a409834a8",
+        "gain": 0.9108239156430351,
+        "phase": -1.0469027088754461
+      },
+      {
+        "a": "q-4a9df8865cff",
+        "b": "q-95e4fe899087",
+        "gain": 0.6480603763251555,
+        "phase": 0.4259580807136798
+      },
+      {
+        "a": "q-4a9df8865cff",
+        "b": "q-7da616c426bf",
+        "gain": 0.613161447589891,
+        "phase": -0.9841812266566041
+      },
+      {
+        "a": "q-5182e68425c9",
+        "b": "q-a518dd2a1281",
+        "gain": 0.31791735453310466,
+        "phase": 2.003208903762541
+      },
+      {
+        "a": "q-5182e68425c9",
+        "b": "q-02da41c8e46c",
+        "gain": 0.20611321404150817,
+        "phase": 0.07226393491476513
+      },
+      {
+        "a": "q-5182e68425c9",
+        "b": "q-4a9c05bde954",
+        "gain": 0.569710209427555,
+        "phase": -0.511123319551182
+      },
+      {
+        "a": "q-7da616c426bf",
+        "b": "q-d12a409834a8",
+        "gain": 0.13439073165927726,
+        "phase": 0.026007554797348842
+      },
+      {
+        "a": "q-7da616c426bf",
+        "b": "q-4a9df8865cff",
+        "gain": 0.613161447589891,
+        "phase": 0.11537620209982347
+      },
+      {
+        "a": "q-7da616c426bf",
+        "b": "q-4a9c05bde954",
+        "gain": 0.12180033911593256,
+        "phase": 0.13133825823717293
+      },
+      {
+        "a": "q-a518dd2a1281",
+        "b": "q-5182e68425c9",
+        "gain": 0.8831037625919573,
+        "phase": -0.7814801267396683
+      },
+      {
+        "a": "q-a518dd2a1281",
+        "b": "q-4a9c05bde954",
+        "gain": 0.5181915521988889,
+        "phase": -0.5574469552113062
+      },
+      {
+        "a": "q-a518dd2a1281",
+        "b": "q-56777244810c",
+        "gain": 0.5143633799566836,
+        "phase": -0.03505895719473928
+      },
+      {
+        "a": "q-56777244810c",
+        "b": "q-81530fd90a47",
+        "gain": 0.8228217758085834,
+        "phase": -0.48628200104981545
+      },
+      {
+        "a": "q-56777244810c",
+        "b": "q-fc13a019b008",
+        "gain": 0.27188553162490176,
+        "phase": 0.15743468614675304
+      },
+      {
+        "a": "q-56777244810c",
+        "b": "q-95e4fe899087",
+        "gain": 0.12059013823651593,
+        "phase": -0.09795405092464371
+      }
+    ],
+    "bank": 0.5326578809390633,
+    "s": 0.007992935730279987,
+    "u": 0.027884779756912444,
+    "k": 1.227112022025163,
+    "phase": 1.899999999999999,
+    "time": 1,
+    "last_tick": 21,
+    "running": true,
+    "status": "RUNNING",
+    "source_node": "workshop-4",
+    "ledger": {
+      "input": 1,
+      "heat": 0.22177869286530957,
+      "load": 0.000024108244993503976,
+      "drive": 0.2787521977887265,
+      "modulation": 5.9093370969698966e-8,
+      "controller": 0,
+      "returned": 0.022820275642321086,
+      "reuptake": 0.011410137821160543,
+      "dissipation": 0.010368555044149026,
+      "tether_work": -0.000039419688323925753
+    },
+    "trace": [
+      {
+        "time": 0.5,
+        "mean": 0.04723705240016395,
+        "displacement": 0.0006065356974932616,
+        "coherence": 0.9999872997107433,
+        "bank": 0.6112375173742065,
+        "load": 2.958614627749951e-7,
+        "phase": 0.9499999999999997,
+        "stored": 0.797255794053483
+      },
+      {
+        "time": 1,
+        "mean": 0.13615572361217065,
+        "displacement": 0.007992935730279987,
+        "coherence": 0.9999064528971813,
+        "bank": 0.5326578809390633,
+        "load": 0.000024108244993503976,
+        "phase": 1.899999999999999,
+        "stored": 0.7781972028030781
+      }
+    ],
+    "observations": [
+      {
+        "tick": 17,
+        "time": 0,
+        "particles": [
+          {
+            "id": "q-81530fd90a47",
+            "particle_id": "p-d1ffebf76029",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 2.459235389783389,
+            "particle_position": {
+              "x": 451.9712323588458,
+              "y": 252.78092122338006
+            },
+            "particle_kinetic": 0.008820269330771761,
+            "particle_frequency": 1.87841,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-95e4fe899087",
+            "particle_id": "p-fe9901375e07",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.050251818648747,
+            "particle_position": {
+              "x": 467.31058344206286,
+              "y": 191.443550459274
+            },
+            "particle_kinetic": 0.008730765539318,
+            "particle_frequency": 1.45023,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-02da41c8e46c",
+            "particle_id": "p-533125b98df4",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.805945725159777,
+            "particle_position": {
+              "x": 205.60958778744325,
+              "y": 173.71015672162463
+            },
+            "particle_kinetic": 0.1216764690898753,
+            "particle_frequency": 1.26849,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-d12a409834a8",
+            "particle_id": "p-51b5c7fd88ca",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.6822530051752724,
+            "particle_position": {
+              "x": 394.5226754311258,
+              "y": 107.26193075612235
+            },
+            "particle_kinetic": 0.17477108976463676,
+            "particle_frequency": 1.52804,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-0a6d75776c2a",
+            "particle_id": "p-40c40ea3ee2b",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 0.16078118978011557,
+            "particle_position": {
+              "x": 77.19775598227206,
+              "y": 75.92945576915682
+            },
+            "particle_kinetic": 0.019795383629406492,
+            "particle_frequency": 1.07396,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9c05bde954",
+            "particle_id": "p-01cf433d6e47",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 4.49481618394187,
+            "particle_position": {
+              "x": 238.6469930065674,
+              "y": 172.99009228162583
+            },
+            "particle_kinetic": 0.012219922675288479,
+            "particle_frequency": 0.87753,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-fc13a019b008",
+            "particle_id": "p-ac4638163a75",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 2.220732383756998,
+            "particle_position": {
+              "x": 435.8197616384737,
+              "y": 235.12345037385512
+            },
+            "particle_kinetic": 0.012564073337326597,
+            "particle_frequency": 1.03831,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9df8865cff",
+            "particle_id": "p-d937c67a4140",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.8136185693066846,
+            "particle_position": {
+              "x": 422.2278742396085,
+              "y": 110.06177017150446
+            },
+            "particle_kinetic": 0.018377734036518243,
+            "particle_frequency": 1.66834,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-5182e68425c9",
+            "particle_id": "p-b71cf59e6d9f",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.535374394652834,
+            "particle_position": {
+              "x": 220.04322257649068,
+              "y": 284.82999412047883
+            },
+            "particle_kinetic": 0.004800882899627162,
+            "particle_frequency": 0.74211,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-7da616c426bf",
+            "particle_id": "p-fa102ab28e84",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.634054283685979,
+            "particle_position": {
+              "x": 283.3906069096988,
+              "y": 78.39486760225358
+            },
+            "particle_kinetic": 0.10555578438157928,
+            "particle_frequency": 1.88785,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-a518dd2a1281",
+            "particle_id": "p-9fdbf098205b",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.318274111877916,
+            "particle_position": {
+              "x": 242.96765927208637,
+              "y": 304.44059945766344
+            },
+            "particle_kinetic": 0.39074192917468575,
+            "particle_frequency": 1.30375,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-56777244810c",
+            "particle_id": "p-3f719210b327",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 3.2464147773219074,
+            "particle_position": {
+              "x": 441.41548470682045,
+              "y": 291.1439574909563
+            },
+            "particle_kinetic": 0.1578927234890025,
+            "particle_frequency": 0.87275,
+            "phase_residual": null,
+            "observed_particle_rate": null,
+            "observed_model_rate": null
+          }
+        ],
+        "units": {
+          "particle_rate": "radians per world cycle",
+          "model_rate": "radians per VREX time unit",
+          "particle_kinetic": "heuristic particle game units",
+          "oscillator_energy": "VREX game units"
+        },
+        "sampling": "Wrapped phase differences; angular changes above pi between samples alias."
+      },
+      {
+        "tick": 18,
+        "time": 0,
+        "particles": [
+          {
+            "id": "q-81530fd90a47",
+            "particle_id": "p-d1ffebf76029",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 2.534371789783389,
+            "particle_position": {
+              "x": 451.8755609658494,
+              "y": 252.69761033621134
+            },
+            "particle_kinetic": 0.010219753198571468,
+            "particle_frequency": 1.87841,
+            "phase_residual": null,
+            "observed_particle_rate": 0.07513639999999988,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-95e4fe899087",
+            "particle_id": "p-fe9901375e07",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.108261018648747,
+            "particle_position": {
+              "x": 467.37622183512303,
+              "y": 191.45260851654803
+            },
+            "particle_kinetic": 0.008720108350863223,
+            "particle_frequency": 1.45023,
+            "phase_residual": null,
+            "observed_particle_rate": 0.05800919999999987,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-02da41c8e46c",
+            "particle_id": "p-533125b98df4",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.856685325159777,
+            "particle_position": {
+              "x": 205.67099172216143,
+              "y": 174.14808220473998
+            },
+            "particle_kinetic": 0.1347773780446071,
+            "particle_frequency": 1.26849,
+            "phase_residual": null,
+            "observed_particle_rate": 0.050739599999999996,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-d12a409834a8",
+            "particle_id": "p-51b5c7fd88ca",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.7433746051752725,
+            "particle_position": {
+              "x": 393.79120069804463,
+              "y": 107.16832512305041
+            },
+            "particle_kinetic": 0.19172822717481122,
+            "particle_frequency": 1.52804,
+            "phase_residual": null,
+            "observed_particle_rate": 0.06112159999999989,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-0a6d75776c2a",
+            "particle_id": "p-40c40ea3ee2b",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 0.20373958978011558,
+            "particle_position": {
+              "x": 77.08259919283269,
+              "y": 75.94576577995404
+            },
+            "particle_kinetic": 0.0233272179023195,
+            "particle_frequency": 1.07396,
+            "phase_residual": null,
+            "observed_particle_rate": 0.04295839999999984,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9c05bde954",
+            "particle_id": "p-01cf433d6e47",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 4.52991738394187,
+            "particle_position": {
+              "x": 238.722487242466,
+              "y": 173.02291138477096
+            },
+            "particle_kinetic": 0.012531325272930953,
+            "particle_frequency": 0.87753,
+            "phase_residual": null,
+            "observed_particle_rate": 0.03510119999999972,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-fc13a019b008",
+            "particle_id": "p-ac4638163a75",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 2.262264783756998,
+            "particle_position": {
+              "x": 435.8985810195741,
+              "y": 235.14411456808395
+            },
+            "particle_kinetic": 0.012854012884658064,
+            "particle_frequency": 1.03831,
+            "phase_residual": null,
+            "observed_particle_rate": 0.041532399999999914,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9df8865cff",
+            "particle_id": "p-d937c67a4140",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.8803521693066847,
+            "particle_position": {
+              "x": 422.32862581178597,
+              "y": 110.09576132995386
+            },
+            "particle_kinetic": 0.018624718932002782,
+            "particle_frequency": 1.66834,
+            "phase_residual": null,
+            "observed_particle_rate": 0.06673360000000006,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-5182e68425c9",
+            "particle_id": "p-b71cf59e6d9f",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.565058794652834,
+            "particle_position": {
+              "x": 220.11387869538044,
+              "y": 284.7419992674702
+            },
+            "particle_kinetic": 0.005107397313575136,
+            "particle_frequency": 0.74211,
+            "phase_residual": null,
+            "observed_particle_rate": 0.029684399999999833,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-7da616c426bf",
+            "particle_id": "p-fa102ab28e84",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.709568283685979,
+            "particle_position": {
+              "x": 283.69157869677923,
+              "y": 78.40420169059418
+            },
+            "particle_kinetic": 0.11436577796057139,
+            "particle_frequency": 1.88785,
+            "phase_residual": null,
+            "observed_particle_rate": 0.07551400000000008,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-a518dd2a1281",
+            "particle_id": "p-9fdbf098205b",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.370424111877917,
+            "particle_position": {
+              "x": 243.0449178493186,
+              "y": 303.71815821194355
+            },
+            "particle_kinetic": 0.43236850211483374,
+            "particle_frequency": 1.30375,
+            "phase_residual": null,
+            "observed_particle_rate": 0.05215000000000014,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-56777244810c",
+            "particle_id": "p-3f719210b327",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 3.2813247773219074,
+            "particle_position": {
+              "x": 441.85424439863624,
+              "y": 291.6263884174885
+            },
+            "particle_kinetic": 0.17321056772186408,
+            "particle_frequency": 0.87275,
+            "phase_residual": null,
+            "observed_particle_rate": 0.03491,
+            "observed_model_rate": null
+          }
+        ],
+        "units": {
+          "particle_rate": "radians per world cycle",
+          "model_rate": "radians per VREX time unit",
+          "particle_kinetic": "heuristic particle game units",
+          "oscillator_energy": "VREX game units"
+        },
+        "sampling": "Wrapped phase differences; angular changes above pi between samples alias."
+      },
+      {
+        "tick": 19,
+        "time": 0,
+        "particles": [
+          {
+            "id": "q-81530fd90a47",
+            "particle_id": "p-d1ffebf76029",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 2.609508189783389,
+            "particle_position": {
+              "x": 451.7720528971033,
+              "y": 252.60968294354512
+            },
+            "particle_kinetic": 0.011712944816853102,
+            "particle_frequency": 1.87841,
+            "phase_residual": null,
+            "observed_particle_rate": 0.07513639999999988,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-95e4fe899087",
+            "particle_id": "p-fe9901375e07",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.166270218648747,
+            "particle_position": {
+              "x": 467.441751149954,
+              "y": 191.46211742266934
+            },
+            "particle_kinetic": 0.00870831724921084,
+            "particle_frequency": 1.45023,
+            "phase_residual": null,
+            "observed_particle_rate": 0.05800919999999987,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-02da41c8e46c",
+            "particle_id": "p-533125b98df4",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.907424925159777,
+            "particle_position": {
+              "x": 205.73221265313438,
+              "y": 174.60808116315604
+            },
+            "particle_kinetic": 0.1484225664926056,
+            "particle_frequency": 1.26849,
+            "phase_residual": null,
+            "observed_particle_rate": 0.050739599999999996,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-d12a409834a8",
+            "particle_id": "p-51b5c7fd88ca",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.8044962051752726,
+            "particle_position": {
+              "x": 393.02681971185297,
+              "y": 107.0707064031713
+            },
+            "particle_kinetic": 0.2093528450114612,
+            "particle_frequency": 1.52804,
+            "phase_residual": null,
+            "observed_particle_rate": 0.06112159999999989,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-0a6d75776c2a",
+            "particle_id": "p-40c40ea3ee2b",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 0.2466979897801156,
+            "particle_position": {
+              "x": 76.95839851713865,
+              "y": 75.9627803561851
+            },
+            "particle_kinetic": 0.027100726833489686,
+            "particle_frequency": 1.07396,
+            "phase_residual": null,
+            "observed_particle_rate": 0.04295839999999984,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9c05bde954",
+            "particle_id": "p-01cf433d6e47",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 4.565018583941869,
+            "particle_position": {
+              "x": 238.7984100814389,
+              "y": 173.0573096149647
+            },
+            "particle_kinetic": 0.012847623966663257,
+            "particle_frequency": 0.87753,
+            "phase_residual": null,
+            "observed_particle_rate": 0.03510119999999972,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-fc13a019b008",
+            "particle_id": "p-ac4638163a75",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 2.303797183756998,
+            "particle_position": {
+              "x": 435.978061881303,
+              "y": 235.16593390082474
+            },
+            "particle_kinetic": 0.013151742789534552,
+            "particle_frequency": 1.03831,
+            "phase_residual": null,
+            "observed_particle_rate": 0.041532399999999914,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9df8865cff",
+            "particle_id": "p-d937c67a4140",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.9470857693066848,
+            "particle_position": {
+              "x": 422.4296829697128,
+              "y": 110.13118695731127
+            },
+            "particle_kinetic": 0.018890338008470647,
+            "particle_frequency": 1.66834,
+            "phase_residual": null,
+            "observed_particle_rate": 0.06673360000000006,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-5182e68425c9",
+            "particle_id": "p-b71cf59e6d9f",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 1.594743194652834,
+            "particle_position": {
+              "x": 220.18465048978032,
+              "y": 284.6497294136363
+            },
+            "particle_kinetic": 0.005423012391364927,
+            "particle_frequency": 0.74211,
+            "phase_residual": null,
+            "observed_particle_rate": 0.029684399999999833,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-7da616c426bf",
+            "particle_id": "p-fa102ab28e84",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.785082283685979,
+            "particle_position": {
+              "x": 284.00423283622894,
+              "y": 78.4140367376477
+            },
+            "particle_kinetic": 0.12341981759688894,
+            "particle_frequency": 1.88785,
+            "phase_residual": null,
+            "observed_particle_rate": 0.07551400000000008,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-a518dd2a1281",
+            "particle_id": "p-9fdbf098205b",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 5.422574111877917,
+            "particle_position": {
+              "x": 243.1228947961575,
+              "y": 302.9602210887807
+            },
+            "particle_kinetic": 0.4754987296308778,
+            "particle_frequency": 1.30375,
+            "phase_residual": null,
+            "observed_particle_rate": 0.05215000000000014,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-56777244810c",
+            "particle_id": "p-3f719210b327",
+            "present": true,
+            "q": 0,
+            "v": 0,
+            "model_phase": null,
+            "kinetic": 0,
+            "oscillator_energy": 0,
+            "amplitude": 0,
+            "particle_phase": 3.3162347773219074,
+            "particle_position": {
+              "x": 442.3100282425827,
+              "y": 292.13253149216354
+            },
+            "particle_kinetic": 0.18896146256194582,
+            "particle_frequency": 0.87275,
+            "phase_residual": null,
+            "observed_particle_rate": 0.03491,
+            "observed_model_rate": null
+          }
+        ],
+        "units": {
+          "particle_rate": "radians per world cycle",
+          "model_rate": "radians per VREX time unit",
+          "particle_kinetic": "heuristic particle game units",
+          "oscillator_energy": "VREX game units"
+        },
+        "sampling": "Wrapped phase differences; angular changes above pi between samples alias."
+      },
+      {
+        "tick": 20,
+        "time": 0.5,
+        "particles": [
+          {
+            "id": "q-81530fd90a47",
+            "particle_id": "p-d1ffebf76029",
+            "present": true,
+            "q": 0.04728860084224287,
+            "v": 0.16967635164296757,
+            "model_phase": -1.3052231318544734,
+            "kinetic": 0.014395032153433992,
+            "oscillator_energy": 0.015460206545475438,
+            "amplitude": 0.18017285073398964,
+            "particle_phase": 2.684644589783389,
+            "particle_position": {
+              "x": 451.66083412194814,
+              "y": 252.51710411530365
+            },
+            "particle_kinetic": 0.01329750327667441,
+            "particle_frequency": 1.87841,
+            "phase_residual": 2.2933175855417236,
+            "observed_particle_rate": 0.07513639999999988,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-95e4fe899087",
+            "particle_id": "p-fe9901375e07",
+            "present": true,
+            "q": 0.04720544489699798,
+            "v": 0.16903037777719504,
+            "model_phase": -1.2941186565013332,
+            "kinetic": 0.014285634305750635,
+            "oscillator_energy": 0.015437723774428893,
+            "amplitude": 0.17281168511028583,
+            "particle_phase": 5.224279418648747,
+            "particle_position": {
+              "x": 467.5071642050576,
+              "y": 191.47207183119485
+            },
+            "particle_kinetic": 0.008695303225293102,
+            "particle_frequency": 1.45023,
+            "phase_residual": -0.23521276797049406,
+            "observed_particle_rate": 0.05800919999999987,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-02da41c8e46c",
+            "particle_id": "p-533125b98df4",
+            "present": true,
+            "q": 0.04729369545816901,
+            "v": 0.16971660847447018,
+            "model_phase": -1.3058760947499752,
+            "kinetic": 0.014401863596038301,
+            "oscillator_energy": 0.01546205738565557,
+            "amplitude": 0.18062591350751456,
+            "particle_phase": 1.958164525159777,
+            "particle_position": {
+              "x": 205.7932692133934,
+              "y": 175.0899303593704
+            },
+            "particle_kinetic": 0.16259269291837086,
+            "particle_frequency": 1.26849,
+            "phase_residual": 3.0191446872698338,
+            "observed_particle_rate": 0.050739599999999996,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-d12a409834a8",
+            "particle_id": "p-51b5c7fd88ca",
+            "present": true,
+            "q": 0.047234845362957655,
+            "v": 0.1692582725515317,
+            "model_phase": -1.29802161369024,
+            "kinetic": 0.014324181413564294,
+            "oscillator_energy": 0.015445360839725596,
+            "amplitude": 0.17533051172340927,
+            "particle_phase": 1.8656178051752728,
+            "particle_position": {
+              "x": 392.22975787976134,
+              "y": 106.96910440624073
+            },
+            "particle_kinetic": 0.22762349964183534,
+            "particle_frequency": 1.52804,
+            "phase_residual": 3.1195458883140734,
+            "observed_particle_rate": 0.06112159999999989,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-0a6d75776c2a",
+            "particle_id": "p-40c40ea3ee2b",
+            "present": true,
+            "q": 0.0472551874542376,
+            "v": 0.16941722736873674,
+            "model_phase": -1.300677698019261,
+            "kinetic": 0.01435109846465512,
+            "oscillator_energy": 0.015451523571378389,
+            "amplitude": 0.17708801680745948,
+            "particle_phase": 0.2896563897801156,
+            "particle_position": {
+              "x": 76.82526527630755,
+              "y": 75.9804732173617
+            },
+            "particle_kinetic": 0.03110530308662461,
+            "particle_frequency": 1.07396,
+            "phase_residual": -1.5903340877993766,
+            "observed_particle_rate": 0.04295839999999984,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9c05bde954",
+            "particle_id": "p-01cf433d6e47",
+            "present": true,
+            "q": 0.04729682843411588,
+            "v": 0.1697405318040907,
+            "model_phase": -1.3063311496359187,
+            "kinetic": 0.014405924068567765,
+            "oscillator_energy": 0.015462601909331476,
+            "amplitude": 0.1809413965364207,
+            "particle_phase": 4.600119783941869,
+            "particle_position": {
+              "x": 238.8747548455041,
+              "y": 173.09325904546853
+            },
+            "particle_kinetic": 0.013168224552118092,
+            "particle_frequency": 0.87753,
+            "phase_residual": 0.3767343736017983,
+            "observed_particle_rate": 0.03510119999999972,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-fc13a019b008",
+            "particle_id": "p-ac4638163a75",
+            "present": true,
+            "q": 0.047237940420111806,
+            "v": 0.16928283932304528,
+            "model_phase": -1.2984007223670373,
+            "kinetic": 0.014328339844635982,
+            "oscillator_energy": 0.015446570474536968,
+            "amplitude": 0.1755799554223355,
+            "particle_phase": 2.345329583756998,
+            "particle_position": {
+              "x": 436.0582062328809,
+              "y": 235.18891553316044
+            },
+            "particle_kinetic": 0.013457594075646754,
+            "particle_frequency": 1.03831,
+            "phase_residual": 2.639455001055551,
+            "observed_particle_rate": 0.041532399999999914,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-4a9df8865cff",
+            "particle_id": "p-d937c67a4140",
+            "present": true,
+            "q": 0.04721010268186309,
+            "v": 0.1690660239385483,
+            "model_phase": -1.2947608155646886,
+            "kinetic": 0.014291660225194893,
+            "oscillator_energy": 0.015438611184074578,
+            "amplitude": 0.1732204993554904,
+            "particle_phase": 2.0138193693066846,
+            "particle_position": {
+              "x": 422.53108813336627,
+              "y": 110.16801544276368
+            },
+            "particle_kinetic": 0.01917337589415439,
+            "particle_frequency": 1.66834,
+            "phase_residual": 2.974605122308213,
+            "observed_particle_rate": 0.06673360000000006,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-5182e68425c9",
+            "particle_id": "p-b71cf59e6d9f",
+            "present": true,
+            "q": 0.04719072753475601,
+            "v": 0.16891575121066907,
+            "model_phase": -1.2922187196268804,
+            "kinetic": 0.014266265503532324,
+            "oscillator_energy": 0.01543349691168689,
+            "amplitude": 0.17160990243517285,
+            "particle_phase": 1.6244275946528342,
+            "particle_position": {
+              "x": 220.2555226489112,
+              "y": 284.55325670405665
+            },
+            "particle_kinetic": 0.00574684169390343,
+            "particle_frequency": 0.74211,
+            "phase_residual": -2.9166463142797143,
+            "observed_particle_rate": 0.029684399999999833,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-7da616c426bf",
+            "particle_id": "p-fa102ab28e84",
+            "present": true,
+            "q": 0.04722132680135832,
+            "v": 0.1691538873586267,
+            "model_phase": -1.2961955254848763,
+            "kinetic": 0.014306518804267483,
+            "oscillator_energy": 0.01544214004753734,
+            "amplitude": 0.1741438772236924,
+            "particle_phase": 5.860596283685979,
+            "particle_position": {
+              "x": 284.3284313223656,
+              "y": 78.42437270750116
+            },
+            "particle_kinetic": 0.13270588348964463,
+            "particle_frequency": 1.88785,
+            "phase_residual": -0.8736065019912687,
+            "observed_particle_rate": 0.07551400000000008,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-a518dd2a1281",
+            "particle_id": "p-9fdbf098205b",
+            "present": true,
+            "q": 0.047178993664704696,
+            "v": 0.1688239110572021,
+            "model_phase": -1.2907400108990599,
+            "kinetic": 0.014250756472325042,
+            "oscillator_energy": 0.015429801326333517,
+            "amplitude": 0.17068497081015627,
+            "particle_phase": 5.474724111877917,
+            "particle_position": {
+              "x": 243.201606350507,
+              "y": 302.1672903772249
+            },
+            "particle_kinetic": 0.5200432022445582,
+            "particle_frequency": 1.30375,
+            "phase_residual": -0.4822788155973905,
+            "observed_particle_rate": 0.05215000000000014,
+            "observed_model_rate": null
+          },
+          {
+            "id": "q-56777244810c",
+            "particle_id": "p-3f719210b327",
+            "present": true,
+            "q": 0.04723093525045251,
+            "v": 0.1692283859062895,
+            "model_phase": -1.2974735379518778,
+            "kinetic": 0.014319123298224021,
+            "oscillator_energy": 0.015444647075485726,
+            "amplitude": 0.17497322028547624,
+            "particle_phase": 3.3511447773219074,
+            "particle_position": {
+              "x": 442.7824233842981,
+              "y": 292.6620700935133
+            },
+            "particle_kinetic": 0.2051109222105578,
+            "particle_frequency": 0.87275,
+            "phase_residual": 1.6345669919058015,
+            "observed_particle_rate": 0.03491,
+            "observed_model_rate": null
+          }
+        ],
+        "units": {
+          "particle_rate": "radians per world cycle",
+          "model_rate": "radians per VREX time unit",
+          "particle_kinetic": "heuristic particle game units",
+          "oscillator_energy": "VREX game units"
+        },
+        "sampling": "Wrapped phase differences; angular changes above pi between samples alias."
+      },
+      {
+        "tick": 21,
+        "time": 1,
+        "particles": [
+          {
+            "id": "q-81530fd90a47",
+            "particle_id": "p-d1ffebf76029",
+            "present": true,
+            "q": 0.13686100556389036,
+            "v": 0.14886121667267507,
+            "model_phase": -0.8394850664878191,
+            "kinetic": 0.011079830914634558,
+            "oscillator_energy": 0.020013520151288842,
+            "amplitude": 0.20492893402877757,
+            "particle_phase": 2.7597809897833887,
+            "particle_position": {
+              "x": 451.54202866999594,
+              "y": 252.41983238242966
+            },
+            "particle_kinetic": 0.014971447295855084,
+            "particle_frequency": 1.87841,
+            "phase_residual": 2.683919250908378,
+            "observed_particle_rate": 0.07513639999999988,
+            "observed_model_rate": 0.9314761307333086
+          },
+          {
+            "id": "q-95e4fe899087",
+            "particle_id": "p-fe9901375e07",
+            "present": true,
+            "q": 0.13572346665448942,
+            "v": 0.14478851969104498,
+            "model_phase": -0.8093914164634295,
+            "kinetic": 0.01048185771716206,
+            "oscillator_energy": 0.020016879125787125,
+            "amplitude": 0.19671804038748092,
+            "particle_phase": 5.282288618648747,
+            "particle_position": {
+              "x": 467.57245356221165,
+              "y": 191.48246641881687
+            },
+            "particle_kinetic": 0.008680982218182233,
+            "particle_frequency": 1.45023,
+            "phase_residual": 0.19150527206740975,
+            "observed_particle_rate": 0.05800919999999987,
+            "observed_model_rate": 0.9694544800758074
+          },
+          {
+            "id": "q-02da41c8e46c",
+            "particle_id": "p-533125b98df4",
+            "present": true,
+            "q": 0.13693249023579457,
+            "v": 0.14912170731325625,
+            "model_phase": -0.8413128371370051,
+            "kinetic": 0.01111864179601023,
+            "oscillator_energy": 0.020018002105203974,
+            "amplitude": 0.20545482787659175,
+            "particle_phase": 2.008904125159777,
+            "particle_position": {
+              "x": 205.854181313687,
+              "y": 175.59340807020968
+            },
+            "particle_kinetic": 0.17726873152996347,
+            "particle_frequency": 1.26849,
+            "phase_residual": -2.8502169622967823,
+            "observed_particle_rate": 0.050739599999999996,
+            "observed_model_rate": 0.9291265152259403
+          },
+          {
+            "id": "q-d12a409834a8",
+            "particle_id": "p-51b5c7fd88ca",
+            "present": true,
+            "q": 0.13612303144883178,
+            "v": 0.14621297309123207,
+            "model_phase": -0.8199099562327353,
+            "kinetic": 0.010689116750088677,
+            "oscillator_energy": 0.020011806691039278,
+            "amplitude": 0.1995099181706644,
+            "particle_phase": 1.9267394051752729,
+            "particle_position": {
+              "x": 391.40025234983295,
+              "y": 106.86354555694993
+            },
+            "particle_kinetic": 0.2465177417586856,
+            "particle_frequency": 1.52804,
+            "phase_residual": -2.746649361408008,
+            "observed_particle_rate": 0.06112159999999989,
+            "observed_model_rate": 0.9562233149150092
+          },
+          {
+            "id": "q-0a6d75776c2a",
+            "particle_id": "p-40c40ea3ee2b",
+            "present": true,
+            "q": 0.13640384454975418,
+            "v": 0.1472245290845544,
+            "model_phase": -0.8271928041506225,
+            "kinetic": 0.010837530982084403,
+            "oscillator_energy": 0.020017801942588537,
+            "amplitude": 0.20149926789333447,
+            "particle_phase": 0.3326147897801156,
+            "particle_position": {
+              "x": 76.68331067549782,
+              "y": 75.9988173867333
+            },
+            "particle_kinetic": 0.035330486179726214,
+            "particle_frequency": 1.07396,
+            "phase_residual": -1.1598075939307382,
+            "observed_particle_rate": 0.04295839999999984,
+            "observed_model_rate": 0.9469697877372774
+          },
+          {
+            "id": "q-4a9c05bde954",
+            "particle_id": "p-01cf433d6e47",
+            "present": true,
+            "q": 0.1369732023560028,
+            "v": 0.14926292774602545,
+            "model_phase": -0.842493643883886,
+            "kinetic": 0.011139710799657608,
+            "oscillator_energy": 0.02001370494157524,
+            "amplitude": 0.2057878671224057,
+            "particle_phase": 4.635220983941869,
+            "particle_position": {
+              "x": 238.9515147014782,
+              "y": 173.13073147149495
+            },
+            "particle_kinetic": 0.013492532516485826,
+            "particle_frequency": 0.87753,
+            "phase_residual": 0.8054706793538315,
+            "observed_particle_rate": 0.03510119999999972,
+            "observed_model_rate": 0.9276750115040651
+          },
+          {
+            "id": "q-fc13a019b008",
+            "particle_id": "p-ac4638163a75",
+            "present": true,
+            "q": 0.1361681143388469,
+            "v": 0.14638026329207976,
+            "model_phase": -0.8210047100050885,
+            "kinetic": 0.010713590740729296,
+            "oscillator_energy": 0.020016741614318642,
+            "amplitude": 0.19981050187500007,
+            "particle_phase": 2.3868619837569978,
+            "particle_position": {
+              "x": 436.1390165533797,
+              "y": 235.21306771879685
+            },
+            "particle_kinetic": 0.013771928101818376,
+            "particle_frequency": 1.03831,
+            "phase_residual": 3.0753186134175,
+            "observed_particle_rate": 0.041532399999999914,
+            "observed_model_rate": 0.9547920247238979
+          },
+          {
+            "id": "q-4a9df8865cff",
+            "particle_id": "p-d937c67a4140",
+            "present": true,
+            "q": 0.1357872813011625,
+            "v": 0.14501617030161257,
+            "model_phase": -0.8111068558401534,
+            "kinetic": 0.01051484482447315,
+            "oscillator_energy": 0.02001445601336014,
+            "amplitude": 0.19716568178353858,
+            "particle_phase": 2.0805529693066847,
+            "particle_position": {
+              "x": 422.63288096952715,
+              "y": 110.20621513487156
+            },
+            "particle_kinetic": 0.019472611747334743,
+            "particle_frequency": 1.66834,
+            "phase_residual": -2.891659825146838,
+            "observed_particle_rate": 0.06673360000000006,
+            "observed_model_rate": 0.9673079194490706
+          },
+          {
+            "id": "q-5182e68425c9",
+            "particle_id": "p-b71cf59e6d9f",
+            "present": true,
+            "q": 0.13552070878154374,
+            "v": 0.14405990539124092,
+            "model_phase": -0.8042003871250635,
+            "kinetic": 0.010376628170666641,
+            "oscillator_energy": 0.020013944847180755,
+            "amplitude": 0.1953627945494296,
+            "particle_phase": 1.6541119946528342,
+            "particle_position": {
+              "x": 220.3264792310335,
+              "y": 284.4526549487334
+            },
+            "particle_kinetic": 0.006077981659945112,
+            "particle_frequency": 0.74211,
+            "phase_residual": -2.4583123817778976,
+            "observed_particle_rate": 0.029684399999999833,
+            "observed_model_rate": 0.9760366650036341
+          },
+          {
+            "id": "q-7da616c426bf",
+            "particle_id": "p-fa102ab28e84",
+            "present": true,
+            "q": 0.13594152601850282,
+            "v": 0.14557060972351513,
+            "model_phase": -0.8150422800198397,
+            "kinetic": 0.010595401207637979,
+            "oscillator_energy": 0.020018218424842256,
+            "amplitude": 0.1982124064709595,
+            "particle_phase": 5.936110283685979,
+            "particle_position": {
+              "x": 284.6640363622943,
+              "y": 78.43521003645148
+            },
+            "particle_kinetic": 0.14221211141313483,
+            "particle_frequency": 1.88785,
+            "phase_residual": -0.46796725652623206,
+            "observed_particle_rate": 0.07551400000000008,
+            "observed_model_rate": 0.9623064909300734
+          },
+          {
+            "id": "q-a518dd2a1281",
+            "particle_id": "p-9fdbf098205b",
+            "present": true,
+            "q": 0.13536272304253413,
+            "v": 0.14349822385869498,
+            "model_phase": -0.8001903162470855,
+            "kinetic": 0.01029587012530007,
+            "oscillator_energy": 0.020012726462357185,
+            "amplitude": 0.19432747545416784,
+            "particle_phase": 5.526874111877917,
+            "particle_position": {
+              "x": 243.28106855078707,
+              "y": 301.33986989231715
+            },
+            "particle_kinetic": 0.5659135061418864,
+            "particle_frequency": 1.30375,
+            "phase_residual": -0.043879120945415906,
+            "observed_particle_rate": 0.05215000000000014,
+            "observed_model_rate": 0.9810993893039486
+          },
+          {
+            "id": "q-56777244810c",
+            "particle_id": "p-3f719210b327",
+            "present": true,
+            "q": 0.13607128905469462,
+            "v": 0.14603176018064773,
+            "model_phase": -0.8184748664629112,
+            "kinetic": 0.010662637490729106,
+            "oscillator_energy": 0.020015830748008282,
+            "amplitude": 0.19912808184667283,
+            "particle_phase": 3.3860547773219074,
+            "particle_position": {
+              "x": 443.2710175065316,
+              "y": 293.21469106038154
+            },
+            "particle_kinetic": 0.2216258547235647,
+            "particle_frequency": 0.87275,
+            "phase_residual": 2.078655663394768,
+            "observed_particle_rate": 0.03491,
+            "observed_model_rate": 0.9579973429779329
+          }
+        ],
+        "units": {
+          "particle_rate": "radians per world cycle",
+          "model_rate": "radians per VREX time unit",
+          "particle_kinetic": "heuristic particle game units",
+          "oscillator_energy": "VREX game units"
+        },
+        "sampling": "Wrapped phase differences; angular changes above pi between samples alias."
+      }
+    ],
+    "stimulus_events": [
+      {
+        "tick": 17,
+        "action": "vrex_configure",
+        "actor": "699531fb3b99",
+        "success": true,
+        "force": 0.28,
+        "drive_omega": 1.8,
+        "preset": "returned",
+        "input": 0,
+        "source_node": "workshop-4"
+      },
+      {
+        "tick": 18,
+        "action": "vrex_stimulus",
+        "actor": "699531fb3b99",
+        "success": true,
+        "force": 0.42,
+        "drive_omega": 1.9,
+        "preset": "returned",
+        "input": 0,
+        "source_node": "workshop-4"
+      },
+      {
+        "tick": 19,
+        "action": "vrex_pump",
+        "actor": "699531fb3b99",
+        "success": true,
+        "force": 0.42,
+        "drive_omega": 1.9,
+        "preset": "returned",
+        "input": 1,
+        "source_node": "workshop-4"
+      },
+      {
+        "tick": 20,
+        "action": "vrex_perturb",
+        "actor": "699531fb3b99",
+        "success": true,
+        "force": 0.42,
+        "drive_omega": 1.9,
+        "preset": "returned",
+        "input": 1,
+        "source_node": "workshop-4"
+      }
+    ],
+    "topology_events": 1,
+    "diagnostics": {
+      "schema": 1,
+      "model": "vrex-1",
+      "seed": "optics-ui|base:-10,3",
+      "preset": "returned",
+      "units": "VREX game units",
+      "configuration_hash": "09967f1a3256107749b10c9560948ff2d676e531d272b72c0070ef02c21d6002",
+      "classification": "SOFTWARE MODEL DIAGNOSTICS",
+      "convergence": {
+        "status": "PASS",
+        "steps": [
+          {
+            "dt": 0.125,
+            "audit": {
+              "status": "FAIL",
+              "residual": 0.000012234662301491284,
+              "normalized_residual": 0.0000015865232116512474,
+              "tolerance": 0.000001,
+              "stored": 1.9865451725802603,
+              "input": 3.855815541246199,
+              "load": 0.045169089047135846,
+              "heat": 1.8240890449565015,
+              "units": "VREX game units"
+            },
+            "load": 0.045169089047135846,
+            "modulation": 0.015626546857125573,
+            "controller": 0
+          },
+          {
+            "dt": 0.0625,
+            "audit": {
+              "status": "PASS",
+              "residual": -2.468672972710806e-7,
+              "normalized_residual": 3.201847192970557e-8,
+              "tolerance": 0.000001,
+              "stored": 1.9861867670739848,
+              "input": 3.855076062166797,
+              "load": 0.04517280204862004,
+              "heat": 1.8237167399114895,
+              "units": "VREX game units"
+            },
+            "load": 0.04517280204862004,
+            "modulation": 0.015627268949305065,
+            "controller": 0
+          },
+          {
+            "dt": 0.03125,
+            "audit": {
+              "status": "PASS",
+              "residual": -4.7209231635036986e-8,
+              "normalized_residual": 6.1233564589411466e-9,
+              "tolerance": 0.000001,
+              "stored": 1.9860735528039708,
+              "input": 3.854849187900727,
+              "load": 0.04517302631656787,
+              "heat": 1.82360265598942,
+              "units": "VREX game units"
+            },
+            "load": 0.04517302631656787,
+            "modulation": 0.015628515076683034,
+            "controller": 0
+          }
+        ],
+        "coarse_difference": 0.000013749080780080065,
+        "fine_difference": 8.191185666987241e-7,
+        "refinement_ratio": 16.785214402729846
+      },
+      "topology": {
+        "status": "PASS",
+        "perturbation_fraction": 0.4,
+        "reference_visible_to_dynamics": false,
+        "before": 0.4252966389992021,
+        "after": 0.00005126297246195197,
+        "recovery_score": 0.9998794653713171,
+        "random_control_distance": 0.8638124267247673,
+        "gauge_error": 8.881784197001252e-16,
+        "loop_count": 13
+      },
+      "load": {
+        "status": "PASS",
+        "static_cycle_work": 0,
+        "passive_work": 0.04517302631656787,
+        "returned": 2.9366129180147658,
+        "reuptake": 1.4683064590073829,
+        "energy": {
+          "status": "PASS",
+          "residual": -4.7209231635036986e-8,
+          "normalized_residual": 6.1233564589411466e-9,
+          "tolerance": 0.000001,
+          "stored": 1.9860735528039708,
+          "input": 3.854849187900727,
+          "load": 0.04517302631656787,
+          "heat": 1.82360265598942,
+          "units": "VREX game units"
+        },
+        "gain_controller_work": 0.7483525977284193,
+        "gain_energy": {
+          "status": "PASS",
+          "residual": 8.774809190370547e-8,
+          "normalized_residual": 9.68353801824146e-9,
+          "tolerance": 0.000001,
+          "stored": 2.3504417172001495,
+          "input": 4.530786815114035,
+          "load": 0.05756781633315465,
+          "heat": 2.122777193832639,
+          "units": "VREX game units"
+        }
+      },
+      "order": {
+        "status": "NOT DETECTED",
+        "runs": [
+          {
+            "states": 12,
+            "periods": 24,
+            "detune": 1,
+            "coupling": true,
+            "initial_offset": 0,
+            "participation": 1,
+            "seed": "optics-ui|base:-10,3",
+            "mean_coherence": 0.9974274910699398,
+            "recurrence_1": 0.06010658722722615,
+            "recurrence_2": 0.0010087307195171475,
+            "subharmonic_fraction": 0.012107807502760038,
+            "spectrum": [
+              {
+                "ratio": 0,
+                "power": 0.02695443771114288
+              },
+              {
+                "ratio": 0.08333333333333333,
+                "power": 0.0000011760658132604972
+              },
+              {
+                "ratio": 0.16666666666666666,
+                "power": 0.0000014866973225512532
+              },
+              {
+                "ratio": 0.25,
+                "power": 0.000002315638506727243
+              },
+              {
+                "ratio": 0.3333333333333333,
+                "power": 0.0000052636360400302765
+              },
+              {
+                "ratio": 0.4166666666666667,
+                "power": 0.00002975863039433608
+              },
+              {
+                "ratio": 0.5,
+                "power": 0.0003308493234738585
+              }
+            ],
+            "lifetime_periods": 10,
+            "energy": {
+              "status": "PASS",
+              "residual": -0.000001676664524552507,
+              "normalized_residual": 3.863960992920703e-8,
+              "tolerance": 0.000001,
+              "stored": 4.187724877421639,
+              "input": 21.69618770529361,
+              "load": 0.12268601469474925,
+              "heat": 17.385778489841748,
+              "units": "VREX game units"
+            }
+          },
+          {
+            "states": 12,
+            "periods": 24,
+            "detune": 0.97,
+            "coupling": true,
+            "initial_offset": 0,
+            "participation": 1,
+            "seed": "optics-ui|base:-10,3",
+            "mean_coherence": 0.9983551620150138,
+            "recurrence_1": 0.023551495721112096,
+            "recurrence_2": 0.0043224689260582426,
+            "subharmonic_fraction": 0.0001777847996204796,
+            "spectrum": [
+              {
+                "ratio": 0,
+                "power": 0.03193275450288388
+              },
+              {
+                "ratio": 0.08333333333333333,
+                "power": 0.00000361813565202436
+              },
+              {
+                "ratio": 0.16666666666666666,
+                "power": 0.000004564091414139309
+              },
+              {
+                "ratio": 0.25,
+                "power": 0.000007056218224942262
+              },
+              {
+                "ratio": 0.3333333333333333,
+                "power": 0.000015058805347166663
+              },
+              {
+                "ratio": 0.4166666666666667,
+                "power": 0.00007886264584250703
+              },
+              {
+                "ratio": 0.5,
+                "power": 0.000005697578273937144
+              }
+            ],
+            "lifetime_periods": 8,
+            "energy": {
+              "status": "PASS",
+              "residual": -0.0000016165700529313654,
+              "normalized_residual": 3.391356619549683e-8,
+              "tolerance": 0.000001,
+              "stored": 4.2007755916781075,
+              "input": 23.83367748453317,
+              "load": 0.16018233092307654,
+              "heat": 19.472721178502034,
+              "units": "VREX game units"
+            }
+          },
+          {
+            "states": 12,
+            "periods": 24,
+            "detune": 1.03,
+            "coupling": true,
+            "initial_offset": 0,
+            "participation": 1,
+            "seed": "optics-ui|base:-10,3",
+            "mean_coherence": 0.9986915474493129,
+            "recurrence_1": 0.01090395663390873,
+            "recurrence_2": 0.0009716624165273446,
+            "subharmonic_fraction": 0.0009876720327705922,
+            "spectrum": [
+              {
+                "ratio": 0,
+                "power": 0.023429092259908076
+              },
+              {
+                "ratio": 0.08333333333333333,
+                "power": 0.0000012530956891961587
+              },
+              {
+                "ratio": 0.16666666666666666,
+                "power": 0.0000015575117507522681
+              },
+              {
+                "ratio": 0.25,
+                "power": 0.000002346351887306641
+              },
+              {
+                "ratio": 0.3333333333333333,
+                "power": 0.000004736149006959308
+              },
+              {
+                "ratio": 0.4166666666666667,
+                "power": 0.0000166832956744514
+              },
+              {
+                "ratio": 0.5,
+                "power": 0.000023189411483450413
+              }
+            ],
+            "lifetime_periods": 10,
+            "energy": {
+              "status": "PASS",
+              "residual": -0.000001769093911363484,
+              "normalized_residual": 4.4407235359589276e-8,
+              "tolerance": 0.000001,
+              "stored": 4.159096103989376,
+              "input": 19.91898187848855,
+              "load": 0.09703697039232577,
+              "heat": 15.66285057320076,
+              "units": "VREX game units"
+            }
+          },
+          {
+            "states": 12,
+            "periods": 24,
+            "detune": 1,
+            "coupling": false,
+            "initial_offset": 0,
+            "participation": 1,
+            "seed": "optics-ui|base:-10,3",
+            "mean_coherence": 0.9876959441052503,
+            "recurrence_1": 0.031064667482629774,
+            "recurrence_2": 0.001061101207222361,
+            "subharmonic_fraction": 0.004808776104177283,
+            "spectrum": [
+              {
+                "ratio": 0,
+                "power": 0.026939017414389824
+              },
+              {
+                "ratio": 0.08333333333333333,
+                "power": 0.0000013268338534995873
+              },
+              {
+                "ratio": 0.16666666666666666,
+                "power": 0.000001665759175585776
+              },
+              {
+                "ratio": 0.25,
+                "power": 0.0000025815779156219573
+              },
+              {
+                "ratio": 0.3333333333333333,
+                "power": 0.000005808024065558073
+              },
+              {
+                "ratio": 0.4166666666666667,
+                "power": 0.00003277676095885549
+              },
+              {
+                "ratio": 0.5,
+                "power": 0.00013038303658008838
+              }
+            ],
+            "lifetime_periods": 10,
+            "energy": {
+              "status": "PASS",
+              "residual": -0.000001668368060592229,
+              "normalized_residual": 3.848108305086553e-8,
+              "tolerance": 0.000001,
+              "stored": 4.178984734769281,
+              "input": 21.677768193092152,
+              "load": 0.12105988516926687,
+              "heat": 17.377725241521667,
+              "units": "VREX game units"
+            }
+          },
+          {
+            "states": 12,
+            "periods": 24,
+            "detune": 1,
+            "coupling": true,
+            "initial_offset": 1.1,
+            "participation": 1,
+            "seed": "optics-ui|base:-10,3",
+            "mean_coherence": 0.9973669654067335,
+            "recurrence_1": 0.05893063063789823,
+            "recurrence_2": 0.0009804605733874628,
+            "subharmonic_fraction": 0.011894287489675515,
+            "spectrum": [
+              {
+                "ratio": 0,
+                "power": 0.026960699581477957
+              },
+              {
+                "ratio": 0.08333333333333333,
+                "power": 0.0000011337620732542702
+              },
+              {
+                "ratio": 0.16666666666666666,
+                "power": 0.0000014336169397119958
+              },
+              {
+                "ratio": 0.25,
+                "power": 0.0000022341857979699478
+              },
+              {
+                "ratio": 0.3333333333333333,
+                "power": 0.000005086915680812527
+              },
+              {
+                "ratio": 0.4166666666666667,
+                "power": 0.000028879821933280598
+              },
+              {
+                "ratio": 0.5,
+                "power": 0.000325005137633937
+              }
+            ],
+            "lifetime_periods": 10,
+            "energy": {
+              "status": "PASS",
+              "residual": -0.000001676395790184415,
+              "normalized_residual": 3.864633343492035e-8,
+              "tolerance": 0.000001,
+              "stored": 4.187789679608998,
+              "input": 21.688936263783503,
+              "load": 0.12201580407347218,
+              "heat": 17.379132456496823,
+              "units": "VREX game units"
+            }
+          },
+          {
+            "states": 12,
+            "periods": 24,
+            "detune": 1,
+            "coupling": true,
+            "initial_offset": 0,
+            "participation": 1,
+            "seed": "optics-ui|base:-10,3|seed-control",
+            "mean_coherence": 0.9969942123272131,
+            "recurrence_1": 0.0742263448235602,
+            "recurrence_2": 0.0009459202645838543,
+            "subharmonic_fraction": 0.015827714733639905,
+            "spectrum": [
+              {
+                "ratio": 0,
+                "power": 0.026924678019464375
+              },
+              {
+                "ratio": 0.08333333333333333,
+                "power": 8.975251602744794e-7
+              },
+              {
+                "ratio": 0.16666666666666666,
+                "power": 0.000001141263119067157
+              },
+              {
+                "ratio": 0.25,
+                "power": 0.0000017972234850364096
+              },
+              {
+                "ratio": 0.3333333333333333,
+                "power": 0.000004205355402005818
+              },
+              {
+                "ratio": 0.4166666666666667,
+                "power": 0.000025983625575999085
+              },
+              {
+                "ratio": 0.5,
+                "power": 0.0004335568754270223
+              }
+            ],
+            "lifetime_periods": 10,
+            "energy": {
+              "status": "PASS",
+              "residual": -0.0000016982747332860981,
+              "normalized_residual": 3.9152973451003223e-8,
+              "tolerance": 0.000001,
+              "stored": 4.192633550349724,
+              "input": 21.687684447757288,
+              "load": 0.12329866932208068,
+              "heat": 17.371753926360217,
+              "units": "VREX game units"
+            }
+          },
+          {
+            "states": 20,
+            "periods": 24,
+            "detune": 1,
+            "coupling": true,
+            "initial_offset": 0,
+            "participation": 1,
+            "seed": "optics-ui|base:-10,3",
+            "mean_coherence": 0.9956479399518887,
+            "recurrence_1": 0.09383168547725415,
+            "recurrence_2": 0.0019333890419102975,
+            "subharmonic_fraction": 0.017952999729349117,
+            "spectrum": [
+              {
+                "ratio": 0,
+                "power": 0.026334780130852185
+              },
+              {
+                "ratio": 0.08333333333333333,
+                "power": 0.0000023017719518985856
+              },
+              {
+                "ratio": 0.16666666666666666,
+                "power": 0.000002898490982308836
+              },
+              {
+                "ratio": 0.25,
+                "power": 0.000004484977281414705
+              },
+              {
+                "ratio": 0.3333333333333333,
+                "power": 0.000009905742923604511
+              },
+              {
+                "ratio": 0.4166666666666667,
+                "power": 0.000056319061635848945
+              },
+              {
+                "ratio": 0.5,
+                "power": 0.0004828191659485107
+              }
+            ],
+            "lifetime_periods": 10,
+            "energy": {
+              "status": "PASS",
+              "residual": -0.0000029713237346129517,
+              "normalized_residual": 4.138072813067585e-8,
+              "tolerance": 0.000001,
+              "stored": 4.294756852114084,
+              "input": 35.9022635159325,
+              "load": 0.1278082320097461,
+              "heat": 31.47970140313241,
+              "units": "VREX game units"
+            }
+          }
+        ],
+        "interpretation": "Finite driven Duffing network screening; a candidate is not a verified many-body DTC."
+      },
+      "representation": {
+        "status": "MEASURED",
+        "residual": 0.00002094946306000258,
+        "offset": 0.03125,
+        "scope": "RK4 forward positions versus second-order temporal prediction; no temporal force"
+      },
+      "sustained": {
+        "status": "PASS",
+        "periods": 24,
+        "scope": "Metered diagnostic input over 24 drive periods; finite game bank still exhausts."
+      },
+      "laboratory": {
+        "status": "NOT RUN",
+        "reason": "No physical apparatus or calibration is attached."
+      },
+      "tick": 21,
+      "field": "base:-10,3",
+      "actor": "699531fb3b99",
+      "workshop": "workshop-4",
+      "engine_version": "0.12.0",
+      "source_sha256": "7d7b774360ed65f995f46b9726e8ced8e8c333089aa8919bff7c72e8c7d4cd73",
+      "run_id": "vrex-test-1",
+      "interpretation": true,
+      "stimulus": {
+        "omega": 1,
+        "drive_omega": 1.9,
+        "alpha": 0.15,
+        "damping": 0.04,
+        "force": 0.42,
+        "coupling": 0.12,
+        "tether_coupling": 0.6,
+        "tether_damping": 0.03
+      }
+    },
+    "diagnostic_serial": 1
+  },
+  "energy": {
+    "status": "PASS",
+    "residual": -3.913381202425015e-9,
+    "normalized_residual": 1.9566905973828907e-9,
+    "tolerance": 0.000001,
+    "stored": 0.7781972028030781,
+    "input": 1,
+    "load": 0.000024108244993503976,
+    "heat": 0.22177869286530957,
+    "units": "VREX game units"
+  }
+}

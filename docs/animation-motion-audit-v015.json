@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "engine_version": "0.15.0",
+  "authority": "Committed host actions and actual downstream solver samples.",
+  "host_cases": 19,
+  "client": {
+    "status": "PASS",
+    "native_canvas": true,
+    "collapse_states": 64,
+    "mechanical_surfaces": 36,
+    "regions": 4,
+    "current_moving_actor_pick": true,
+    "holding_pre_hit_appearance": true,
+    "serial_deduplication": true,
+    "queue_limits": {
+      "subjects": 96,
+      "per_subject": 12,
+      "composed_surfaces": 24,
+      "max_pending_delay_ms": 2400
+    },
+    "pause_resume": true,
+    "remote_void_discard": true,
+    "hardware_extrapolation": false
+  },
+  "timings_ms": {
+    "hex_step": 360,
+    "attack": 870,
+    "melee_contact": 435,
+    "hit": 540,
+    "collapse": 1200,
+    "clear": 560,
+    "normal_solver_interval": 500
+  },
+  "preview": {
+    "source": "Actual native field renderer + confirmed HTTP actions",
+    "gif_frames": 19,
+    "gif_duration_ms": 3640,
+    "captured_samples": 28
+  },
+  "measurements": "Off-screen; public hardware carries only curated visible poses.",
+  "limits": [
+    "Presentation timing is not physical calibration.",
+    "Fragments are visual trajectories, not rigid bodies.",
+    "Hardware compositions require a prepared sprite bank."
+  ]
+}

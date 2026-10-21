@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "engine_version": "0.14.0",
+  "live_host": {
+    "strikes": 3,
+    "collapse": true,
+    "paid_gear_repair": true,
+    "finite_clear": true,
+    "rock_controls": true,
+    "duplicate_rejected": true
+  },
+  "native_canvas": true,
+  "regions": [
+    {
+      "region": "WN_TOWER",
+      "kind": "water",
+      "intact_height_px": 241.33333333333331,
+      "debris_height_px": 20.666666666666664,
+      "solid_pixels": 1345,
+      "shadow_pixels": 633
+    },
+    {
+      "region": "WN_TOWER",
+      "kind": "power",
+      "intact_height_px": 304.66666666666663,
+      "debris_height_px": 21.333333333333332,
+      "solid_pixels": 1426,
+      "shadow_pixels": 584
+    },
+    {
+      "region": "WN_TOWER",
+      "kind": "relay",
+      "intact_height_px": 362,
+      "debris_height_px": 21.333333333333332,
+      "solid_pixels": 1151,
+      "shadow_pixels": 794
+    },
+    {
+      "region": "WN_TOWER",
+      "kind": "shelter",
+      "intact_height_px": 84.66666666666666,
+      "debris_height_px": 22,
+      "solid_pixels": 1315,
+      "shadow_pixels": 691
+    },
+    {
+      "region": "WN_TOWER",
+      "kind": "rock",
+      "intact_height_px": 34.666666666666664,
+      "debris_height_px": 20.666666666666664,
+      "solid_pixels": 1367,
+      "shadow_pixels": 661
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "kind": "water",
+      "intact_height_px": 241.33333333333331,
+      "debris_height_px": 22,
+      "solid_pixels": 1289,
+      "shadow_pixels": 664
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "kind": "power",
+      "intact_height_px": 304.66666666666663,
+      "debris_height_px": 21.333333333333332,
+      "solid_pixels": 1237,
+      "shadow_pixels": 672
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "kind": "relay",
+      "intact_height_px": 362,
+      "debris_height_px": 18.666666666666664,
+      "solid_pixels": 1116,
+      "shadow_pixels": 822
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "kind": "shelter",
+      "intact_height_px": 88.66666666666666,
+      "debris_height_px": 20.666666666666664,
+      "solid_pixels": 1280,
+      "shadow_pixels": 734
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "kind": "rock",
+      "intact_height_px": 34,
+      "debris_height_px": 20.666666666666664,
+      "solid_pixels": 1197,
+      "shadow_pixels": 813
+    },
+    {
+      "region": "ENACT_HILLS",
+      "kind": "water",
+      "intact_height_px": 241.33333333333331,
+      "debris_height_px": 19.333333333333332,
+      "solid_pixels": 1104,
+      "shadow_pixels": 766
+    },
+    {
+      "region": "ENACT_HILLS",
+      "kind": "power",
+      "intact_height_px": 304.66666666666663,
+      "debris_height_px": 22.666666666666664,
+      "solid_pixels": 1220,
+      "shadow_pixels": 774
+    },
+    {
+      "region": "ENACT_HILLS",
+      "kind": "relay",
+      "intact_height_px": 362,
+      "debris_height_px": 22.666666666666664,
+      "solid_pixels": 1327,
+      "shadow_pixels": 705
+    },
+    {
+      "region": "ENACT_HILLS",
+      "kind": "shelter",
+      "intact_height_px": 91.33333333333333,
+      "debris_height_px": 22,
+      "solid_pixels": 1289,
+      "shadow_pixels": 661
+    },
+    {
+      "region": "ENACT_HILLS",
+      "kind": "rock",
+      "intact_height_px": 30.666666666666664,
+      "debris_height_px": 22,
+      "solid_pixels": 1307,
+      "shadow_pixels": 684
+    },
+    {
+      "region": "AETHERGALE",
+      "kind": "water",
+      "intact_height_px": 241.33333333333331,
+      "debris_height_px": 20.666666666666664,
+      "solid_pixels": 1302,
+      "shadow_pixels": 640
+    },
+    {
+      "region": "AETHERGALE",
+      "kind": "power",
+      "intact_height_px": 304.66666666666663,
+      "debris_height_px": 19.333333333333332,
+      "solid_pixels": 1332,
+      "shadow_pixels": 716
+    },
+    {
+      "region": "AETHERGALE",
+      "kind": "relay",
+      "intact_height_px": 362,
+      "debris_height_px": 21.333333333333332,
+      "solid_pixels": 1302,
+      "shadow_pixels": 627
+    },
+    {
+      "region": "AETHERGALE",
+      "kind": "shelter",
+      "intact_height_px": 97.33333333333333,
+      "debris_height_px": 21.333333333333332,
+      "solid_pixels": 1278,
+      "shadow_pixels": 648
+    },
+    {
+      "region": "AETHERGALE",
+      "kind": "rock",
+      "intact_height_px": 34,
+      "debris_height_px": 21.333333333333332,
+      "solid_pixels": 1320,
+      "shadow_pixels": 746
+    }
+  ],
+  "cache_limit": 32,
+  "prototype": "Deterministic fragments and cracks derived from prepared sprite pixels; not new Blender fracture meshes."
+}

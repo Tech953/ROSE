@@ -1,0 +1,29 @@
+test_interpretation_is_validated (test_foundation.NarratorTests.test_interpretation_is_validated) ... ok
+test_local_only_configuration (test_foundation.NarratorTests.test_local_only_configuration) ... ok
+test_narration_payload_has_no_session_tokens (test_foundation.NarratorTests.test_narration_payload_has_no_session_tokens) ... ok
+test_actual_http_boundary_and_assets (test_foundation.ServerTests.test_actual_http_boundary_and_assets) ... ok
+test_clock_pause_idle_and_resume (test_foundation.ServerTests.test_clock_pause_idle_and_resume) ... ok
+test_concurrent_six_players_serialize (test_foundation.ServerTests.test_concurrent_six_players_serialize) ... ok
+test_host_pause_and_stale_revision (test_foundation.ServerTests.test_host_pause_and_stale_revision) ... ok
+test_leave_transfers_host_and_export_omits_tokens (test_foundation.ServerTests.test_leave_transfers_host_and_export_omits_tokens) ... ok
+test_restart_persistence_and_invalid_request_rollback (test_foundation.ServerTests.test_restart_persistence_and_invalid_request_rollback) ... ok
+test_autonomous_changes_do_not_drain_players (test_foundation.WorldTests.test_autonomous_changes_do_not_drain_players) ... ok
+test_capacity_and_token_redaction (test_foundation.WorldTests.test_capacity_and_token_redaction) ... ok
+test_contract_success_once_and_failure_no_reward (test_foundation.WorldTests.test_contract_success_once_and_failure_no_reward) ... ok
+test_failed_resource_request_and_clamps (test_foundation.WorldTests.test_failed_resource_request_and_clamps) ... ok
+test_free_text_and_unknown_no_changes (test_foundation.WorldTests.test_free_text_and_unknown_no_changes) ... ok
+test_gather_depletes_stock_and_records_trace (test_foundation.WorldTests.test_gather_depletes_stock_and_records_trace) ... ok
+test_movement_and_personal_needs (test_foundation.WorldTests.test_movement_and_personal_needs) ... ok
+test_observation_is_free_and_descriptive (test_foundation.WorldTests.test_observation_is_free_and_descriptive) ... ok
+test_projection_and_grid_have_bounded_growth (test_foundation.WorldTests.test_projection_and_grid_have_bounded_growth) ... ok
+test_remote_does_not_teleport_or_grant_access (test_foundation.WorldTests.test_remote_does_not_teleport_or_grant_access) ... ok
+test_restoration_persists_in_description (test_foundation.WorldTests.test_restoration_persists_in_description) ... ok
+test_seeded_terrain_and_unique_regions (test_foundation.WorldTests.test_seeded_terrain_and_unique_regions) ... ok
+test_shelter_and_recovery (test_foundation.WorldTests.test_shelter_and_recovery) ... ok
+test_traveler_migration_follows_actual_conditions (test_foundation.WorldTests.test_traveler_migration_follows_actual_conditions) ... ok
+test_voice_negotiation_offer_is_bounded (test_foundation.WorldTests.test_voice_negotiation_offer_is_bounded) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 2.088s
+
+OK

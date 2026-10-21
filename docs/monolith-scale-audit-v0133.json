@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.3",
+  "backend": "native canvas and modeled DOM",
+  "metrics": [
+    {
+      "region": "WN_TOWER",
+      "body_height_px": 63.33333333333333,
+      "structures": {
+        "water": {
+          "height_px": 241.33333333333331,
+          "height_in_bodies": 3.8105263157894735
+        },
+        "power": {
+          "height_px": 304.66666666666663,
+          "height_in_bodies": 4.810526315789473
+        },
+        "relay": {
+          "height_px": 362,
+          "height_in_bodies": 5.715789473684211
+        }
+      }
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "body_height_px": 63.33333333333333,
+      "structures": {
+        "water": {
+          "height_px": 241.33333333333331,
+          "height_in_bodies": 3.8105263157894735
+        },
+        "power": {
+          "height_px": 304.66666666666663,
+          "height_in_bodies": 4.810526315789473
+        },
+        "relay": {
+          "height_px": 362,
+          "height_in_bodies": 5.715789473684211
+        }
+      }
+    },
+    {
+      "region": "ENACT_HILLS",
+      "body_height_px": 63.33333333333333,
+      "structures": {
+        "water": {
+          "height_px": 241.33333333333331,
+          "height_in_bodies": 3.8105263157894735
+        },
+        "power": {
+          "height_px": 304.66666666666663,
+          "height_in_bodies": 4.810526315789473
+        },
+        "relay": {
+          "height_px": 362,
+          "height_in_bodies": 5.715789473684211
+        }
+      }
+    },
+    {
+      "region": "AETHERGALE",
+      "body_height_px": 63.33333333333333,
+      "structures": {
+        "water": {
+          "height_px": 241.33333333333331,
+          "height_in_bodies": 3.8105263157894735
+        },
+        "power": {
+          "height_px": 304.66666666666663,
+          "height_in_bodies": 4.810526315789473
+        },
+        "relay": {
+          "height_px": 362,
+          "height_in_bodies": 5.715789473684211
+        }
+      }
+    }
+  ],
+  "navigation_comparison": {
+    "status": "NOT_RUN",
+    "reason": "A prior renderer was not supplied."
+  },
+  "cache_bound": 24,
+  "occlusion_and_picking": "PASS",
+  "construction_selection": "PASS",
+  "host_state_unchanged": true,
+  "scope": "Relative rendered scale; not planetary measurement, full-browser validation or a new Blender bake."
+}

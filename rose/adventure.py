@@ -4,6 +4,7 @@ import geography as geo
 import characters as chars
 import survival
 import companions
+import generation
 import lore
 
 ACTS={'goto','travel','abandon','fulfill','register','study','install','remove','treat','clinic','provision','dialogue','contract','survey','talk'}
@@ -43,6 +44,7 @@ def init(w):
  w.setdefault('layout','legacy');w.setdefault('spawn',[0,0]);w.setdefault('residents',{});w.setdefault('contract_serial',0)
  for f in FACTIONS:w['reputation'].setdefault(f,0)
  for p in w['players']:chars.ensure(p);survival.ensure(p);p.setdefault('route',[]);p.setdefault('destination',None);p.setdefault('companions',[]);p.setdefault('personal_reputation',{})
+ generation.ensure_world(w)
 def landmark(w,p):return geo.landmark(*p['pos']) if w.get('layout')=='atlas' else None
 def resident(w,p):
  lm=landmark(w,p)
@@ -127,7 +129,7 @@ def handle(w,p,intent,raw,engine):
    speech+=' The exchange leaves room for a fuller explanation of the local responsibilities.'
    if w['tick']>=a.get('dialogue_after',-4):a['attitude']=min(100,a['attitude']+1);a['dialogue_after']=w['tick']+4
   else:speech+=' I can confirm those records, but I will keep the rest of this account provisional.'
-  out=note_dialogue(w,p,a,topic,prefix+'“'+speech+'”')
+  out=note_dialogue(w,p,a,topic,prefix+generation.dialogue(w,p,a,topic,speech,ok,c))
  elif op=='contract':
   kind=target or 'survey';require(p['contract'] is None,'Finish or abandon your current commitment first.');require(kind in {o['kind'] for o in board(w,p)},'Choose one of this board’s displayed commitment types.')
   ok,roll=engine.check(w,p,'rapport',11,'contracts',dict(npc=a['id'] if a else None));time=True

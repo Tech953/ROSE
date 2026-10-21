@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.2",
+  "baseline_version": "0.13.1",
+  "backend": "@napi-rs/canvas and modeled DOM",
+  "fixture": "Frozen enabled regional presentation copies; no host mutation or asset rebake.",
+  "display": "sharp / CRT off",
+  "metrics": [
+    {
+      "region": "WN_TOWER",
+      "frames": 20,
+      "mean_draw_ms": 1.4703252999999676,
+      "hex_picks_checked": 127,
+      "navigation_paths_checked": 113
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "frames": 20,
+      "mean_draw_ms": 1.2511171500000273,
+      "hex_picks_checked": 127,
+      "navigation_paths_checked": 113
+    }
+  ],
+  "scope": "Native draw cost only; excludes browser layout, device FPS and Windows validation."
+}

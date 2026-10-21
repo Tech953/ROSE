@@ -1,0 +1,41 @@
+{
+  "engine_version": "0.17.0",
+  "validated_at": "2026-10-16T03:22:49.394386+00:00",
+  "status": "PASS",
+  "python": {
+    "tests": 421,
+    "seconds": 33.319,
+    "log": "docs/validation-python-v017.txt"
+  },
+  "weather": {
+    "tests": 17,
+    "seconds": 0.563,
+    "log": "docs/validation-weather-python-v017.txt"
+  },
+  "interface": {
+    "status": "PASS",
+    "log": "docs/validation-ui-v017.txt",
+    "mode": "real HTTP, DOM logic and native canvas; full browser layout not tested"
+  },
+  "native_weather": {
+    "status": "PASS",
+    "log": "docs/validation-weather-ui-v017.txt",
+    "report": "docs/weather-response-ui-audit-v017.json"
+  },
+  "http": {
+    "status": "PASS",
+    "positive_routes": 9,
+    "rejected_routes": 3,
+    "report": "docs/lore-transport-http-v017.json"
+  },
+  "preserved": {
+    "baseline_members": 952,
+    "art_and_kernel_hashes": 664
+  },
+  "limitations": [
+    "Cloth uses a pinned prepared-surface color-sampling approximation, not a mesh cloth solver.",
+    "New weather quantities and rates are bounded game-scale authoring values.",
+    "Full browser layout, Windows launch, LAN sessions, audio playback and human balance remain unverified.",
+    "The interrupted source image and later archive members are still unavailable."
+  ]
+}

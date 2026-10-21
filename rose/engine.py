@@ -3,8 +3,9 @@ import copy
 import json
 from pathlib import Path
 import art_direction
+import generation
 
-VERSION = '0.18.0'
+VERSION = '0.19.0'
 LIMITS = {
     'generation': {'scene_radius': (5, 9), 'obstacle_density': (0, 28),
                    'infrastructure_density': (0, 100), 'population': (2, 40),
@@ -72,7 +73,7 @@ def for_world(overrides=None, profile='balanced'):
 def catalog():
     return {'version': VERSION, 'rules': copy.deepcopy(HOST_RULES), 'limits': copy.deepcopy(LIMITS),
             'profiles': list(PROFILES), 'capabilities': ['continuous world travel', 'axial local hex scenes', 'AP combat',
-            'seeded infrastructure', 'resource networks', 'persistent NPCs', 'contextual checks',
+            'seeded infrastructure', 'resource networks', 'persistent NPCs', 'contextual checks', 'shared state-grounded content grammar',
             'regional spectrum lighting', 'soil and planted succession', 'staged physical construction',
             'persistent info-particle identity', 'Aurora-compatible particle exchange', 'prepared void_null expeditions',
             'finite optical energy ledger', 'material spectral response', 'powered workshop projection',
@@ -88,9 +89,10 @@ def blueprint(w):
     """Export generation data and public works, excluding sessions and character records."""
     return copy.deepcopy(dict(format='Rose-infrastructure-blueprint',schema=1,game='Rose',
         version=w['version'],seed=w['seed'],rules=w['rules'],profile=w['generation_profile'],layout=w['layout'],
+        content_generation=dict(version=generation.VERSION,schema=generation.SCHEMA),
         art_direction=dict(version=art_direction.RECORD['version'],source_register='/art-direction-register.json',
             principles=art_direction.RECORD['global_rules'],unit_recipe_count=len(art_direction.RECORD['unit_recipes'])),
-        sites=[dict(pos=[c['x'],c['y']],title=c['title'],region=c['region'],
+        sites=[dict(pos=[c['x'],c['y']],title=c['title'],region=c['region'],presentation=c.get('presentation',{}),
                     infrastructure=c['infrastructure'],tiles=c['scene']['tiles'],palette=c['scene']['palette'],
                     lifecycle={k:v for k,v in c.get('lifecycle',{}).items() if k not in {'plantings','projects'}})
                for c in w['cells'].values()]))

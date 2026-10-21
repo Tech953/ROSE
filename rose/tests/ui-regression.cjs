@@ -8,6 +8,6 @@ module.exports=async function(){
   const code=await new Promise((resolve,reject)=>{const p=spawn(process.execPath,[path.join(__dirname,'ui-smoke.cjs'),flow],{cwd:root,stdio:'inherit',env:process.env});p.once('error',reject);p.once('exit',(code,signal)=>signal?reject(Error(flow+' terminated by '+signal)):resolve(code));});
   assert.equal(code,0,'Interface flow '+flow);results.push({flow,result:'PASS',seconds:(Date.now()-started)/1000});
  }
- fs.writeFileSync(path.join(root,'docs/ui-regression-audit-v018.json'),JSON.stringify({schema:1,engine_version:'0.18.0',result:'PASS',process_isolation:true,scope:'Real HTTP, modeled semantic DOM and native canvas; full browser layout and audible playback not tested',flows:results},null,2)+'\n');
+ fs.writeFileSync(path.join(root,'docs/ui-regression-audit-v019.json'),JSON.stringify({schema:1,engine_version:'0.19.0',result:'PASS',process_isolation:true,scope:'Real HTTP, modeled semantic DOM and native canvas; full browser layout and audible playback not tested',flows:results},null,2)+'\n');
  console.log('PASS: complete interface regression — all six isolated flows completed.');
 };

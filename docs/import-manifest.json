@@ -1,0 +1,1323 @@
+{
+  "schema": 1,
+  "project": "Rose",
+  "imported_on": "2026-10-20",
+  "saved_project_version": "0.19.0",
+  "source_package": "Rose-Engine.zip",
+  "source_package_sha256": "b1e297e2969974ea5a9e0de463ca840ce60a2ce3f4308fbf722984885c154c4e",
+  "scope": "Authored documents, supplemented by the complete original game package and, for Rose, the separately developed physics lab.",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 2062,
+      "sha256": "7919102ccb24f96d7ce449ccefb5dd1eea8f716249e965d761d326711e6d6d28",
+      "git_blob_sha": "c26593a0256692e1c98d5ba1ec1a1ca5d556b727",
+      "source_file": "generated complete-project index",
+      "source_member": ""
+    },
+    {
+      "path": "docs/3D-SPRITE-PIPELINE.md",
+      "size_bytes": 11705,
+      "sha256": "5a4b40eea025de78defae201d9209fe87ee15e64bb04bf13d585dce0566b1094",
+      "git_blob_sha": "c40cfd82ad7f9c40523135ef36e52617e42d1051",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/3D-SPRITE-PIPELINE.md"
+    },
+    {
+      "path": "docs/ART-DIRECTION-AND-DISPLAY.md",
+      "size_bytes": 19383,
+      "sha256": "b038d897d1bb2960019f52d5f0c56d66738332979bbc951f7c1ca0232ca69772",
+      "git_blob_sha": "72b3fe4ac70184ed2f4da1f084b23993341e81d4",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/ART-DIRECTION-AND-DISPLAY.md"
+    },
+    {
+      "path": "docs/ART-DIRECTION-AND-TEXT-INTERPRETATION.md",
+      "size_bytes": 15446,
+      "sha256": "955efb2abb6dde6ceb2bb670df623eccabf565146fb9b1076dba66426bcdf07f",
+      "git_blob_sha": "23c911b53cc76a4b2274706954131062379330ba",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/ART-DIRECTION-AND-TEXT-INTERPRETATION.md"
+    },
+    {
+      "path": "docs/ART-PROMPTS.json",
+      "size_bytes": 8948,
+      "sha256": "8d894874fea99e2ed276704a2bf769be40117ca66c3bef7142ae0aab3c1172ff",
+      "git_blob_sha": "bde49697b078b4a68aeca7cf7a80b2d780de1427",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/ART-PROMPTS.json"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "size_bytes": 31688,
+      "sha256": "05ed0d6ecb683ebc6ab2875043bd21154a99371efc6786f0348bf457c543a0ba",
+      "git_blob_sha": "48d6501ab3695112f42849892dcb6512ab094de8",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/CHANGELOG.md"
+    },
+    {
+      "path": "docs/CONTENT-GENERATION-REFINEMENT.md",
+      "size_bytes": 6339,
+      "sha256": "e0c0d65f84d1bb179606d2c8e1f5509c487bfdb6ea7cd64a6b2a9814bab84dd7",
+      "git_blob_sha": "5c935b8615b384f06f6a86455c48e5c093c67a5e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/CONTENT-GENERATION-REFINEMENT.md"
+    },
+    {
+      "path": "docs/CONTENT-GENERATION-VALIDATION.json",
+      "size_bytes": 1649,
+      "sha256": "65a922499ea250428e8cbd8884aa6414c0dc2e0f59e12978362de005a9541c41",
+      "git_blob_sha": "f1da807574f70ffa901799789497d0da2fe1dc9d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/CONTENT-GENERATION-VALIDATION.json"
+    },
+    {
+      "path": "docs/CONTINENTAL-SURVEY-GUIDE.md",
+      "size_bytes": 3744,
+      "sha256": "124717bf32c1a85cbe3f847021f49057171eaad634010ae087524d2ab65b951a",
+      "git_blob_sha": "80f67f9bd1a791eaa757ef30ee34c2a63d4f56f5",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/CONTINENTAL-SURVEY-GUIDE.md"
+    },
+    {
+      "path": "docs/CONTINUOUS-TERRAIN-AND-PORTRAIT-GUIDE.md",
+      "size_bytes": 7718,
+      "sha256": "2ce3a75c98d0800dc65f0935ef78d2d8f21d078da99017abdec682ba2f510aee",
+      "git_blob_sha": "a5b81b8f96d83d62e7552090bb309cea78c41292",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/CONTINUOUS-TERRAIN-AND-PORTRAIT-GUIDE.md"
+    },
+    {
+      "path": "docs/ENGINE-GUIDE.md",
+      "size_bytes": 26204,
+      "sha256": "83e440f101d0b4cec81bc401cf224222ab950faa1a5e19358d98e634d91ba5f1",
+      "git_blob_sha": "91d42a6b8733e757ff219adb8f2bc27141fe78bb",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/ENGINE-GUIDE.md"
+    },
+    {
+      "path": "docs/ENVIRONMENT-AND-CONSTRUCTION-GUIDE.md",
+      "size_bytes": 7412,
+      "sha256": "c8719015f0012c5ecf9d009096ed9430cc3e29b9a2800c32e2149342f49bca6e",
+      "git_blob_sha": "4e832971dcdd9ae91b413a9f2704e7b5dc705bfa",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/ENVIRONMENT-AND-CONSTRUCTION-GUIDE.md"
+    },
+    {
+      "path": "docs/LOCAL-INTERACTION-GUIDE.md",
+      "size_bytes": 12889,
+      "sha256": "8875db481fa1d01089caa3fd33b50fcaadabbf3e0cd89cf828a2287707d613d2",
+      "git_blob_sha": "ba3d72d05750cd96bc5aec6263b460075c45bfc3",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/LOCAL-INTERACTION-GUIDE.md"
+    },
+    {
+      "path": "docs/LORE-TRANSPORT-INTEGRATION.md",
+      "size_bytes": 13345,
+      "sha256": "cf621eafd879e3fb16d9c7b7dd51381a9671055316017ff1b9c4e22e064862a1",
+      "git_blob_sha": "93b2845ee32f3792aad6193b6d6c1ff4ea5e18fc",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/LORE-TRANSPORT-INTEGRATION.md"
+    },
+    {
+      "path": "docs/MATERIAL-AGING-AND-DESTRUCTION-GUIDE.md",
+      "size_bytes": 9959,
+      "sha256": "9a7f3f78d8f769a1f44961f60f9bdc9160badc618fb2a173ef49242d32f01280",
+      "git_blob_sha": "0c22d4ad8f5f922248f35c59957954f64af2a9bd",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/MATERIAL-AGING-AND-DESTRUCTION-GUIDE.md"
+    },
+    {
+      "path": "docs/MONOLITH-SCALE-GUIDE.md",
+      "size_bytes": 5714,
+      "sha256": "8e2f41207784da97478bb792f38417f9489cc76c4753b157fa800a1aa5990f50",
+      "git_blob_sha": "e34d29c691c0b90bdae778c32b2d7193141094d0",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/MONOLITH-SCALE-GUIDE.md"
+    },
+    {
+      "path": "docs/PHYSICS-AND-GRAPHICAL-FIDELITY-AUDIT.md",
+      "size_bytes": 9467,
+      "sha256": "e4304cfc9b23464e8de02a2fdb58d15eba170894e3e852f90f22579ac9f03b2c",
+      "git_blob_sha": "19632efe26062ccc3fd8c8cf91725710484711d4",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/PHYSICS-AND-GRAPHICAL-FIDELITY-AUDIT.md"
+    },
+    {
+      "path": "docs/PHYSICS-ANIMATION-GUIDE.md",
+      "size_bytes": 7491,
+      "sha256": "6de55f69fbb414c4aed672aed1fe34041be62f78128d2cb57cad4452f4ae1261",
+      "git_blob_sha": "e0502d8c3e384d52401a331c1fc6eb3615f0e731",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/PHYSICS-ANIMATION-GUIDE.md"
+    },
+    {
+      "path": "docs/PHYSICS-EMULATION-GUIDE.md",
+      "size_bytes": 9705,
+      "sha256": "913397e406be67b4c9344574fa94a570e04b3c0129a58f813c634a7fa13cc394",
+      "git_blob_sha": "48ca811cda95b9718ad2f39158aa773ad95923c7",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/PHYSICS-EMULATION-GUIDE.md"
+    },
+    {
+      "path": "docs/PREFAB-REFERENCE-GUIDE.md",
+      "size_bytes": 8899,
+      "sha256": "427f50fa2d13133ef081d6c88468ef2d87c9430f685d2ec8e97f77c59444a324",
+      "git_blob_sha": "4502b0d6d67a36a5ef7dcfc4be5122dbc86a1919",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/PREFAB-REFERENCE-GUIDE.md"
+    },
+    {
+      "path": "docs/PROJECT-README.md",
+      "size_bytes": 25026,
+      "sha256": "e4898a84bb05a160ebb42d70936be5ea655ec99726f7a2e8e00017ccd582a300",
+      "git_blob_sha": "f7ead278ed5fe3e0da9a78f150b72be0dc3e880d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/README.md"
+    },
+    {
+      "path": "docs/QUALITY-AND-ASSURANCE-AUDIT.md",
+      "size_bytes": 32067,
+      "sha256": "9ac1575f427ecbc83d5f7cbfa069a6f42de55aec6b46b8a8a915767153d0cce4",
+      "git_blob_sha": "8a17dc9bdfbc642b09d421358f9dce1663bcb078",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/QUALITY-AND-ASSURANCE-AUDIT.md"
+    },
+    {
+      "path": "docs/README.md",
+      "size_bytes": 3081,
+      "sha256": "ce1d47490faf7acda0be2d15e18cc6fc9022ec945ad4c3f468d6d6f0f9c05dc7",
+      "git_blob_sha": "1671b5cf62da62c4eb063c777058707f9b7d824c",
+      "source_file": "generated documentation index",
+      "source_member": ""
+    },
+    {
+      "path": "docs/REFERENCE-AUDIT.md",
+      "size_bytes": 5299,
+      "sha256": "fde6c07703210ad98ab28e863d8e849919beb7ab3f977b0281bdbb789e934988",
+      "git_blob_sha": "745c767054a6f87ff4ddf48b9cc3b5e22b8fd345",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/REFERENCE-AUDIT.md"
+    },
+    {
+      "path": "docs/RESONANCE-AND-SOURCE-GUIDE.md",
+      "size_bytes": 14073,
+      "sha256": "5877bdad25c1f176e8b5543b1e26d90f16785d5cb24dade19ae47f41b9d82eed",
+      "git_blob_sha": "590109c09dc751f1d11596e16da3c90d9847846e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/RESONANCE-AND-SOURCE-GUIDE.md"
+    },
+    {
+      "path": "docs/Rose-3D-prefabs-preview.png",
+      "size_bytes": 167459,
+      "sha256": "89a2e947edfee5af7068bd562249f5027442d649be07c249a3ada1051529d5dc",
+      "git_blob_sha": "454521f92a6d8e4917978c9c83c58f4f575eb453",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-3D-prefabs-preview.png"
+    },
+    {
+      "path": "docs/Rose-VREX-System-Record.json",
+      "size_bytes": 77382,
+      "sha256": "779a79ff6e38608dca83544251384412bfef71bb779b4e55fad83ad5483c101c",
+      "git_blob_sha": "3df8bbcd778b73b625b3604bb3acbf2852c8b635",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-VREX-System-Record.json"
+    },
+    {
+      "path": "docs/Rose-VREX-preview.png",
+      "size_bytes": 423428,
+      "sha256": "508f7f2f558a6303df5314efe44e2b8c3b516205bc35317163a2f99ca29e5df4",
+      "git_blob_sha": "72440990308aeb1af5e6b736e3e37a9627bc3323",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-VREX-preview.png"
+    },
+    {
+      "path": "docs/Rose-art-direction-comparison-v018.png",
+      "size_bytes": 3783536,
+      "sha256": "ed29c5ce77e5a95eb2246bd5f0e654cd215b930f78e50a0183894641f878fb4e",
+      "git_blob_sha": "591a9315a1809b786b97512b87e1c13055fb4abd",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-art-direction-comparison-v018.png"
+    },
+    {
+      "path": "docs/Rose-audit-before-after.png",
+      "size_bytes": 861182,
+      "sha256": "911fa3d047979f47497ed63fff30416fe9cdea514bdd8f6b7edb39752bba25fa",
+      "git_blob_sha": "c53ed40c953dcbb235b0a9dd6d642c2bbb3ab631",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-audit-before-after.png"
+    },
+    {
+      "path": "docs/Rose-continental-survey.png",
+      "size_bytes": 109772,
+      "sha256": "779e39877b6aade018723d45ae09439b6b984a3b8bb8b6d20c3a3f201fe06e44",
+      "git_blob_sha": "004a343c73b23d47271d942e410990f55faab73f",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-continental-survey.png"
+    },
+    {
+      "path": "docs/Rose-continuous-terrain-comparison.png",
+      "size_bytes": 2008674,
+      "sha256": "6f003693783ff0534103ee49efc626b612031dd983fda6b40fb8dd66a2d2b6fb",
+      "git_blob_sha": "1fb7d717e4df06d473fd0d3803b51ae8054d45dc",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-continuous-terrain-comparison.png"
+    },
+    {
+      "path": "docs/Rose-detail-preview.png",
+      "size_bytes": 31235,
+      "sha256": "dacf4e6fc57cf3d4cd7f4a7fb3242602c5e1fa7c15639ad7187a138718c60707",
+      "git_blob_sha": "1f5f70f9dae64388e665400fd093715d1d802b9b",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-detail-preview.png"
+    },
+    {
+      "path": "docs/Rose-display-comparison-v017.png",
+      "size_bytes": 1467552,
+      "sha256": "4aa9e21c322210e632b41fd00a31b90b1d6c28307ba06fdbad4b258e2df952bf",
+      "git_blob_sha": "cdc04701940c02a319381fa69664f6b7d4c1fa71",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-display-comparison-v017.png"
+    },
+    {
+      "path": "docs/Rose-display-comparison.png",
+      "size_bytes": 1478541,
+      "sha256": "36e3b1b2f3b7d44d110f420f47e4ffd95b22c17299be017f727de1fbcfee34ef",
+      "git_blob_sha": "34db04eb91147f9cc2086c597e10e501a13dbab5",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-display-comparison.png"
+    },
+    {
+      "path": "docs/Rose-environment-preview-v017.png",
+      "size_bytes": 1775601,
+      "sha256": "9692952e5f5fa6d08944bcc19d848974533ce783200093faa33bace1ccbb8405",
+      "git_blob_sha": "4d3e52f2bbfc9fb4c2350e70630b1aae83566d44",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-environment-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-environment-preview.png",
+      "size_bytes": 1773400,
+      "sha256": "624de704418cd7a0d79d147465067dfbc71d4ffdbe4d4b23cbfcb8c7bc017f14",
+      "git_blob_sha": "e3cb42f08e4d7e276c109831329dd0942c05d982",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-environment-preview.png"
+    },
+    {
+      "path": "docs/Rose-fidelity-comparison.png",
+      "size_bytes": 437741,
+      "sha256": "5f10ae905871f2550782fbf605cbb08282499d2ce76640fb334c51899e735e0d",
+      "git_blob_sha": "7636882741b51e03ac51cc9106a1af49b8d96086",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-fidelity-comparison.png"
+    },
+    {
+      "path": "docs/Rose-field-preview-v017.png",
+      "size_bytes": 642555,
+      "sha256": "6e15f02dad8f3706241bdf2b5465232fd79cf9b26d448def4bfca78051c66cec",
+      "git_blob_sha": "a858dd8fa2fb7894f3be5dcf335de5a71ad50862",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-field-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-field-preview.png",
+      "size_bytes": 638756,
+      "sha256": "a5a95411a08c0da5c3a3c1f2c3c695edbc414de8d1d1ac355635cd00f727c269",
+      "git_blob_sha": "b9fb3c65a7d81e96e508655f4d6570f2caace902",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-field-preview.png"
+    },
+    {
+      "path": "docs/Rose-individual-prefabs-preview.png",
+      "size_bytes": 278836,
+      "sha256": "320540d17447d887cdd61439c0b6013eaf1ffdf20465b6260e987fdcfb5460df",
+      "git_blob_sha": "0351b52238464708ac364b33d9d263ee3c44b922",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-individual-prefabs-preview.png"
+    },
+    {
+      "path": "docs/Rose-interaction-preview-v017.png",
+      "size_bytes": 655236,
+      "sha256": "9f4b6bd2943be944986211ac8e20c4983bd0c62238332a1c0d1e8b14ea5ed2a3",
+      "git_blob_sha": "6281c8638ef4d6619b34047a9a97c57a1b494965",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-interaction-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-interaction-preview.png",
+      "size_bytes": 651639,
+      "sha256": "d1ca240516a4a95dc5cb1519f1503de9af3e4f82fe2d2cb4ed72b4f68a956584",
+      "git_blob_sha": "f5debecaff6acadf23f7f2491d573d3a6f573d86",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-interaction-preview.png"
+    },
+    {
+      "path": "docs/Rose-material-aging-and-destruction-v017.png",
+      "size_bytes": 815175,
+      "sha256": "c392825e53454ddf1b56960373edb4c637360cee92ca52107fb75c2aa6608980",
+      "git_blob_sha": "bde8475cdcdb058b004b831c950125a8bf5d61ae",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-material-aging-and-destruction-v017.png"
+    },
+    {
+      "path": "docs/Rose-material-aging-and-destruction.png",
+      "size_bytes": 815079,
+      "sha256": "3ed04e46b7dbab684d2fe19913f21b5830dc870176710fcbcaa2613b6ed6b289",
+      "git_blob_sha": "cb7215c2047091cb63b724f3e22f6f2a364e2732",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-material-aging-and-destruction.png"
+    },
+    {
+      "path": "docs/Rose-monolith-scale-comparison.png",
+      "size_bytes": 1598879,
+      "sha256": "4ca08322b8db7d1a2186ffc7f2a1ab1ac2e31a1310807378736f4715d8c00593",
+      "git_blob_sha": "f63bfd8d9b7e73e14c3d1a790f5d9eab210e90d8",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-monolith-scale-comparison.png"
+    },
+    {
+      "path": "docs/Rose-particle-preview.png",
+      "size_bytes": 16498,
+      "sha256": "f6cafa0eab90370d7e12d7a80be94c58cfd7bc264c9c24a21236161df1c6f161",
+      "git_blob_sha": "21f4d8996baad530dd71a73028f3646d5376db23",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-particle-preview.png"
+    },
+    {
+      "path": "docs/Rose-physics-animation-preview-v016.png",
+      "size_bytes": 601539,
+      "sha256": "d931e98583a2a2770aa58af55512b22e882248b773f57df76c488aaab531023e",
+      "git_blob_sha": "fc02195937f00233a5a9d8edb37fd3e4ddbaceb0",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-physics-animation-preview-v016.png"
+    },
+    {
+      "path": "docs/Rose-physics-animation-preview-v017.png",
+      "size_bytes": 600129,
+      "sha256": "1b186ad37a92e4e48f9270b2d53ce8297650a9afa4175fa6bba55c1bb181012f",
+      "git_blob_sha": "99d28acfe553e74e4081ce04918b737b8a96adf9",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-physics-animation-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-physics-animation-preview.png",
+      "size_bytes": 596874,
+      "sha256": "431a0d25808baebe5a792431068f73605eae060841e230272a5c78f7ea6c54a5",
+      "git_blob_sha": "5d19162ee5a10deae74b8221b971e8b495cdcb72",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-physics-animation-preview.png"
+    },
+    {
+      "path": "docs/Rose-prefab-reference-preview.png",
+      "size_bytes": 485197,
+      "sha256": "d123e5cf1dff933520cc3e4486c9fb32c973dd5bd8ba8899bd1b37135a7a0fab",
+      "git_blob_sha": "67320d895dcf75e5cc89eff0bf5610ff709322a7",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-prefab-reference-preview.png"
+    },
+    {
+      "path": "docs/Rose-resonance-preview.png",
+      "size_bytes": 61015,
+      "sha256": "29d442f5cb9bd8900f6144a5582ace9ef6f4b28bda24cc5a3d0b2dbd095bd584",
+      "git_blob_sha": "c4d702d81aaedf2097c3a79f0cd2229a1f71f158",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-resonance-preview.png"
+    },
+    {
+      "path": "docs/Rose-sharp-field-preview-v017.png",
+      "size_bytes": 779378,
+      "sha256": "ce3f13f6c29f1d8c79ab4dbcce8b01e98e748fdf7791136b3d548f1e3ba41b0c",
+      "git_blob_sha": "a055fc4f38550fa3bcac9a5605acc8d57e280c63",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-sharp-field-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-sharp-field-preview.png",
+      "size_bytes": 794904,
+      "sha256": "7d030273519df64db134728118695e0524bd0350416fcff5c71f0f4102c0d3a3",
+      "git_blob_sha": "e05ecca90eac34426f15fa92b766aa9f4772196e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-sharp-field-preview.png"
+    },
+    {
+      "path": "docs/Rose-soft-field-preview-v017.png",
+      "size_bytes": 642555,
+      "sha256": "6e15f02dad8f3706241bdf2b5465232fd79cf9b26d448def4bfca78051c66cec",
+      "git_blob_sha": "a858dd8fa2fb7894f3be5dcf335de5a71ad50862",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-soft-field-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-soft-field-preview.png",
+      "size_bytes": 638756,
+      "sha256": "a5a95411a08c0da5c3a3c1f2c3c695edbc414de8d1d1ac355635cd00f727c269",
+      "git_blob_sha": "b9fb3c65a7d81e96e508655f4d6570f2caace902",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-soft-field-preview.png"
+    },
+    {
+      "path": "docs/Rose-spectrum-preview-v017.png",
+      "size_bytes": 3193075,
+      "sha256": "8e726eca60eb1d5d1650a008e202a40ae78be07dfca1fb2a0bc3ae9b1197f52d",
+      "git_blob_sha": "1cc80121d649d1ab041e695dbf48b5b020fe84ab",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-spectrum-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-spectrum-preview.png",
+      "size_bytes": 3246362,
+      "sha256": "f5a682acb94beab907297651a662b6a46ac25207fc8d11b6543a3c0a9b7b54c3",
+      "git_blob_sha": "d5e3d98bd107b6c6840d6e1beb8bdabc88016111",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-spectrum-preview.png"
+    },
+    {
+      "path": "docs/Rose-vector-preview.png",
+      "size_bytes": 179735,
+      "sha256": "44582d05fc84cd3a5b06cb5b75855b135acbe4a0c8d99c2b111a170a4b52d969",
+      "git_blob_sha": "a6259376cadfcc389be0c0971ea2ce8d0448c071",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-vector-preview.png"
+    },
+    {
+      "path": "docs/Rose-void-preview-v016.png",
+      "size_bytes": 18401,
+      "sha256": "7e3c4301ec111e0bdffa3c9a9978efac489090b720fc860b80d5f8c93dd039c1",
+      "git_blob_sha": "2f86f69b5ee208933be90deb1b6f41b3a004bd2e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-void-preview-v016.png"
+    },
+    {
+      "path": "docs/Rose-void-preview-v017.png",
+      "size_bytes": 18401,
+      "sha256": "7e3c4301ec111e0bdffa3c9a9978efac489090b720fc860b80d5f8c93dd039c1",
+      "git_blob_sha": "2f86f69b5ee208933be90deb1b6f41b3a004bd2e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-void-preview-v017.png"
+    },
+    {
+      "path": "docs/Rose-void-preview.png",
+      "size_bytes": 18401,
+      "sha256": "7e3c4301ec111e0bdffa3c9a9978efac489090b720fc860b80d5f8c93dd039c1",
+      "git_blob_sha": "2f86f69b5ee208933be90deb1b6f41b3a004bd2e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-void-preview.png"
+    },
+    {
+      "path": "docs/Rose-weather-response-preview.png",
+      "size_bytes": 117819,
+      "sha256": "5e89a577b6cfa3e0466fb66b0a5e7aa8080cd7ae9a9d10f28cacecdecac93398",
+      "git_blob_sha": "20020673d033dc7c429c22256f22648c9e6daf18",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-weather-response-preview.png"
+    },
+    {
+      "path": "docs/Rose-workshop-preview.png",
+      "size_bytes": 401982,
+      "sha256": "6ca31a78da4e900f68dad975296e347817b55d168b37703406f1252b42ea9e69",
+      "git_blob_sha": "f0e91664a894cfc4b409cb33a551629f9db1dccc",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-workshop-preview.png"
+    },
+    {
+      "path": "docs/Rose-world-preview.png",
+      "size_bytes": 44749,
+      "sha256": "7b5e5d388a44a57dca6bde7f73bcf38f81619c891b847dbdb733c790ab003a26",
+      "git_blob_sha": "3ea6ca23448f52c5eb15bea7bc8e2be8232f2073",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/Rose-world-preview.png"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "size_bytes": 34593,
+      "sha256": "a42918ff047625be921be6889098d8f6e160250fc8f5696a4f0cca1f4509d211",
+      "git_blob_sha": "6d34dc71ecef3d8bdab273bf926a15a54a734f38",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/VALIDATION.md"
+    },
+    {
+      "path": "docs/VISUAL-REFERENCE-REVIEW.md",
+      "size_bytes": 20646,
+      "sha256": "5c5fa3711b5d8aa2d4429521d61e8b5414f558624b959f565c21dc183520e507",
+      "git_blob_sha": "297808637d972dc5e7846a1bdaacb92bb807d577",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/VISUAL-REFERENCE-REVIEW.md"
+    },
+    {
+      "path": "docs/VREX-INTEGRATION-GUIDE.md",
+      "size_bytes": 11390,
+      "sha256": "0fe9321d52c607223f071ae465b3669e0f201d67eba2029bbd5dde8c69918f13",
+      "git_blob_sha": "6d8563b4bdababdd4c7ca08e94c37e1e733f5749",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/VREX-INTEGRATION-GUIDE.md"
+    },
+    {
+      "path": "docs/WEATHER-RESPONSE-GUIDE.md",
+      "size_bytes": 7673,
+      "sha256": "5036bb0eece0902b7e8250ef27bfc922c3626b58a4462f624c3010febaf1961b",
+      "git_blob_sha": "57600a525f8da2a6a399836a750bf8f82cc842c5",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/WEATHER-RESPONSE-GUIDE.md"
+    },
+    {
+      "path": "docs/WORLD-LORE-AND-PARTICLE-INTEGRATION.md",
+      "size_bytes": 24985,
+      "sha256": "5a0498d59d3ed662f25d68343354fc87b84a07ad674b5104f671b686ea5bdaba",
+      "git_blob_sha": "d5b53cf25d8728960620743cae40e957f12fd75a",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/WORLD-LORE-AND-PARTICLE-INTEGRATION.md"
+    },
+    {
+      "path": "docs/animation-motion-audit-v015.json",
+      "size_bytes": 1269,
+      "sha256": "347475a0c6923fa032e6394d57ea333d5d4a33868e8ee5c1150ba12dc690cf42",
+      "git_blob_sha": "045d958576de42e44b43a23a5bf2843d3aa2df9c",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/animation-motion-audit-v015.json"
+    },
+    {
+      "path": "docs/art-direction-ui-audit-v018.json",
+      "size_bytes": 1961,
+      "sha256": "fe702a2d56c4694ef8681a194671118b87cd57b3bb6a206eee151852fb7e18d4",
+      "git_blob_sha": "0550fc3c58ae6c0bc84afda4c18a37f9aca9c287",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/art-direction-ui-audit-v018.json"
+    },
+    {
+      "path": "docs/code-audit-v010.json",
+      "size_bytes": 110,
+      "sha256": "25511fb550e9751d0403ebd7b1eaabc3e4632b127a694733679a57bb7ba8c031",
+      "git_blob_sha": "6993421d254b62c4eac772a917c141e66474961f",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v010.json"
+    },
+    {
+      "path": "docs/code-audit-v011.json",
+      "size_bytes": 412,
+      "sha256": "d5ff07dac2057012e9f2e07f67a44ea2866d997178c8801989a9e2bd993b2f74",
+      "git_blob_sha": "f4e4c9e1692914a8c87276637d6a5bc3ee7c5893",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v011.json"
+    },
+    {
+      "path": "docs/code-audit-v012.json",
+      "size_bytes": 512,
+      "sha256": "02ed68ede5c37a8694cb85913bcfe61f32b697ab1801052e9ec246411e1b0b76",
+      "git_blob_sha": "907690962d7e11e4932f1426e8aca9a96a57f8ea",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v012.json"
+    },
+    {
+      "path": "docs/code-audit-v0121.json",
+      "size_bytes": 644,
+      "sha256": "c60b4dc0d099c162476438c10401cc29aeec2de8c40efecb06b725f84ed9d701",
+      "git_blob_sha": "1e0145c24edc79ef201a686031b01d36af02e9ac",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v0121.json"
+    },
+    {
+      "path": "docs/code-audit-v013.json",
+      "size_bytes": 911,
+      "sha256": "67a7b41b36b59fbd148bd31f281a2c1da735fec8f003b7df94a25e94eef4f6c4",
+      "git_blob_sha": "213c29133aa22172cc4c88afe59c41862a60d7f4",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v013.json"
+    },
+    {
+      "path": "docs/code-audit-v0131.json",
+      "size_bytes": 664,
+      "sha256": "9fde6403b33285a451d7aa1a3cee40588c0742de12eaab99eb11dee9d60ac928",
+      "git_blob_sha": "fb2549a7ee48094732c220c916d79abdb3ea3e2d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v0131.json"
+    },
+    {
+      "path": "docs/code-audit-v0132.json",
+      "size_bytes": 822,
+      "sha256": "976d641d0d9e4c239eacaaac18133de9b4582efada38308504d5e42ffcfabe55",
+      "git_blob_sha": "543c2917444779c3cfc803471d3da0dc4907f6c2",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v0132.json"
+    },
+    {
+      "path": "docs/code-audit-v0133.json",
+      "size_bytes": 1296,
+      "sha256": "df6f65ded16d53e82779cdc0934ae938c71698e9ef64631deffd332d412b47f7",
+      "git_blob_sha": "94d9a28188980ecd6a7f19beab7e3786a00e4eff",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v0133.json"
+    },
+    {
+      "path": "docs/code-audit-v014.json",
+      "size_bytes": 967,
+      "sha256": "dd97f9938e5011f78fec2bd96edf6f2c40aa2d3ccfc7dbfebbf32b61c141a7a0",
+      "git_blob_sha": "f9e326bf88bd106d0e56b730091a22eb5e529efb",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v014.json"
+    },
+    {
+      "path": "docs/code-audit-v015.json",
+      "size_bytes": 1084,
+      "sha256": "d1ce851568d4317b78075dbaae6ae3959dec66a139e0d6706380b6131f3fe900",
+      "git_blob_sha": "f12983c4ff2022659d533c35657e40099442990f",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v015.json"
+    },
+    {
+      "path": "docs/code-audit-v016.json",
+      "size_bytes": 126514,
+      "sha256": "39615d559d01ab25ddf1233a3730bb3319e726af22ada5650f00c005dcb59aa0",
+      "git_blob_sha": "c83e1f4b2fdc11fd71811ce209f8839805bfbc6c",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v016.json"
+    },
+    {
+      "path": "docs/code-audit-v017.json",
+      "size_bytes": 126568,
+      "sha256": "a9c298d192faab75e37b7e261935cf0d75888fade380784401fee0f5931e7af0",
+      "git_blob_sha": "5351335a7a19d0aa7877226089fea60ad32f02d1",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v017.json"
+    },
+    {
+      "path": "docs/code-audit-v0171.json",
+      "size_bytes": 463,
+      "sha256": "3f6ed8b0be23dcdc5caed8eb6ac20787441038e932341a9eda9f3132d6a1e0be",
+      "git_blob_sha": "cd3ba67d1de9b1ffc0a04fab67e5bff76d41890c",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v0171.json"
+    },
+    {
+      "path": "docs/code-audit-v018.json",
+      "size_bytes": 727,
+      "sha256": "7af15ac65ae55f29efe6bc6e49c593091939bb764bc390ae48bd1e50eca6ff8a",
+      "git_blob_sha": "afe95c536b0e1c24079f22f2197e05575bc0ac78",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/code-audit-v018.json"
+    },
+    {
+      "path": "docs/lore-transport-http-v016.json",
+      "size_bytes": 1757,
+      "sha256": "962e21e66a40f93dcda6699cb745a2627e749ab40b19cef9155e25766784deac",
+      "git_blob_sha": "eac2c3a1c01376573aca03ea51a77914148697d9",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/lore-transport-http-v016.json"
+    },
+    {
+      "path": "docs/lore-transport-http-v017.json",
+      "size_bytes": 2115,
+      "sha256": "071b664f0195e62d27e66c27e831188756fde33db923df135b6d601a15e01c65",
+      "git_blob_sha": "95ba6665e3532616e2ab23a59ccef6ed9feb152c",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/lore-transport-http-v017.json"
+    },
+    {
+      "path": "docs/material-aging-audit-v014.json",
+      "size_bytes": 4521,
+      "sha256": "affbb55167ffd757426903d000077e73f28b229b882f06c30d66942bc1c10225",
+      "git_blob_sha": "ee49d4187fd63451a5ecb1e89ed75dc16c97a4ca",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/material-aging-audit-v014.json"
+    },
+    {
+      "path": "docs/monolith-scale-audit-v0133.json",
+      "size_bytes": 2317,
+      "sha256": "5708c88a812de8a02c8e1f20ccf3b20425fba180d75e29bfdeeac626f9af5092",
+      "git_blob_sha": "dc895597ad203be25f487e3fc273315799674422",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/monolith-scale-audit-v0133.json"
+    },
+    {
+      "path": "docs/physics-benchmark-v013.json",
+      "size_bytes": 13637,
+      "sha256": "4641b5a8251e8f120455b326718bc13c1f8d8a9a343412d0f2587a26de1f13b8",
+      "git_blob_sha": "be0e26e14b33793e7c7a83520ba6c8addb8b5070",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/physics-benchmark-v013.json"
+    },
+    {
+      "path": "docs/physics-benchmark-v0131.json",
+      "size_bytes": 13637,
+      "sha256": "4641b5a8251e8f120455b326718bc13c1f8d8a9a343412d0f2587a26de1f13b8",
+      "git_blob_sha": "be0e26e14b33793e7c7a83520ba6c8addb8b5070",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/physics-benchmark-v0131.json"
+    },
+    {
+      "path": "docs/reference-data/rules.json",
+      "size_bytes": 505,
+      "sha256": "53fae727844f7e18baa3dd7533e27a4f2c09dff506a1a0332e96245de171d911",
+      "git_blob_sha": "58ba5818490a9c39397211c883cab04a5697d97a",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/rules.json"
+    },
+    {
+      "path": "docs/renderer-audit-v0131.json",
+      "size_bytes": 597,
+      "sha256": "af5cd9ce2dc8f9fb0f3cfcbc5c681b25b4a897df5130313f3798480c0ae3302e",
+      "git_blob_sha": "cabc83c46c59be6643768cd7fb7aff72a283b531",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/renderer-audit-v0131.json"
+    },
+    {
+      "path": "docs/renderer-audit-v0132.json",
+      "size_bytes": 721,
+      "sha256": "c9dc734ab7b6530bd0563e9e4f596db44ade97e2a0708e64eb0710dbaff6c2b3",
+      "git_blob_sha": "94a156eee2a893d845211f883b62c1f796a71966",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/renderer-audit-v0132.json"
+    },
+    {
+      "path": "docs/shared/FIELD-GUIDE-UPDATE.md",
+      "size_bytes": 14119,
+      "sha256": "40f12a83547b4f24992137e7d2beac6d79eb4e710729ad874952828fc9677297",
+      "git_blob_sha": "8fa55b499ae3d10fa178bedf266ed8ba669dbff6",
+      "source_file": "Stem-Prototype.zip",
+      "source_member": "stem/FIELD-GUIDE-UPDATE.md"
+    },
+    {
+      "path": "docs/shared/FIELD-GUIDE-VALIDATION.md",
+      "size_bytes": 3153,
+      "sha256": "1bd33f8ba264b4768aba10c228adf10c386f46ae3b14617c3f7d3e5f68e034d2",
+      "git_blob_sha": "3d843f65516b310d49b1eaabd6891dce656ac47e",
+      "source_file": "Stem-Prototype.zip",
+      "source_member": "stem/FIELD-GUIDE-VALIDATION.md"
+    },
+    {
+      "path": "docs/shared/Thorns-Stem-Rose-Character-Sheet.pdf",
+      "size_bytes": 253181,
+      "sha256": "d2920278171ce94157e669d9eb2839e75c4a30e205f78c5646b6f49dc9d5f3c3",
+      "git_blob_sha": "6d89951d334ad5f8976089ebd2a44b9bc95866f7",
+      "source_file": "Thorns-Stem-Rose-Character-Sheet.pdf",
+      "source_member": ""
+    },
+    {
+      "path": "docs/shared/Thorns-Stem-Rose-Creature-and-Stat-Guide.pdf",
+      "size_bytes": 571272,
+      "sha256": "d5524dbe1b2802c72b44896338eba6e9161c0a55edf67e0520a9f4307f121baa",
+      "git_blob_sha": "a2027cd6efb4371176d70e80033fba3055aabd3b",
+      "source_file": "Thorns-Stem-Rose-Creature-and-Stat-Guide.pdf",
+      "source_member": ""
+    },
+    {
+      "path": "docs/shared/Thorns-Stem-Rose-Encounter-Toolkit.pdf",
+      "size_bytes": 77151,
+      "sha256": "f49071f0829fef72d73eb5a3fe679a5d3375e6aaeae5f7b04ac2d88de39bcc07",
+      "git_blob_sha": "0c204e26275515264218f8f4a4dc83649ac27325",
+      "source_file": "Thorns-Stem-Rose-Encounter-Toolkit.pdf",
+      "source_member": ""
+    },
+    {
+      "path": "docs/shared/creature_catalog.json",
+      "size_bytes": 59695,
+      "sha256": "c256c0f95113750e77e49248247f2e393c1b2466d61ecc0b749c39c87a2b1f5c",
+      "git_blob_sha": "fbf047f48d2e7b7df8a7981a8ae2622a4deb49b8",
+      "source_file": "Stem-Prototype.zip",
+      "source_member": "stem/creature_catalog.json"
+    },
+    {
+      "path": "docs/source-and-syntax-audit-v018.json",
+      "size_bytes": 217,
+      "sha256": "d1d7f4af45845d3bbbd75404caed13479d528941a1213f0397aabde4f80a2ec0",
+      "git_blob_sha": "6f450dca45bc2f3899abd2b51865fd3875d7ab9b",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/source-and-syntax-audit-v018.json"
+    },
+    {
+      "path": "docs/stem-foundation/CHANGELOG.md",
+      "size_bytes": 3766,
+      "sha256": "334794aa3c6e61a7794551a9d2fcd51d0d32646b4d6e399ae6e97231bc392968",
+      "git_blob_sha": "6f3df3c3662898ae395630d1d31f7f41834c4615",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/stem-foundation/CHANGELOG.md"
+    },
+    {
+      "path": "docs/stem-foundation/DESIGN-AND-LORE.md",
+      "size_bytes": 6986,
+      "sha256": "111b14403d4bd0aea0aeadfce0789645d9db3ee000089105a49d587ba31a1761",
+      "git_blob_sha": "d485fcc353623f0101975107fe1519be018ad231",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/stem-foundation/DESIGN-AND-LORE.md"
+    },
+    {
+      "path": "docs/stem-foundation/MAP-CONVERSION.md",
+      "size_bytes": 8285,
+      "sha256": "10daf7f4629c412d2c2e30c56033022fc3fd53dcaacf50d01476d22de217a3b9",
+      "git_blob_sha": "e7587cd41032462eab91ef082046b673431c3b66",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/stem-foundation/MAP-CONVERSION.md"
+    },
+    {
+      "path": "docs/stem-foundation/README.md",
+      "size_bytes": 14009,
+      "sha256": "dca4e7e407063bfebb0662d8dd809d3c7c8d2735dce677219b8515aa6a594675",
+      "git_blob_sha": "cbe37784bb0b786387f6ec05544b58dfd23b16f2",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/stem-foundation/README.md"
+    },
+    {
+      "path": "docs/stem-foundation/RULES.md",
+      "size_bytes": 11894,
+      "sha256": "1cf58110537f00b62e9fb022c6adcdd98aa7f46ca97cf9e9e4e4d3b2d07ebc18",
+      "git_blob_sha": "c8cbcb94f1fba48840809d3994c5972ae4de7116",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/stem-foundation/RULES.md"
+    },
+    {
+      "path": "docs/stem-foundation/SYSTEMS.md",
+      "size_bytes": 14894,
+      "sha256": "9d490a50ae709d76b94161864105162a3ff3800b617f2c24dc5f0fa330b9e7be",
+      "git_blob_sha": "eec0b03cb1da50104bb033d23994a51a250a7210",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/stem-foundation/SYSTEMS.md"
+    },
+    {
+      "path": "docs/stem-foundation/VALIDATION.md",
+      "size_bytes": 6187,
+      "sha256": "9c813cfd69ae91dcbc3075b61bed239dd29e9623e4ff223ef8990fa2a6f394ab",
+      "git_blob_sha": "17c80ca2bc060126771377c68d0df0c983e7172f",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/stem-foundation/VALIDATION.md"
+    },
+    {
+      "path": "docs/ui-regression-audit-v018.json",
+      "size_bytes": 761,
+      "sha256": "a514c4147f6ae32837cd82d03f1494da39d93b15a9f85c36a82cf301cdb4219d",
+      "git_blob_sha": "ebb91029736a9679e21a99fee29728c777de6aa8",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/ui-regression-audit-v018.json"
+    },
+    {
+      "path": "docs/ui-regression-audit-v019.json",
+      "size_bytes": 897,
+      "sha256": "65a4de7721e59ae816e3851ab7916352ff7bb0f71f73e89348ace6ed6f0717f6",
+      "git_blob_sha": "6d650435f878d4fd6b7c246cc57348ad57050d21",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/ui-regression-audit-v019.json"
+    },
+    {
+      "path": "docs/validation-animation-ui-v015.txt",
+      "size_bytes": 914,
+      "sha256": "33d55233cc6208ef38780d663a759ed69819f68f603873e87ef3f036fe95753c",
+      "git_blob_sha": "4aa6946fd25dc394f6ddbe4be98d73e078a31720",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-animation-ui-v015.txt"
+    },
+    {
+      "path": "docs/validation-art-direction-python-final-v018.txt",
+      "size_bytes": 1492,
+      "sha256": "8f13b60b6cc70f7bfe205e159092c3a74c7775076d515821d63500304ea5e75b",
+      "git_blob_sha": "7e71d99c9634fa2fd17d52ff9cdae199d8e2352a",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-art-direction-python-final-v018.txt"
+    },
+    {
+      "path": "docs/validation-art-direction-python-v018.txt",
+      "size_bytes": 1492,
+      "sha256": "a2793bd4ba8107e5594e28f8209fba92ea6b1d986371e6fe03496e77d02963a9",
+      "git_blob_sha": "10c48e7ab806052d0ea14a924d9403b65ae76787",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-art-direction-python-v018.txt"
+    },
+    {
+      "path": "docs/validation-art-direction-ui-final-v018.txt",
+      "size_bytes": 794,
+      "sha256": "e94fe888a521854397d82952819b3cce879e31c9fe4be9b5b5c5930b2ea7f479",
+      "git_blob_sha": "07e8e1187cf64acbf9dfc3ceefcd6f4166b33a08",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-art-direction-ui-final-v018.txt"
+    },
+    {
+      "path": "docs/validation-art-direction-ui-v018.txt",
+      "size_bytes": 794,
+      "sha256": "e94fe888a521854397d82952819b3cce879e31c9fe4be9b5b5c5930b2ea7f479",
+      "git_blob_sha": "07e8e1187cf64acbf9dfc3ceefcd6f4166b33a08",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-art-direction-ui-v018.txt"
+    },
+    {
+      "path": "docs/validation-biomes-v016.txt",
+      "size_bytes": 2343,
+      "sha256": "941b48201c8a1f20e6dd3373ddb46098cef3ae704f9f95830d9b9c3d4527a195",
+      "git_blob_sha": "7e5f648589a38e756f13ad80fb8a49d3153588fa",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-biomes-v016.txt"
+    },
+    {
+      "path": "docs/validation-engine-v017.txt",
+      "size_bytes": 98,
+      "sha256": "91ec0b4b838ffbcde2cceda301f71e51e493a9d417c2e069ec4f85f6d6e17e7c",
+      "git_blob_sha": "9027cb97e88ad02d375d1a86e28e6e46b7dcafea",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-engine-v017.txt"
+    },
+    {
+      "path": "docs/validation-foundation-v016.txt",
+      "size_bytes": 2912,
+      "sha256": "effb58bcdd3e2101193114658846887637e3bb27aa879d9b2562e1f2f880b959",
+      "git_blob_sha": "ab2701b089db455097c9245517502a30e68483cb",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-foundation-v016.txt"
+    },
+    {
+      "path": "docs/validation-material-python-v014.txt",
+      "size_bytes": 98,
+      "sha256": "373bc53f11a717fef3d36dea2e7fda7fb05e1ec8d3719a5c3f94f948e511a0e4",
+      "git_blob_sha": "e74c1bbf36eb7eae35407eae8844e16b3f98fa15",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-material-python-v014.txt"
+    },
+    {
+      "path": "docs/validation-material-ui-v014.txt",
+      "size_bytes": 833,
+      "sha256": "7cafddd7177456efb9dabe2f20f4ba8ec182f745b4726741f0cdb51f6d5b4f91",
+      "git_blob_sha": "e9e2d3c5bd64b7df1f7521fd68586e6e82c80b8e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-material-ui-v014.txt"
+    },
+    {
+      "path": "docs/validation-monolith-python-v0133.txt",
+      "size_bytes": 829,
+      "sha256": "6a5fdcfd0c27fba3fb512bd8e6aecb64b0373f2bb536c399af7a5c5546896e48",
+      "git_blob_sha": "a2c54a701c7c9fdd08a1b6cd01197ca1a0c8e61d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-monolith-python-v0133.txt"
+    },
+    {
+      "path": "docs/validation-monolith-ui-v0133.txt",
+      "size_bytes": 1041,
+      "sha256": "360c34599207275f0edc55b1fbba3f24e257186652e8bc5ab975165678a2fe61",
+      "git_blob_sha": "0af558a0126bb1be80d93e0164168c2b2bf6aea5",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-monolith-ui-v0133.txt"
+    },
+    {
+      "path": "docs/validation-python-initial-v018.txt",
+      "size_bytes": 68800,
+      "sha256": "24c710ed3d26fee1849b08f3202302f20c69b0378df1643b258139e5ea4256be",
+      "git_blob_sha": "873d253e55c8001be22b47a61c17a2080d8a8be4",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-initial-v018.txt"
+    },
+    {
+      "path": "docs/validation-python-v0132.txt",
+      "size_bytes": 51048,
+      "sha256": "2822f7103b1cd8075193f2bd6773f6443f0d2364f6b1b4944599e4ca365098ad",
+      "git_blob_sha": "fdb32d43aaa93979ceeb06c42b8b6e53d337fdb5",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v0132.txt"
+    },
+    {
+      "path": "docs/validation-python-v0133.txt",
+      "size_bytes": 51779,
+      "sha256": "df7539a8584524467a7ad135698da41adca81f81908376fb715e6d6d544a10ec",
+      "git_blob_sha": "efd9b0ca68ccb3ab1ca5c63c8f3347db2a0376cf",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v0133.txt"
+    },
+    {
+      "path": "docs/validation-python-v014.txt",
+      "size_bytes": 100,
+      "sha256": "2f190574b4fe471771037d768cc3fd0e9175fd627725cbe6c9f87bcdb1932b0a",
+      "git_blob_sha": "41dd06ae7c9d0c4351cd933d771179027f362864",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v014.txt"
+    },
+    {
+      "path": "docs/validation-python-v015.txt",
+      "size_bytes": 100,
+      "sha256": "01dad8b32eae316c21838ee4007c74612b1f008a747d141e2604bd1293946549",
+      "git_blob_sha": "7919fa8d5e706ae28ca4d9dba158493476101ab3",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v015.txt"
+    },
+    {
+      "path": "docs/validation-python-v016.txt",
+      "size_bytes": 62871,
+      "sha256": "a56061fa744195e77723368adf9e2ea14dd729644bc5c6ad03c37072de2cb73e",
+      "git_blob_sha": "0222c02ff15c40902e28ed3077887c990e8a4ad8",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v016.txt"
+    },
+    {
+      "path": "docs/validation-python-v017.txt",
+      "size_bytes": 65780,
+      "sha256": "6ba8828af8f2ce0a9141e7fc4e1ec868bbf69ba48724e60b2fe8397191cd70f6",
+      "git_blob_sha": "4e09f5b908b2fce87d36e52f644d12408475c69f",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v017.txt"
+    },
+    {
+      "path": "docs/validation-python-v0171.txt",
+      "size_bytes": 67406,
+      "sha256": "cc7e315f15035826b839660034ea02e060fb57d9d380dfdd268e8135c630a795",
+      "git_blob_sha": "5e1984b5dea8e705f82883a9f05cccf1c39d6224",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v0171.txt"
+    },
+    {
+      "path": "docs/validation-python-v018.txt",
+      "size_bytes": 68800,
+      "sha256": "7a616b8655c89761f1d3c476634bf9331b0ef1e0e57c32d2ee5e25d7c667a983",
+      "git_blob_sha": "2bffd5fd99ad30b08179c624c19068ba0ba77b1f",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-python-v018.txt"
+    },
+    {
+      "path": "docs/validation-reference-ui-v0171.txt",
+      "size_bytes": 229,
+      "sha256": "1b6ab722f262fc3f3d7a07c9a3795df8e1616261437c18fa2fd40fa8299c6cec",
+      "git_blob_sha": "54b3a09cdfc3d402b487b851cbc7d735d09beb70",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-reference-ui-v0171.txt"
+    },
+    {
+      "path": "docs/validation-reference-ui-v018.txt",
+      "size_bytes": 229,
+      "sha256": "1b6ab722f262fc3f3d7a07c9a3795df8e1616261437c18fa2fd40fa8299c6cec",
+      "git_blob_sha": "54b3a09cdfc3d402b487b851cbc7d735d09beb70",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-reference-ui-v018.txt"
+    },
+    {
+      "path": "docs/validation-results-v010.json",
+      "size_bytes": 1290,
+      "sha256": "cca6deff5fbd45c50095a428c4f2e1739511ae22367dac9b076ba769cd5d46d1",
+      "git_blob_sha": "d0b7ca91e430a76ada835682fc37a4531668f682",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v010.json"
+    },
+    {
+      "path": "docs/validation-results-v011.json",
+      "size_bytes": 1967,
+      "sha256": "05d95cb15ec18894e4c28fc5c77d4fc842b228dd1d0acb4d5b2e0fae116bb417",
+      "git_blob_sha": "be28e635858359d6369f793be3c007fbf0624e72",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v011.json"
+    },
+    {
+      "path": "docs/validation-results-v012.json",
+      "size_bytes": 5696,
+      "sha256": "889e355f2efe4a28efaaefc93fd383f1d884d885284cf5e807895025027d3d65",
+      "git_blob_sha": "36fdf67a7b12b02a17680a71b47d8822fb44efca",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v012.json"
+    },
+    {
+      "path": "docs/validation-results-v0121.json",
+      "size_bytes": 2875,
+      "sha256": "a445155073caa7a563fa295faf83c2f83640e58ed92f056e2d038f3db452b58a",
+      "git_blob_sha": "4aacb7e81228e977ae7de391b554cf755d5b3f5d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v0121.json"
+    },
+    {
+      "path": "docs/validation-results-v013.json",
+      "size_bytes": 4892,
+      "sha256": "8a411b40b661d8d3fc7b2fcabc90f8e066f3864146ab4f6394e6d148f8ecfd66",
+      "git_blob_sha": "5a0659beaacc8d8f8dbb664c11f3fbb75251eef2",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v013.json"
+    },
+    {
+      "path": "docs/validation-results-v0131.json",
+      "size_bytes": 1045,
+      "sha256": "5a391ff267cce562d806753b45783bc44c709bf796ab0da05ce04a7c1980c403",
+      "git_blob_sha": "0a1d6292fe16cd46b3c985e6c50f4eef07967fa7",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v0131.json"
+    },
+    {
+      "path": "docs/validation-results-v0132.json",
+      "size_bytes": 1776,
+      "sha256": "c87c842fced1f0b0f93c4e0159810b4e6fbf2751893739316f982f0d7297c5be",
+      "git_blob_sha": "011311bd88485165ea5c67750617ea1af6be4848",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v0132.json"
+    },
+    {
+      "path": "docs/validation-results-v0133.json",
+      "size_bytes": 1740,
+      "sha256": "f89c688926ad54e10cb462059cd14f0a73c9472a78e2c41b3b0e30e3fc86947a",
+      "git_blob_sha": "bd025bfe078c1c5621611f3a1387be8b480a1f0e",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v0133.json"
+    },
+    {
+      "path": "docs/validation-results-v014.json",
+      "size_bytes": 1289,
+      "sha256": "1f9b0c71bac599e88b375133f6d4b05f1149f4ca7cccb5ab1ee2f8e8995bcecc",
+      "git_blob_sha": "9a5cbe2d3100726562fae4e6bf43d9681ce8cb83",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v014.json"
+    },
+    {
+      "path": "docs/validation-results-v015.json",
+      "size_bytes": 1259,
+      "sha256": "887766b302fc853273088671f0912e5b1a0635c34663d956df42fe67799ac33d",
+      "git_blob_sha": "badc9392ee3aecdb3794b501eaeeb860b2f9ca80",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v015.json"
+    },
+    {
+      "path": "docs/validation-results-v016.json",
+      "size_bytes": 1184,
+      "sha256": "21bd97be7a37992e43ecb61a29d75325441f221b712373005b18b37b3ac0ba96",
+      "git_blob_sha": "82768088d647ed83e2f493548f853505eea9c968",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v016.json"
+    },
+    {
+      "path": "docs/validation-results-v017.json",
+      "size_bytes": 1275,
+      "sha256": "e011e6d6977763cf2821bb8cabc9898f74d28ce0e0d7a0f8e95a1cdb4a5565ad",
+      "git_blob_sha": "4a99f30e65ea4c26363e4f7d69365877eab7ac06",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v017.json"
+    },
+    {
+      "path": "docs/validation-results-v0171.json",
+      "size_bytes": 1534,
+      "sha256": "55308dfba6dee999ed66b312298ce34873ac4c39f56bf110d82e14b11b974e1e",
+      "git_blob_sha": "5cbc5688930f84cff1b683d8b737002302933f4d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v0171.json"
+    },
+    {
+      "path": "docs/validation-results-v018.json",
+      "size_bytes": 5379,
+      "sha256": "3838825a3f5c7ce8cd0c1ab8a3728d99f935e8b694449102e12fbbbc0073e81e",
+      "git_blob_sha": "03fcaca68df907b74e5b072500cb77a77bd1ed33",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v018.json"
+    },
+    {
+      "path": "docs/validation-results-v09.json",
+      "size_bytes": 2196,
+      "sha256": "771f993eda951321d2e039a317c2dc95a17d88b90acd2f78ce55b4eaec188c78",
+      "git_blob_sha": "f5fd1be1d0d7e16e035652e4a1658c98aa782588",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-results-v09.json"
+    },
+    {
+      "path": "docs/validation-terrain-v0132.txt",
+      "size_bytes": 1128,
+      "sha256": "4de470908b0d3cc29a5809ed577a3824b06a7ed871ddb216816b1d780721a1ae",
+      "git_blob_sha": "8d05937f33f9c2f138f05465355d1ff685709a48",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-terrain-v0132.txt"
+    },
+    {
+      "path": "docs/validation-ui-combined-memory-limit-v018.txt",
+      "size_bytes": 3092,
+      "sha256": "aa535ad51ff735c201b84d1c6ee2452086c8f72173e86e809032ec385636cced",
+      "git_blob_sha": "eb180af11c4f4bb745855e18625bdc139a7c98df",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-combined-memory-limit-v018.txt"
+    },
+    {
+      "path": "docs/validation-ui-readiness-timeout-v018.txt",
+      "size_bytes": 3255,
+      "sha256": "1243978d637c43a20059b995c081a55f6d4ed3f70b12da2c8449502c39996560",
+      "git_blob_sha": "c21d777ebd216f5d45adf3e69e1cafcef6ca9c45",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-readiness-timeout-v018.txt"
+    },
+    {
+      "path": "docs/validation-ui-v0132.txt",
+      "size_bytes": 3075,
+      "sha256": "0bcf84e357d3eb048b7ec05bc077c5af889c601b14efc59533b73d32f917939b",
+      "git_blob_sha": "3ab0aa70901a8f06125565a2973ef91db29d4305",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-v0132.txt"
+    },
+    {
+      "path": "docs/validation-ui-v0133.txt",
+      "size_bytes": 3183,
+      "sha256": "4d8ef8cb07377c0a72fb18f2104c3e51570b11557297688dc00d3888b823ee9f",
+      "git_blob_sha": "4fc62ebe72d0914d7b2c141358f655f50d27309d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-v0133.txt"
+    },
+    {
+      "path": "docs/validation-ui-v014.txt",
+      "size_bytes": 3434,
+      "sha256": "bccbd45e9dc67a11f2a04d09ccacd0836f004e9c1ed50162cd6a1b2ec0d72423",
+      "git_blob_sha": "d40d51ce67256835195d3ff9b024f842dbe882fc",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-v014.txt"
+    },
+    {
+      "path": "docs/validation-ui-v015.txt",
+      "size_bytes": 3766,
+      "sha256": "87a8b3b41bd272a85a502d23f2f139a35a2e2b5ac614e423e00e9c634e4d1172",
+      "git_blob_sha": "01fa5498540bd7471962fbc9b68f7ee16f5b8e1b",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-v015.txt"
+    },
+    {
+      "path": "docs/validation-ui-v016.txt",
+      "size_bytes": 3766,
+      "sha256": "87a8b3b41bd272a85a502d23f2f139a35a2e2b5ac614e423e00e9c634e4d1172",
+      "git_blob_sha": "01fa5498540bd7471962fbc9b68f7ee16f5b8e1b",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-v016.txt"
+    },
+    {
+      "path": "docs/validation-ui-v017.txt",
+      "size_bytes": 3979,
+      "sha256": "cc10cfe48e4f5be378a641d872f07589b166ee7cd0e8894193dba9227897ecf5",
+      "git_blob_sha": "3c46c91f01ef6cf06157de1e3cabc150500e9f3d",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-v017.txt"
+    },
+    {
+      "path": "docs/validation-ui-v018.txt",
+      "size_bytes": 7421,
+      "sha256": "e41b11c0e6bf0b285f86990d2f52e0eef4329fbfa078f0f445fb7e490bd70cec",
+      "git_blob_sha": "9e211959ea32ab21ad3fff3948c263d8b9b61d74",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-ui-v018.txt"
+    },
+    {
+      "path": "docs/validation-weather-python-v017.txt",
+      "size_bytes": 3008,
+      "sha256": "cad0275b651be8110592aaa45b652c6123f8e322dbf1112899455055bc8a2bbb",
+      "git_blob_sha": "467a2f632f2fafa948bc58becb2a30937ba7d56f",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-weather-python-v017.txt"
+    },
+    {
+      "path": "docs/validation-weather-ui-v017.txt",
+      "size_bytes": 795,
+      "sha256": "a147e5b2087198476e2f4b9ab2a4748c3035d9d77f62f227797a21d45502ea1d",
+      "git_blob_sha": "1b4a8fe1dddfe041d1b638707713a24224a5f300",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/validation-weather-ui-v017.txt"
+    },
+    {
+      "path": "docs/visual-reference-ui-audit-v0171.json",
+      "size_bytes": 496,
+      "sha256": "3df8b01470d4641e661057bf362d151e960fa8bf466d5df25321d7b736595b34",
+      "git_blob_sha": "f58b12294dad9ffd21bf8dac71cf786200162492",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/visual-reference-ui-audit-v0171.json"
+    },
+    {
+      "path": "docs/visual-reference-ui-audit-v018.json",
+      "size_bytes": 496,
+      "sha256": "6c63fb2318ce1134eb6526810675f9258f014b0e2a1f77958d981e5da0fad88d",
+      "git_blob_sha": "adf3fea7b61ae0cbbbf9286104d48313f268e356",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/visual-reference-ui-audit-v018.json"
+    },
+    {
+      "path": "docs/weather-response-ui-audit-v017.json",
+      "size_bytes": 462,
+      "sha256": "4611497c90ba39b1e673b79f0d82f527d2706a2f279e35860fa38b49d91e578e",
+      "git_blob_sha": "7d4c0332fa2c42e430b78115b197bf22796550b0",
+      "source_file": "Rose-Engine.zip",
+      "source_member": "rose/docs/weather-response-ui-audit-v017.json"
+    }
+  ]
+}

@@ -1,3 +1,10 @@
+# 0.19.0 — 2026-10-18
+
+- Share a stable regional content grammar across Thorns, Stem and Rose.
+- Persist dialogue variation and bounded local witness memory.
+- Keep source character histories, supplies and access under existing authority.
+- Add regression checks for state fidelity and save compatibility.
+
 # 0.18.0
 
 - Compile all 80 images, 44 lore records and 58 biome facts into a traceable art-direction register with source hashes, evidence boundaries and retained variants.

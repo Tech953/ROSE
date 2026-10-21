@@ -1,3 +1,7 @@
+# Rose 0.19.0 — shared content refinement
+
+Stable regional surface descriptions, player-specific dialogue variation and local witness memory now share one generation module with Rose. Ask residents or companions about history after local work to hear their recorded observations. Read [the systems update](docs/CONTENT-GENERATION-REFINEMENT.md) for controls, source boundaries, save behavior and verification.
+
 # Rose 0.18.0 — source-linked art direction
 
 All 80 distinct image references now have explicit roles linked to the world-lore and biome text. A bounded material finish on existing rendered structures and rocks is available alongside Baked Surfaces. Open **Art direction and text interpretation** from the reference links to inspect regional briefs, the full interpretation register, 110 unit recipes, 43 qualitative product briefs and matched engine scenes. See [the guide](docs/ART-DIRECTION-AND-TEXT-INTERPRETATION.md). New models and sprite bakes remain production work.

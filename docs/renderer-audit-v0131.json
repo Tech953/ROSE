@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "engine_version": "0.13.1",
+  "backend": "@napi-rs/canvas and modeled DOM",
+  "fixture": "Frozen scene with enabled regional presentation copies; host state unchanged.",
+  "display": "sharp / CRT off",
+  "metrics": [
+    {
+      "region": "WN_TOWER",
+      "frames": 20,
+      "mean_draw_ms": 25.68618305,
+      "hex_picks_checked": 127
+    },
+    {
+      "region": "CITY_CLOUD_S",
+      "frames": 20,
+      "mean_draw_ms": 33.842663650000034,
+      "hex_picks_checked": 127
+    }
+  ],
+  "scope": "Native draw cost only; not browser layout, device FPS or Windows validation."
+}

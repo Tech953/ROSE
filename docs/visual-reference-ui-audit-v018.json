@@ -1,0 +1,12 @@
+{
+  "engine_version": "0.18.0",
+  "scope": "Real HTTP + parsed semantic DOM; full browser layout not tested",
+  "references": 80,
+  "checks": [
+    "No image preloads; original links and notes without JavaScript",
+    "Alias search, combined filtering, empty result and subject counts",
+    "Exactly one preview; original dimensions and SHA256",
+    "Close/reopen, stale different/same-card load events, error feedback and filter cleanup",
+    "No saved-world or character export mutation"
+  ]
+}

@@ -1,0 +1,8 @@
+PASS: sprite loading — bounded requests, shared URL decoding, complete readiness, isolated banks and queue recovery after failure.
+PASS: audio node contract — explicit enable, mute, short envelopes, bounded panning and node cleanup. Live browser/audio playback remains untested.
+Display checks passed: exact off/sharp, soft pixels, aspect ratio, context restoration, buffer reuse and fallback.
+PASS: spectrum lighting — regional data, offline/portable lamps, additive spectra, blocker-aware actor/ground spill, unchanged alpha/shadows, bounded cache and exact baked fallback.
+PASS: individualized visuals — stable designations, all five bodies, regional assets, legacy fallback, current-frame alpha picking and condition frames.
+PASS: spectrum host flow — four regions, exact picking, saved browser preference and unchanged game state.
+PASS: continuous scenery — opaque viewport, stable passable approaches and growth, no automatic selection, optional tactical grid, onward-travel hint, bounded buffers and unchanged host state.
+PASS: matched 0.13.1/0.13.2 native scenes — exact picking and paths in both regions.

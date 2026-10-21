@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "engine_version": "0.14.0",
+  "baseline": "delivered Rose 0.13.3",
+  "python_ast": {
+    "status": "PASS",
+    "files": 119
+  },
+  "javascript_syntax": {
+    "status": "PASS",
+    "files": 29
+  },
+  "json": {
+    "status": "PASS",
+    "files": 101
+  },
+  "images": {
+    "status": "PASS",
+    "files": 565,
+    "decoded_frames": 579
+  },
+  "protected_art_authoring": {
+    "files": 685,
+    "byte_identical": 685,
+    "changed": []
+  },
+  "retained_modules_byte_identical": {
+    "physics.py": true,
+    "vrex.py": true,
+    "photonics.py": true,
+    "research.py": true
+  },
+  "machines_adapter": "Intentional change: fatigue condition loss now routes through material damage/collapse; solver is retained.",
+  "html": {
+    "unique_ids": 216,
+    "present_scripts": 14
+  },
+  "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b",
+  "all_baseline_members_present": 878,
+  "protected_pngs_byte_identical": 528
+}

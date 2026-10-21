@@ -13,6 +13,7 @@ import checks
 import companions
 import institutions
 import combat
+import generation
 import engine as framework
 import scene
 import tactical
@@ -123,6 +124,7 @@ def visit(w,x,y):
         if node['material_state']['destroyed'] and not node.get('ruin_registered'):
             materials.collapse_node(w,w['cells'][k],node,sys.modules[__name__])
     weathering.ensure(w,w['cells'][k],sys.modules[__name__])
+    generation.ensure_site(w,w['cells'][k])
     return w['cells'][k]
 
 def local(w,p): return visit(w,*p['pos'])
@@ -135,6 +137,7 @@ def add_player(w,name,build,character=None):
     characters.ensure(p);survival.ensure(p);materials.ensure_gear(p,w['tick']);p['route']=[];p['destination']=None
     p['companions']=[];p['personal_reputation']={};p['check_log']=[]
     navigation.ensure(p)
+    generation.ensure_player(p)
     w['players'].append(p)
     if not w['host']:w['host']=p['id']
     return p
@@ -221,9 +224,11 @@ def describe(w,p):
     if threat and not threat['resolved']:memory+=f" A {threat['name']} is {threat['intent']}; condition {threat['health']}. Inspect, guard, parley, engage, or withdraw."
     personal=characters.ensure(p);companions=[a for a in w['players'] if a['id']!=p['id'] and a['pos']==p['pos']]
     character_traces=' '.join(a['name']+' is present: '+(characters.ensure(a)['appearance'] or characters.ensure(a)['form'])+'.' for a in companions)
+    detail=generation.describe_site(w,c,phase(w['tick']),weather(w,c))
     return '\n\n'.join([
         (mapped['description']+' Route placement: '+mapped['confidence']+'. ' if mapped else '')+f"It is {phase(w['tick'])} in the {season(w['tick'])}. {c['title']} opens through {r['material']}; {weather(w,c)} moves across the {r['color']} scene. Underfoot, the ground is {moisture}.",
         f"You notice {r['scent']}. Under it runs {r['sound']}. {growth} {construction} "+biomes.prose(c['region'])+' '+weathering.prose(c),
+        detail,
         f"The habitat is a {succession(c)}. "+('Small forager traces cross the undergrowth repeatedly; concentrated grazing slows the newest shoots. ' if c['fauna']>7 else 'Sparse forager tracks interrupt the surface, disappearing under the next fold of growth. ' if c['fauna'] else 'No recent forager tracks register in the field survey. ')+f"{resources} {social} {character_traces}",
         memory+(' Place names and source characters follow the supplied references; route placement, dialogue and current ecology are Rose adaptations.' if mapped else ' This site and its inhabitants are generated sequel material; regional motifs come from '+r['source']+'.')
     ])
@@ -477,6 +482,8 @@ def finish(w,p,intent,raw,out,mechanics,time_cost):
         ok,mechanics=check(w,p,stat,dc,skill)
         if action in {'look','inspect','listen','remote'}:
             out+=' '+('Your trained reading distinguishes the current working context.' if ok else 'Confirmed records remain readable; deeper interpretation is uncertain.')
+    observed=[*w['actors'],*w.get('residents',{}).values()]
+    generation.witness(w,p,intent,local(w,p),observed,p.get('last_check',{}).get('success'))
     companions.after_action(w,p,intent,time_cost,sys.modules[__name__])
     materials.ensure_gear(p,w['tick']);materials.after_action(w,p,intent,time_cost,characters.EQUIPMENT)
     if time_cost:

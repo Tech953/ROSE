@@ -1,0 +1,5 @@
+PASS: sprite loading — bounded requests, shared URL decoding, complete readiness, isolated banks and queue recovery after failure.
+PASS: audio node contract — explicit enable, mute, short envelopes, bounded panning and node cleanup. Live browser/audio playback remains untested.
+Display checks passed: exact off/sharp, soft pixels, aspect ratio, context restoration, buffer reuse and fallback.
+PASS: spectrum lighting — regional data, offline/portable lamps, additive spectra, blocker-aware actor/ground spill, unchanged alpha/shadows, bounded cache and exact baked fallback.
+PASS: materials — live HTTP demolition, staff wear, paid repairs, finite clearing, persistent receipts and rock menus; four regional condition states, lower debris silhouettes, exact solid/shadow picking, legacy/vector fallbacks and bounded caches.

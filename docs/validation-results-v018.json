@@ -1,0 +1,176 @@
+{
+  "engine_version": "0.18.0",
+  "date": "2026-10-16",
+  "baseline": {
+    "version": "0.17.1",
+    "library_version": 22
+  },
+  "coverage": {
+    "unique_images": 80,
+    "uploaded_names": 93,
+    "lore_records": 44,
+    "biome_profiles": 11,
+    "biome_facts": 58,
+    "unit_recipes": 110,
+    "product_briefs": 43
+  },
+  "python": {
+    "tests": 438,
+    "seconds": 34.97,
+    "result": "PASS"
+  },
+  "interface": {
+    "schema": 1,
+    "engine_version": "0.18.0",
+    "result": "PASS",
+    "process_isolation": true,
+    "scope": "Real HTTP, modeled semantic DOM and native canvas; full browser layout and audible playback not tested",
+    "flows": [
+      {
+        "flow": "--core",
+        "result": "PASS",
+        "seconds": 29.957
+      },
+      {
+        "flow": "--direction",
+        "result": "PASS",
+        "seconds": 10.077
+      },
+      {
+        "flow": "--materials",
+        "result": "PASS",
+        "seconds": 7.6
+      },
+      {
+        "flow": "--weather",
+        "result": "PASS",
+        "seconds": 5.693
+      },
+      {
+        "flow": "--animations",
+        "result": "PASS",
+        "seconds": 25.731
+      },
+      {
+        "flow": "--particles",
+        "result": "PASS",
+        "seconds": 49.828
+      }
+    ]
+  },
+  "art_direction": {
+    "schema": 1,
+    "engine_version": "0.18.0",
+    "scope": "Real HTTP, modeled semantic DOM and native canvas; full interactive browser layout not run",
+    "materials": [
+      {
+        "material": "wood",
+        "changed_opaque_pixels": 11871,
+        "soft_shadow_pixels": 25184,
+        "preserved_colored_practicals": 0
+      },
+      {
+        "material": "metal",
+        "changed_opaque_pixels": 11872,
+        "soft_shadow_pixels": 25184,
+        "preserved_colored_practicals": 0
+      },
+      {
+        "material": "stone",
+        "changed_opaque_pixels": 11872,
+        "soft_shadow_pixels": 25184,
+        "preserved_colored_practicals": 0
+      },
+      {
+        "material": "crystal",
+        "changed_opaque_pixels": 11872,
+        "soft_shadow_pixels": 25184,
+        "preserved_colored_practicals": 0
+      },
+      {
+        "material": "fabric",
+        "changed_opaque_pixels": 11872,
+        "soft_shadow_pixels": 25184,
+        "preserved_colored_practicals": 0
+      },
+      {
+        "material": "polymer",
+        "changed_opaque_pixels": 11862,
+        "soft_shadow_pixels": 25184,
+        "preserved_colored_practicals": 0
+      }
+    ],
+    "regions": [
+      {
+        "region": "WN_TOWER",
+        "matched_picks": 127,
+        "matched_paths": 127,
+        "visible_difference": true
+      },
+      {
+        "region": "ENACT_HILLS",
+        "matched_picks": 127,
+        "matched_paths": 127,
+        "visible_difference": true
+      },
+      {
+        "region": "CITY_CLOUD_S",
+        "matched_picks": 127,
+        "matched_paths": 127,
+        "visible_difference": true
+      },
+      {
+        "region": "AETHERGALE",
+        "matched_picks": 127,
+        "matched_paths": 127,
+        "visible_difference": true
+      }
+    ],
+    "cache_limit": 48,
+    "alpha_exact": true,
+    "soft_shadow_rgb_exact": true,
+    "actor_project_remote_void_unplaced_and_archive_exclusions": true,
+    "simulation_unchanged": true,
+    "local_comparison_control": true,
+    "nonblank_export_verified": true,
+    "exact_comparison_http_bytes": true,
+    "new_model_bakes": false
+  },
+  "reference_ui": {
+    "result": "PASS",
+    "references": 80,
+    "scope": "Real HTTP and parsed semantic DOM"
+  },
+  "preservation": {
+    "baseline_members": 1073,
+    "missing": 0,
+    "legacy_protected_unchanged": 664,
+    "unique_visual_originals_unchanged": 80,
+    "geography_unchanged": true,
+    "historical_test_outputs_restored": [
+      "rose/docs/Rose-detail-preview.png",
+      "rose/docs/Rose-display-comparison.png",
+      "rose/docs/Rose-environment-preview.png",
+      "rose/docs/Rose-field-preview.png",
+      "rose/docs/Rose-interaction-preview.png",
+      "rose/docs/Rose-material-aging-and-destruction.png",
+      "rose/docs/Rose-physics-animation-preview.png",
+      "rose/docs/Rose-sharp-field-preview.png",
+      "rose/docs/Rose-soft-field-preview.png",
+      "rose/docs/Rose-spectrum-preview.png",
+      "rose/docs/Rose-void-preview.png",
+      "rose/docs/visual-reference-ui-audit-v0171.json"
+    ]
+  },
+  "execution_notes": [
+    "The initial combined native interface run exceeded memory after material/weather checks. The full interface audit now runs six bounded isolated processes.",
+    "The first isolated core attempt encountered the harness one-second readiness deadline. The harness now allows ten seconds for asynchronous initialization; all behavioral assertions remain in place.",
+    "Comparison panels are immutable PNG snapshots; an initial blank composition was caught by visual review and is now guarded by visible-content and exact HTTP byte checks."
+  ],
+  "limitations": [
+    "New individual 3D models, portraits and directional/condition animation bakes remain production work.",
+    "Full interactive browser layout, pointer/touch hardware, assistive technology and audible playback are not validated.",
+    "The original lore ZIP recovery remains partial; independently supplied complete images are retained.",
+    "The comparison shows authored regional fixtures with a matched frozen layout, not four visited live locations."
+  ]
+}

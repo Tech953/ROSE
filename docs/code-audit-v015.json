@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "engine_version": "0.15.0",
+  "baseline": "delivered Rose 0.14.0",
+  "python_ast": {
+    "status": "PASS",
+    "files": 121
+  },
+  "javascript_syntax": {
+    "status": "PASS",
+    "files": 32
+  },
+  "json": {
+    "status": "PASS",
+    "files": 104
+  },
+  "images": {
+    "status": "PASS",
+    "files": 567,
+    "decoded_frames": 599
+  },
+  "protected_art_authoring": {
+    "files": 685,
+    "byte_identical": 685,
+    "changed": [],
+    "scope": "Art source, prepared art/manifest files, authoring tools, original prompts and 3D pipeline guide."
+  },
+  "retained_modules_byte_identical": {
+    "physics.py": true,
+    "vrex.py": true,
+    "photonics.py": true,
+    "research.py": true
+  },
+  "html": {
+    "unique_ids": 218,
+    "present_scripts": 16
+  },
+  "all_baseline_members_present": 891,
+  "protected_pngs_byte_identical": 528,
+  "motion_adapter": "Intentional committed-action cues, sampled hardware poses and shared-frame playback; numerical kernels retained.",
+  "source_blend_sha256": "c7e3d5bc9f7527291dd2afdce1b1882dbbf836ceb45e0927cb3f5eb8dce6900b"
+}
