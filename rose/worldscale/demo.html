@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ROSE — World-Scale Layer Prototype</title>
+<style>
+  body { background:#10131a; color:#cfd8dc; font-family:monospace; margin:16px; }
+  canvas { background:#0a0d12; border:1px solid #37474f; display:block; }
+  #hud { margin-top:8px; white-space:pre; font-size:13px; }
+  p { max-width:1000px; font-size:13px; line-height:1.5; }
+</style>
+</head>
+<body>
+<h3>ROSE — world-scale layer prototype (terrain streaming under the existing iso renderer)</h3>
+<canvas id="field-canvas" width="1000" height="620"></canvas>
+<div id="hud">loading…</div>
+<p>Pan the camera with WASD / arrow keys across a 128×128-sector world
+(16,384 sectors — the shipped atlas is 37×25 = 925). Bright hexes are
+ACTIVE chunks, dim hexes are the PREFETCH ring; chunks beyond the ring
+are evicted and regenerate identically from the seed if you return.
+Every hex is placed with the exact projection rose/static/scene.js
+uses, translated by the camera, and painted in the renderer's own
+(r, q) tile order. Demo terrain only — no game art or content.
+Serve the repo root over HTTP (e.g. <code>python3 -m http.server</code>)
+so the ES modules load.</p>
+<script type="module" src="./demo.js"></script>
+</body>
+</html>
